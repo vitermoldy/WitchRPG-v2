@@ -255,5 +255,6 @@ export class Hud {
       if (why) html = `<span class="blocked">${why}</span>`
       else if (g.umbra.casting.length) html = `Membangkitkan ${name}`
       else html = `<kbd>Tahan R</kbd> Bangkitkan ${name} <span class="chance">${Math.round(g.umbra.chance(c) * 100)}%${c.executed ? ', dieksekusi' : ''}</span>`
+    }
   }
 }
