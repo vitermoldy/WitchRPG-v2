@@ -250,6 +250,7 @@ export class IlyraModel {
       }
       const weight = sw.t < k ? 1 : 1 - ease((sw.t - k) / sw.recover)
       torsoY = pose.torso
+      armRX = pose.armX
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
