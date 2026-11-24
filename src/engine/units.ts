@@ -196,3 +196,5 @@ export class Unit implements Foe {
   }
   get z() {
     return this.pos.z
+  }
+
