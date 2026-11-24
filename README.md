@@ -58,6 +58,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | G | Crimson Overload saat meter Chaos penuh |
 
 | Umbra (tangan kanan) | |
+| --- | --- |
 
 ## Struktur
 
