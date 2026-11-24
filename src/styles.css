@@ -1602,6 +1602,7 @@ dialog::backdrop {
 
 .confirm,
 .travel {
+  width: min(28rem, calc(100vw - 32px));
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
