@@ -339,3 +339,4 @@ export class Fight {
     }
 
     if (this.exec) {
+      this.updateExecution(dt)
