@@ -868,6 +868,7 @@ button {
   outline: 1px solid var(--rift);
 }
 
+#mana-row.short .vital-value {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
