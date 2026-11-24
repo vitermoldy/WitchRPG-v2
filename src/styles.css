@@ -810,6 +810,7 @@ button {
   font-size: 0.82rem;
 }
 
+.vital-label {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
