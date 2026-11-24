@@ -370,3 +370,5 @@ export class Game {
 
   dodge() {
     this.botDodge = true
+  }
+
