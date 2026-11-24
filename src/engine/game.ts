@@ -323,3 +323,4 @@ export class Game {
 
   private resize() {
     const w = window.innerWidth
+    const h = window.innerHeight
