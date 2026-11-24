@@ -65,6 +65,7 @@ async function boot() {
   const pr = game.profile
   $('profile-line').textContent = pr.level > 1 || pr.shadows.length ? `Ilyra Lv ${pr.level}, ${pr.shadows.length} bayangan di Ruang Bayangan` : ''
 
+  /** One range setting: shows its value, applies it, and keeps it in the save. */
   })
 
   game.onPause = () => {
