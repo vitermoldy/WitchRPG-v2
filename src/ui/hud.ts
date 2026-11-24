@@ -35,3 +35,4 @@ export class Hud {
     if (!at) {
       this.lockMark.classList.remove('show')
       return
+    }
