@@ -35,3 +35,4 @@ export interface BotInput {
 const FRAME_SAMPLES = 900
 
 export class Game {
+  readonly renderer: THREE.WebGLRenderer
