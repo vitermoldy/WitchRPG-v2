@@ -263,3 +263,5 @@ export class UnitSystem {
     if (i >= 0) this.units.splice(i, 1)
     u.token = false
     this.host.clearTelegraph(u)
+  }
+
