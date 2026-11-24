@@ -94,3 +94,4 @@ export class Player {
     }
 
     if (this.dodgeT >= 0) {
+      const T = MOVE.dodge.time
