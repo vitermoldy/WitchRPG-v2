@@ -636,3 +636,4 @@ class Rig implements Poser {
     const gb = (glow ? glow.b : 0) + flash * 0.75
     for (const part of this.parts) {
       this.m.multiplyMatrices(this.unitM, part.src.matrixWorld)
+      part.mesh.setMatrixAt(i, this.m)
