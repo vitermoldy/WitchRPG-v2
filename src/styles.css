@@ -1157,6 +1157,7 @@ button {
 }
 
 .hpbar.weak .hp {
+  background: #ffd29a;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
