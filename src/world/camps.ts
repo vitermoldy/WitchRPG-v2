@@ -89,6 +89,7 @@ export class Camps {
     this.shards = new THREE.InstancedMesh(shardGeo, new THREE.MeshBasicMaterial({ color: 0xffffff }), this.camps.length * STONES)
     const m = new THREE.Matrix4()
     const q = new THREE.Quaternion()
+    const s = new THREE.Vector3()
       }
     }
     for (const b of bakeByMaterial(model)) {
