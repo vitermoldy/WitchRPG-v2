@@ -362,3 +362,4 @@ export class Game {
       zone: ZONES[this.atmosphere.zone].name,
       pos: toMap(this.player.pos.x, this.player.pos.z).map((v) => Math.round(v)),
       dodges: this.player.dodges,
+      locked: !!this.lockon.current,
