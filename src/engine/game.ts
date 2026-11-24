@@ -173,3 +173,4 @@ export class Game {
   spawn(mx: number, my: number, fx = 0, fy = 1) {
     const [x, z] = toWorld(mx, my)
     const yaw = yawTo(0, 0, fx, -fy)
+    this.player.place(x, z, this.ground, yaw)
