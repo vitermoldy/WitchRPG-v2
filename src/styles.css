@@ -1134,6 +1134,7 @@ button {
   left: 0;
   top: 0;
   display: grid;
+  gap: 2px;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
