@@ -1081,6 +1081,7 @@ button {
 
 .wheel-opt[data-opt='follow'] {
   left: 7rem;
+  top: 0;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
