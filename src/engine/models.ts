@@ -235,6 +235,7 @@ export class IlyraModel {
       if (sw.heavy) {
         back = { torso: -18, armX: -175, armY: 0, fore: -25 }
         through = { torso: 38, armX: -35, armY: 0, fore: 0 }
+      } else ({ back, through } = SWINGS[sw.index % SWINGS.length])
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
