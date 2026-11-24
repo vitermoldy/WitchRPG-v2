@@ -60,3 +60,4 @@ describe('Ilyra on foot', () => {
     expect(p.pos.z).toBeGreaterThan(3.5)
   })
 
+  it('waits out the cooldown before the next roll', () => {
