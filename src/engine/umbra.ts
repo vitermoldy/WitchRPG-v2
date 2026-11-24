@@ -335,3 +335,4 @@ export class Umbra {
       this.wheelChoice = null
     }
     if (this.wheelOpen) {
+      this.wheelX += inp.dx
