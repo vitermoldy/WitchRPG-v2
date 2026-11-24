@@ -66,3 +66,4 @@ export class Camps {
       const dx = player.x - imp.x
       const dz = player.z - imp.z
       if (dx * dx + dz * dz < 18 * 18) {
+        // turn to watch her; the model faces +z
