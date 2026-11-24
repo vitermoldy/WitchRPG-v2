@@ -102,3 +102,5 @@ export class Game {
     }
     this.sensitivity = this.profile.settings.sensitivity
     this.player.speedMult = derive(this.profile.stats, this.profile.level).speedMult
+    this.player.dodgeDistance = derive(this.profile.stats, this.profile.level).dodgeDistance
+
