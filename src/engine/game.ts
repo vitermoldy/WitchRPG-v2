@@ -141,3 +141,4 @@ export class Game {
     this.scene.add(water())
     progress('Menanam hutan')
     await frame()
+    const trees = scatter()
