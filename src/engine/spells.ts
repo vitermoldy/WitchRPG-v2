@@ -416,3 +416,4 @@ export class Spells {
     const f = g.camera.getWorldDirection(new THREE.Vector3())
     const right = new THREE.Vector3(-f.z, 0, f.x).normalize()
     this.grabbed.forEach((u, i) => {
+      const heavy = u.mass > 200
