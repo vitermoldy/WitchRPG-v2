@@ -271,5 +271,6 @@ export class Hud {
         break
       }
     }
+    this.set('bossbar', 'class', boss ? 'bossbar on' : 'bossbar')
   }
 }
