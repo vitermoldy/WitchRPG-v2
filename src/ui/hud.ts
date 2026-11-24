@@ -200,5 +200,6 @@ export class Hud {
     const skill = (id: string, unlock: number, cd: number) => {
       const locked = pr.level < unlock
       this.set(id, 'class', `skill${locked ? ' locked' : ''}`)
+      this.set(id + '-lv', 'text', locked ? `Lv ${unlock}` : '')
   }
 }
