@@ -659,6 +659,7 @@ export class Game implements UnitHost {
       const tw = performance.now()
       const gl = this.renderer.getContext()
       gl.readPixels(0, 0, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, this.pixel)
+      this.prof('gpuWait', tw)
     }
     this.input.endFrame()
   }
