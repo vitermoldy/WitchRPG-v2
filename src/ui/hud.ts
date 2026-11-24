@@ -136,6 +136,7 @@ export class Hud {
     this.pulse('parry-flash')
   }
 
+  /** A violet breath across the screen when the army is called. */
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
