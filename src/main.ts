@@ -150,6 +150,7 @@ async function boot() {
     if (game.state !== 'playing' || !game.player.alive) return
     if (code === 'Tab') openMenu(ledger)
     else if (code === 'KeyF' && game.altars.near() && !game.fight.executable()) openMenu(travel)
+  }
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
