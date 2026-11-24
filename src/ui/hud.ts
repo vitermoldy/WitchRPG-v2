@@ -49,3 +49,4 @@ export class Hud {
     if (text !== null) this.debugEl.textContent = text
   }
 
+  update(dt: number) {
