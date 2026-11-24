@@ -739,3 +739,4 @@ export class Rigs {
       for (const part of b.parts) {
         this.group.remove(part.mesh)
         part.mesh.dispose()
+        part.mesh = new THREE.InstancedMesh(part.geometry, part.material, cap)
