@@ -733,3 +733,4 @@ export class Rigs {
       }
       this.crowd.set(kind, b)
     }
+    if (need > b.cap) {
