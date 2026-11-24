@@ -208,3 +208,4 @@ export class Game {
     this.lastFrame = performance.now()
   }
 
+  run() {
