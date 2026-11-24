@@ -541,6 +541,7 @@ export class Game implements UnitHost {
   travel(key: string) {
     if (!this.profile.world.altars.includes(key) || !this.player.alive) return
     const a = this.altars.byKey(key)
+    const at = this.altars.standAt(a)
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
