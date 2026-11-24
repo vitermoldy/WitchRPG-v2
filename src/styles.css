@@ -915,6 +915,7 @@ button {
   position: relative;
   display: grid;
   justify-items: center;
+  align-content: start;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
