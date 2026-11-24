@@ -290,3 +290,4 @@ export class Fight {
     let bd: number = COMBAT.execute.range
     for (const u of g.units.units) {
       if (u.team !== 'enemy' || !u.alive || !u.staggered) continue
+      const d = reach(u)
