@@ -744,6 +744,7 @@ export class Game implements UnitHost {
       warp: inp.pressed('KeyV'),
     })
     const t2 = performance.now()
+    this.umbra.update(sdt, canAct && !this.fight.exec, {
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
