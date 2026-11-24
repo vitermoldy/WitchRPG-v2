@@ -426,3 +426,4 @@ export class Umbra {
   }
 
   /** Every body rolls its own chance: one roll per body. */
+  private complete(list: Unit[]) {
