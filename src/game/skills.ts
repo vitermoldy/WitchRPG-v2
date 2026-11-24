@@ -55,3 +55,4 @@ export const SKILLS: SkillDef[] = [
     key: 'Q',
     unlock: 3,
     effect: 'Ledakan radius 8 m di titik bidik, mendorong musuh dan merobohkan cover tipis.',
+    upgrade: 'Radius +2 m.',
