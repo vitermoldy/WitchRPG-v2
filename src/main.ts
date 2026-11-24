@@ -23,3 +23,4 @@ function fail(message: string) {
   show('error')
 }
 
+async function boot() {
