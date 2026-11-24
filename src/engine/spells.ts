@@ -233,3 +233,4 @@ export class Spells {
         g.hud.hurtFlash(0.5)
         g.sfx.overload(false)
       }
+    }
