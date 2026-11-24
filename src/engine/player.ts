@@ -60,6 +60,7 @@ export class Player {
 
   /** Moves her `dist` metres along (dx, dz) over `time` seconds, easing out. */
   nudge(dx: number, dz: number, dist: number, time: number) {
+    const l = Math.hypot(dx, dz) || 1
 
   get speed() {
     return Math.hypot(this.vx, this.vz)
