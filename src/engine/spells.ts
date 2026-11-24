@@ -254,3 +254,4 @@ export class Spells {
     this.updateBolts(dt)
     this.updateSnares(dt)
     this.updateBarrier(dt)
+    this.updateWarps(dt)
