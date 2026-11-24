@@ -229,3 +229,4 @@ export class Game {
         if (i < this.debugSpeed - 1) this.input.endFrame()
       }
     } else if (this.state === 'title') {
+      // a slow drift around her while the title is up
