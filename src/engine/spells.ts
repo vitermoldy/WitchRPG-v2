@@ -273,3 +273,4 @@ export class Spells {
     const from = g.ilyra.hand('L')
     const target = g.aim(80).point
     const base = target.clone().sub(from).normalize()
+    const spread = this.upgraded('hexBolt')
