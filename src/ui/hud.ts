@@ -44,3 +44,4 @@ export class Hud {
     this.aimDot.classList.toggle('show', on)
   }
 
+  debug(text: string | null) {
