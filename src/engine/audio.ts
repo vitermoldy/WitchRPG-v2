@@ -55,3 +55,4 @@ export class Sfx {
   private noise(t: number, dur: number, type: BiquadFilterType, freq: number, peak: number, q = 1, freqEnd?: number) {
     const ctx = this.ctx!
     const src = ctx.createBufferSource()
+    src.buffer = this.noiseBuf
