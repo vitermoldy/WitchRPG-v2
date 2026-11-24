@@ -45,3 +45,4 @@ export function saveProfile(p: Profile, stamp = true): boolean {
     return true
   } catch {
     return false
+  }
