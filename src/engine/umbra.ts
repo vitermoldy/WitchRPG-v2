@@ -237,3 +237,4 @@ export class Umbra {
   update(dt: number, canAct: boolean, inp: UmbraInput) {
     const g = this.g
     this.time += dt
+    this.swapCd = Math.max(0, this.swapCd - dt)
