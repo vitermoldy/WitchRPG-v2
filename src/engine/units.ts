@@ -433,3 +433,4 @@ export class UnitSystem {
       if (u.state === 'stagger' && u.stun.staggered <= 0) u.set('move')
       if (u.state === 'held' || u.state === 'finishing') continue
       if (u.state === 'thrown') {
+        this.fly(u, dt)
