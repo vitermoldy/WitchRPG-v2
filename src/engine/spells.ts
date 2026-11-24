@@ -426,3 +426,4 @@ export class Spells {
       u.yaw += dt * 2
     })
     const from = g.ilyra.hand('L')
+    const to = this.grabbed[0].center()
