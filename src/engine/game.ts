@@ -206,3 +206,5 @@ export class Game {
     this.state = 'playing'
     this.input.capture = true
     this.lastFrame = performance.now()
+  }
+
