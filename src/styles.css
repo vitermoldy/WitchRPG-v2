@@ -496,7 +496,7 @@ button {
   transform: translateX(-50%);
   padding: 0.4rem 0.9rem;
   border-radius: var(--radius);
-  background: rgba(12, 8, 9, 0.55);
+  background: var(--plate);
   color: var(--ink-2);
   font-size: 0.85rem;
   opacity: 0;
