@@ -524,3 +524,4 @@ export class UnitSystem {
         if (behind) return a
         continue
       }
+      if (!fallback) fallback = a
