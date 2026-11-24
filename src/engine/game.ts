@@ -411,3 +411,4 @@ export class Game {
       `draw ${i.calls}, segitiga ${(i.triangles / 1000).toFixed(0)}k`,
       `peta ${mx.toFixed(0)}, ${my.toFixed(0)}  ${ZONES[this.atmosphere.zone].name}`,
       `kamera bebas ${this.minClearance.toFixed(2)} m`,
+      s.gpu,
