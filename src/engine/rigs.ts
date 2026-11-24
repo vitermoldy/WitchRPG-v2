@@ -54,3 +54,5 @@ export interface Poser {
   body(lift: number, pitch?: number, roll?: number): void
 }
 
+type PoseFn = (p: Poser, u: Unit, t: number) => void
+
