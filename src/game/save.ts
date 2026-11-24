@@ -54,3 +54,4 @@ export function clearProfile(): void {
   } catch {
     /* storage blocked: nothing to clear */
   }
+}
