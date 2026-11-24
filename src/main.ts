@@ -67,3 +67,4 @@ async function boot() {
   out.textContent = game.sensitivity.toFixed(2)
   sens.addEventListener('input', () => {
     game.sensitivity = Number(sens.value)
+    out.textContent = game.sensitivity.toFixed(2)
