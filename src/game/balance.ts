@@ -410,3 +410,4 @@ export const TIERS: Record<TierId, TierSpec> = {
     tier: 3,
     name: 'Rift Tier III',
     roman: 'III',
+    unlock: 7,
