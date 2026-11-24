@@ -743,6 +743,8 @@ button {
   display: grid;
   justify-items: center;
   gap: 0.4rem;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
