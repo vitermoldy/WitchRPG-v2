@@ -279,3 +279,4 @@ export class Spells {
     for (const d of dirs) {
       const mesh = new THREE.Mesh(boltGeo, boltMat)
       mesh.position.copy(from)
+      g.scene.add(mesh)
