@@ -77,3 +77,4 @@ async function boot() {
     show('pause')
     $('btn-resume').focus()
   }
+  $('btn-resume').addEventListener('click', async () => {
