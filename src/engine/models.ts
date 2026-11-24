@@ -53,6 +53,7 @@ export interface IlyraPose {
   block: number
   parry: number
   /** Execution progress 0 to 1, or -1. */
+  execute: number
 
 /**
  * Ilyra's model with procedural motion on its named parts: the walk cycle of the previz animatic,
