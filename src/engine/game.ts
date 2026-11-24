@@ -907,6 +907,7 @@ export class Game implements UnitHost {
       dodges: p.dodges,
       locked: !!this.lockon.current,
       enemies: this.units.enemies().length,
+      shadowsField: this.umbra.field().length,
       width: this.renderer.domElement.width,
       height: this.renderer.domElement.height,
     }
