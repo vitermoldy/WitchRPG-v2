@@ -618,3 +618,4 @@ export class UnitSystem {
         break
       }
       case 'windup': {
+        u.vel.multiplyScalar(Math.max(0, 1 - dt * 10))
