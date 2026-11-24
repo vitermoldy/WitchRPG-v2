@@ -50,3 +50,4 @@ export class Game {
   debugSpeed = 1
   /** ?debug: wait for the GPU after every frame (reads one pixel), so frame times include all GPU work. */
   syncFrames = false
+  /** ?debug: when set, the bot drives her instead of the keyboard. */
