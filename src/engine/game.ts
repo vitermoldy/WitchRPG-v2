@@ -74,3 +74,4 @@ export class Game {
   private lastFrame = 0
   private readonly frames = new Float32Array(FRAME_SAMPLES)
   private frameCount = 0
+  /** Smallest distance between the camera and any trunk, crown, rock or the ground since the last reset. */
