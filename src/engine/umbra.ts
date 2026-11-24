@@ -196,3 +196,4 @@ export class Umbra {
     const g = this.g
     const out = this.field()
     this.calls = []
+    this.armyOut = false
