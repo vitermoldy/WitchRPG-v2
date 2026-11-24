@@ -44,3 +44,5 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | Sentak mouse ke samping | Pindah lock-on ke makhluk di sisi itu |
 | Esc | Jeda dan sensitivitas mouse |
 
+## Struktur
+
