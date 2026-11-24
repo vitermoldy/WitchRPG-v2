@@ -4,3 +4,4 @@ import {
   GROWTH,
   MOVE,
   PLAYER,
+  RANKS,
