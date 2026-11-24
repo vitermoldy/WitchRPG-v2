@@ -56,6 +56,8 @@ export class Player {
   private nudgeX = 0
   private nudgeZ = 0
   private nudgeT = 0
+  private nudgeTime = 1
+
 
   get speed() {
     return Math.hypot(this.vx, this.vz)
