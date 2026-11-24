@@ -360,3 +360,5 @@ export const ELITE = {
 /** `elites`: how many of the wave come out elite. `eliteLords`: every Rift Lord of the wave is one. */
 export type WaveSpec = Partial<Record<Exclude<UnitKind, 'hollow'>, number>> & { levels: [number, number]; elites?: number; eliteLords?: boolean }
 
+export type TierId = 1 | 2 | 3 | 4 | 5
+
