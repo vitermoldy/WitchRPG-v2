@@ -1370,6 +1370,7 @@ dialog::backdrop {
 }
 
 .ledger-tree {
+  grid-area: tree;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
