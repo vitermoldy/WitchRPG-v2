@@ -659,3 +659,5 @@ class Rig implements Poser {
     this.holder.updateMatrixWorld(true)
     return this.holder
   }
+}
+
