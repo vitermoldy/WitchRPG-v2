@@ -234,5 +234,6 @@ export class Hud {
   private updatePrompt() {
     const g = this.g
     let html = ''
+    const ex = g.player.alive && !g.fight.exec ? g.fight.executable() : null
   }
 }
