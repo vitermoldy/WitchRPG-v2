@@ -140,3 +140,4 @@ export class Game {
     this.atmosphere = new Atmosphere(this.scene)
     this.scene.add(water())
     progress('Menanam hutan')
+    await frame()
