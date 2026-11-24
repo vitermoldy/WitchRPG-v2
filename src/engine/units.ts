@@ -850,3 +850,4 @@ export class UnitSystem {
     }
   }
 
+  /** Sends a body flying (a Telekinesis throw when `hurled`, else a blast that tosses it). */
