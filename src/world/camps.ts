@@ -21,3 +21,4 @@ const CAMPS: { c: [number, number]; n: number }[] = [
   { c: [110, -280], n: 4 },
 ]
 
+export interface Imp extends Target {
