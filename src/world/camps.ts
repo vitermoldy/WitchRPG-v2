@@ -107,12 +107,7 @@ export class Camps {
         this.shards.setColorAt(i, this.lit)
       }
     }
-    for (const b of bakeByMaterial(model)) {
-      const mesh = new THREE.InstancedMesh(b.geometry, b.material, this.targets.length)
-      mesh.castShadow = true
-      mesh.frustumCulled = false
-      this.meshes.push(mesh)
-      this.group.add(mesh)
+    stones.castShadow = true
     }
     this.update(0, 0, new THREE.Vector3(1e6, 0, 1e6))
   }
