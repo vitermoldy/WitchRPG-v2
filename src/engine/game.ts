@@ -597,6 +597,7 @@ export class Game implements UnitHost {
       const z = o.z + dir.z * d
       if (o.y + dir.y * d < heightAt(x, z)) {
         let lo = prev
+        let hi = d
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
