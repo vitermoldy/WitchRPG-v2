@@ -159,3 +159,4 @@ export interface Derived {
   damageMult: number
   speedMult: number
   /** Length of a dodge roll; AGI makes it longer. */
+  dodgeDistance: number
