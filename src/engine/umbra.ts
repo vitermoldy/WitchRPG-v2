@@ -387,3 +387,4 @@ export class Umbra {
 
   /** Why a cast on these bodies cannot start right now, or null when it can. */
   blocker(u?: Unit, n = 1): string | null {
+    const g = this.g
