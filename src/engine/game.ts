@@ -718,6 +718,7 @@ export class Game implements UnitHost {
     this.fight.update(sdt, {
       attackPressed: canAct && inp.pressed('Mouse0'),
       attackHeld: canAct && inp.held('Mouse0'),
+      blockHeld: canAct && inp.held('KeyC'),
 
     const target = this.lockon.current
     const face = target ? yawTo(p.pos.x, p.pos.z, target.x, target.z) : aiming ? this.rig.yaw : null
