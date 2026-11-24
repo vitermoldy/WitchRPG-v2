@@ -553,3 +553,4 @@ export class UnitSystem {
         host.clearTelegraph(u)
         u.set('move')
       }
+      u.hp = Math.min(u.maxHp, u.hp + u.maxHp * 0.1 * dt)
