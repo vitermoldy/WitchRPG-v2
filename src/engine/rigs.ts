@@ -255,3 +255,4 @@ const poseHarpy: PoseFn = (p, u, t) => {
     return
   }
   if (flying) {
+    const fast = u.state === 'recover' ? 1.6 : 1
