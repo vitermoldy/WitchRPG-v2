@@ -98,3 +98,4 @@ describe('creature attacks', () => {
       }
     })
     expect(stepped).toBe(true)
+    expect(side.log.strikes.length).toBe(0)
