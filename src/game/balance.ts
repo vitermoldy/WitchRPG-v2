@@ -385,3 +385,4 @@ export const TIERS: Record<TierId, TierSpec> = {
     unlock: 1,
     maxAlive: 16,
     waves: [
+      { husk: 6, levels: [1, 1] },
