@@ -55,3 +55,4 @@ export class Camps {
       const mesh = new THREE.InstancedMesh(b.geometry, b.material, this.targets.length)
       mesh.castShadow = true
       mesh.frustumCulled = false
+      this.meshes.push(mesh)
