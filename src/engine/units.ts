@@ -572,3 +572,4 @@ export class UnitSystem {
     const spec = u.spec
     const atk = u.atk
     const speed = u.speed * u.slow
+    switch (u.state) {
