@@ -168,6 +168,7 @@ export type UnitKind =
 export const V2_KINDS = ['imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minotaur', 'medusa', 'chimera'] as const
 export type V2Kind = (typeof V2_KINDS)[number]
 
+/**
 
 export interface UnitSpec {
   name: string
