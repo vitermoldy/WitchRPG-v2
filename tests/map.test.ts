@@ -67,6 +67,7 @@ describe('the forest valley', () => {
     }
   })
 
+  it('puts the Tebing camps and altar up on the plateau, reached by the ramp', () => {
   it('raises Tebing Berangin as a plateau above the forest floor', () => {
     const t = ZONES.find((z) => z.key === 'tebing')!
     expect(heightMap(t.c[0], t.c[1]) - heightMap(0, -280)).toBeGreaterThan(25)
