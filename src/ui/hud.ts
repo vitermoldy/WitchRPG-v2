@@ -258,4 +258,6 @@ export class Hud {
     }
     this.html(this.prompt, 'prompt', html)
   }
+
+  }
 }
