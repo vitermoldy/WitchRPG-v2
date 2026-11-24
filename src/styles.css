@@ -852,6 +852,8 @@ button {
 
 #chaos-row.full .bar-chaos i {
   animation: chaos-full 0.6s ease-in-out infinite alternate;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
