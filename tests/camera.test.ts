@@ -39,3 +39,4 @@ describe('over-the-shoulder camera', () => {
     expect(pose.fov).toBeCloseTo(CAMERA.aim.fov, 1)
   })
 
+  it('stops in front of a trunk standing between her and the camera', () => {
