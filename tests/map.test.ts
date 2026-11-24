@@ -65,6 +65,8 @@ describe('the forest valley', () => {
       if (inWaterRect(x, y)) expect(WATER_LEVEL - heightMap(x, y), name).toBeLessThanOrEqual(MOVE.maxWade)
       expect(steepest(x, y), name).toBeLessThan(MOVE.maxSlope)
     }
+  })
+
   it('raises Tebing Berangin as a plateau above the forest floor', () => {
     const t = ZONES.find((z) => z.key === 'tebing')!
     expect(heightMap(t.c[0], t.c[1]) - heightMap(0, -280)).toBeGreaterThan(25)
