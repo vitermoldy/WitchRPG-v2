@@ -218,3 +218,4 @@ describe('phase 4 creatures', () => {
       return used
     }
     expect(pick([0, 5], false)).toBe('napas api')
+    expect(pick([0, 12], false)).toBe('seruduk kambing')
