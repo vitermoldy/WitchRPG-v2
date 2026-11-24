@@ -306,5 +306,6 @@ export class Hud {
     this.wheel.hidden = !u.wheelOpen
     if (!u.wheelOpen) return
     const swapLocked = this.g.profile.level < 4
+    for (const el of this.wheel.querySelectorAll<HTMLElement>('.wheel-opt')) {
   }
 }
