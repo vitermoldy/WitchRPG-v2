@@ -43,3 +43,4 @@ async function boot() {
       $('loading-step').textContent = step
     })
   } catch (e) {
+    fail(`Hutan gagal dimuat: ${(e as Error).message}`)
