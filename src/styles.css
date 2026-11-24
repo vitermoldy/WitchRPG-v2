@@ -1254,6 +1254,7 @@ dialog::backdrop {
 }
 
 .btn-umbra {
+  background: var(--umbra-deep);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
