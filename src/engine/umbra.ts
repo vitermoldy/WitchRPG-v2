@@ -455,3 +455,4 @@ export class Umbra {
       this.armyOut = true
     }
     this.stats.raised += raised.length
+    this.stats.faded += faded
