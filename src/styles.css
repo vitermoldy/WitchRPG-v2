@@ -311,7 +311,7 @@ button {
   grid-template-columns: auto 1fr;
   gap: 0.4rem 0.7rem;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
 }
 
 .controls dt {
