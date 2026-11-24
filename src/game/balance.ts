@@ -221,3 +221,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     lungeTime: 0.45,
   },
   spitter: {
+    name: 'Spitter',
