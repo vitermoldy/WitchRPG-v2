@@ -70,3 +70,5 @@ async function boot() {
     out.textContent = game.sensitivity.toFixed(2)
     game.profile.settings.sensitivity = game.sensitivity
     saveProfile(game.profile)
+  })
+
