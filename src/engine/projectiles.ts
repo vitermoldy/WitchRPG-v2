@@ -151,3 +151,4 @@ export class Projectiles {
     }
   }
 
+  private end(i: number, burst: boolean) {
