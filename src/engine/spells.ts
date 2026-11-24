@@ -206,3 +206,4 @@ export class Spells {
     return true
   }
 
+  addChaos(amount: number) {
