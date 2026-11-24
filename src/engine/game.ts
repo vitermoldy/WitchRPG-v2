@@ -223,3 +223,4 @@ export class Game {
     const now = performance.now()
     if (this.state === 'playing') {
       this.frames[this.frameCount % FRAME_SAMPLES] = now - this.lastFrame
+      this.frameCount++
