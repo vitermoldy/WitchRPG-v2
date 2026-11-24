@@ -25,3 +25,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMate
   const m = src.clone()
   const c = src.color
   const lum = c.r * 0.3 + c.g * 0.59 + c.b * 0.11
+  m.color.setRGB(0.045 + lum * 0.16, 0.02 + lum * 0.07, 0.085 + lum * 0.28)
