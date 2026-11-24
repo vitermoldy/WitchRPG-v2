@@ -437,3 +437,4 @@ button {
   width: max-content;
   max-width: calc(100% - 2 * var(--gutter));
   margin: 0;
+  transform: translateX(-50%);
