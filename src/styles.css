@@ -521,7 +521,7 @@ button {
   line-height: 1.6;
 }
 
-@media (max-width: 860px) {
+/* Fight HUD. Chaos red on the left (her vitals), Umbra violet on the right (the army), amber marks
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
