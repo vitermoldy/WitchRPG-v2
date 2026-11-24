@@ -62,3 +62,4 @@ export class Game {
   private readonly bloom: UnrealBloomPass
   private readonly timer = new THREE.Timer()
   private terrain!: Terrain
+  private forest!: Forest
