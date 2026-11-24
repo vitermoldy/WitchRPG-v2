@@ -76,3 +76,4 @@ export class Umbra {
     g.units.spotOf = (u) => this.spot(u.slot, this.spotV)
   }
 
+  reset() {
