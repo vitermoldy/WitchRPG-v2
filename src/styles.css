@@ -927,6 +927,7 @@ button {
   overflow: hidden;
 }
 
+.skill kbd {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
