@@ -181,6 +181,7 @@ export interface AttackSpec {
   /** Starts when the target is within this reach (m), and not closer than minRange. */
   range: number
   minRange?: number
+  /** Multiplier on the creature's damage. */
 
 export interface UnitSpec {
   name: string
