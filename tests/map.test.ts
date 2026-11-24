@@ -10,3 +10,4 @@ describe('the forest valley', () => {
         const [ax, ay] = line[i]
         const [bx, by] = line[i + 1]
         const len = Math.hypot(bx - ax, by - ay)
+        let prev = heightMap(ax, ay)
