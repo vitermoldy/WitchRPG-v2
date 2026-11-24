@@ -373,3 +373,5 @@ export class Fight {
         const at = this.throwTarget()
         this.swingYaw = yawTo(p.pos.x, p.pos.z, at.x, at.z)
       } else this.staff.recall()
+    }
+
