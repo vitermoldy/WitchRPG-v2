@@ -146,6 +146,7 @@ export function xpForUnit(kind: UnitKind, level: number, elite = false): number 
 const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v))
 
 /**
+ * Chance that one Umbra Rite cast succeeds. Raw UMB counts, as in the GDD example. v2: a body she
   return Math.round(clamp(p, RITE.minChance, RITE.maxChance) * 1000) / 1000
 }
 
