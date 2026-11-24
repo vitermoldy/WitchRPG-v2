@@ -104,6 +104,7 @@ async function boot() {
   }
 
   // ------------------------------------------------------------ the Ledger and the altars
+  const ledger = new Ledger({
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
