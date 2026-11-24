@@ -319,3 +319,5 @@ export class Game {
     if (this.state === 'playing') this.minClearance = Math.min(this.minClearance, clear)
     this.atmosphere.update(dt, this.v.set(p.pos.x, p.pos.y, p.pos.z), c.position, snap)
     this.terrain.update(c.position, snap ? 1000 : 1)
+  }
+
