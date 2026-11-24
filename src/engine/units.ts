@@ -122,3 +122,4 @@ export class Unit implements Foe {
   executed = false
   riteTried = false
   ash = false
+  ashAt = 0
