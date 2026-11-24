@@ -45,3 +45,4 @@ const rad = (d: number) => (d * Math.PI) / 180
  * a forward roll for the dodge, a raised left hand while aiming, breathing when still.
  */
 export class IlyraModel {
+  readonly root = new THREE.Group()
