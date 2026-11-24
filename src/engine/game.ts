@@ -129,6 +129,7 @@ export class Game implements UnitHost {
   private hurtGrace = 0
   private calm = 0
   private deadT = 0
+  private saveIn = -1
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
