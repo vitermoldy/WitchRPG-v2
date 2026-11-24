@@ -952,6 +952,7 @@ button {
   transform: scaleY(0);
 }
 
+.skill.locked span:not(.skill-sub),
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
