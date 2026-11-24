@@ -590,3 +590,4 @@ class Rig implements Poser {
 
   /** Doubles the room for instances; the shared vertex data stays where it is. */
   private grow(need: number) {
+    let cap = this.cap
