@@ -713,3 +713,4 @@ export class UnitSystem {
       if (!u.focus.alive) {
         u.focus = null
         u.command = 'follow'
+      }
