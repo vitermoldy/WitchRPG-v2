@@ -165,3 +165,4 @@ export class Unit implements Foe {
     return this.state !== 'dead' && this.hp > 0
   }
 
+  /** Under the water or the mud: alive, but nothing can see or reach it. */
