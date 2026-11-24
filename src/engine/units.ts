@@ -330,3 +330,4 @@ export class UnitSystem {
     u.set('dead')
     u.deadT = 0
     u.lifted = 0
+    if (u.owner) u.owner.helpers = Math.max(0, u.owner.helpers - 1)
