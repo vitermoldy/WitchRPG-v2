@@ -387,3 +387,4 @@ export class Fight {
     if (!this.combo.current && this.throwT < 0) this.swingYaw = null
   }
 
+  private throwTarget(): THREE.Vector3 {
