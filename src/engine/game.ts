@@ -668,6 +668,7 @@ export class Game implements UnitHost {
   readonly profile_: Record<string, number> = {}
 
   private prof(key: string, from: number) {
+    if (!this.debug) return
   private simulate(dt: number) {
     this.t += dt
     const inp = this.input
