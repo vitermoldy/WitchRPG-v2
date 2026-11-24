@@ -229,4 +229,6 @@ export class Hud {
     this.updateWheel()
     this.updateBars()
   }
+
+  }
 }
