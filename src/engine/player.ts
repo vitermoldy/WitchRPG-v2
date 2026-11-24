@@ -43,3 +43,5 @@ export class Player {
 
   get speed() {
     return Math.hypot(this.vx, this.vz)
+  }
+
