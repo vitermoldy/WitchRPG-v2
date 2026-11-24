@@ -992,6 +992,7 @@ button {
   justify-content: space-between;
   margin: 0 0 0.45rem;
   font-size: 0.82rem;
+  color: var(--ink-2);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
