@@ -717,6 +717,7 @@ export class Game implements UnitHost {
     const canAct = alive && !stone && this.state === 'playing'
     this.fight.update(sdt, {
       attackPressed: canAct && inp.pressed('Mouse0'),
+      attackHeld: canAct && inp.held('Mouse0'),
 
     const target = this.lockon.current
     const face = target ? yawTo(p.pos.x, p.pos.z, target.x, target.z) : aiming ? this.rig.yaw : null
