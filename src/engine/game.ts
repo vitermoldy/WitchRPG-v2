@@ -796,6 +796,8 @@ export class Game implements UnitHost {
     this.telegraphs.update(sdt)
     const t1 = performance.now()
     this.rigs.update(this.units.units, this.t, dt, this.camera.position, (u) => this.umbra.glowOf(u))
+    this.prof('rigs', t1)
+
     this.hud.zone(ZONES[this.atmosphere.zone])
     this.hud.aim(this.rig.aim > 0.5)
     if (target) {
