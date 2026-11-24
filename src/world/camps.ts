@@ -122,6 +122,7 @@ export class Camps {
     for (const [kind, count] of Object.entries(camp.def.pack) as [V2Kind, number][]) {
       for (let k = 0; k < count; k++, n++) {
         const a = n * 2.39996 + Math.random() * 0.4
+        const r = 3 + Math.random() * 3.5
     }
     this.update(0, 0, new THREE.Vector3(1e6, 0, 1e6))
   }
