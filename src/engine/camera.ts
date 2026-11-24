@@ -138,3 +138,5 @@ export class CameraRig {
       this.pitch += (want.pitch - this.pitch) * k
     }
     return this.place(dt, pivot, p, obstacles, height)
+  }
+
