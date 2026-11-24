@@ -770,3 +770,4 @@ export class Rigs {
     // pick the shadows nearest the camera for full detail, a few times a second
     this.sortIn -= dt
     if (this.sortIn <= 0) {
+      this.sortIn = 0.2
