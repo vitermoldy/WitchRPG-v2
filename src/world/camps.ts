@@ -52,3 +52,4 @@ export class Camps {
       }
     }
     for (const b of bakeByMaterial(model)) {
+      const mesh = new THREE.InstancedMesh(b.geometry, b.material, this.targets.length)
