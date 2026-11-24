@@ -643,6 +643,7 @@ button {
   font-size: 0.84rem;
 }
 
+.altar-line:empty {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
