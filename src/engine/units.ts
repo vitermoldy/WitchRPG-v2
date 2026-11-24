@@ -575,3 +575,4 @@ export class UnitSystem {
     switch (u.state) {
       case 'move': {
         const slot = !onPlayer || u.token || this.tokens() < COMBAT.attackers
+        if (u.flyer) {
