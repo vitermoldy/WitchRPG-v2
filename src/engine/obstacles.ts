@@ -90,3 +90,4 @@ export class Obstacles {
           if (Math.abs(dy) >= s.r) return
           rr = Math.sqrt(s.r * s.r - dy * dy)
         }
+        const dx = pos.x - s.x
