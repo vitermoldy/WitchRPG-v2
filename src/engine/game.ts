@@ -139,3 +139,4 @@ export class Game {
     this.scene.add(this.terrain.group)
     this.atmosphere = new Atmosphere(this.scene)
     this.scene.add(water())
+    progress('Menanam hutan')
