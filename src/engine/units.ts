@@ -63,3 +63,4 @@ export class Unit implements Foe {
   readonly team: Team
   readonly spec: UnitSpec
   level: number
+  hp: number
