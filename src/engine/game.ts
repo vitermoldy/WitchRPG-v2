@@ -416,3 +416,4 @@ export class Game {
   }
 }
 
+const frame = () => new Promise<void>((r) => requestAnimationFrame(() => r()))
