@@ -654,6 +654,7 @@ button {
   transform: translate(-50%, 8px);
   width: min(90vw, 40rem);
   padding: 0.8rem 1rem;
+  border-radius: var(--radius);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
