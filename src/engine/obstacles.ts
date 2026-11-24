@@ -129,3 +129,4 @@ export class Obstacles {
     let best = reach
     this.near(x, z, reach, (s) => {
       let d: number
+      if (s.kind === CYL) {
