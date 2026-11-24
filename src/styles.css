@@ -676,6 +676,7 @@ button {
   letter-spacing: -0.045em;
 }
 
+.banner-sub {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
