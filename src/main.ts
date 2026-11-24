@@ -37,3 +37,4 @@ async function boot() {
     return
   }
   if (debug) (window as unknown as { __game: Game }).__game = game
+  game.run()
