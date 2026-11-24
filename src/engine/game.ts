@@ -213,6 +213,7 @@ export class Game implements UnitHost {
     const mid = this.v.set((p.pos.x + u.pos.x) / 2, p.pos.y + 1.1, (p.pos.z + u.pos.z) / 2)
     if (res === 'dodge') {
       this.fight.stats.dodged++
+      return
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
