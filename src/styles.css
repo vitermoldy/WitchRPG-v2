@@ -1168,6 +1168,7 @@ button {
   content: attr(data-label);
   position: absolute;
   bottom: 9px;
+  left: 50%;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
