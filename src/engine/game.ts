@@ -334,6 +334,7 @@ export class Game implements UnitHost {
     ])
     this.ilyra = new IlyraModel(ilyra)
     this.scene.add(this.ilyra.root)
+    const models: Partial<Record<UnitKind, THREE.Group>> = {}
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
