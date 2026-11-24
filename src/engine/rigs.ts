@@ -141,3 +141,4 @@ const poseImp: PoseFn = (p, u, t) => {
     p.rot('shin_L', 50 * k)
     p.rot('shin_R', 50 * k)
     return
+  }
