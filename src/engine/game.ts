@@ -36,3 +36,4 @@ const FRAME_SAMPLES = 900
 
 export class Game {
   readonly renderer: THREE.WebGLRenderer
+  readonly scene = new THREE.Scene()
