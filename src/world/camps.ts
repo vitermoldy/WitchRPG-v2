@@ -76,3 +76,4 @@ export class Camps {
       this.m.compose(this.v.set(imp.x, imp.y + bob, imp.z), this.q, this.one)
       for (const mesh of this.meshes) mesh.setMatrixAt(i, this.m)
     })
+    for (const mesh of this.meshes) mesh.instanceMatrix.needsUpdate = true
