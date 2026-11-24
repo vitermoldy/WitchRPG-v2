@@ -149,3 +149,4 @@ export class Game {
     const [ilyra, imp] = await Promise.all([loadModel('./models/ilyra.glb'), loadModel('./models/imp.glb')])
     this.ilyra = new IlyraModel(ilyra)
     this.scene.add(this.ilyra.root)
+    this.camps = new Camps(imp, this.obstacles)
