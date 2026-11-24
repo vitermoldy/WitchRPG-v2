@@ -396,3 +396,4 @@ export class Game {
       const d = Math.hypot(t.x - p.x, t.z - p.z)
       if (t.alive && d < bd) {
         bd = d
+        best = { x: t.x, z: t.z }
