@@ -396,3 +396,4 @@ export class Spells {
   }
 
   private holdGrip(dt: number) {
+    const g = this.g
