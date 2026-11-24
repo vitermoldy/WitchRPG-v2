@@ -586,6 +586,7 @@ export class Game implements UnitHost {
   aim(maxDist: number): AimHit {
     const o = this.camera.position
     const dir = this.camera.getWorldDirection(new THREE.Vector3())
+    // skip the stretch between the camera and her, so a creature behind her shoulder is not picked
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
