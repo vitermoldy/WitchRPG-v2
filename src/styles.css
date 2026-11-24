@@ -1435,6 +1435,7 @@ dialog::backdrop {
 
 .derived dd {
   margin: 0;
+  text-align: right;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
