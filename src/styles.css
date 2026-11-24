@@ -1609,6 +1609,7 @@ dialog::backdrop {
   background: var(--surface);
 }
 
+.confirm-title {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
