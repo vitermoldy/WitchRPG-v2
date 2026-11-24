@@ -672,3 +672,4 @@ export class Spells {
     const s = SPELL.barrier
     this.barrierCd = s.cooldown
     this.barrierT = s.duration
+    this.barrierAbsorb = s.absorb + (this.upgraded('barrier') ? s.absorbUpgrade : 0)
