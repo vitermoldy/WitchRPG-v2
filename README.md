@@ -40,3 +40,4 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | Kamera | |
 | --- | --- |
 | Tahan klik kanan | Mode bidik: kamera mendekat ke bahu, tongkat turun dari titik bidik |
+| Klik tengah | Lock-on ke makhluk terdekat di depan; klik lagi untuk lepas |
