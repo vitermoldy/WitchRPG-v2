@@ -42,7 +42,7 @@ export const SKILLS: SkillDef[] = [
     id: 'grip',
     branch: 'chaos',
     name: 'Telekinesis Grip',
-    key: 'Tahan RMB',
+    key: 'Bidik, tahan LMB',
     unlock: 1,
     effect: 'Angkat musuh atau objek hingga 500 kg, lepas untuk melempar.',
     upgrade: 'Mengangkat 2 target sekaligus.',
