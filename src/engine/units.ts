@@ -511,3 +511,4 @@ export class UnitSystem {
 
   /** The attack that fits: a behind attack when she is behind it, else the first one in reach and ready. */
   private pickAttack(u: Unit, tgt: Foe, dist: number): AttackSpec | null {
+    const list = attacksOf(u.spec)
