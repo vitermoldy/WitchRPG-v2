@@ -41,3 +41,4 @@ export function bakeByMaterial(root: THREE.Object3D): { geometry: THREE.BufferGe
 const rad = (d: number) => (d * Math.PI) / 180
 
 /**
+ * Ilyra's model with procedural motion on its named parts: the walk cycle of the previz animatic,
