@@ -42,6 +42,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | F di altar | Perjalanan cepat ke altar lain yang sudah menyala, atau buka Ledger |
 | Esc | Jeda: sensitivitas, volume, bayangan detail penuh, guncangan kamera |
 
+| Tempur | |
 
 ## Struktur
 
