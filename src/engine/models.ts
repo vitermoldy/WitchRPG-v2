@@ -108,3 +108,4 @@ export class IlyraModel {
     this.rot('shin_R', Math.max(0, 30 * Math.sin(p.stride + 1.2 + Math.PI)) * amp)
     this.rot('torso', 3 + 9 * sprint + breath * 1.2, 4 * s * amp)
     this.rot('pelvis', 0, -3 * s * amp)
+    this.rot('cloak', 5 + 3 * Math.sin(p.stride * 2) * amp + 10 * sprint)
