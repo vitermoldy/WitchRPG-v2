@@ -206,6 +206,7 @@ export class Game implements UnitHost {
   strikePlayer(u: Unit, atk: AttackSpec = u.atk) {
     const p = this.player
     if (!p.alive || this.hurtGrace > 0) return
+    const strike = atk.strike
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
