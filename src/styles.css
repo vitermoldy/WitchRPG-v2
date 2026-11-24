@@ -1347,6 +1347,7 @@ dialog::backdrop {
   border-top: 1px solid var(--line);
 }
 
+.ledger-body h3 {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
