@@ -205,3 +205,5 @@ export function pathDist(x: number, y: number): number {
     }
   }
   return best
+}
+
