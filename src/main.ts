@@ -70,6 +70,7 @@ async function boot() {
     const input = $(`set-${id}`) as HTMLInputElement
     const out = $(`out-${id}`) as HTMLOutputElement
     input.value = String(value)
+    out.textContent = fmt(value)
   })
 
   game.onPause = () => {
