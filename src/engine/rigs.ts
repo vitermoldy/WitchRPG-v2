@@ -517,3 +517,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
   harpy: poseHarpy,
+  centaur: poseCentaur,
