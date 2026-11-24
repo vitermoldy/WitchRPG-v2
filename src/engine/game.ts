@@ -401,6 +401,7 @@ export class Game implements UnitHost {
   openMenu() {
     if (this.state !== 'playing') return
     this.state = 'paused'
+    this.input.capture = false
   resume() {
     if (this.state !== 'paused') return
     this.state = 'playing'
