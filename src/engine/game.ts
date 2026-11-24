@@ -126,6 +126,7 @@ export class Game implements UnitHost {
   private readonly pixel = new Uint8Array(4)
   private hitstopT = 0
   private trauma = 0
+  private hurtGrace = 0
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
