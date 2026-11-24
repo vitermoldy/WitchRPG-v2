@@ -14,3 +14,5 @@ export class Hud {
   private readonly debugEl = $('debug')
   private bannerTime = 0
   private hintTime = 0
+  private zoneKey = ''
+
