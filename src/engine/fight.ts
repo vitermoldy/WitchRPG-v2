@@ -315,3 +315,4 @@ export class Fight {
   }
 
   caught() {
+    this.catchT = 0
