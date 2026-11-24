@@ -125,3 +125,4 @@ export const RITE = {
   /** Shadows nearest the camera drawn with their own animated model; the rest are drawn as one crowd. */
   detail: { default: 40, min: 10, max: 120 },
   shadowXpShare: 0.3,
+  minChance: 0.1,
