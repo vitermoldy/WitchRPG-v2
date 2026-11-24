@@ -144,6 +144,7 @@ export class IlyraModel {
     // her yaw faces -z at 0; the model faces +z
     this.root.rotation.y = p.facing + Math.PI
     const staff = this.parts['staff']
+    if (staff) staff.visible = act.staff
     const amp = Math.min(1.6, p.speed / MOVE.jog)
     const sprint = Math.max(0, (p.speed - MOVE.jog) / (MOVE.sprint - MOVE.jog))
     const s = Math.sin(p.stride)
