@@ -1271,6 +1271,7 @@ dialog::backdrop {
 
 .btn:disabled {
   opacity: 0.45;
+  cursor: not-allowed;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
