@@ -398,3 +398,4 @@ export class Game {
         bd = d
         best = { x: t.x, z: t.z }
       }
+    }
