@@ -372,3 +372,4 @@ export class Game {
     this.botDodge = true
   }
 
+  toggleLock() {
