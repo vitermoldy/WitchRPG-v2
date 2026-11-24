@@ -202,6 +202,6 @@ export class Camps {
         colors = true
       }
     })
-    for (const mesh of this.meshes) mesh.instanceMatrix.needsUpdate = true
+    if (colors) {
   }
 }
