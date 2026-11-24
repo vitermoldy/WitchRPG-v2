@@ -819,6 +819,7 @@ button {
   color: var(--ink);
 }
 
+.bar {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
