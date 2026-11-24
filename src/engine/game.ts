@@ -154,3 +154,4 @@ export class Game {
     this.ground = {
       height: heightAt,
       obstacles: this.obstacles,
+      blocked: (x, z) => {
