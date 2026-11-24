@@ -896,6 +896,8 @@ button {
   height: 100%;
   background: var(--rift);
   transform-origin: left;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
