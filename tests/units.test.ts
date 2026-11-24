@@ -134,3 +134,5 @@ describe('ground', () => {
     expect(imp.pos.y).toBeCloseTo(5, 1)
     expect(shadow.pos.y).toBeCloseTo(5, 1)
   })
+})
+
