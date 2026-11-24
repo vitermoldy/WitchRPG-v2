@@ -137,3 +137,4 @@ export class Umbra {
   toggle() {
     if (this.summonCd > 0) return
     if (this.armyOut || this.field().length || this.calls.length) this.dismiss()
+    else this.summon()
