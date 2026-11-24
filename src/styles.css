@@ -724,6 +724,7 @@ button {
   color: var(--rift);
 }
 
+.feed-item.fade {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
