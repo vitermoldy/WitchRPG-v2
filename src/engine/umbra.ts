@@ -111,3 +111,4 @@ export class Umbra {
         next = Math.min(next, at - this.time)
       }
     }
+    return { count, next: Number.isFinite(next) ? Math.ceil(next) : 0 }
