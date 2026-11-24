@@ -459,3 +459,4 @@ export class Spells {
     this.tendrilLight = null
     g.sfx.gripStop(throwIt)
     if (throwIt) {
+      g.fight.cast()
