@@ -40,3 +40,4 @@ export class Camps {
     this.group.name = 'camps'
     let seed = 11
     const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647)
+    for (const camp of CAMPS) {
