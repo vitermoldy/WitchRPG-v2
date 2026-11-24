@@ -369,3 +369,4 @@ export class Umbra {
 
   private turnToAsh(u: Unit) {
     u.ash = true
+    u.ashAt = u.deadT
