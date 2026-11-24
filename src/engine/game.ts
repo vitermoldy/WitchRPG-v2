@@ -70,3 +70,4 @@ export class Game {
   private pivotY = 0
   private cullIn = 0
   private botDodge = false
+  private botLock = false
