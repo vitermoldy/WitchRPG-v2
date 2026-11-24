@@ -471,6 +471,7 @@ export class Game implements UnitHost {
     if (d <= 0) return
     p.hp -= d
     this.counts.damageTaken += d
+    this.hurtGrace = COMBAT.hurtGrace
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
