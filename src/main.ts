@@ -113,6 +113,7 @@ async function boot() {
     liveShadows: () => new Set(game.umbra.field().map((u) => u.record!.id)),
   })
   const travel = new TravelPanel({
+    altars: () => {
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
