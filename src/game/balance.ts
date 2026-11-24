@@ -185,6 +185,7 @@ export interface AttackSpec {
   damage?: number
   lungeSpeed?: number
   lungeTime?: number
+  /** Radius of the circle a ring attack lands on (default 1.4 m). */
 
 export interface UnitSpec {
   name: string
