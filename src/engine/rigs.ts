@@ -680,3 +680,4 @@ export class Rigs {
   private readonly models: Partial<Record<UnitKind, THREE.Group>>
   /** Decimated versions (about a fifth of the triangles) for the far crowd. */
   private readonly lods: Partial<Record<UnitKind, THREE.Group>>
+  private readonly rigs = new Map<string, Rig>()
