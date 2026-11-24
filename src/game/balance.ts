@@ -727,3 +727,4 @@ export interface Swing {
   damage: number
   windup: number
   active: number
+  recover: number
