@@ -1645,6 +1645,7 @@ dialog::backdrop {
   .ledger-body {
     grid-template-columns: 1fr;
     grid-template-areas: 'stats' 'tree' 'room';
+  }
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
