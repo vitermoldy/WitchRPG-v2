@@ -178,6 +178,7 @@ export interface AttackSpec {
   strike: 'ring' | 'line'
   windup: number
   recover: number
+  /** Starts when the target is within this reach (m), and not closer than minRange. */
 
 export interface UnitSpec {
   name: string
