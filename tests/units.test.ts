@@ -233,3 +233,4 @@ describe('phase 4 creatures', () => {
   })
 
   it('Medusa turns her gaze on her from a distance, and it petrifies', () => {
+    const w = world()
