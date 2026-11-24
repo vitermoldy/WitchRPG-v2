@@ -212,3 +212,4 @@ export class Game {
     this.timer.connect(document)
     this.renderer.setAnimationLoop((ts) => {
       this.timer.update(ts)
+      this.tick()
