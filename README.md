@@ -53,3 +53,4 @@ src/world/    peta dan zona (map.ts), medan per chunk, hutan, kabut dan langit, 
 src/ui/       HUD
 tests/        Vitest: progresi v1, kamera, gerak, peta
 previz/       skrip Blender, render, animatic, papan makhluk, PREVIZ.md
+public/models model GLB hasil ekspor dari previz
