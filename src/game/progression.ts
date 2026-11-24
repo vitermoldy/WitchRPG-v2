@@ -158,3 +158,4 @@ export interface Derived {
   manaRegen: number
   damageMult: number
   speedMult: number
+  /** Length of a dodge roll; AGI makes it longer. */
