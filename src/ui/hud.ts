@@ -7,3 +7,4 @@ export class Hud {
   private readonly root = $('hud')
   private readonly banner = $('zone-banner')
   private readonly bannerName = $('zone-name')
+  private readonly bannerTier = $('zone-tier')
