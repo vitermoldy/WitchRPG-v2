@@ -122,3 +122,4 @@ export class Game {
           '  gl_FragColor = clamp(c, 0.0, 60000.0);',
           '}',
         ].join('\n'),
+      }),
