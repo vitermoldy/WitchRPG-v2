@@ -270,3 +270,4 @@ export function addShadow(p: Profile, kind: UnitKind, level: number): ShadowReco
   if (p.shadows.length >= RITE.maxShadows) return null
   const id = p.nextShadowId++
   const rec: ShadowRecord = { id, name: shadowName(id), kind, rank: UNITS[kind].rank, level: Math.min(level, p.level), xp: 0 }
+  p.shadows.push(rec)
