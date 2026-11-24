@@ -271,6 +271,7 @@ export class IlyraModel {
       const e = act.execute
       const up = ease(e / 0.35)
       const down = ease((e - 0.35) / 0.2)
+      const back = ease((e - 0.75) / 0.25)
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
