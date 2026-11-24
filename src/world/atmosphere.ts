@@ -92,3 +92,4 @@ export class Atmosphere {
     this.skyTarget.setRGB(0, 0, 0)
     let inv = 0
     let best = 0
+    for (let i = 0; i < ZONES.length; i++) {
