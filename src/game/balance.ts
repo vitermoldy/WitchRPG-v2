@@ -174,6 +174,7 @@ export type V2Kind = (typeof V2_KINDS)[number]
  * picks one that fits the distance (and `behind` ones only when she is behind it).
  */
 export interface AttackSpec {
+  name: string
 
 export interface UnitSpec {
   name: string
