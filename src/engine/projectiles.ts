@@ -140,3 +140,4 @@ export class Projectiles {
       // a glob: it bursts on its circle and hurts whoever stands inside
       if (s.pos.y <= g.height(s.pos.x, s.pos.z) || (s.vel.y < 0 && s.pos.y <= s.aim.y) || s.life <= 0) {
         const r = ringOf(s.atk)
+        if (p.alive && Math.hypot(p.pos.x - s.aim.x, p.pos.z - s.aim.z) < r + 0.4) g.strikePlayer(s.source, s.atk)
