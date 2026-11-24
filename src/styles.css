@@ -116,3 +116,4 @@ button {
 
 .btn-primary {
   background: var(--chaos-deep);
+  border-color: var(--chaos);
