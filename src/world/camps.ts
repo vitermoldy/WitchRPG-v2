@@ -1,5 +1,6 @@
 import * as THREE from 'three'
 import { CAMP, type V2Kind } from '../game/balance'
+import type { Game } from '../engine/game'
 
 /**
  * Phase 1 creatures: packs of Imps standing in Hutan Pembuka so the camera and lock-on have
