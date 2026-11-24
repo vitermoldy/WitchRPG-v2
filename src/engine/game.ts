@@ -721,6 +721,7 @@ export class Game implements UnitHost {
       blockHeld: canAct && inp.held('KeyC'),
       blockPressed: canAct && inp.pressed('KeyC'),
       execute: canAct && inp.pressed('KeyF'),
+      throwStaff: canAct && inp.pressed('KeyH'),
 
     const target = this.lockon.current
     const face = target ? yawTo(p.pos.x, p.pos.z, target.x, target.z) : aiming ? this.rig.yaw : null
