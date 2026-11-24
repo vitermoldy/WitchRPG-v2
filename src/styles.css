@@ -626,6 +626,7 @@ button {
 }
 
 .camp-status p {
+  margin: 0;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
