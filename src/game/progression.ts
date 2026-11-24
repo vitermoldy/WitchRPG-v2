@@ -266,3 +266,4 @@ export function shadowName(id: number): string {
   return name.charAt(0).toUpperCase() + name.slice(1)
 }
 
+export function addShadow(p: Profile, kind: UnitKind, level: number): ShadowRecord | null {
