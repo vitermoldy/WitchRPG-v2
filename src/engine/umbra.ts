@@ -141,3 +141,4 @@ export class Umbra {
     this.summonCd = RITE.summonCooldown
   }
 
+  private feet() {
