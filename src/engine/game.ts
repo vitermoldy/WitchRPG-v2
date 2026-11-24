@@ -382,3 +382,4 @@ export class Game {
   }
 
   /** Imps within this distance of her (for the bot to know when a lock-on can find something). */
+  targetsNear(range: number) {
