@@ -226,6 +226,7 @@ export class Game implements UnitHost {
       this.glow.emit({ pos: mid, count: 26, color: 0xfff2e0, intensity: 3.2, life: 0.3, size: 0.1, sizeEnd: 0.01, speed: 7, gravity: 8 })
       this.lights.flash(mid, COLOR.chaosHot, 10, 6, 0.2)
       this.hud.parry()
+      return
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
