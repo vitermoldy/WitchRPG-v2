@@ -120,6 +120,8 @@ export class Hud {
 
   flashMana() {
     this.manaFlash = 0.6
+  }
+
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
