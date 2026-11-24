@@ -440,3 +440,4 @@ export class Umbra {
         this.turnToAsh(u)
         faded++
         continue
+      }
