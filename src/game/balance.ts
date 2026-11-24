@@ -39,3 +39,4 @@ export const CAMERA = {
   aim: { dist: 2.0, shoulder: 0.65, height: 1.6, fov: 40 },
   pitch: -6,
   pitchMin: -55,
+  pitchMax: 62,
