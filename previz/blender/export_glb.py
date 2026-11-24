@@ -50,3 +50,4 @@ def flat(m):
     b = f.node_tree.nodes["Principled BSDF"]
     col = tuple(m.diffuse_color[:3])
     b.inputs["Base Color"].default_value = (*col, 1.0)
+    b.inputs["Roughness"].default_value = 0.75
