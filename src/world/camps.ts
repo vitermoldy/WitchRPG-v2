@@ -24,3 +24,5 @@ const CAMPS: { c: [number, number]; n: number }[] = [
 export interface Imp extends Target {
   yaw: number
   phase: number
+}
+
