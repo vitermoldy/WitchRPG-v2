@@ -120,6 +120,8 @@ async function boot() {
     travel: (key) => game.travel(key),
     openLedger: () => ledger.open(),
   })
+  if (debug) Object.assign(window as unknown as Record<string, unknown>, { __ledger: ledger, __travel: travel })
+
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
