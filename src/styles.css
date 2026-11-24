@@ -729,6 +729,7 @@ button {
 }
 
 @keyframes feed-in {
+  from {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
