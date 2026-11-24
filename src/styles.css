@@ -621,6 +621,7 @@ button {
   right: var(--gutter);
   padding: 0.4rem 0.7rem;
   border-radius: var(--radius);
+  background: var(--plate);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
