@@ -71,3 +71,4 @@ export class Game {
   private cullIn = 0
   private botDodge = false
   private botLock = false
+  private lastFrame = 0
