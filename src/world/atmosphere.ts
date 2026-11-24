@@ -44,3 +44,4 @@ export class Atmosphere {
   readonly sun = new THREE.DirectionalLight('#ffe9cc', 3.6)
   readonly sky: THREE.Mesh
   private readonly uniforms: Record<string, THREE.IUniform>
+  private readonly w = new Float32Array(ZONES.length)
