@@ -36,10 +36,6 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | WASD, Shift | Jalan ke arah kamera, lari |
 | Spasi | Dodge ke arah gerak; tanpa arah, mundur. Satu-satunya jawaban untuk garis amber yang berkedip |
 | Mouse | Putar kamera |
-
-| Kamera | |
-| --- | --- |
-| Tahan klik kanan | Mode bidik: kamera mendekat ke bahu, tongkat turun dari titik bidik |
 | Klik tengah | Lock-on ke makhluk terdekat di depan; klik lagi untuk lepas |
 | Sentak mouse ke samping | Pindah lock-on ke makhluk di sisi itu |
 | Esc | Jeda dan sensitivitas mouse |
