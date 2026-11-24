@@ -497,3 +497,4 @@ export class Umbra {
         s.command = 'follow'
         s.focus = null
       }
+      g.hud.message('Perintah: ikuti aku.', 'umbra')
