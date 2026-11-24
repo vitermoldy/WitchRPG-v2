@@ -57,3 +57,4 @@ export class Camps {
       mesh.frustumCulled = false
       this.meshes.push(mesh)
       this.group.add(mesh)
+    }
