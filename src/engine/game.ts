@@ -694,6 +694,7 @@ export class Game implements UnitHost {
       : { x: 0, y: 0, sprint: false, dodge: false }
     this.botDodge = false
     // the wheel takes the mouse while it is open
+    if (!wheel) {
 
     const targets = this.camps.targets
     const p = this.player
