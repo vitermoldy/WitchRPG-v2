@@ -168,3 +168,4 @@ export interface UnitSpec {
   speed: number
   radius: number
   height: number
+  mass: number
