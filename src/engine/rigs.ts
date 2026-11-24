@@ -744,3 +744,4 @@ export class Rigs {
         part.mesh.frustumCulled = false
         part.mesh.castShadow = false
         part.mesh.count = 0
+        this.group.add(part.mesh)
