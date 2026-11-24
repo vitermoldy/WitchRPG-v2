@@ -137,3 +137,4 @@ export class Player {
     }
 
     // turn: toward a held yaw, else toward the way she is going
+    let want: number | null = face
