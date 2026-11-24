@@ -397,3 +397,4 @@ export class Game {
       if (t.alive && d < bd) {
         bd = d
         best = { x: t.x, z: t.z }
+      }
