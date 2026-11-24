@@ -172,3 +172,4 @@ export interface UnitSpec {
   attackRange: number
   windup: number
   recover: number
+  cooldown: number
