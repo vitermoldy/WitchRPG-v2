@@ -349,3 +349,4 @@ export class Spells {
       g.hud.flashMana()
       return
     }
+    const hit = g.aim(SPELL.grip.range)
