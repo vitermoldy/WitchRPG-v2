@@ -355,3 +355,4 @@ export class Fight {
       const u = this.executable()
       if (u) {
         this.startExecution(u)
+        return
