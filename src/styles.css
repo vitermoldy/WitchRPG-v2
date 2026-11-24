@@ -1555,6 +1555,7 @@ dialog::backdrop {
 .room-members {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  gap: 0.5rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
