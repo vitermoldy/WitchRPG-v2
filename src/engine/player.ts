@@ -108,3 +108,4 @@ export class Player {
         this.vz *= 0.3
       }
     } else {
+      const top = (input.sprint && !aiming ? MOVE.sprint : aiming ? MOVE.jog * 0.6 : MOVE.jog) * this.speedMult
