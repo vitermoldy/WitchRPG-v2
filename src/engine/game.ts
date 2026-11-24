@@ -650,6 +650,7 @@ export class Game implements UnitHost {
     this.lastFrame = now
     const th = performance.now()
     this.hud.update(dt)
+    this.prof('hud', th)
     this.renderer.info.reset()
     this.composer.render(dt)
     if (this.syncFrames) {
