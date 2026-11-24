@@ -1047,6 +1047,8 @@ button {
   width: 3.4rem;
   height: 4px;
   background: rgba(239, 230, 223, 0.1);
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
