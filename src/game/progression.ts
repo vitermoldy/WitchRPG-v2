@@ -112,3 +112,4 @@ export function isFresh(p: Profile): boolean {
     p.level === 1 &&
     p.xp === 0 &&
     p.shadows.length === 0 &&
+    p.clears === 0 &&
