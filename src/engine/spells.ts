@@ -6,3 +6,4 @@ import type { Game } from './game'
 import { COLOR } from './palette'
 import type { Unit } from './units'
 
+interface Bolt {
