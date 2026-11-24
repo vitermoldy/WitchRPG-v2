@@ -72,3 +72,4 @@ export class Game {
   private botDodge = false
   private botLock = false
   private lastFrame = 0
+  private readonly frames = new Float32Array(FRAME_SAMPLES)
