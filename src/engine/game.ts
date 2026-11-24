@@ -101,6 +101,7 @@ export class Game implements UnitHost {
   sensitivity = 1
   onPause: (() => void) | null = null
   readonly counts = { kills: 0, campsCleared: 0, falls: 0, damageTaken: 0, levelUps: 0 }
+  /** ?debug: every blow that reached her and how it resolved, for the test bot's report. */
 
   private readonly debug: boolean
   private readonly composer: EffectComposer
