@@ -315,4 +315,6 @@ export class Hud {
       }
     }
   }
+
+  }
 }
