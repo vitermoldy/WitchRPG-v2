@@ -1515,6 +1515,7 @@ dialog::backdrop {
   font-size: 0.84rem;
 }
 
+.node-up {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
