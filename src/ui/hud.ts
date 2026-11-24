@@ -207,5 +207,6 @@ export class Hud {
     skill('sk-snare', 5, cds.snare)
     skill('sk-barrier', 7, cds.barrier)
     skill('sk-warp', 10, cds.warp)
+    const full = g.spells.chaos >= CHAOS.max
   }
 }
