@@ -496,6 +496,7 @@ export class Game implements UnitHost {
       }
     }
     const died = this.units.hurt(u, dmg, from, stun, knock)
+    if (source === 'player') {
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
