@@ -441,3 +441,4 @@ button {
   padding: 0.4rem 0.9rem;
   border-radius: var(--radius);
   background: rgba(12, 8, 9, 0.55);
+  color: var(--ink-2);
