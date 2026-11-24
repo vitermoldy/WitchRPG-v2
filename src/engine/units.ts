@@ -246,3 +246,4 @@ export class UnitSystem {
   spotOf: ((u: Unit) => THREE.Vector3) | null = null
 
   constructor(host: UnitHost) {
+    this.host = host
