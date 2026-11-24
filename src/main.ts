@@ -84,3 +84,4 @@ async function boot() {
       return
     }
     show(null)
+    game.resume()
