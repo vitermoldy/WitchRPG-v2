@@ -223,5 +223,6 @@ export class Hud {
     this.updateBoss()
 
     this.updatePrompt()
+    this.set('rite-fill', 'transform', `scaleX(${Math.min(1, g.umbra.progress).toFixed(3)})`)
   }
 }
