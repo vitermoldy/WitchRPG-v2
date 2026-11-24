@@ -494,3 +494,4 @@ export class UnitSystem {
     const s = u.spec.summon
     if (!s || !u.aggro) return
     u.skillCd -= dt
+    if (u.skillCd > 0) return
