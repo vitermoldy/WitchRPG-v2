@@ -129,6 +129,8 @@ export class Hud {
   hit(kill: boolean) {
     this.hitTime = kill ? 0.25 : 0.1
     this.hitmark.className = kill ? 'hitmark kill' : 'hitmark on'
+  }
+
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
