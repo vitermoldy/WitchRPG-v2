@@ -761,6 +761,7 @@ export class Game implements UnitHost {
     this.camps.update(dt)
     this.altars.update(dt)
 
+    // vitals
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
