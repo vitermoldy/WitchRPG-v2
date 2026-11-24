@@ -564,3 +564,4 @@ export class Spells {
     mesh.rotation.x = -Math.PI / 2
     mesh.position.copy(at).setY(at.y + 0.08)
     mesh.renderOrder = 7
+    g.scene.add(mesh)
