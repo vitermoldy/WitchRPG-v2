@@ -6,3 +6,4 @@ const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as 
 export class Hud {
   private readonly root = $('hud')
   private readonly banner = $('zone-banner')
+  private readonly bannerName = $('zone-name')
