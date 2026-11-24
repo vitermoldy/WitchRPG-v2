@@ -397,6 +397,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     strike: 'ring',
     stun: 30,
   },
+  // v2, Hutan Pembuka: packs of three to five. Circles to her side and lunges along a flashing line: dodge it.
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
