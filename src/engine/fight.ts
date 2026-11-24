@@ -307,3 +307,4 @@ export class Fight {
 
   parried() {
     this.parryFx = 1
+    this.riposte = COMBAT.parry.riposte
