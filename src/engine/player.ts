@@ -142,7 +142,7 @@ export class Player {
       this.vz = this.nudgeZ * (1 - u)
       this.nudgeT -= dt
     } else {
-      const top = (input.sprint && !aiming ? MOVE.sprint : aiming ? MOVE.jog * 0.6 : MOVE.jog) * this.speedMult
+      const sprint = input.sprint && !aiming && this.moveScale >= 1
       const tx = wx * top
       const tz = wz * top
       // exponential approach: at a jog she reaches speed in about 0.14 s and stops in about 0.1 s
