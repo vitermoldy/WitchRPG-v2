@@ -187,3 +187,4 @@ export class Game {
     this.ilyra.update(0, this.player, 0)
   }
 
+  start() {
