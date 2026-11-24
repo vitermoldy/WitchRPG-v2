@@ -87,3 +87,4 @@ export const SKILLS: SkillDef[] = [
     effect: 'Medan 10 m selama 5 detik: musuh terangkat, proyektil musuh dipantulkan, dan cangkang boss terbuka.',
     upgrade: 'Durasi +2 detik.',
     built: true,
+  },
