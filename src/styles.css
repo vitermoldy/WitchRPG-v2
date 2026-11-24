@@ -768,6 +768,7 @@ button {
   color: #ffbe73;
 }
 
+.prompt .num {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
