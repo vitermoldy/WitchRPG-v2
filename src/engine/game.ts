@@ -403,6 +403,7 @@ export class Game implements UnitHost {
     this.state = 'paused'
     this.input.capture = false
     this.input.releaseAll()
+    this.saveNow()
   resume() {
     if (this.state !== 'paused') return
     this.state = 'playing'
