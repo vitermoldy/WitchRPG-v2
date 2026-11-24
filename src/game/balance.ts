@@ -196,6 +196,7 @@ export interface AttackSpec {
   /** Used only when she is behind the creature (the Chimera's snake tail). */
   behind?: boolean
   /** Seconds before this attack can be used again. */
+  cooldown?: number
 
 export interface UnitSpec {
   name: string
