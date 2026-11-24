@@ -55,3 +55,4 @@ async function boot() {
     game.start()
     // without the mouse locked she cannot look around: wait on the pause screen for another click
     if (!locked && !debug) {
+      game.pause()
