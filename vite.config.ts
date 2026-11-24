@@ -16,3 +16,4 @@ export default defineConfig({
   // three.js alone is ~600 kB minified; the whole game is one bundle on purpose.
   build: { chunkSizeWarningLimit: 900 },
   resolve: {
+    alias: { '@': root + 'src' },
