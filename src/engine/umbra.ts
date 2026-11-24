@@ -444,3 +444,4 @@ export class Umbra {
       const rec = addShadow(g.profile, u.kind, u.level)
       if (!rec) {
         this.turnToAsh(u)
+        continue
