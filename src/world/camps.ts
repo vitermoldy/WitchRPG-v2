@@ -78,17 +78,7 @@ export class Camps {
   constructor(g: Game) {
     this.g = g
     this.group.name = 'camps'
-    let seed = 11
-    const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647)
-    for (const camp of CAMPS) {
-      for (let i = 0; i < camp.n; i++) {
-        const a = rnd() * Math.PI * 2
-        const r = 1.5 + rnd() * 3.5
-        const [wx, wz] = toWorld(camp.c[0] + Math.cos(a) * r, camp.c[1] + Math.sin(a) * r)
-        const p = { x: wx, y: 0, z: wz }
-        obstacles.pushOut(p, 0.5, 1.3)
-        p.y = heightMap(p.x, -p.z)
-        this.targets.push({ x: p.x, y: p.y, z: p.z, height: 1.3, alive: true, yaw: rnd() * Math.PI * 2, phase: rnd() * 10 })
+    this.camps = CAMP_DEFS.map((def) => {
       }
     }
     for (const b of bakeByMaterial(model)) {
