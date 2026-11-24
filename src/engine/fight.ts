@@ -414,3 +414,4 @@ export class Fight {
     const locked = g.lockon.current as Unit | null
     let target: Unit | null = locked && locked.alive ? locked : null
     if (!target) {
+      let best = Infinity
