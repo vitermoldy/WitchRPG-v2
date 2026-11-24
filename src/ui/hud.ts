@@ -265,5 +265,6 @@ export class Hud {
     const p = g.player.pos
     let boss = null
     for (const u of g.units.units) {
+      if (u.team !== 'enemy' || !u.spec.boss || !u.alive) continue
   }
 }
