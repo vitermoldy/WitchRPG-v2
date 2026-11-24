@@ -392,3 +392,4 @@ export class Game {
     const p = this.player.pos
     let best: { x: number; z: number } | null = null
     let bd = range
+    for (const t of this.camps.targets) {
