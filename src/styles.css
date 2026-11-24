@@ -1100,6 +1100,7 @@ button {
 }
 
 .wheel-opt.on {
+  border-color: var(--umbra);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
