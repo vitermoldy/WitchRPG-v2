@@ -1146,6 +1146,7 @@ button {
   outline: 1px solid rgba(0, 0, 0, 0.6);
 }
 
+.hpbar .hp {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
