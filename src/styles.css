@@ -221,3 +221,5 @@ button {
   gap: clamp(24px, 5vw, 72px);
   align-items: center;
   padding: clamp(24px, 6vw, 88px);
+}
+
