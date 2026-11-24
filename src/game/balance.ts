@@ -96,3 +96,4 @@ export const CHAOS = {
 } as const
 
 export const SPELL = {
+  bolt: { damage: 12, mana: 0, cooldown: 0.4, speed: 48, life: 1.6, radius: 0.28, spreadDamage: 6, spreadAngle: 0.07 },
