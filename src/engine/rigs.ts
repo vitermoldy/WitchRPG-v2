@@ -696,3 +696,4 @@ export class Rigs {
     this.lods = lods
   }
 
+  private rig(kind: UnitKind, team: Team): Rig | null {
