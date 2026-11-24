@@ -212,5 +212,6 @@ export class Camps {
     }
   }
 
+  /** The closest camp still standing, for the HUD. */
   }
 }
