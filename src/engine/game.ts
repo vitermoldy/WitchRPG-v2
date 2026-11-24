@@ -123,3 +123,4 @@ export class Game {
           '}',
         ].join('\n'),
       }),
+    )
