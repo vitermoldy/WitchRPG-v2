@@ -499,3 +499,4 @@ export class Fight {
       ex.struck = true
       const u = ex.u
       g.units.kill(u, true)
+      this.stats.executions++
