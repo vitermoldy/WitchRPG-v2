@@ -141,6 +141,7 @@ export class Camps {
   /** Puts every awake pack back to sleep (she fell); cleared camps stay cleared. */
   sleepAll() {
     for (const camp of this.camps) {
+      if (camp.state !== 'active') continue
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
