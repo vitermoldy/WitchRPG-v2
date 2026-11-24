@@ -180,3 +180,4 @@ export class Game {
     this.rig.pitch = (CAMERA.pitch * Math.PI) / 180
     this.rig.aim = 0
     this.rig.lock = 0
+    this.rig.frac = 1
