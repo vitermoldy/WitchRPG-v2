@@ -120,6 +120,7 @@ export class IlyraModel {
     const h = this.parts['hand_' + side]
     if (!h) return out.copy(this.root.position).setY(this.root.position.y + 1.2)
     this.root.updateMatrixWorld(true)
+    return h.getWorldPosition(out)
   private rot(name: string, x: number, y = 0, z = 0) {
     const p = this.parts[name]
     if (p) p.rotation.set(rad(x), rad(y), rad(z))
