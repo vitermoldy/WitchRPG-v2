@@ -340,6 +340,7 @@ export class Game implements UnitHost {
       models[k] = creatures[i]
       lods[k] = creatures[V2_KINDS.length + i]
     })
+    this.rigs = new Rigs(models, lods)
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
