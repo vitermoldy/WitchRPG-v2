@@ -717,3 +717,4 @@ export class Spells {
 
   cooldowns() {
     return {
+      burst: this.burstCd / SPELL.burst.cooldown,
