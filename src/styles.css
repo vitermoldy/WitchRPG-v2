@@ -357,6 +357,7 @@ button {
   grid-template-columns: 1fr auto;
 }
 
+.setting input[type='checkbox'] {
 /* HUD */
 .hud {
   position: absolute;
