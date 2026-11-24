@@ -277,4 +277,6 @@ export class Hud {
     this.set('boss-fill', 'transform', `scaleX(${Math.max(0, boss.hp / boss.maxHp).toFixed(3)})`)
     this.set('boss-hint', 'text', BOSS_HINT[boss.kind] ?? '')
   }
+
+  }
 }
