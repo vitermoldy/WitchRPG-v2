@@ -145,3 +145,4 @@ export class Game {
     addColliders(trees, this.obstacles)
     this.forest = new Forest(trees)
     this.scene.add(this.forest.mesh)
+    progress('Memanggil Ilyra')
