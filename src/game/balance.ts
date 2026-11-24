@@ -443,3 +443,4 @@ export const TIERS: Record<TierId, TierSpec> = {
     roman: 'V',
     unlock: 13,
     needsBoss: true,
+    maxAlive: 19,
