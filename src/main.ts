@@ -146,6 +146,7 @@ async function boot() {
     if (travel.next === 'ledger') ledger.open()
     else void backToFight()
   }
+  game.input.onKey = (code) => {
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
