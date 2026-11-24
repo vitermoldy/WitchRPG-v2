@@ -50,3 +50,4 @@ async function boot() {
   $('btn-enter').focus()
 
   const enter = async () => {
+    const locked = await game.input.lock()
