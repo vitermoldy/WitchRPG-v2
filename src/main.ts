@@ -56,3 +56,4 @@ async function boot() {
     // without the mouse locked she cannot look around: wait on the pause screen for another click
     if (!locked && !debug) {
       game.pause()
+      $('lock-note').hidden = false
