@@ -1115,6 +1115,7 @@ button {
   top: 100%;
   transform: translateX(-50%);
   margin: 1rem 0 0;
+  width: max-content;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
