@@ -298,3 +298,4 @@ export class UnitSystem {
       u.token = false
       u.diveCd = 8
       u.set('diving')
+      u.vel.set(0, 0, 0)
