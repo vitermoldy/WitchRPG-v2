@@ -246,3 +246,4 @@ export class Game {
   }
 
   private simulate(dt: number) {
+    this.t += dt
