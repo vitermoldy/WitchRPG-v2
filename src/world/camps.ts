@@ -77,3 +77,4 @@ export class Camps {
       for (const mesh of this.meshes) mesh.setMatrixAt(i, this.m)
     })
     for (const mesh of this.meshes) mesh.instanceMatrix.needsUpdate = true
+  }
