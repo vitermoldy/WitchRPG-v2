@@ -570,6 +570,7 @@ button {
 .fade {
   position: absolute;
   inset: 0;
+  background: #000;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
