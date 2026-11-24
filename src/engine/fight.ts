@@ -426,3 +426,4 @@ export class Fight {
           best = score
           target = u
         }
+      }
