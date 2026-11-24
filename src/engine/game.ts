@@ -675,6 +675,7 @@ export class Game implements UnitHost {
 
   private simulate(dt: number) {
     this.t += dt
+    this.botThink?.(this, dt)
     const inp = this.input
     const b = this.bot
     const aiming = b ? b.aim : inp.held('Mouse2')
