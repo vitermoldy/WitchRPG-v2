@@ -650,3 +650,5 @@ class Rig implements Poser {
         part.glow.needsUpdate = true
       }
     }
+  }
+
