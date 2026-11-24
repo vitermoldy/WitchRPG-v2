@@ -428,3 +428,4 @@ export class Spells {
     const from = g.ilyra.hand('L')
     const to = this.grabbed[0].center()
     const mid = from.clone().lerp(to, 0.5).add(new THREE.Vector3(0, 0.5, 0))
+    for (let i = 0; i < this.tendrilPts.length; i++) {
