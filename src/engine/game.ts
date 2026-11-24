@@ -250,3 +250,4 @@ export class Game {
     const inp = this.input
     const b = this.bot
     const aiming = b ? b.aim : inp.held('Mouse2')
+    const move: MoveInput = b
