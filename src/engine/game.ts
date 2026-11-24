@@ -671,6 +671,8 @@ export class Game implements UnitHost {
     if (!this.debug) return
     const ms = performance.now() - from
     this.profile_[key] = (this.profile_[key] ?? ms) * 0.95 + ms * 0.05
+  }
+
   private simulate(dt: number) {
     this.t += dt
     const inp = this.input
