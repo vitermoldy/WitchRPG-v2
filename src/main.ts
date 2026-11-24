@@ -3,3 +3,5 @@ import '@fontsource-variable/figtree'
 import '@fontsource-variable/martian-mono'
 import './styles.css'
 import { Game } from './engine/game'
+import { saveProfile } from './game/save'
+
