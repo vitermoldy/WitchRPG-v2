@@ -600,3 +600,4 @@ export class Spells {
       }
       if (s.t >= s.duration) {
         g.scene.remove(s.group)
+        for (const m of s.mats) m.dispose()
