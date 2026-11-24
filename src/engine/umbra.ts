@@ -524,3 +524,4 @@ export class Umbra {
         g.hud.message('Tidak ada musuh di dekat titik bidik.', 'umbra')
         return
       }
+      const enemies = g.units.enemies()
