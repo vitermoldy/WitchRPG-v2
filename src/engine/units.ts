@@ -259,3 +259,4 @@ export class UnitSystem {
   }
 
   remove(u: Unit) {
+    const i = this.units.indexOf(u)
