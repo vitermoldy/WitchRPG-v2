@@ -6,3 +6,5 @@ import { Game } from './engine/game'
 import { saveProfile } from './game/save'
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T
+const debug = new URLSearchParams(location.search).has('debug')
+
