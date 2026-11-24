@@ -135,3 +135,4 @@ export const RITE = {
 
 export const XP = {
   base: 80,
+  exponent: 1.5,
