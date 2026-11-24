@@ -109,3 +109,4 @@ export class Umbra {
       if (at > this.time) {
         count++
         next = Math.min(next, at - this.time)
+      }
