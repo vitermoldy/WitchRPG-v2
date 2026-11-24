@@ -167,3 +167,4 @@ export class Unit implements Foe {
 
   /** Under the water or the mud: alive, but nothing can see or reach it. */
   get hidden() {
+    return this.state === 'diving'
