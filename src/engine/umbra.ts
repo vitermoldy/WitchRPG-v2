@@ -306,3 +306,4 @@ export class Umbra {
 
     // casting: hold R
     const holding = canAct && inp.riteHeld
+    if (this.casting.length && !holding) this.cancel()
