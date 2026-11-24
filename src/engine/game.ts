@@ -258,3 +258,4 @@ export class Game {
           sprint: inp.held('ShiftLeft') || inp.held('ShiftRight'),
           dodge: inp.pressed('Space'),
         }
+    this.botDodge = false
