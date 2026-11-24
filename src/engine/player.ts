@@ -17,3 +17,5 @@ export interface Ground {
   blocked: (x: number, z: number) => boolean
 }
 
+const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
+
