@@ -82,3 +82,4 @@ async function boot() {
     if (!locked && !debug) {
       $('lock-note').hidden = false
       return
+    }
