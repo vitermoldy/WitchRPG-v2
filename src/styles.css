@@ -936,6 +936,8 @@ button {
 .skill > span {
   position: relative;
   z-index: 1;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
