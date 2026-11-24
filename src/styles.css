@@ -576,6 +576,8 @@ button {
 
 .fade.on {
   animation: fade-through 1.4s ease-out;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
