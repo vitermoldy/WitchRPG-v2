@@ -255,3 +255,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     rank: 'jenderal',
     hp: 260,
     damage: 22,
+    speed: 2.5,
