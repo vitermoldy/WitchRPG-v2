@@ -179,3 +179,4 @@ export class Spells {
   }
 
   get damageMult() {
+    return this.g.derived.damageMult * (this.overloaded ? CHAOS.overloadDamage : 1)
