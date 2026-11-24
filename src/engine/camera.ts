@@ -127,3 +127,4 @@ export class CameraRig {
     this.aim += ((aiming ? 1 : 0) - this.aim) * Math.min(1, CAMERA.blend * dt)
     this.lock += ((target ? 1 : 0) - this.lock) * Math.min(1, LOCKON.turn * dt)
     if (target) this.lastLock = target
+    const p = this.params()
