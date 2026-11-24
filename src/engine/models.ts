@@ -315,6 +315,7 @@ export class IlyraModel {
       armRY = 15
       foreR = -30
       staffX = 60
+    }
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
