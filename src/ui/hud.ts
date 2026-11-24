@@ -300,4 +300,6 @@ export class Hud {
     const first = field[0]
     this.set('army-order', 'text', !first ? (total ? 'Di Ruang Bayangan' : 'Belum ada') : first.command === 'attack' ? 'Serang' : first.command === 'hold' ? 'Tahan' : 'Ikuti')
   }
+
+  }
 }
