@@ -437,3 +437,4 @@ export const TIERS: Record<TierId, TierSpec> = {
       { riftlord: 1, husk: 6, warden: 2, harrier: 4, levels: [12, 12], elites: 2, eliteLords: true },
     ],
   },
+  5: {
