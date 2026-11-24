@@ -65,3 +65,4 @@ export class Camps {
     this.targets.forEach((imp, i) => {
       const dx = player.x - imp.x
       const dz = player.z - imp.z
+      if (dx * dx + dz * dz < 18 * 18) {
