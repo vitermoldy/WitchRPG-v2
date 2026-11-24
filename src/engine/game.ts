@@ -391,3 +391,4 @@ export class Game {
   nearestTarget(range: number) {
     const p = this.player.pos
     let best: { x: number; z: number } | null = null
+    let bd = range
