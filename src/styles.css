@@ -353,6 +353,7 @@ button {
   color: var(--ink);
 }
 
+.setting-check {
 /* HUD */
 .hud {
   position: absolute;
