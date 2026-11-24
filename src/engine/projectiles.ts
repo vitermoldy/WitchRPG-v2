@@ -123,3 +123,4 @@ export class Projectiles {
         }
         if (!hit) {
           for (const u of g.units.units) {
+            if (u.team !== 'shadow' || !u.targetable) continue
