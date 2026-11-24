@@ -143,3 +143,4 @@ export class Player {
       const d = wrap(want - this.facing)
       const step = MOVE.turn * dt
       this.facing = wrap(this.facing + Math.max(-step, Math.min(step, d)))
+    }
