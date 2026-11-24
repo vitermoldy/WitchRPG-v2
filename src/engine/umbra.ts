@@ -476,3 +476,4 @@ export class Umbra {
 
   /** A fallen shadow needs time to reform before it can be called again. */
   shadowFell(u: Unit) {
+    const g = this.g
