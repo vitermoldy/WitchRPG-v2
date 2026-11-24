@@ -91,6 +91,7 @@ async function boot() {
     game.rigs.detail = v
   })
   const shake = $('set-shake') as HTMLInputElement
+  shake.checked = pr.settings.shake
   })
 
   game.onPause = () => {
