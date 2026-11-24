@@ -21,3 +21,4 @@ POSE = {"ilyra": "walk"}
 OUT = os.path.join(C.ROOT, "public", "models")
 os.makedirs(OUT, exist_ok=True)
 
+scene = bpy.context.scene
