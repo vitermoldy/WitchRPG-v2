@@ -228,3 +228,4 @@ describe('phase 4 creatures', () => {
     c.skillCd = 0
     w.step(60)
     const imps = w.sys.units.filter((u) => u.kind === 'imp' && u.owner === c && u.alive)
+    expect(w.log.summoned).toBeGreaterThan(0)
