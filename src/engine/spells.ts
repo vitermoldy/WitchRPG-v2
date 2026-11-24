@@ -16,3 +16,4 @@ interface Bolt {
   light: THREE.PointLight | null
 }
 
+interface Field {
