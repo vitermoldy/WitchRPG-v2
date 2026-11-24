@@ -549,3 +549,5 @@ export class Umbra {
       this.swap(shadows)
     }
     g.sfx.ui()
+  }
+
