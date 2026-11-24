@@ -68,3 +68,5 @@ export const LOCKON = {
   pullback: 1.6,
   fovBoost: 6,
   turn: 7,
+} as const
+
