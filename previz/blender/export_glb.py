@@ -19,3 +19,5 @@ argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
 WANT = argv or ["ilyra", "imp"]
 POSE = {"ilyra": "walk"}
 OUT = os.path.join(C.ROOT, "public", "models")
+os.makedirs(OUT, exist_ok=True)
+
