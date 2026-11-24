@@ -102,3 +102,4 @@ export class CameraRig {
       height: lerp(n.height, a.height, this.aim),
       fov: lerp(n.fov, a.fov, this.aim),
     }
+    const big = this.lastLock ? Math.min(1, Math.max(0, (this.lastLock.height - 2) / (LOCKON.bigHeight - 2))) * this.lock : 0
