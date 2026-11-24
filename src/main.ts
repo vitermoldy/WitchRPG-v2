@@ -79,6 +79,7 @@ async function boot() {
     })
   }
   range('sens', game.sensitivity, (v) => v.toFixed(2), (v) => {
+    game.sensitivity = v
   })
 
   game.onPause = () => {
