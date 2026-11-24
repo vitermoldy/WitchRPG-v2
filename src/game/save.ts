@@ -46,3 +46,5 @@ export function saveProfile(p: Profile, stamp = true): boolean {
   } catch {
     return false
   }
+}
+
