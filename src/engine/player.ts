@@ -38,3 +38,4 @@ export class Player {
   speedMult = 1
   /** Walk cycle phase for the procedural animation (radians). */
   stride = 0
+  /** Every roll started, for the debug readout and the bot. */
