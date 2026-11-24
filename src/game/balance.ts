@@ -268,3 +268,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     anchored: true,
   },
   hollow: {
+    name: 'The Hollow Warden',
