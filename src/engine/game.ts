@@ -268,3 +268,4 @@ export class Game {
     this.botLock = false
     const cur = this.lockon.current
     let visible = true
+    if (cur) {
