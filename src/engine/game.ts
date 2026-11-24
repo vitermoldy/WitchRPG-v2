@@ -766,6 +766,7 @@ export class Game implements UnitHost {
       p.poisonT -= dt
       p.hp -= p.poisonDps * dt
       this.counts.damageTaken += p.poisonDps * dt
+      if (p.hp <= 0) this.fall()
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
