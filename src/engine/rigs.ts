@@ -787,3 +787,4 @@ export class Rigs {
         counts.set(u.kind, (counts.get(u.kind) ?? 0) + 1)
         continue
       }
+      this.rig(u.kind, u.team)?.add(u, t, glowOf(u), this.sink(u))
