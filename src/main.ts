@@ -76,6 +76,7 @@ async function boot() {
       out.textContent = fmt(v)
       apply(v)
       saveProfile(pr)
+    })
   })
 
   game.onPause = () => {
