@@ -169,6 +169,7 @@ export const V2_KINDS = ['imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minota
 export type V2Kind = (typeof V2_KINDS)[number]
 
 /**
+ * One attack of a v2 creature. ring: a slow amber circle where it lands, blockable and parryable.
 
 export interface UnitSpec {
   name: string
