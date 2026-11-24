@@ -162,3 +162,4 @@ export class Spells {
     g.scene.add(this.tendril)
   }
 
+  reset() {
