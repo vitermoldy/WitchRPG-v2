@@ -170,6 +170,7 @@ export class Camps {
           return
         }
         if (d > CAMP.sleep && alive.every((u) => Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z) > CAMP.sleep - 40)) {
+          // left far behind: the pack goes back into the ground until she returns
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
