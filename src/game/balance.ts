@@ -381,6 +381,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2, Hutan Pembuka: crowds in. Leaps and claws after a 0.5 s crouch under a slow amber ring: block or parry it.
   imp: {
     name: 'Imp',
+    rank: 'prajurit',
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
