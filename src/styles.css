@@ -870,6 +870,8 @@ button {
 
 #mana-row.short .vital-value {
   color: #ffbe73;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
