@@ -147,6 +147,7 @@ export class Hud {
   }
 
   private pulse(id: string) {
+    const el = $(id)
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
