@@ -654,6 +654,7 @@ export class Game implements UnitHost {
     this.renderer.info.reset()
     const tr = performance.now()
     this.composer.render(dt)
+    this.prof('render', tr)
     if (this.syncFrames) {
       const gl = this.renderer.getContext()
       gl.readPixels(0, 0, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, this.pixel)
