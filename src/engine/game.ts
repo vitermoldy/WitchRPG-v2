@@ -26,6 +26,7 @@ import { idlePose, IlyraModel, loadModel, type IlyraPose } from './models'
 import { Obstacles } from './obstacles'
 import { COLOR } from './palette'
 import { Player, type Ground, type MoveInput } from './player'
+import { Projectiles } from './projectiles'
 
 export type State = 'loading' | 'title' | 'playing' | 'paused'
 
