@@ -1282,6 +1282,8 @@ dialog::backdrop {
   border-radius: var(--radius);
   background: var(--surface);
   overflow: auto;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
