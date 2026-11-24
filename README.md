@@ -24,6 +24,7 @@ npm run dev      # http://localhost:5297
 npm test         # tes progresi v1, kamera, gerak, peta, tempur, AI makhluk, dan simpanan
 npm run build    # hasil di dist/
 npm run models   # buat ulang model GLB dari block-out Blender (butuh Blender 5.1)
+npm run models -- imp hellhound harpy --lod 0.22   # versi sederhana untuk kerumunan bayangan
 ```
 
 Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performance" di Windows: Settings, System, Display, Graphics.
