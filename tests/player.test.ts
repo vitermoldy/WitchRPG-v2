@@ -15,3 +15,4 @@ function run(p: Player, input: MoveInput, seconds: number, g = flat, camYaw = 0)
 }
 
 describe('Ilyra on foot', () => {
+  it('moves the way the camera looks', () => {
