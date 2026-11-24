@@ -150,6 +150,7 @@ const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v
  * finished with an execution adds COMBAT.execute.riteBonus before the clamp.
  */
 export function riteChance(rank: RankId, playerLevel: number, enemyLevel: number, umb: number, executed = false): number {
+  const p = RANKS[rank].base + 0.02 * (playerLevel - enemyLevel) + 0.01 * umb + (executed ? COMBAT.execute.riteBonus : 0)
   return Math.round(clamp(p, RITE.minChance, RITE.maxChance) * 1000) / 1000
 }
 
