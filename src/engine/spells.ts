@@ -121,3 +121,4 @@ export class Spells {
   warpCd = 0
   grabbed: Unit[] = []
   chaos = 0
+  overloadT = 0
