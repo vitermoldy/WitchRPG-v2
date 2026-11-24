@@ -142,6 +142,7 @@ export class Camps {
   sleepAll() {
     for (const camp of this.camps) {
       if (camp.state !== 'active') continue
+      for (const u of camp.units) if (u.alive) this.g.units.remove(u)
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
