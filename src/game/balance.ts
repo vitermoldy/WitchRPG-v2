@@ -167,3 +167,4 @@ export interface UnitSpec {
   damage: number
   speed: number
   radius: number
+  height: number
