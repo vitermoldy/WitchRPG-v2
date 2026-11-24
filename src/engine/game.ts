@@ -205,3 +205,4 @@ export class Game {
     if (this.state !== 'paused') return
     this.state = 'playing'
     this.input.capture = true
+    this.lastFrame = performance.now()
