@@ -54,3 +54,4 @@ export class Game {
   bot: BotInput | null = null
   /** Game seconds played (simulation time, includes debugSpeed). */
   t = 0
+  sensitivity = 1
