@@ -78,6 +78,7 @@ export class Game implements UnitHost {
   rings!: Rings
   pools!: ShadowPools
   telegraphs!: Telegraphs
+  rigs!: Rigs
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
   debugSpeed = 1
