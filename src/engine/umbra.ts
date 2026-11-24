@@ -548,3 +548,4 @@ export class Umbra {
     } else if (choice === 'swap') {
       this.swap(shadows)
     }
+    g.sfx.ui()
