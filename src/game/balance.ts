@@ -25,3 +25,4 @@ export const MOVE = {
     iframeStart: 0.04,
     iframeEnd: 0.32,
     cooldown: 0.25,
+  },
