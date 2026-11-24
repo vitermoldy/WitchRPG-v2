@@ -1639,6 +1639,8 @@ dialog::backdrop {
   margin: 0 0 1rem;
   color: var(--ink-3);
   font-size: 0.875rem;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
