@@ -1459,6 +1459,7 @@ dialog::backdrop {
 }
 
 .tree-chaos::before {
+  content: 'Chaos';
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
