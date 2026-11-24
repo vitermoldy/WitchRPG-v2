@@ -131,6 +131,7 @@ export class Hud {
     this.hitmark.className = kill ? 'hitmark kill' : 'hitmark on'
   }
 
+  /** A quick bright ring around the middle of the view: the parry landed. */
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
