@@ -101,3 +101,4 @@ export class IlyraModel {
       return
     }
     this.pivot.rotation.x = 0
+    this.pivot.position.y = 0.9 + 0.02 * Math.abs(s) * amp
