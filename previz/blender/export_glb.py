@@ -68,3 +68,4 @@ def flat(m):
 
 
 def export(key):
+    coll = bpy.data.collections.new(f"export_{key}")
