@@ -300,3 +300,4 @@ export class Fight {
   }
 
   hurt() {
+    this.hurtFx = 1
