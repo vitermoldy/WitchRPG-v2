@@ -1140,6 +1140,7 @@ button {
   will-change: transform;
 }
 
+.hpbar i {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
