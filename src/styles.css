@@ -1622,6 +1622,7 @@ dialog::backdrop {
   color: var(--ink-2);
 }
 
+.travel-list {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
