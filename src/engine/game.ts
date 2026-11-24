@@ -204,3 +204,4 @@ export class Game {
   resume() {
     if (this.state !== 'paused') return
     this.state = 'playing'
+    this.input.capture = true
