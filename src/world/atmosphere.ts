@@ -104,3 +104,4 @@ export class Atmosphere {
       inv += w / ZONES[i].sight
       if (w > this.w[best]) best = i
     }
+    this.zone = best
