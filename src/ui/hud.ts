@@ -103,6 +103,7 @@ export class Hud {
 
   message(text: string, tone: Tone = 'info') {
     const p = document.createElement('p')
+    p.className = `feed-item ${tone}`
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
