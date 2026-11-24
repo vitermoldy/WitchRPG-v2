@@ -18,3 +18,4 @@ function show(name: keyof typeof screens | null) {
   for (const [k, el] of Object.entries(screens)) el.hidden = k !== name
 }
 
+function fail(message: string) {
