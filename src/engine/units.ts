@@ -538,3 +538,4 @@ export class UnitSystem {
 
   private enemyBrain(u: Unit, dt: number) {
     const host = this.host
+    const p = host.foe
