@@ -99,3 +99,4 @@ export class IlyraModel {
       this.rot('torso', 30 * tuck)
       this.rot('head', 20 * tuck)
       return
+    }
