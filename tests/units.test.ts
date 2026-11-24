@@ -126,3 +126,4 @@ describe('creature attacks', () => {
 })
 
 describe('ground', () => {
+  it('stands every creature and shadow on the ground, wherever the ground is', () => {
