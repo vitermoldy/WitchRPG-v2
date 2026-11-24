@@ -286,3 +286,4 @@ export class Game {
       this.cullIn = 0.5
     }
     this.camps.update(dt, this.t, this.v.set(p.pos.x, p.pos.y, p.pos.z))
+    this.ilyra.update(dt, p, this.rig.aim)
