@@ -1129,6 +1129,7 @@ button {
   inset: 0;
 }
 
+.hpbar {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
