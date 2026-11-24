@@ -207,6 +207,7 @@ export class Game implements UnitHost {
     const p = this.player
     if (!p.alive || this.hurtGrace > 0) return
     const strike = atk.strike
+    const angle = wrap(yawTo(p.pos.x, p.pos.z, u.pos.x, u.pos.z) - p.facing)
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
