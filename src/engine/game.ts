@@ -341,3 +341,4 @@ export class Game {
     return { samples: arr.length, median: at(0.5), p95: at(0.95), gpu: this.gpu }
   }
 
+  resetStats() {
