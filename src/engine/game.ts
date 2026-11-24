@@ -88,3 +88,4 @@ export class Game {
     this.renderer.shadowMap.type = THREE.PCFShadowMap
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping
     this.renderer.toneMappingExposure = 1.2
+    // counted over every pass of a frame (shadows, scene, bloom), reset by hand in tick()
