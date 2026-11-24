@@ -49,3 +49,4 @@ async function boot() {
   show('start')
   $('btn-enter').focus()
 
+  const enter = async () => {
