@@ -973,6 +973,7 @@ button {
   border-color: var(--chaos);
 }
 
+.skill-overload.ready-full {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
