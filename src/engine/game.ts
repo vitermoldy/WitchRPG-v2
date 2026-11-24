@@ -312,3 +312,4 @@ export class Game {
     c.position.set(pose.pos.x, pose.pos.y, pose.pos.z)
     c.lookAt(pose.pos.x + pose.dir.x, pose.pos.y + pose.dir.y, pose.pos.z + pose.dir.z)
     if (Math.abs(c.fov - pose.fov) > 1e-3) {
+      c.fov = pose.fov
