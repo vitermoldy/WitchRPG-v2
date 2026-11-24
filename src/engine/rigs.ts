@@ -433,3 +433,4 @@ const poseMedusa: PoseFn = (p, u, t) => {
   const gaze = u.atk.effect === 'petrify'
   if (u.state === 'windup') {
     const k = ease(u.t / u.atk.windup)
+    if (gaze) {
