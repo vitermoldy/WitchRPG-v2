@@ -1600,6 +1600,7 @@ dialog::backdrop {
   font-size: 0.9rem;
 }
 
+.confirm,
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
