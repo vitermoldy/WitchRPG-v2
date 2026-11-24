@@ -1188,6 +1188,7 @@ button {
 .bossbar {
   position: absolute;
   top: calc(var(--gutter) + 0.4rem);
+  left: 50%;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
