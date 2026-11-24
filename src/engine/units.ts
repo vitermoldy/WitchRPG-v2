@@ -70,3 +70,4 @@ export class Unit implements Foe {
   readonly radius: number
   readonly mass: number
   scale = 1
+  readonly pos = new THREE.Vector3()
