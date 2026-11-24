@@ -33,3 +33,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMate
   } else {
     m.emissive.set(COLOR.umbraDeep)
     m.emissiveIntensity = 0.5
+  }
