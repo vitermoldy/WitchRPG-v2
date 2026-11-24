@@ -93,3 +93,5 @@ export class Game {
     this.renderer.outputColorSpace = THREE.SRGBColorSpace
     const gl = this.renderer.getContext()
     const info = gl.getExtension('WEBGL_debug_renderer_info')
+    this.gpu = info ? String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)) : 'unknown'
+
