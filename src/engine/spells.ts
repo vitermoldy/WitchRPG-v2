@@ -247,3 +247,4 @@ export class Spells {
       if (inp.barrier) this.cast('barrier', inp.aiming)
       if (inp.warp) this.cast('warp', inp.aiming)
     }
+    if (this.gripping) {
