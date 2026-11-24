@@ -928,7 +928,7 @@ export class Game implements UnitHost {
 
   /** ?debug: the bot's stand-in for a quick sideways mouse flick while locked on. */
   flick(side: number) {
-    return this.lockon.switchSide(this.camps.targets, this.player.pos, side)
+    return this.lockon.switchSide(this.units.enemies(), this.player.pos, side)
   }
 
   /** Imps within this distance of her (for the bot to know when a lock-on can find something). */
