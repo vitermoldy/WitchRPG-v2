@@ -37,3 +37,4 @@ export interface UnitHost {
   died(u: Unit): void
   /** A summoner called up a helper. */
   summoned(helper: Unit): void
+  /** Telegraph shown while a unit winds up and lunges; cleared when the blow is over. */
