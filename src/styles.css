@@ -958,6 +958,7 @@ button {
 }
 
 .skill.locked .skill-sub {
+  color: #ffbe73;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
