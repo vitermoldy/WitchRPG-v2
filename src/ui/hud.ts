@@ -101,6 +101,7 @@ export class Hud {
     if (text !== null) this.debugEl.textContent = text
   }
 
+  message(text: string, tone: Tone = 'info') {
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
