@@ -142,3 +142,4 @@ export class Projectiles {
         const r = ringOf(s.atk)
         if (p.alive && Math.hypot(p.pos.x - s.aim.x, p.pos.z - s.aim.z) < r + 0.4) g.strikePlayer(s.source, s.atk)
         for (const u of g.units.units) {
+          if (u.team !== 'shadow' || !u.targetable) continue
