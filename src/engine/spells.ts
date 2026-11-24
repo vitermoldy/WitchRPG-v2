@@ -311,3 +311,4 @@ export class Spells {
       let hitUnit: Unit | null = null
       this.ray.set(b.prev, dir)
       for (const u of g.units.units) {
+        if (u.team !== 'enemy' || !u.targetable) continue
