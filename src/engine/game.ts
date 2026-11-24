@@ -59,3 +59,4 @@ export class Game {
 
   private readonly debug: boolean
   private readonly composer: EffectComposer
+  private readonly bloom: UnrealBloomPass
