@@ -174,5 +174,6 @@ export class Hud {
       if (this.hitTime <= 0) this.hitmark.className = 'hitmark'
     }
     this.hurt = Math.max(0, this.hurt - dt * 1.4)
+    this.hurtVeil.style.opacity = this.hurt.toFixed(2)
   }
 }
