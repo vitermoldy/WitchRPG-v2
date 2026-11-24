@@ -51,3 +51,4 @@ export class Camps {
         this.targets.push({ x: p.x, y: p.y, z: p.z, height: 1.3, alive: true, yaw: rnd() * Math.PI * 2, phase: rnd() * 10 })
       }
     }
+    for (const b of bakeByMaterial(model)) {
