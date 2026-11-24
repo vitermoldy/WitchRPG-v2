@@ -488,6 +488,7 @@ export class Game implements UnitHost {
     const share = shieldShare(u, from.x, from.z, kind)
     if (share < 1) {
       // turned aside by the shield: a spark and a clank, a little stun gets through
+      dmg *= share
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
