@@ -5,3 +5,4 @@
   "type": "module",
   "description": "WitchRPG v2 (Crimson Sovereign: Hutan): action-RPG third-person di hutan terbuka. Ilyra bertarung dengan tongkat dan sihir Chaos, dan membangkitkan musuh yang kalah menjadi pasukan bayangan.",
   "scripts": {
+    "dev": "vite",
