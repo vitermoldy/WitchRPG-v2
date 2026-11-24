@@ -686,6 +686,7 @@ button {
   left: var(--gutter);
   top: 30%;
   display: flex;
+  flex-direction: column;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
