@@ -1410,6 +1410,8 @@ dialog::backdrop {
 
 .stat-val {
   font-size: 0.95rem;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
