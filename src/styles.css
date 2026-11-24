@@ -1228,6 +1228,7 @@ button {
 
 .boss-hint {
   margin: 0.35rem 0 0;
+  color: var(--ink-2);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
