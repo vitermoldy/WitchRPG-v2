@@ -806,6 +806,7 @@ button {
   display: grid;
   grid-template-columns: 3.6rem 1fr 4.4rem;
   align-items: center;
+  gap: 0.6rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
