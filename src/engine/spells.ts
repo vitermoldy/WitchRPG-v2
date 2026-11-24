@@ -446,3 +446,4 @@ export class Spells {
     const g = this.g
     if (!this.grabbed.length) return
     const aimAt = throwIt ? g.aim(80).point : null
+    for (const u of this.grabbed) {
