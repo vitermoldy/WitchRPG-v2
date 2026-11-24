@@ -747,3 +747,4 @@ export class Rigs {
         this.group.add(part.mesh)
       }
       b.cap = cap
+    }
