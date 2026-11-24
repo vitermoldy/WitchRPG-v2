@@ -143,3 +143,4 @@ export class Game {
     await frame()
     const trees = scatter()
     addColliders(trees, this.obstacles)
+    this.forest = new Forest(trees)
