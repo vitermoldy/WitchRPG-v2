@@ -241,6 +241,7 @@ export class IlyraModel {
       if (sw.t < sw.windup) {
         w = ease(sw.t / sw.windup)
         pose = { torso: mix(rest.torso, back.torso, w), armX: mix(rest.armX, back.armX, w), armY: mix(rest.armY, back.armY, w), fore: mix(rest.fore, back.fore, w) }
+      } else if (sw.t < k) {
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
