@@ -909,6 +909,8 @@ button {
   transform: translateX(-50%);
   display: flex;
   gap: 0.45rem;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
