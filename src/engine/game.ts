@@ -325,6 +325,7 @@ export class Game implements UnitHost {
     const trees = scatter()
     addColliders(trees, this.obstacles)
     this.forest = new Forest(trees)
+    this.scene.add(this.forest.mesh)
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
