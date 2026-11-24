@@ -342,3 +342,4 @@ export class Spells {
     return u.targetable && u.team === 'enemy' && u.mass <= SPELL.grip.maxMass && u.state !== 'held'
   }
 
+  private tryGrip() {
