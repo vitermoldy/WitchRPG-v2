@@ -78,3 +78,4 @@ export class Player {
     }
 
     this.dodgeCd = Math.max(0, this.dodgeCd - dt)
+    if (input.dodge && this.dodgeT < 0 && this.dodgeCd <= 0) {
