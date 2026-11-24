@@ -48,3 +48,4 @@ export class Camps {
         const p = { x: wx, y: 0, z: wz }
         obstacles.pushOut(p, 0.5, 1.3)
         p.y = heightMap(p.x, -p.z)
+        this.targets.push({ x: p.x, y: p.y, z: p.z, height: 1.3, alive: true, yaw: rnd() * Math.PI * 2, phase: rnd() * 10 })
