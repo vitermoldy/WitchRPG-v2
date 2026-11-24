@@ -276,3 +276,4 @@ export class Game {
     this.lockon.update(dt, targets, p.pos, b ? 0 : inp.dx, visible)
 
     const target = this.lockon.current
+    const face = target ? yawTo(p.pos.x, p.pos.z, target.x, target.z) : aiming ? this.rig.yaw : null
