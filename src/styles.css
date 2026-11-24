@@ -1263,6 +1263,7 @@ dialog::backdrop {
   border-color: var(--umbra-ink);
 }
 
+.btn-small {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
