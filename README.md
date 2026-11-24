@@ -72,6 +72,7 @@ Tiga zona pertama bisa dimainkan: Hutan Pembuka (Lv 1 sampai 3: Imp, Hellhound),
 ```
 src/game/     logika murni: angka tuning (balance.ts), progresi, skill, simpanan (dari v1)
 src/engine/   kamera (camera.ts), gerak (player.ts), rintangan (obstacles.ts), lock-on, input, game loop (game.ts)
+              tempur: aturan parry dan stun (combat.ts), Ilyra (fight.ts), sihir (spells.ts), makhluk dan bayangan (units.ts)
 previz/       skrip Blender, render, animatic, papan makhluk, PREVIZ.md
 public/models model GLB hasil ekspor dari previz
 ```
