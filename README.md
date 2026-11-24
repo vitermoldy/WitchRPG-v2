@@ -9,6 +9,7 @@ Game ini dibangun per fase menurut [PROMPT.md](./PROMPT.md). Keputusan desain ad
 | 0. Previz | Gambaran game di Blender: kamera, skala, palet, block-out semua makhluk | Selesai |
 | 1. Fondasi | Lembah hutan 1 km dengan lima zona, kamera bahu, gerak, dodge, mode bidik, lock-on | Selesai |
 | 2. Tempur | Kombo tongkat, parry, Eksekusi, sihir Chaos, Imp, Hellhound, Harpy | Selesai |
+| 3. Umbra | Umbra Rite, pasukan bayangan | Selesai |
 | 6. Poles | Model akhir, suara, akun dan simpanan server | |
 
 ## Menjalankan
