@@ -803,3 +803,5 @@ export const COMBAT = {
  * comes within `aggro` m of any of its creatures, or one is hurt; past `leash` m from the camp it
  * walks home and heals.
  */
+export const CAMP = { wake: 80, sleep: 170, respawn: 120, aggro: 24, leash: 55 } as const
+
