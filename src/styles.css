@@ -1161,6 +1161,7 @@ button {
 }
 
 .hpbar.staggered .stun {
+  animation: stun-blink 0.4s steps(2) infinite;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
