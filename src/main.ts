@@ -13,3 +13,4 @@ const screens = {
   error: $('screen-error'),
   start: $('screen-start'),
   pause: $('screen-pause'),
+}
