@@ -179,3 +179,4 @@ export class Unit implements Foe {
     return this.spec.height * this.scale
   }
 
+  get flyer() {
