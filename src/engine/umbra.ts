@@ -5,3 +5,5 @@ import type { Game } from './game'
 import { COLOR } from './palette'
 import type { Unit } from './units'
 
+export type WheelChoice = 'follow' | 'attack' | 'hold' | 'swap'
+
