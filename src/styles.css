@@ -91,3 +91,4 @@ button {
 }
 
 .btn {
+  display: inline-flex;
