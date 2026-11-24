@@ -20,3 +20,4 @@ export const MOVE = {
   maxWade: 0.9,
   dodge: {
     distance: 4.2,
+    time: 0.42,
