@@ -328,6 +328,7 @@ export class Game implements UnitHost {
     this.scene.add(this.forest.mesh)
     progress('Memanggil Ilyra dan makhluk hutan')
     const [ilyra, ...creatures] = await Promise.all([
+      loadModel('./models/ilyra.glb'),
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
