@@ -362,3 +362,5 @@ export type WaveSpec = Partial<Record<Exclude<UnitKind, 'hollow'>, number>> & { 
 
 export type TierId = 1 | 2 | 3 | 4 | 5
 
+export const TIER_IDS: TierId[] = [1, 2, 3, 4, 5]
+
