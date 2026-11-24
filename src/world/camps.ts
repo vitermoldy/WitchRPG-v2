@@ -64,6 +64,7 @@ const STONES = 7
  * A ring of stones with amber shards marks each camp; the shards go dark while it is cleared.
  */
 export class Camps {
+  readonly camps: Camp[]
   readonly group = new THREE.Group()
   readonly targets: Imp[] = []
   private readonly meshes: THREE.InstancedMesh[] = []
