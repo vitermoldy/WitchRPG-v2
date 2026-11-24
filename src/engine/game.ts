@@ -387,3 +387,4 @@ export class Game {
     return this.camps.targets.filter((t) => t.alive && Math.hypot(t.x - p.x, t.z - p.z) < range).length
   }
 
+  /** The nearest living Imp (world position), so the bot can look at it before locking on. */
