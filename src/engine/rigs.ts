@@ -627,3 +627,4 @@ class Rig implements Poser {
     this.holder.updateMatrixWorld(true)
     this.p.set(u.pos.x, u.pos.y - sink, u.pos.z)
     this.q.setFromAxisAngle(UP, u.yaw)
+    this.s.setScalar(u.scale)
