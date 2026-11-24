@@ -313,3 +313,4 @@ export class Game {
     c.lookAt(pose.pos.x + pose.dir.x, pose.pos.y + pose.dir.y, pose.pos.z + pose.dir.z)
     if (Math.abs(c.fov - pose.fov) > 1e-3) {
       c.fov = pose.fov
+      c.updateProjectionMatrix()
