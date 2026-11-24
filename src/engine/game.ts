@@ -119,3 +119,4 @@ export class Game {
           'void main() {',
           '  vec4 c = texture2D(tDiffuse, vUv);',
           '  if (bad(c.r) || bad(c.g) || bad(c.b) || bad(c.a)) c = vec4(0.0);',
+          '  gl_FragColor = clamp(c, 0.0, 60000.0);',
