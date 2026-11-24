@@ -1245,6 +1245,7 @@ button {
 }
 
 /* Dialogs over the game: the Ledger, the altar, confirmations. */
+dialog {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
