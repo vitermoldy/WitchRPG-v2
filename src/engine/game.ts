@@ -610,6 +610,7 @@ export class Game implements UnitHost {
     }
     let unit: Unit | null = null
     this.ray.set(o, dir)
+    for (const u of this.units.units) {
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
