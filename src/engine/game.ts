@@ -347,3 +347,4 @@ export class Game {
     this.minClearance = Infinity
   }
 
+  stats() {
