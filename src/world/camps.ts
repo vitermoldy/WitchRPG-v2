@@ -10,6 +10,7 @@ export interface CampDef {
   c: [number, number]
   pack: Partial<Record<V2Kind, number>>
   levels: [number, number]
+}
 
 /**
  * Phase 1 creatures: packs of Imps standing in Hutan Pembuka so the camera and lock-on have
