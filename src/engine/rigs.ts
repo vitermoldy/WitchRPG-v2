@@ -582,3 +582,4 @@ class Rig implements Poser {
     // shadow soldiers cast no shadow of their own: it suits them, and it keeps the army out of the shadow pass
     mesh.castShadow = this.team === 'enemy'
     mesh.receiveShadow = this.team === 'enemy'
+    mesh.count = 0
