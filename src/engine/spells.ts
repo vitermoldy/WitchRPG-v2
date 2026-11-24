@@ -38,3 +38,4 @@ export interface SpellInput {
 }
 
 const PLAIN_VERT = /* glsl */ `
+  varying vec2 vUv;
