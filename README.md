@@ -28,3 +28,5 @@ npm run models   # buat ulang model GLB dari block-out Blender (butuh Blender 5.
 
 Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performance" di Windows: Settings, System, Display, Graphics.
 
+## Kontrol (fase 1)
+
