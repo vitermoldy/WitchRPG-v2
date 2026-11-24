@@ -411,3 +411,4 @@ export class UnitSystem {
     u.yaw += d * Math.min(1, rate * dt)
   }
 
+  update(dt: number) {
