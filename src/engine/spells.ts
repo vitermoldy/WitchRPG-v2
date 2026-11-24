@@ -453,3 +453,4 @@ export class Spells {
       g.units.toss(u, v, throwIt, throwIt ? SPELL.grip.flight : 0)
     }
     this.grabbed = []
+    this.holdT = 0
