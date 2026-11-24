@@ -201,10 +201,6 @@ export class Camps {
         camp.state = 'idle'
         colors = true
       }
-      const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
-      this.q.setFromAxisAngle(this.up, imp.yaw)
-      this.m.compose(this.v.set(imp.x, imp.y + bob, imp.z), this.q, this.one)
-      for (const mesh of this.meshes) mesh.setMatrixAt(i, this.m)
     })
     for (const mesh of this.meshes) mesh.instanceMatrix.needsUpdate = true
   }
