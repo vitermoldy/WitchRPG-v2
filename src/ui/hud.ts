@@ -346,5 +346,6 @@ export class Hud {
       el.classList.toggle('staggered', u.staggered)
       const label = u.staggered ? 'Limbung' : ''
       if (el.dataset.label !== label) el.dataset.label = label
+      n++
   }
 }
