@@ -102,3 +102,4 @@ describe('creature attacks', () => {
   })
 
   it('keeps a camp creature at home until its pack is roused', () => {
+    const w = world()
