@@ -160,3 +160,4 @@ export class Player {
     this.pos.x = nx
     this.pos.z = nz
   }
+}
