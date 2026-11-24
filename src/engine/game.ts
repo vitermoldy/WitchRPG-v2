@@ -71,6 +71,7 @@ export class Game implements UnitHost {
   readonly umbra: Umbra
   readonly hud: Hud
   readonly shots: Projectiles
+  derived: Derived
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
   debugSpeed = 1
