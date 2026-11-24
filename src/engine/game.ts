@@ -201,3 +201,4 @@ export class Game {
     this.onPause?.()
   }
 
+  resume() {
