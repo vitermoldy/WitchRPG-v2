@@ -715,3 +715,5 @@ export class Rigs {
       this.rig(k, 'shadow')
       this.batch(k, 1)
     }
+  }
+
