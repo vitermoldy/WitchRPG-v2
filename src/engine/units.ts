@@ -423,3 +423,4 @@ export class UnitSystem {
       u.downed = Math.max(0, u.downed - dt)
       u.diveCd = Math.max(0, u.diveCd - dt)
       for (const [k, v] of u.atkCd) if (v > 0) u.atkCd.set(k, Math.max(0, v - dt))
+      if (u.state === 'dead') {
