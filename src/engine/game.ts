@@ -7,6 +7,7 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 import { CAMERA, CHAOS, COMBAT, EFFECTS, MOVE, REVIVE, RITE, V2_KINDS, type AttackSpec, type UnitKind, type V2Kind } from '../game/balance'
 import { addShadow, chaosFromDamage, derive, gainXp, xpForUnit, type Derived } from '../game/progression'
 import { loadProfile, saveProfile } from '../game/save'
+import { SKILLS, skillById } from '../game/skills'
 import { Hud } from '../ui/hud'
 import { Atmosphere, water } from '../world/atmosphere'
 import { Camps } from '../world/camps'
