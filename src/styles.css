@@ -707,6 +707,7 @@ button {
   content: 'Ledger';
   margin-right: 0.55em;
   color: var(--ink-3);
+  font-family: var(--font-mono);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
