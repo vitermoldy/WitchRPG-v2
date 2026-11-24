@@ -128,3 +128,4 @@ export function xpToNext(level: number): number {
 }
 
 export function xpForKill(enemyLevel: number, boss = false): number {
+  return enemyLevel * (boss ? XP.perBossLevel : XP.perEnemyLevel)
