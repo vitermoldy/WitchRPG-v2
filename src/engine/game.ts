@@ -691,6 +691,7 @@ export class Game implements UnitHost {
     const steer = b ? { x: b.x, y: b.y } : { x: (inp.held('KeyD') ? 1 : 0) - (inp.held('KeyA') ? 1 : 0), y: (inp.held('KeyW') ? 1 : 0) - (inp.held('KeyS') ? 1 : 0) }
     const move: MoveInput = alive && !stone
       ? { x: steer.x, y: steer.y, sprint: b ? b.sprint : inp.held('ShiftLeft') || inp.held('ShiftRight'), dodge: (b ? this.botDodge : inp.pressed('Space')) && this.fight.canDodge }
+      : { x: 0, y: 0, sprint: false, dodge: false }
     this.botDodge = false
     if (b) this.rig.look(-b.turn * dt / (CAMERA.sensitivity * this.sensitivity), 0, CAMERA.sensitivity * this.sensitivity)
     else this.rig.look(inp.dx, inp.dy, CAMERA.sensitivity * this.sensitivity)
