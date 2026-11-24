@@ -177,6 +177,7 @@ export interface AttackSpec {
   name: string
   strike: 'ring' | 'line'
   windup: number
+  recover: number
 
 export interface UnitSpec {
   name: string
