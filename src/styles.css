@@ -648,6 +648,7 @@ button {
 }
 
 .banner {
+  position: absolute;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
