@@ -72,3 +72,4 @@ export function newProfile(): Profile {
     upgrades: {},
     shadows: [],
     nextShadowId: 1,
+    clears: 0,
