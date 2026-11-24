@@ -186,3 +186,4 @@ export function zoneWeights(x: number, y: number, out: Float32Array<ArrayBufferL
 }
 
 export function zoneAt(x: number, y: number): Zone {
+  const w = zoneWeights(x, y)
