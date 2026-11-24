@@ -435,3 +435,4 @@ export class UnitSystem {
       if (u.state === 'thrown') {
         this.fly(u, dt)
         continue
+      }
