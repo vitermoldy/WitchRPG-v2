@@ -793,6 +793,7 @@ export class Game implements UnitHost {
     this.lights.update(dt)
     this.rings.update(dt)
     this.pools.update(dt)
+    this.telegraphs.update(sdt)
     this.hud.zone(ZONES[this.atmosphere.zone])
     this.hud.aim(this.rig.aim > 0.5)
     if (target) {
