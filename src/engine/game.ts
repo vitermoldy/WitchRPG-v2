@@ -55,3 +55,5 @@ export class Game {
   /** Game seconds played (simulation time, includes debugSpeed). */
   t = 0
   sensitivity = 1
+  onPause: (() => void) | null = null
+
