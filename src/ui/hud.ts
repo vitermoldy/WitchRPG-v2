@@ -4,7 +4,7 @@ import { xpToNext } from '../game/progression'
 import type { Game } from '../engine/game'
 import type { Zone } from '../world/map'
 
-const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T
+const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T
 
 /** Phase 1 HUD: the zone banner, the lock-on mark, the aim dot, a control hint and the debug readout. */
 export class Hud {
