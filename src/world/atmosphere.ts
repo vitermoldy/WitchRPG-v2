@@ -75,3 +75,4 @@ export class Atmosphere {
     s.shadow.mapSize.set(2048, 2048)
     const box = 60
     s.shadow.camera.left = -box
+    s.shadow.camera.right = box
