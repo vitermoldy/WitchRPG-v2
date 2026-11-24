@@ -87,6 +87,7 @@ export class Player {
     this.vx = this.vz = this.vy = 0
     this.facing = facing
     this.dodgeT = -1
+    this.nudgeT = 0
   }
 
   /**
