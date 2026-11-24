@@ -416,3 +416,4 @@ export class Fight {
     if (!target) {
       let best = Infinity
       for (const u of g.units.units) {
+        if (u.team !== 'enemy' || !u.targetable) continue
