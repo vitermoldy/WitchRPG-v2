@@ -115,3 +115,4 @@ export function isFresh(p: Profile): boolean {
     p.clears === 0 &&
     p.bossKills === 0 &&
     p.statPoints === 0 &&
+    p.skillPoints === 0 &&
