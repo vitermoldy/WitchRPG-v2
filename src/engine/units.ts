@@ -815,3 +815,4 @@ export class UnitSystem {
   private fly(u: Unit, dt: number) {
     const host = this.host
     u.flight -= dt
+    u.vel.y -= 22 * (u.flight > 0 ? SPELL.grip.flightGravity : 1) * dt
