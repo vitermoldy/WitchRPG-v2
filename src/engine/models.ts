@@ -50,6 +50,7 @@ export interface IlyraPose {
   /** A staff swing: which one, and how far into windup, active and recovery (seconds). */
   swing: { index: number; heavy: boolean; t: number; windup: number; active: number; recover: number } | null
   /** Block held (0 to 1), and a parry's push that fades from 1. */
+  block: number
 
 /**
  * Ilyra's model with procedural motion on its named parts: the walk cycle of the previz animatic,
