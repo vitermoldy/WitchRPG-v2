@@ -130,6 +130,7 @@ export class Game implements UnitHost {
   private calm = 0
   private deadT = 0
   private saveIn = -1
+  private readonly pose = idlePose()
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
