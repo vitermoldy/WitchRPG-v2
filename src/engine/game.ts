@@ -76,6 +76,7 @@ export class Game implements UnitHost {
   smoke!: Particles
   lights!: LightPool
   rings!: Rings
+  pools!: ShadowPools
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
   debugSpeed = 1
