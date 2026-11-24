@@ -303,18 +303,6 @@ export class Game implements UnitHost {
     this.scene.add(this.terrain.group)
     this.atmosphere = new Atmosphere(this.scene)
     this.scene.add(water())
-    progress('Menanam hutan')
-    await frame()
-    const trees = scatter()
-    addColliders(trees, this.obstacles)
-    this.forest = new Forest(trees)
-    this.scene.add(this.forest.mesh)
-    progress('Memanggil Ilyra')
-    const [ilyra, imp] = await Promise.all([loadModel('./models/ilyra.glb'), loadModel('./models/imp.glb')])
-    this.ilyra = new IlyraModel(ilyra)
-    this.scene.add(this.ilyra.root)
-    this.camps = new Camps(imp, this.obstacles)
-    this.scene.add(this.camps.group)
     this.ground = {
       height: heightAt,
       obstacles: this.obstacles,
