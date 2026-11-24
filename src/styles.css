@@ -449,6 +449,8 @@ button {
 
 .aim.show {
   opacity: 1;
+}
+
   width: 6px;
   height: 6px;
   margin: -3px 0 0 -3px;
