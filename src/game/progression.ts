@@ -50,3 +50,4 @@ export interface Profile {
   shadows: ShadowRecord[]
   nextShadowId: number
   /** Rifts closed in total, and per tier. */
+  clears: number
