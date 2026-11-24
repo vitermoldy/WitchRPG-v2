@@ -905,6 +905,7 @@ button {
 .skills {
   position: absolute;
   left: 50%;
+  bottom: var(--gutter);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
