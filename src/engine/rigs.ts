@@ -47,3 +47,4 @@ interface Part {
   glow: THREE.InstancedBufferAttribute
 }
 
+/** What a pose function may move: named parts (degrees, added to the rest pose) and the whole body. */
