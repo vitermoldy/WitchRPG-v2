@@ -539,6 +539,7 @@ button {
   transition: opacity 0.4s;
 }
 
+.hud.overloaded .veil-chaos {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
