@@ -16,6 +16,7 @@ const BOSS_HINT: Partial<Record<UnitKind, string>> = {
 
 /**
  * The fight overlay, kept to the screen edges: her vitals and Chaos on the left, skills in the middle,
+ * the army on the right, creature bars over the creatures, prompts under the middle of the view.
 export class Hud {
   private readonly root = $('hud')
   private readonly banner = $('zone-banner')
