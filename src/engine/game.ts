@@ -385,3 +385,5 @@ export class Game {
   targetsNear(range: number) {
     const p = this.player.pos
     return this.camps.targets.filter((t) => t.alive && Math.hypot(t.x - p.x, t.z - p.z) < range).length
+  }
+
