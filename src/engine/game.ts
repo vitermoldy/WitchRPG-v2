@@ -243,3 +243,5 @@ export class Game {
       gl.readPixels(0, 0, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, this.pixel)
     }
     this.input.endFrame()
+  }
+
