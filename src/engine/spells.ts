@@ -145,3 +145,4 @@ export class Spells {
         fragmentShader: SHIELD_FRAG,
         transparent: true,
         depthWrite: false,
+        side: THREE.DoubleSide,
