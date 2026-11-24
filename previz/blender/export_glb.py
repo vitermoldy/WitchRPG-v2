@@ -95,3 +95,4 @@ def export(key):
 
 
 for k in WANT:
+    export(k)
