@@ -160,6 +160,7 @@ export class Game implements UnitHost {
     this.units = new UnitSystem(this)
     this.fight = new Fight(this)
     this.spells = new Spells(this)
+    this.umbra = new Umbra(this)
 
     this.composer = new EffectComposer(this.renderer)
     this.composer.addPass(new RenderPass(this.scene, this.camera))
