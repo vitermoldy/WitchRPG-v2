@@ -304,3 +304,4 @@ export class UnitSystem {
   }
 
   /** Knocks a flyer out of the air for a while. */
+  down(u: Unit, seconds: number) {
