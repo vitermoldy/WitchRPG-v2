@@ -111,3 +111,4 @@ const GRIP_HOLD = 0.25
  */
 export class Spells {
   private readonly g: Game
+  readonly bolts: Bolt[] = []
