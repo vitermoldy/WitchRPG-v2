@@ -131,3 +131,5 @@ export const RITE = {
   swapCooldownUpgraded: 6,
   focusBonus: 0.2,
   plainCorpseTime: 6,
+} as const
+
