@@ -58,6 +58,7 @@ export interface Camp {
 
 const STONES = 7
 
+/**
 export class Camps {
   readonly group = new THREE.Group()
   readonly targets: Imp[] = []
