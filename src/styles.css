@@ -1542,6 +1542,7 @@ dialog::backdrop {
 }
 
 .room-group summary {
+  display: flex;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
