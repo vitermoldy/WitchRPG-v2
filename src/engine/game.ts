@@ -169,3 +169,4 @@ export class Game {
     this.state = 'title'
   }
 
+  /** Puts her at a map point facing a map direction, with the camera behind her. */
