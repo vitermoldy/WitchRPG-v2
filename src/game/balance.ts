@@ -52,3 +52,4 @@ export const CAMERA = {
 } as const
 
 export const LOCKON = {
+  range: 30,
