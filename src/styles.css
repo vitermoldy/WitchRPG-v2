@@ -965,6 +965,7 @@ button {
   border-color: var(--umbra);
 }
 
+.skill-out .skill-sub {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
