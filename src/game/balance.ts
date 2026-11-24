@@ -13,3 +13,4 @@ export const MOVE = {
   turn: 11,
   radius: 0.38,
   height: 1.7,
+  gravity: 22,
