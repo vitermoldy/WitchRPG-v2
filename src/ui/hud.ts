@@ -2,3 +2,4 @@ import type { Zone } from '../world/map'
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T
 
+/** Phase 1 HUD: the zone banner, the lock-on mark, the aim dot, a control hint and the debug readout. */
