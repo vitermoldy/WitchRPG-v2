@@ -395,3 +395,4 @@ export class Fight {
   }
 
   private release() {
+    const g = this.g
