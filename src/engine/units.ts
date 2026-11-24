@@ -495,3 +495,4 @@ export class UnitSystem {
     if (!s || !u.aggro) return
     u.skillCd -= dt
     if (u.skillCd > 0) return
+    u.skillCd = s.every
