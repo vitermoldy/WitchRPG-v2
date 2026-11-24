@@ -43,3 +43,4 @@ export class Game {
   readonly rig = new CameraRig()
   readonly player = new Player()
   readonly lockon = new LockOn()
+  readonly obstacles = new Obstacles()
