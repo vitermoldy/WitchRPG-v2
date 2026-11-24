@@ -75,6 +75,7 @@ src/engine/   kamera (camera.ts), gerak (player.ts), rintangan (obstacles.ts), l
               tempur: aturan parry dan stun (combat.ts), Ilyra (fight.ts), sihir (spells.ts), makhluk dan bayangan (units.ts)
               Umbra (umbra.ts), gambar makhluk per bagian dan kerumunan (rigs.ts), telegraf amber (telegraph.ts)
               model Ilyra dan animasinya (models.ts), efek dan suara dari v1 (fx.ts, audio.ts)
+              proyektil makhluk: panah dan semburan (projectiles.ts)
 previz/       skrip Blender, render, animatic, papan makhluk, PREVIZ.md
 public/models model GLB hasil ekspor dari previz
 ```
