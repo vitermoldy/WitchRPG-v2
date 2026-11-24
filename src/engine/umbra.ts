@@ -442,3 +442,4 @@ export class Umbra {
         continue
       }
       const rec = addShadow(g.profile, u.kind, u.level)
+      if (!rec) {
