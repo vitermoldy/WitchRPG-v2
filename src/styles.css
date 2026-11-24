@@ -482,3 +482,4 @@ button {
   *,
   *::before,
   *::after {
+    animation: none !important;
