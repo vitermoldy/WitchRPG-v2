@@ -27,3 +27,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMate
   const lum = c.r * 0.3 + c.g * 0.59 + c.b * 0.11
   m.color.setRGB(0.045 + lum * 0.16, 0.02 + lum * 0.07, 0.085 + lum * 0.28)
   const glowing = src.emissive && src.emissive.getHex() !== 0 && src.emissiveIntensity > 0
+  if (glowing) {
