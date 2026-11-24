@@ -85,3 +85,4 @@ export class IlyraModel {
     const amp = Math.min(1.6, p.speed / MOVE.jog)
     const sprint = Math.max(0, (p.speed - MOVE.jog) / (MOVE.sprint - MOVE.jog))
     const s = Math.sin(p.stride)
+    const breath = Math.sin(this.t * 2.2) * (1 - Math.min(1, amp))
