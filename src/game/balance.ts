@@ -439,6 +439,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // v2, Tebing Berangin: shoots from range and backs away. The arrow flies along a flashing line: roll aside.
   centaur: {
+    name: 'Centaur',
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
