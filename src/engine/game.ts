@@ -99,3 +99,4 @@ export class Game {
     this.input.virtualLock = debug
     this.input.onLockChange = (locked) => {
       if (!locked && this.state === 'playing' && !this.debug) this.pause()
+    }
