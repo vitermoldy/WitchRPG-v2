@@ -829,6 +829,7 @@ button {
 
 .bar i {
   position: absolute;
+  inset: 0;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
