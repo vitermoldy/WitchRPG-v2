@@ -305,5 +305,6 @@ export class Hud {
     const u = this.g.umbra
     this.wheel.hidden = !u.wheelOpen
     if (!u.wheelOpen) return
+    const swapLocked = this.g.profile.level < 4
   }
 }
