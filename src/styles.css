@@ -1340,6 +1340,7 @@ dialog::backdrop {
   color: var(--ink-2);
 }
 
+.ledger-body {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
