@@ -10,3 +10,4 @@ const UP = new THREE.Vector3(0, 1, 0)
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
   mat.onBeforeCompile = (s) => {
+    s.vertexShader = s.vertexShader
