@@ -899,6 +899,7 @@ export class Game implements UnitHost {
       pos: toMap(p.pos.x, p.pos.z).map((v) => Math.round(v)),
       hp: Math.round(p.hp),
       maxHp: p.maxHp,
+      mana: Math.round(p.mana),
       locked: !!this.lockon.current,
       width: this.renderer.domElement.width,
       height: this.renderer.domElement.height,
