@@ -745,3 +745,4 @@ export class Rigs {
         part.mesh.castShadow = false
         part.mesh.count = 0
         this.group.add(part.mesh)
+      }
