@@ -151,3 +151,4 @@ export class Game {
     this.scene.add(this.ilyra.root)
     this.camps = new Camps(imp, this.obstacles)
     this.scene.add(this.camps.group)
+    this.ground = {
