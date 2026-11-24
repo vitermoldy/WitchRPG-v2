@@ -1550,6 +1550,8 @@ dialog::backdrop {
   align-items: center;
   padding: 0.5rem 0.8rem;
   cursor: pointer;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
