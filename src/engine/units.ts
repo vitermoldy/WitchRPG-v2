@@ -461,3 +461,4 @@ export class UnitSystem {
         continue
       }
       if (u.state !== 'stagger') {
+        if (u.team === 'enemy') {
