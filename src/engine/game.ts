@@ -188,3 +188,4 @@ export class Game {
   }
 
   start() {
+    this.state = 'playing'
