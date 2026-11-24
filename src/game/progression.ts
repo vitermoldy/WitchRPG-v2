@@ -242,3 +242,4 @@ export function unitStats(kind: UnitKind, level: number, shadow: boolean) {
 }
 
 export function chaosFromDamage(dealt: number, taken: number): number {
+  return dealt * CHAOS.perDamageDealt + taken * CHAOS.perDamageTaken
