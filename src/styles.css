@@ -23,3 +23,4 @@
   --font-mono: 'Martian Mono Variable', 'Martian Mono', ui-monospace, monospace;
   --radius: 4px;
   --radius-sm: 3px;
+  --gutter: clamp(16px, 2.4vw, 32px);
