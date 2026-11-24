@@ -1003,6 +1003,7 @@ button {
   display: grid;
   gap: 0.3rem;
   margin: 0;
+  padding: 0;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
