@@ -859,3 +859,4 @@ export class UnitSystem {
     u.hurled = hurled
     u.flight = flight
     u.set('thrown')
+    if (u.spec.fly) u.downed = Math.max(u.downed, 2.5)
