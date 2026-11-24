@@ -231,3 +231,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     mass: 55,
     attackRange: 26,
     windup: 0.6,
+    recover: 0.5,
