@@ -232,3 +232,4 @@ export class Game {
       // a slow drift around her while the title is up
       this.rig.yaw += dt * 0.05
       this.place(dt, false)
+      this.ilyra.update(dt, this.player, 0)
