@@ -843,6 +843,7 @@ export class Game implements UnitHost {
       const k = this.trauma * this.trauma * 0.035
       const t = this.t * 40
       c.rotateX(Math.sin(t * 1.3) * k)
+      c.rotateY(Math.sin(t * 1.7 + 1) * k)
     if (Math.abs(c.fov - pose.fov) > 1e-3) {
       c.fov = pose.fov
       c.updateProjectionMatrix()
