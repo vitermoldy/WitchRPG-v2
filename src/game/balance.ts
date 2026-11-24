@@ -223,3 +223,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   spitter: {
     name: 'Spitter',
     rank: 'prajurit',
+    hp: 30,
