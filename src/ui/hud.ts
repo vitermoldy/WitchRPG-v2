@@ -38,6 +38,7 @@ export class Hud {
   private readonly army = $('army-slots')
   private readonly hurtVeil = $('hurt-veil')
   private readonly cache = new Map<string, string>()
+  private readonly pool: HTMLDivElement[] = []
   private bannerTime = 0
   private hintTime = 0
   private zoneKey = ''
