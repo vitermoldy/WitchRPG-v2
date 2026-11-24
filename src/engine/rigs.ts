@@ -58,3 +58,4 @@ type PoseFn = (p: Poser, u: Unit, t: number) => void
 
 const ease = (k: number) => {
   const c = Math.min(1, Math.max(0, k))
+  return c * c * (3 - 2 * c)
