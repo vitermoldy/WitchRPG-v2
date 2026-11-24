@@ -1458,6 +1458,7 @@ dialog::backdrop {
   font-size: 0.9rem;
 }
 
+.tree-chaos::before {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
