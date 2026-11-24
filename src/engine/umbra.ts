@@ -192,3 +192,4 @@ export class Umbra {
   }
 
   /** T again: every shadow on the field sinks into a pool and the darkness pulls back under her. */
+  dismiss(quiet = false) {
