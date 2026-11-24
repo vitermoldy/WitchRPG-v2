@@ -87,3 +87,4 @@ export class Player {
         dz = Math.cos(this.facing)
       }
       const l = Math.hypot(dx, dz)
+      this.dodgeX = dx / l
