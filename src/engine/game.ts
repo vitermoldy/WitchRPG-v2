@@ -686,6 +686,7 @@ export class Game implements UnitHost {
     const alive = p.alive
     p.petrified = Math.max(0, p.petrified - dt)
     const stone = p.petrified > 0
+    const wheel = this.umbra.wheelOpen
     this.botDodge = false
     if (b) this.rig.look(-b.turn * dt / (CAMERA.sensitivity * this.sensitivity), 0, CAMERA.sensitivity * this.sensitivity)
     else this.rig.look(inp.dx, inp.dy, CAMERA.sensitivity * this.sensitivity)
