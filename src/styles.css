@@ -1348,6 +1348,7 @@ dialog::backdrop {
 }
 
 .ledger-body h3 {
+  display: flex;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
