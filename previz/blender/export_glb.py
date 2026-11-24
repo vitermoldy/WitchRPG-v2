@@ -94,6 +94,7 @@ def lod_tris(coll):
         me = e.to_mesh()
         me.calc_loop_triangles()
         n += len(me.loop_triangles)
+        e.to_mesh_clear()
 def export(key):
     coll = bpy.data.collections.new(f"export_{key}")
     scene.collection.children.link(coll)
