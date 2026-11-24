@@ -802,6 +802,7 @@ button {
   background: var(--plate);
 }
 
+.vital {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
