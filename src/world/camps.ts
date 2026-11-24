@@ -50,6 +50,7 @@ export interface Camp {
   def: CampDef
   /** Centre on the ground (world). */
   pos: THREE.Vector3
+  state: 'idle' | 'active' | 'cleared'
 }
 
 export class Camps {
