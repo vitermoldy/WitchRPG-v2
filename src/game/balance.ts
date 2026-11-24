@@ -72,3 +72,4 @@ export const LOCKON = {
 
 export const PLAYER = {
   baseHp: 100,
+  hpPerVit: 10,
