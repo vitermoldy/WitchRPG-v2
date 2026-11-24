@@ -131,6 +131,7 @@ async function boot() {
   /** Back to the fight: lock the mouse again, or ask for a click on the pause screen if the browser refuses. */
   const backToFight = async () => {
     if (ledger.isOpen || travel.isOpen) return
+    const locked = await game.input.lock()
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
