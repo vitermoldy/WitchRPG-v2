@@ -81,3 +81,4 @@ export class Game {
   private readonly pixel = new Uint8Array(4)
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
+    this.debug = debug
