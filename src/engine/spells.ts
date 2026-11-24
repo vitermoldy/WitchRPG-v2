@@ -37,3 +37,4 @@ export interface SpellInput {
   warp: boolean
 }
 
+const PLAIN_VERT = /* glsl */ `
