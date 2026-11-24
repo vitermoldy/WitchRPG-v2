@@ -425,3 +425,4 @@ export class Spells {
       u.pos.add(nc.sub(c))
       u.yaw += dt * 2
     })
+    const from = g.ilyra.hand('L')
