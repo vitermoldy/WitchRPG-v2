@@ -467,3 +467,4 @@ button {
 
 @media (max-width: 860px) {
   .screen-start {
+    grid-template-columns: 1fr;
