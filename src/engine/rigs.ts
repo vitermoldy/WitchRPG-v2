@@ -22,3 +22,4 @@ function patchGlow(mat: THREE.MeshStandardMaterial) {
 
 /** The shadow version of a creature's material: near-black violet, glowing eyes and veins in Umbra. */
 function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMaterial {
+  const m = src.clone()
