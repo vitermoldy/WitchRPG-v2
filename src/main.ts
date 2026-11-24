@@ -29,3 +29,4 @@ async function boot() {
     fail('Browser ini tidak menyediakan WebGL 2.')
     return
   }
+  let game: Game
