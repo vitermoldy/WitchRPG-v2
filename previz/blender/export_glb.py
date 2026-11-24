@@ -80,3 +80,4 @@ def export(key):
                 slot.material = flat(slot.material)
     for ob in scene.objects:
         ob.select_set(False)
+    for ob in coll.objects:
