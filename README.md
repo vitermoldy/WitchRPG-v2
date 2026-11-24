@@ -47,3 +47,4 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 ## Struktur
 
 ```
+src/game/     logika murni: angka tuning (balance.ts), progresi, skill, simpanan (dari v1)
