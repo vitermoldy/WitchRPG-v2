@@ -157,6 +157,7 @@ export class IlyraModel {
       this.rot('thigh_R', -50 * k)
       this.rot('shin_L', 90 * k)
       this.rot('shin_R', 80 * k)
+      this.rot('torso', -10 * k)
     const amp = Math.min(1.6, p.speed / MOVE.jog)
     const sprint = Math.max(0, (p.speed - MOVE.jog) / (MOVE.sprint - MOVE.jog))
     const s = Math.sin(p.stride)
