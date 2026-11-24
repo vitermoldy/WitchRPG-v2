@@ -256,3 +256,4 @@ export class Game {
           x: (inp.held('KeyD') ? 1 : 0) - (inp.held('KeyA') ? 1 : 0),
           y: (inp.held('KeyW') ? 1 : 0) - (inp.held('KeyS') ? 1 : 0),
           sprint: inp.held('ShiftLeft') || inp.held('ShiftRight'),
+          dodge: inp.pressed('Space'),
