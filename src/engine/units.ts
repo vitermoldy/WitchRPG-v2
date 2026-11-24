@@ -55,3 +55,5 @@ export function attacksOf(spec: UnitSpec): AttackSpec[] {
   return list
 }
 
+let nextId = 1
+
