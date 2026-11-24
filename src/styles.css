@@ -880,6 +880,7 @@ button {
   margin-top: 0.1rem;
 }
 
+.level {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
