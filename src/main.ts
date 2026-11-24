@@ -141,6 +141,7 @@ async function boot() {
     }
     game.resume()
   }
+  ledger.onClose = () => void backToFight()
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
