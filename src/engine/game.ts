@@ -233,3 +233,4 @@ export class Game {
       this.rig.yaw += dt * 0.05
       this.place(dt, false)
       this.ilyra.update(dt, this.player, 0)
+    }
