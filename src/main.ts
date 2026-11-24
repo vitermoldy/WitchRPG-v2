@@ -133,6 +133,7 @@ async function boot() {
     if (ledger.isOpen || travel.isOpen) return
     const locked = await game.input.lock()
     if (!locked && !debug) {
+      game.pause()
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
