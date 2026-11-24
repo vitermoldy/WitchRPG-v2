@@ -39,3 +39,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMate
   return m
 }
 
+interface Part {
