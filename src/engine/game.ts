@@ -156,3 +156,4 @@ export class Game {
       obstacles: this.obstacles,
       blocked: (x, z) => {
         const [mx, my] = toMap(x, z)
+        if (Math.abs(mx) > PLAY_HALF || Math.abs(my) > PLAY_HALF) return true
