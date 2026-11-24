@@ -149,3 +149,4 @@ describe('shadows', () => {
     expect(enemy.alive).toBe(false)
   })
 
+  it('a creature turns on a shadow that is much closer than her', () => {
