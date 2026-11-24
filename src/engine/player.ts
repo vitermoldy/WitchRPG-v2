@@ -10,3 +10,4 @@ export interface MoveInput {
   dodge: boolean
 }
 
+export interface Ground {
