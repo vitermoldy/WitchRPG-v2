@@ -136,3 +136,4 @@ export class Player {
       this.vy = 0
     }
 
+    // turn: toward a held yaw, else toward the way she is going
