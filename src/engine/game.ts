@@ -214,3 +214,5 @@ export class Game {
       this.timer.update(ts)
       this.tick()
     })
+  }
+
