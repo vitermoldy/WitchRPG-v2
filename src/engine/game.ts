@@ -352,3 +352,4 @@ export class Game {
     return {
       ...this.frameStats(),
       minClearance: this.minClearance,
+      calls: info.render.calls,
