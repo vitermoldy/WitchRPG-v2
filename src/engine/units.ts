@@ -841,3 +841,4 @@ export class UnitSystem {
       if (u.hurled) host.impact(u, null, speed)
       this.land(u, 0.1)
       return
+    }
