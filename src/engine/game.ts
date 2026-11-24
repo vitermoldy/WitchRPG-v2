@@ -900,6 +900,7 @@ export class Game implements UnitHost {
       hp: Math.round(p.hp),
       maxHp: p.maxHp,
       mana: Math.round(p.mana),
+      chaos: Math.round(this.spells.chaos),
       locked: !!this.lockon.current,
       width: this.renderer.domElement.width,
       height: this.renderer.domElement.height,
