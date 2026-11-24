@@ -444,6 +444,7 @@ export class Game implements UnitHost {
       this.counts.levelUps += res.levelsGained
       this.applyDerived()
       // a new level steadies her: HP and mana back to full
+      this.player.hp = this.player.maxHp
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
