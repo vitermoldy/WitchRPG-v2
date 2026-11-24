@@ -45,3 +45,4 @@ export class Atmosphere {
   readonly sky: THREE.Mesh
   private readonly uniforms: Record<string, THREE.IUniform>
   private readonly w = new Float32Array(ZONES.length)
+  private readonly fogTarget = new THREE.Color()
