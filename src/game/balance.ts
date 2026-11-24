@@ -733,3 +733,4 @@ export interface Swing {
   arc: number
   stun: number
   /** She steps this far into the swing. */
+  lunge: number
