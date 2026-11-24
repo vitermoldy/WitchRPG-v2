@@ -30,3 +30,4 @@ function ringRadius(count: number) {
     left -= 8 + ring * 4
     ring++
   }
+  return 3.4 + ring * 1.8
