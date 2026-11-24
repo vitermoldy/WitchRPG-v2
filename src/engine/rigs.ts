@@ -743,3 +743,4 @@ export class Rigs {
         part.mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
         part.mesh.frustumCulled = false
         part.mesh.castShadow = false
+        part.mesh.count = 0
