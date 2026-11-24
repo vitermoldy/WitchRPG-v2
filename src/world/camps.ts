@@ -94,6 +94,7 @@ export class Camps {
     for (const camp of this.camps) {
       for (let k = 0; k < STONES; k++, i++) {
         const a = (k / STONES) * Math.PI * 2
+        const x = camp.pos.x + Math.cos(a) * 2.2
       }
     }
     for (const b of bakeByMaterial(model)) {
