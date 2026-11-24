@@ -585,6 +585,7 @@ export class Game implements UnitHost {
   /** The first creature, tree, rock or patch of ground along the middle of the view. */
   aim(maxDist: number): AimHit {
     const o = this.camera.position
+    const dir = this.camera.getWorldDirection(new THREE.Vector3())
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
