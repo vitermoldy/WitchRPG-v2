@@ -592,6 +592,7 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 140px;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
