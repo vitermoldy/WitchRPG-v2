@@ -323,3 +323,4 @@ export class UnitSystem {
 
   kill(u: Unit, executed = false) {
     if (u.state === 'dead') return
+    this.host.clearTelegraph(u)
