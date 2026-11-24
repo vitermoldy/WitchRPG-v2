@@ -414,3 +414,5 @@ export class Game {
       s.gpu,
     ].join('\n')
   }
+}
+
