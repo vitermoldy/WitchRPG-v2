@@ -800,3 +800,4 @@ export class UnitSystem {
       u.groundX = u.pos.x
       u.groundZ = u.pos.z
     }
+    const ground = u.ground
