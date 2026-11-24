@@ -62,6 +62,7 @@ export interface IlyraPose {
   /** Left hand kick of a bolt (fades from 1), Telekinesis held, Umbra Rite gathering (0 to 1, or -1). */
   cast: number
   grip: boolean
+  rite: number
 
 /**
  * Ilyra's model with procedural motion on its named parts: the walk cycle of the previz animatic,
