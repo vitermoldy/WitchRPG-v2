@@ -1431,6 +1431,8 @@ dialog::backdrop {
 
 .derived dt {
   color: var(--ink-3);
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
