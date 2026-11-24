@@ -69,3 +69,4 @@ export class Unit implements Foe {
   speed: number
   readonly radius: number
   readonly mass: number
+  scale = 1
