@@ -287,3 +287,4 @@ export class Fight {
     const locked = g.lockon.current as Unit | null
     if (locked && locked.alive && locked.staggered && reach(locked) < COMBAT.execute.range) return locked
     let best: Unit | null = null
+    let bd: number = COMBAT.execute.range
