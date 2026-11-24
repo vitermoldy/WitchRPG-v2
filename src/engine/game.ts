@@ -120,7 +120,6 @@ export class Game implements UnitHost {
   private lastFrame = 0
   private readonly frames = new Float32Array(FRAME_SAMPLES)
   private frameCount = 0
-  /** Smallest distance between the camera and any trunk, crown, rock or the ground since the last reset. */
   private minClearance = Infinity
   private readonly v = new THREE.Vector3()
   private gpu = ''
