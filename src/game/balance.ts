@@ -474,3 +474,4 @@ export const BOSS = {
   volleyShots: 3,
   /** Share of the boss's hit that one glob carries; volleys are meant to be dodged, not tanked. */
   volleyDamage: 0.28,
+  volleySpread: 3.2,
