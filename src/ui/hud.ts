@@ -155,6 +155,7 @@ export class Hud {
 
   update(dt: number) {
     const g = this.g
+    const p = g.player
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
       if (this.bannerTime <= 0) this.banner.classList.remove('show')
