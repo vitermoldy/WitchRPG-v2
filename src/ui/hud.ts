@@ -26,3 +26,4 @@ export class Hud {
     this.zoneKey = z.key
     this.bannerName.textContent = z.name
     this.bannerTier.textContent = `Tier ${z.tier}, makhluk Lv ${z.levels[0]} sampai ${z.levels[1]}`
+    this.banner.classList.add('show')
