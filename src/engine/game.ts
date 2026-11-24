@@ -113,9 +113,6 @@ export class Game implements UnitHost {
   private terrain!: Terrain
   private forest!: Forest
   private atmosphere!: Atmosphere
-  private camps!: Camps
-  private ilyra!: IlyraModel
-  private ground!: Ground
   private pivotY = 0
   private cullIn = 0
   private botDodge = false
