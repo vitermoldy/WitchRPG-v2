@@ -783,3 +783,4 @@ export const COMBAT = {
   /** At most this many creatures attack her at the same time; the rest circle. */
   attackers: 2,
   staff: {
+    throwSpeed: 42,
