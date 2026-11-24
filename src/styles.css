@@ -1487,6 +1487,7 @@ dialog::backdrop {
 }
 
 .node.locked .node-name,
+.node.locked .node-effect {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
