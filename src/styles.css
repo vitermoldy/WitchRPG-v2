@@ -618,6 +618,7 @@ button {
 .camp-status {
   position: absolute;
   top: var(--gutter);
+  right: var(--gutter);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
