@@ -67,6 +67,7 @@ export interface IlyraPose {
   hurt: number
   dead: number
   /** Turned to stone: she freezes in place. */
+  stone: boolean
 
 /**
  * Ilyra's model with procedural motion on its named parts: the walk cycle of the previz animatic,
