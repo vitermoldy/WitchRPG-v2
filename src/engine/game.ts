@@ -741,6 +741,7 @@ export class Game implements UnitHost {
       burst: inp.pressed('KeyQ'),
       snare: inp.pressed('KeyE'),
       barrier: inp.pressed('KeyX'),
+      warp: inp.pressed('KeyV'),
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
