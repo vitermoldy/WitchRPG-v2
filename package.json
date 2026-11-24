@@ -13,3 +13,4 @@
     "models": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" -b --factory-startup -P previz/blender/export_glb.py"
   },
   "dependencies": {
+    "@fontsource-variable/figtree": "^5.3.0",
