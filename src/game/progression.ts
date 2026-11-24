@@ -106,3 +106,4 @@ export function riteBlock(p: Profile, kind: UnitKind): string | null {
   return null
 }
 
+/** True for a witch nobody has played yet (settings do not count). */
