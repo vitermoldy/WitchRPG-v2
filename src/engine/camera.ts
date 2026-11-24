@@ -97,3 +97,4 @@ export class CameraRig {
     const n = CAMERA.normal
     const a = CAMERA.aim
     const p = {
+      dist: lerp(n.dist, a.dist, this.aim),
