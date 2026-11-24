@@ -629,3 +629,4 @@ class Rig implements Poser {
     this.q.setFromAxisAngle(UP, u.yaw)
     this.s.setScalar(u.scale)
     this.unitM.compose(this.p, this.q, this.s)
+    const i = this.used++
