@@ -471,3 +471,4 @@ export const BOSS = {
   /** Phase 2: bolts barely scratch the shell; thrown bodies do full damage. */
   shellBoltShare: 0.1,
   volleyEvery: 3.6,
+  volleyShots: 3,
