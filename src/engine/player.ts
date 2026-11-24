@@ -44,6 +44,7 @@ export class Player {
   maxHp = 100
   mana = 100
   maxMana = 100
+  alive = true
 
   get speed() {
     return Math.hypot(this.vx, this.vz)
