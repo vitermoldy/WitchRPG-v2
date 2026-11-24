@@ -68,6 +68,7 @@ export class Game implements UnitHost {
   readonly units: UnitSystem
   readonly fight: Fight
   readonly spells: Spells
+  readonly umbra: Umbra
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
   debugSpeed = 1
