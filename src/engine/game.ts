@@ -757,6 +757,7 @@ export class Game implements UnitHost {
     const t0 = performance.now()
     this.units.update(sdt)
     this.shots.update(sdt)
+    this.prof('units', t0)
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
