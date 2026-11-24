@@ -176,3 +176,5 @@ export class Spells {
 
   get overloaded() {
     return this.overloadT > 0
+  }
+
