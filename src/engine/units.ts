@@ -707,3 +707,4 @@ export class UnitSystem {
   // ------------------------------------------------------------ shadows
 
   private shadowBrain(u: Unit, dt: number) {
+    const host = this.host
