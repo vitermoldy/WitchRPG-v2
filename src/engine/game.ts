@@ -96,3 +96,4 @@ export class Game {
     this.gpu = info ? String(gl.getParameter(info.UNMASKED_RENDERER_WEBGL)) : 'unknown'
 
     this.input = new Input(canvas)
+    this.input.virtualLock = debug
