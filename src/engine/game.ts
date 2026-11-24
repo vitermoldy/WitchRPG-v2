@@ -344,3 +344,4 @@ export class Game {
   resetStats() {
     this.frameCount = 0
     this.frames.fill(0)
+    this.minClearance = Infinity
