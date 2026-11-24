@@ -585,3 +585,4 @@ export class Umbra {
     p.pos.y = g.ground.height(theirs.x, theirs.z)
     p.vx = p.vz = 0
     pick.pos.copy(mine)
+    this.swapCd = hasUpgrade(g.profile, 'swap') ? RITE.swapCooldownUpgraded : RITE.swapCooldown
