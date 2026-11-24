@@ -137,3 +137,4 @@ export class Spells {
 
   constructor(g: Game) {
     this.g = g
+    this.shield = new THREE.Mesh(
