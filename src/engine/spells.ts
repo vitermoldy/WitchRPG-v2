@@ -7,3 +7,4 @@ import { COLOR } from './palette'
 import type { Unit } from './units'
 
 interface Bolt {
+  pos: THREE.Vector3
