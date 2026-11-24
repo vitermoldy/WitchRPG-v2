@@ -528,6 +528,8 @@ button {
   inset: 0;
   opacity: 0;
   transition: opacity 0.25s;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
