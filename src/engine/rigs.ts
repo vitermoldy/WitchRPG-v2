@@ -709,3 +709,4 @@ export class Rigs {
   }
 
   /** Builds the rigs and crowd batches now, so the first fight does not stall on shader compiles. */
+  prepare(kinds: UnitKind[]) {
