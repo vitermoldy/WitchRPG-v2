@@ -720,3 +720,4 @@ export class Spells {
       burst: this.burstCd / SPELL.burst.cooldown,
       snare: this.snareCd / SPELL.snare.cooldown,
       barrier: this.barrierCd / SPELL.barrier.cooldown,
+      warp: this.warpCd / SPELL.warp.cooldown,
