@@ -240,6 +240,7 @@ export class Game implements UnitHost {
     if (strike === 'ring') this.fight.stats.hitRing++
     else this.fight.stats.hitLine++
     this.hurtPlayer(u.damage * (atk.damage ?? 1), u.pos)
+    if (!p.alive) return
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
