@@ -343,6 +343,7 @@ export class Game implements UnitHost {
     this.rigs = new Rigs(models, lods)
     this.rigs.detail = this.profile.settings.detail
     this.rigs.prepare([...V2_KINDS])
+    this.scene.add(this.rigs.group)
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
