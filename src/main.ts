@@ -127,6 +127,7 @@ async function boot() {
     game.openMenu()
     game.input.unlock()
     menu.open()
+  }
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
