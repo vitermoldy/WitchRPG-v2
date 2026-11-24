@@ -106,3 +106,5 @@ export class CameraRig {
     p.dist += LOCKON.pullback * big
     p.fov += LOCKON.fovBoost * big
     return p
+  }
+
