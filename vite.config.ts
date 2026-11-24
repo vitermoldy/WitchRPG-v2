@@ -17,3 +17,4 @@ export default defineConfig({
   build: { chunkSizeWarningLimit: 900 },
   resolve: {
     alias: { '@': root + 'src' },
+    dedupe: ['three'],
