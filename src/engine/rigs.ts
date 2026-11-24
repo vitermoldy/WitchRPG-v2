@@ -700,3 +700,4 @@ export class Rigs {
     const key = kind + team
     let r = this.rigs.get(key)
     if (!r) {
+      const model = this.models[kind]
