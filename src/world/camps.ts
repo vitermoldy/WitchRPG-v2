@@ -71,3 +71,4 @@ export class Camps {
         const d = Math.atan2(Math.sin(want - imp.yaw), Math.cos(want - imp.yaw))
         imp.yaw += d * Math.min(1, dt * 3)
       }
+      const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
