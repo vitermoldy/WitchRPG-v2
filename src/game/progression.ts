@@ -279,3 +279,4 @@ export function releaseShadow(p: Profile, id: number): boolean {
   if (i < 0) return false
   p.shadows.splice(i, 1)
   return true
+}
