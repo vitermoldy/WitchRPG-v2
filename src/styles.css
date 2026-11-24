@@ -454,3 +454,4 @@ button {
 .debug {
   position: absolute;
   top: var(--gutter);
+  left: var(--gutter);
