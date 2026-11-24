@@ -157,3 +157,5 @@ describe('shadows', () => {
     w.step(0.3)
     expect(enemy.target).toBe(shadow)
   })
+})
+
