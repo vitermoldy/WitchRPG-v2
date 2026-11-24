@@ -221,3 +221,4 @@ export class Umbra {
     const power = g.derived.shadowPower
     u.maxHp *= power
     u.hp = u.maxHp
+    u.damage *= power
