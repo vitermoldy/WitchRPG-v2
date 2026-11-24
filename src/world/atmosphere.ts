@@ -47,3 +47,4 @@ export class Atmosphere {
   private readonly w = new Float32Array(ZONES.length)
   private readonly fogTarget = new THREE.Color()
   private readonly skyTarget = new THREE.Color()
+  private densityTarget = 0.007
