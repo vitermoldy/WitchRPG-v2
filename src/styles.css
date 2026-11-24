@@ -1223,6 +1223,7 @@ button {
   height: 100%;
   background: var(--rift);
   transform-origin: left;
+  transition: transform 0.15s linear;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
