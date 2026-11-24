@@ -46,9 +46,7 @@ export const CAMP_DEFS: CampDef[] = [
   { c: [-252, 190], pack: { chimera: 1 }, levels: [9, 9] },
 ]
 
-export interface Imp extends Target {
-  yaw: number
-  phase: number
+export interface Camp {
 }
 
 export class Camps {
