@@ -459,6 +459,7 @@ export class Game implements UnitHost {
   /** Stats or upgrades changed in the Ledger: new derived numbers, kept in the save. */
   statsChanged() {
     this.applyDerived()
+    this.saveNow()
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
