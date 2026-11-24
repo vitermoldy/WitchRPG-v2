@@ -209,3 +209,4 @@ export class Unit implements Foe {
   }
 }
 
+/** Radius of the amber circle a ring blow lands on when its attack does not say (metres). */
