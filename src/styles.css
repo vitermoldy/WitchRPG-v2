@@ -1180,6 +1180,7 @@ button {
 
 @keyframes stun-blink {
   50% {
+    opacity: 0.3;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
