@@ -7,6 +7,7 @@ import { heightMap, toWorld } from './map'
 
 export interface CampDef {
   /** Map point (x east, y north). */
+  c: [number, number]
 
 /**
  * Phase 1 creatures: packs of Imps standing in Hutan Pembuka so the camera and lock-on have
