@@ -16,3 +16,5 @@ Game ini dibangun per fase menurut [PROMPT.md](./PROMPT.md). Keputusan desain ad
 
 ## Menjalankan
 
+Butuh Node 22 atau lebih baru dan browser dengan WebGL 2.
+
