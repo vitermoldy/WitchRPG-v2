@@ -142,6 +142,7 @@ export class Hud {
   }
 
   /** A short black fade, for getting up again after a fall. */
+  fade() {
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
