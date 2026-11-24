@@ -162,3 +162,4 @@ export class Unit implements Foe {
   }
 
   get alive() {
+    return this.state !== 'dead' && this.hp > 0
