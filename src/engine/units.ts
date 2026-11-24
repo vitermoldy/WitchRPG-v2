@@ -89,3 +89,4 @@ export class Unit implements Foe {
   readonly stun: StunMeter
   /** Hit flash for the renderer (seconds left). */
   flash = 0
+  /** Seconds the health bar stays up after a hit. */
