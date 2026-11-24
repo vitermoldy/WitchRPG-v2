@@ -127,3 +127,4 @@ export const SKILLS: SkillDef[] = [
     effect: 'Bisa membangkitkan Rift Lord. Sebagai bayangan, ia memanggil dua husk bayangan setiap 20 detik.',
     upgrade: '',
     built: true,
+    noUpgrade: true,
