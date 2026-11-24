@@ -129,3 +129,4 @@ export class Unit implements Foe {
   readonly holdPos = new THREE.Vector3()
   slot = 0
   focus: Unit | null = null
+  focusBonus = 0
