@@ -112,6 +112,7 @@ export class Camps {
     this.group.add(stones, this.shards)
   }
 
+  private wake(camp: Camp, index: number) {
     }
     this.update(0, 0, new THREE.Vector3(1e6, 0, 1e6))
   }
