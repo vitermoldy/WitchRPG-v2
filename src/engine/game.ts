@@ -866,6 +866,7 @@ export class Game implements UnitHost {
     this.bloom.resolution.set(w / 2, h / 2)
     this.camera.aspect = w / h
     this.camera.updateProjectionMatrix()
+    this.glow?.setViewport(this.renderer.domElement.height, this.camera.fov)
   }
 
   // ------------------------------------------------------------ measurements for ?debug and the bot
