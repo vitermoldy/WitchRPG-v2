@@ -134,6 +134,7 @@ async function boot() {
     const locked = await game.input.lock()
     if (!locked && !debug) {
       game.pause()
+      show('pause')
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
