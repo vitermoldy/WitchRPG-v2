@@ -260,3 +260,4 @@ export class Spells {
   private startOverload() {
     const g = this.g
     this.overloadT = CHAOS.overloadTime
+    this.chaos = 0
