@@ -34,3 +34,5 @@ export class Camps {
   private readonly q = new THREE.Quaternion()
   private readonly v = new THREE.Vector3()
   private readonly one = new THREE.Vector3(1, 1, 1)
+  private readonly up = new THREE.Vector3(0, 1, 0)
+
