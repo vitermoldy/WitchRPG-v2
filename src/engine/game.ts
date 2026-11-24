@@ -275,3 +275,4 @@ export class Game {
     }
     this.lockon.update(dt, targets, p.pos, b ? 0 : inp.dx, visible)
 
+    const target = this.lockon.current
