@@ -63,6 +63,7 @@ export class Player {
     const l = Math.hypot(dx, dz) || 1
     // 2 (1 - u) integrates to 1 over the push, like the roll's hard start
     this.nudgeX = ((dx / l) * dist * 2) / time
+    this.nudgeZ = ((dz / l) * dist * 2) / time
 
   get speed() {
     return Math.hypot(this.vx, this.vz)
