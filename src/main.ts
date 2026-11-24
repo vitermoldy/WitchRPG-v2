@@ -36,3 +36,4 @@ async function boot() {
     fail(`WebGL gagal dimulai: ${(e as Error).message}`)
     return
   }
+  if (debug) (window as unknown as { __game: Game }).__game = game
