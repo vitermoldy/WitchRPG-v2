@@ -377,3 +377,4 @@ export class Game {
   }
 
   /** ?debug: the bot's stand-in for a quick sideways mouse flick while locked on. */
+  flick(side: number) {
