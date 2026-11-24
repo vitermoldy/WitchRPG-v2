@@ -636,3 +636,4 @@ export class UnitSystem {
           u.set('strike')
           u.hitDone = false
           const lt = atk.lungeTime ?? 0.3
+          if (atk.strike === 'ring') {
