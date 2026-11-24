@@ -722,3 +722,4 @@ export class Spells {
       barrier: this.barrierCd / SPELL.barrier.cooldown,
       warp: this.warpCd / SPELL.warp.cooldown,
     }
+  }
