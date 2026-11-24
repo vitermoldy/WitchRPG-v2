@@ -479,3 +479,4 @@ export class Fight {
     const g = this.g
     const p = g.player
     this.exec = { u, t: 0, struck: false }
+    this.combo.cancel()
