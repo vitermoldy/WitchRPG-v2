@@ -38,3 +38,5 @@ export class Hud {
     }
     this.lockMark.classList.add('show')
     this.lockMark.style.transform = `translate(${at.x.toFixed(1)}px, ${at.y.toFixed(1)}px)`
+  }
+
