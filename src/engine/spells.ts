@@ -492,3 +492,4 @@ export class Spells {
     return at
   }
 
+  private cast(id: 'burst' | 'snare' | 'barrier' | 'warp', aiming: boolean) {
