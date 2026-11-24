@@ -795,6 +795,7 @@ button {
   left: var(--gutter);
   bottom: var(--gutter);
   display: grid;
+  gap: 0.35rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
