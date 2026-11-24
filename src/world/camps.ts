@@ -197,6 +197,7 @@ export class Camps {
           camp.roused = false
           for (const u of alive) u.aggro = false
         }
+      } else if (camp.state === 'cleared' && this.time > camp.respawnAt && d > CAMP.wake + 20) {
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
