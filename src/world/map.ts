@@ -31,6 +31,7 @@ export const ALTAR: [number, number] = [-10, -395]
  * (like v1's altar). One by the start, one where the paths split, one on each new zone's path.
  */
 export const ALTARS: { key: string; name: string; c: [number, number] }[] = [
+  { key: 'pembuka', name: 'Altar Hutan Pembuka', c: ALTAR },
 export const TEMPLE: [number, number] = [40, 318]
 /** Where the previz shots stood; the start point is the hero clearing of render 01. */
 export const SPOTS = {
