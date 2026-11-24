@@ -631,3 +631,4 @@ class Rig implements Poser {
     this.unitM.compose(this.p, this.q, this.s)
     const i = this.used++
     const flash = u.flash > 0 ? (u.flash / 0.16) * 1.6 : 0
+    const gr = (glow ? glow.r : 0) + flash
