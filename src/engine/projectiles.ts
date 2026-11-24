@@ -120,3 +120,4 @@ export class Projectiles {
             g.strikePlayer(s.source, s.atk)
             hit = true
           }
+        }
