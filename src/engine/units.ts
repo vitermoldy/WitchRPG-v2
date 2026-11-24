@@ -72,3 +72,4 @@ export class Unit implements Foe {
   scale = 1
   readonly pos = new THREE.Vector3()
   readonly vel = new THREE.Vector3()
+  /** Facing; 0 looks along +z, the way the models face. */
