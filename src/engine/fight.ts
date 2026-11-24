@@ -360,3 +360,4 @@ export class Fight {
     }
 
     // throw or call back the staff
+    if (this.throwT >= 0) {
