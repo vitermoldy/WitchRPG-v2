@@ -174,3 +174,4 @@ export class Spells {
     this.shield.visible = false
   }
 
+  get overloaded() {
