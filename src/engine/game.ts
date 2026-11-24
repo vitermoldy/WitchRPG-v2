@@ -410,6 +410,7 @@ export class Game implements UnitHost {
     if (this.state !== 'paused') return
     this.state = 'playing'
     this.input.capture = true
+    this.sfx.resume()
     this.lastFrame = performance.now()
   }
 
