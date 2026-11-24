@@ -32,3 +32,4 @@ function world(groundHeight = 0) {
     for (let i = 0; i < Math.round(seconds / dt); i++) {
       time += dt
       each?.()
+      sys.update(dt)
