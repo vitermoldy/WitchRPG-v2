@@ -51,3 +51,4 @@ src/game/     logika murni: angka tuning (balance.ts), progresi, skill, simpanan
 src/engine/   kamera (camera.ts), gerak (player.ts), rintangan (obstacles.ts), lock-on, model, input, game loop
 src/world/    peta dan zona (map.ts), medan per chunk, hutan, kabut dan langit, kamp makhluk
 src/ui/       HUD
+tests/        Vitest: progresi v1, kamera, gerak, peta
