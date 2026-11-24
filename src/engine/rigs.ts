@@ -594,3 +594,4 @@ class Rig implements Poser {
     while (cap < need) cap *= 2
     this.cap = cap
     for (const part of this.parts) {
+      this.group.remove(part.mesh)
