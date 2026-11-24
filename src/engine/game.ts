@@ -681,6 +681,7 @@ export class Game implements UnitHost {
     const p = this.player
     // hitstop: the fight freezes for a moment on impact; the camera keeps moving
     const sdt = this.hitstopT > 0 ? dt * 0.05 : dt
+    this.hitstopT = Math.max(0, this.hitstopT - dt)
     this.botDodge = false
     if (b) this.rig.look(-b.turn * dt / (CAMERA.sensitivity * this.sensitivity), 0, CAMERA.sensitivity * this.sensitivity)
     else this.rig.look(inp.dx, inp.dy, CAMERA.sensitivity * this.sensitivity)
