@@ -736,6 +736,7 @@ export class Game implements UnitHost {
     this.spells.update(sdt, canAct && !this.fight.exec, {
       pressed: inp.pressed('Mouse0'),
       held: inp.held('Mouse0'),
+      aiming,
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
