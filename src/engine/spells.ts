@@ -252,3 +252,4 @@ export class Spells {
       else this.holdGrip(dt)
     }
     this.updateBolts(dt)
+    this.updateSnares(dt)
