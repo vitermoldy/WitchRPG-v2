@@ -475,6 +475,7 @@ export class Game implements UnitHost {
     this.fight.hurt()
     this.umbra.interrupt()
     this.spells.addChaos(chaosFromDamage(0, d))
+    this.hud.hurtFlash(Math.min(0.7, (d / p.maxHp) * 3 + 0.15))
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
