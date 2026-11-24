@@ -4,3 +4,5 @@ import { hasUpgrade, impactDamage, isUnlocked } from '../game/progression'
 import { skillById, type SkillId } from '../game/skills'
 import type { Game } from './game'
 import { COLOR } from './palette'
+import type { Unit } from './units'
+
