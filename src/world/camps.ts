@@ -30,3 +30,4 @@ export class Camps {
   readonly group = new THREE.Group()
   readonly targets: Imp[] = []
   private readonly meshes: THREE.InstancedMesh[] = []
+  private readonly m = new THREE.Matrix4()
