@@ -76,6 +76,7 @@ export class Camps {
   private toldShield = false
 
   constructor(g: Game) {
+    this.g = g
     this.group.name = 'camps'
     let seed = 11
     const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647)
