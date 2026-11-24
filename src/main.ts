@@ -92,6 +92,7 @@ async function boot() {
   })
   const shake = $('set-shake') as HTMLInputElement
   shake.checked = pr.settings.shake
+  shake.addEventListener('change', () => {
   })
 
   game.onPause = () => {
