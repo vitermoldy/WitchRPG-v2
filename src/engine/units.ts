@@ -25,3 +25,4 @@ export interface UnitHost {
   readonly foe: Foe
   /** Ground no creature may stand on: deep water, past the map edge. */
   blocked(x: number, z: number): boolean
+  /** A blow on her lands; the host resolves block, parry and dodge. */
