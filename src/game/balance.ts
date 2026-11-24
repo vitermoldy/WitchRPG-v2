@@ -128,3 +128,4 @@ export const RITE = {
   minChance: 0.1,
   maxChance: 0.9,
   swapCooldown: 10,
+  swapCooldownUpgraded: 6,
