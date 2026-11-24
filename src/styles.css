@@ -562,6 +562,7 @@ button {
   30% {
     opacity: 1;
   }
+  100% {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
