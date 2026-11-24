@@ -79,6 +79,7 @@ export class Camps {
     this.g = g
     this.group.name = 'camps'
     this.camps = CAMP_DEFS.map((def) => {
+      const [x, z] = toWorld(def.c[0], def.c[1])
       }
     }
     for (const b of bakeByMaterial(model)) {
