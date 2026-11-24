@@ -152,3 +152,4 @@ export const XP = {
 export type RankId = 'prajurit' | 'ksatria' | 'jenderal' | 'marsekal'
 
 export const RANKS: Record<RankId, { label: string; base: number }> = {
+  prajurit: { label: 'Prajurit', base: 0.6 },
