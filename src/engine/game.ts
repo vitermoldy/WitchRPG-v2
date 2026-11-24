@@ -18,3 +18,5 @@ import { Input } from './input'
 import { LockOn, lockPoint } from './lockon'
 import { IlyraModel, loadModel } from './models'
 import { Obstacles } from './obstacles'
+import { Player, type Ground, type MoveInput } from './player'
+
