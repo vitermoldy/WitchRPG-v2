@@ -160,7 +160,7 @@ export const RANKS: Record<RankId, { label: string; base: number }> = {
   marsekal: { label: 'Marsekal', base: 0.15 },
 }
 
-export type UnitKind = 'husk' | 'hound' | 'spitter' | 'warden' | 'riftlord' | 'hollow' | 'harrier' | 'bombard'
+export type UnitKind =
 
 export interface UnitSpec {
   name: string
