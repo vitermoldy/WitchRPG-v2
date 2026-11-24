@@ -932,6 +932,7 @@ export class Game implements UnitHost {
   }
 
   /** ?debug: what the bot may know about each creature near her (the same things a player sees). */
+  enemyInfo(range = 40) {
     const p = this.player.pos
     return this.camps.targets.filter((t) => t.alive && Math.hypot(t.x - p.x, t.z - p.z) < range).length
   }
