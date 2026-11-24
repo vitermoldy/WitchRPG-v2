@@ -336,3 +336,4 @@ export const SHADOW_SKILL = {
 } as const
 
 /**
+ * Tier IV and V creatures can be elite: tougher, worth more XP, and with one trait.
