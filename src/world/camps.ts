@@ -127,6 +127,7 @@ export class Camps {
         g.obstacles.pushOut(at, 0.6, 1.5)
         if (g.ground.blocked(at.x, at.z)) {
           at.x = camp.pos.x
+          at.z = camp.pos.z
     }
     this.update(0, 0, new THREE.Vector3(1e6, 0, 1e6))
   }
