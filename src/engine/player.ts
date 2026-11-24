@@ -34,3 +34,4 @@ export class Player {
   dodgeX = 0
   dodgeZ = 0
   dodgeCd = 0
+  dodgeDistance: number = MOVE.dodge.distance
