@@ -59,3 +59,5 @@ async function boot() {
       $('lock-note').hidden = false
     }
   }
+  $('btn-enter').addEventListener('click', enter)
+
