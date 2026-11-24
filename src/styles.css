@@ -1388,6 +1388,7 @@ dialog::backdrop {
   list-style: none;
 }
 
+.stat {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
