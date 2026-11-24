@@ -518,3 +518,5 @@ export class Spells {
       depthWrite: false,
       blending: THREE.AdditiveBlending,
     })
+  }
+
