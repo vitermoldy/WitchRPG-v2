@@ -351,3 +351,4 @@ export class Game {
     const info = this.renderer.info
     return {
       ...this.frameStats(),
+      minClearance: this.minClearance,
