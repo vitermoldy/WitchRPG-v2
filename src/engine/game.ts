@@ -202,6 +202,7 @@ export class Game implements UnitHost {
     return this.ground.blocked(x, z)
   }
 
+  /** A creature's blow on her lands now: dodge, parry, block or hit. */
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
