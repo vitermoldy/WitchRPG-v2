@@ -165,3 +165,4 @@ export interface UnitSpec {
   rank: RankId
   hp: number
   damage: number
+  speed: number
