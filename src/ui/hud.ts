@@ -21,3 +21,4 @@ export class Hud {
     if (on && this.hintTime === 0) this.hintTime = 14
   }
 
+  zone(z: Zone) {
