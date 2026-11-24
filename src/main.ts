@@ -73,6 +73,7 @@ async function boot() {
     out.textContent = fmt(value)
     input.addEventListener('input', () => {
       const v = Number(input.value)
+      out.textContent = fmt(v)
   })
 
   game.onPause = () => {
