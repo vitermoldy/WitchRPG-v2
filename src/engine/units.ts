@@ -787,3 +787,4 @@ export class UnitSystem {
     const nx = u.pos.x + u.vel.x * dt
     const nz = u.pos.z + u.vel.z * dt
     if (!host.blocked(nx, nz)) {
+      u.pos.x = nx
