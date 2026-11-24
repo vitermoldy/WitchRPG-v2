@@ -395,3 +395,5 @@ export class Umbra {
     const need = this.cost(n)
     if (!g.spells.overloaded && g.player.mana < need) return `Mana kurang: butuh ${need}.`
     return null
+  }
+
