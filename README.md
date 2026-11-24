@@ -78,6 +78,7 @@ src/engine/   kamera (camera.ts), gerak (player.ts), rintangan (obstacles.ts), l
               proyektil makhluk: panah dan semburan (projectiles.ts)
 src/world/    peta, zona, dan altar (map.ts, altars.ts), medan per chunk, hutan, kabut dan langit, kamp makhluk (camps.ts)
 src/ui/       HUD, Ledger dan panel altar (ledger.ts)
+tests/        Vitest: progresi v1, kamera, gerak, peta, tempur, AI makhluk, simpanan
 previz/       skrip Blender, render, animatic, papan makhluk, PREVIZ.md
 public/models model GLB hasil ekspor dari previz
 ```
