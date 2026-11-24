@@ -268,3 +268,4 @@ export class Spells {
   }
 
   private fireBolt() {
+    const g = this.g
