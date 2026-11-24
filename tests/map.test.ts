@@ -50,6 +50,7 @@ describe('the forest valley', () => {
   it('keeps every camp inside its zone and the zone level band (three levels per tier, as in v1)', () => {
     for (const camp of CAMP_DEFS) {
       const z = zoneAt(camp.c[0], camp.c[1])
+      expect(camp.levels[0], `camp at ${camp.c} in ${z.name}`).toBeGreaterThanOrEqual(z.levels[0])
   it('raises Tebing Berangin as a plateau above the forest floor', () => {
     const t = ZONES.find((z) => z.key === 'tebing')!
     expect(heightMap(t.c[0], t.c[1]) - heightMap(0, -280)).toBeGreaterThan(25)
