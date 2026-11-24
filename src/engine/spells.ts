@@ -262,3 +262,4 @@ export class Spells {
     this.overloadT = CHAOS.overloadTime
     this.chaos = 0
     g.addTrauma(0.45)
+    g.sfx.overload(true)
