@@ -11,3 +11,4 @@ import {
   TIERS,
   XP,
   type RankId,
+  type TierId,
