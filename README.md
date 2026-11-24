@@ -53,6 +53,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | --- | --- |
 | Tahan klik kanan | Bidik |
 | Saat membidik: klik kiri | Hex Bolt; menjatuhkan Harpy dari udara |
+| Saat membidik: tahan klik kiri | Telekinesis; lepas untuk melempar ke titik bidik |
 
 ## Struktur
 
