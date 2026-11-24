@@ -59,3 +59,4 @@ describe('over-the-shoulder camera', () => {
 
   it('snaps in at once, then eases back out instead of jumping', () => {
     const obs = new Obstacles()
+    const rig = new CameraRig()
