@@ -288,3 +288,4 @@ button {
 }
 
 .controls div:last-child h2 {
+  color: var(--umbra-ink);
