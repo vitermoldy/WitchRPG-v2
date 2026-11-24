@@ -27,6 +27,7 @@ if "--lod" in argv:
     i = argv.index("--lod")
     LOD = float(argv[i + 1])
     argv = argv[:i] + argv[i + 2:]
+if "--ratio" in argv:
 POSE = {"ilyra": "walk"}
 OUT = os.path.join(C.ROOT, "public", "models")
 os.makedirs(OUT, exist_ok=True)
