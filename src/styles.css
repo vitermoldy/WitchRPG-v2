@@ -939,6 +939,7 @@ button {
 }
 
 .skill-sub {
+  min-height: 1.1em;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
