@@ -99,3 +99,4 @@ export class CameraRig {
     const p = {
       dist: lerp(n.dist, a.dist, this.aim),
       shoulder: lerp(n.shoulder, a.shoulder, this.aim),
+      height: lerp(n.height, a.height, this.aim),
