@@ -625,3 +625,4 @@ export class Spells {
       fragmentShader: WARP_FRAG,
       transparent: true,
       depthWrite: false,
+      side: THREE.DoubleSide,
