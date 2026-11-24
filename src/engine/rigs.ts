@@ -538,3 +538,4 @@ class Rig implements Poser {
   private used = 0
   private readonly pose: PoseFn
   private readonly group: THREE.Group
+  private readonly team: Team
