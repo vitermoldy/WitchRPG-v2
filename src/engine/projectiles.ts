@@ -85,3 +85,4 @@ export class Projectiles {
     for (let i = this.shots.length - 1; i >= 0; i--) {
       const s = this.shots[i]
       s.prev.copy(s.pos)
+      if (!s.reflected) s.vel.y -= s.gravity * dt
