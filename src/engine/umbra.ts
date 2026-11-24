@@ -522,3 +522,4 @@ export class Umbra {
       }
       if (!target) {
         g.hud.message('Tidak ada musuh di dekat titik bidik.', 'umbra')
+        return
