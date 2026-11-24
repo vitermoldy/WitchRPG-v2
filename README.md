@@ -55,6 +55,8 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | Saat membidik: klik kiri | Hex Bolt; menjatuhkan Harpy dari udara |
 | Saat membidik: tahan klik kiri | Telekinesis; lepas untuk melempar ke titik bidik |
 | Q, E, X, V | Chaos Burst (Lv 3), Hex Snare (Lv 5), Hex Barrier (Lv 7), Reality Warp (Lv 10). Tanpa membidik, mengenai target lock-on atau titik di depan Ilyra |
+| G | Crimson Overload saat meter Chaos penuh |
+
 
 ## Struktur
 
