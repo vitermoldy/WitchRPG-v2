@@ -629,3 +629,4 @@ export class UnitSystem {
           if (atk.shot) {
             // the shot flies; the telegraph stays until it lands
             host.fire(u, atk)
+            u.hitDone = true
