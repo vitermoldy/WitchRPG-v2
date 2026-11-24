@@ -65,3 +65,4 @@ async function boot() {
   const out = $('out-sens') as HTMLOutputElement
   sens.value = String(game.sensitivity)
   out.textContent = game.sensitivity.toFixed(2)
+  sens.addEventListener('input', () => {
