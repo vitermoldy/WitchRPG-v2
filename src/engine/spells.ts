@@ -382,3 +382,4 @@ export class Spells {
       }
       if (second) this.grabbed.push(second)
     }
+    for (const u of this.grabbed) {
