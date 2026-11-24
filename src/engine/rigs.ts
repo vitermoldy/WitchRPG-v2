@@ -142,3 +142,4 @@ const poseImp: PoseFn = (p, u, t) => {
     p.rot('shin_R', 50 * k)
     return
   }
+  if (u.state === 'stagger') {
