@@ -303,5 +303,6 @@ export class Hud {
 
   private updateWheel() {
     const u = this.g.umbra
+    this.wheel.hidden = !u.wheelOpen
   }
 }
