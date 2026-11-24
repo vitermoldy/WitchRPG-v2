@@ -745,6 +745,7 @@ export class Game implements UnitHost {
     })
     const t2 = performance.now()
     this.umbra.update(sdt, canAct && !this.fight.exec, {
+      riteHeld: inp.held('KeyR'),
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
