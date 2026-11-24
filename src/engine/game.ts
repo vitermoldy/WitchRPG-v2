@@ -288,3 +288,4 @@ export class Game {
     this.camps.update(dt, this.t, this.v.set(p.pos.x, p.pos.y, p.pos.z))
     this.ilyra.update(dt, p, this.rig.aim)
     this.hud.zone(ZONES[this.atmosphere.zone])
+    this.hud.aim(this.rig.aim > 0.5)
