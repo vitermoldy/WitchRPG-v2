@@ -343,3 +343,4 @@ export class Game {
 
   resetStats() {
     this.frameCount = 0
+    this.frames.fill(0)
