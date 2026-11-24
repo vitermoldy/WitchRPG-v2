@@ -10,3 +10,4 @@ Game ini dibangun per fase menurut [PROMPT.md](./PROMPT.md). Keputusan desain ad
 | 1. Fondasi | Lembah hutan 1 km dengan lima zona, kamera bahu, gerak, dodge, mode bidik, lock-on | Selesai |
 | 2. Tempur | Kombo tongkat, parry, Eksekusi, sihir Chaos, Imp, Hellhound, Harpy | Berikutnya |
 | 3. Umbra | Umbra Rite, pasukan bayangan | |
+| 4. Dunia dan progresi | Zona I sampai III penuh, kamp, altar, Ledger | |
