@@ -1352,6 +1352,7 @@ dialog::backdrop {
   align-items: baseline;
   gap: 0.6rem;
   margin: 0 0 0.8rem;
+  font-family: var(--font-display);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
