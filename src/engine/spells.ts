@@ -22,3 +22,4 @@ interface Field {
   t: number
   duration: number
   group: THREE.Object3D
+  mats: THREE.ShaderMaterial[]
