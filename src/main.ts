@@ -34,3 +34,4 @@ async function boot() {
     game = new Game(canvas, debug)
   } catch (e) {
     fail(`WebGL gagal dimulai: ${(e as Error).message}`)
+    return
