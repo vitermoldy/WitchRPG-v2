@@ -215,6 +215,7 @@ export class Game implements UnitHost {
       this.fight.stats.dodged++
       return
     }
+    if (res === 'parry') {
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
