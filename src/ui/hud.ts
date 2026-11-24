@@ -322,5 +322,6 @@ export class Hud {
     const cam = g.camera
     const w = window.innerWidth
     const h = window.innerHeight
+    const p = g.player.pos
   }
 }
