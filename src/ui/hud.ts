@@ -51,3 +51,4 @@ export class Hud {
 
   update(dt: number) {
     if (this.bannerTime > 0) {
+      this.bannerTime -= dt
