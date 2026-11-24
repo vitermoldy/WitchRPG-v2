@@ -244,5 +244,6 @@ export class Hud {
     else if (c && many >= 2) {
       const why = g.umbra.blocker(undefined, many)
       const chances = g.umbra.targets.map((u) => Math.round(g.umbra.chance(u) * 100))
+      const lo = Math.min(...chances)
   }
 }
