@@ -970,6 +970,7 @@ button {
 }
 
 .skill.ready-full {
+  border-color: var(--chaos);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
