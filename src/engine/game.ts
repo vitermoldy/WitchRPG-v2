@@ -266,3 +266,4 @@ export class Game {
     const p = this.player
     if (inp.pressed('Mouse1') || this.botLock) this.lockon.toggle(targets, p.pos, this.rig.yaw)
     this.botLock = false
+    const cur = this.lockon.current
