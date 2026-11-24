@@ -101,3 +101,4 @@ export class Atmosphere {
       this.skyTarget.g += this.zoneSky[i].g * w
       this.skyTarget.b += this.zoneSky[i].b * w
       // blend sight in inverse so a thick-fog zone pulls the distance down quickly
+      inv += w / ZONES[i].sight
