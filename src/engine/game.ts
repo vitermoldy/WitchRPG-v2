@@ -312,7 +312,7 @@ export class Game implements UnitHost {
         return inWaterRect(mx, my) && WATER_LEVEL - heightAt(x, z) > MOVE.maxWade
       },
     }
-    this.spawn(SPOTS.hero[0], SPOTS.hero[1], 0.86, 0.5)
+    this.glow = new Particles(5000, 'glow')
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
