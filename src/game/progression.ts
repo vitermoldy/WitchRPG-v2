@@ -108,3 +108,4 @@ export function riteBlock(p: Profile, kind: UnitKind): string | null {
 
 /** True for a witch nobody has played yet (settings do not count). */
 export function isFresh(p: Profile): boolean {
+  return (
