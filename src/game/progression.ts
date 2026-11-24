@@ -66,3 +66,4 @@ export function newProfile(): Profile {
     version: 1,
     level: 1,
     xp: 0,
+    statPoints: 0,
