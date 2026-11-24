@@ -370,3 +370,4 @@ export class Spells {
     if (!first) return
     this.grabbed = [first]
     if (this.upgraded('grip')) {
+      let second: Unit | null = null
