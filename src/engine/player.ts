@@ -136,6 +136,7 @@ export class Player {
         this.vx *= 0.3
         this.vz *= 0.3
       }
+    } else if (this.nudgeT > 0) {
     } else {
       const top = (input.sprint && !aiming ? MOVE.sprint : aiming ? MOVE.jog * 0.6 : MOVE.jog) * this.speedMult
       const tx = wx * top
