@@ -186,3 +186,4 @@ export class Spells {
     return this.grabbed.length > 0
   }
 
+  private unlocked(id: SkillId) {
