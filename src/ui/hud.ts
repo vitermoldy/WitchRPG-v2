@@ -220,5 +220,7 @@ export class Hud {
     this.set('camp-count', 'text', `${g.camps.cleared} dari ${g.camps.camps.length} kamp ditaklukkan`)
     const unlit = g.altars.nearestUnlit()
     this.set('altar-line', 'text', unlit ? `${unlit.altar.name} belum menyala, ${Math.round(unlit.dist)} m` : '')
+    this.updateBoss()
+
   }
 }
