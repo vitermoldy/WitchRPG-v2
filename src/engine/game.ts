@@ -52,6 +52,7 @@ export interface AimHit {
 }
 
 const FRAME_SAMPLES = 900
+const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
 
 export class Game {
   readonly renderer: THREE.WebGLRenderer
