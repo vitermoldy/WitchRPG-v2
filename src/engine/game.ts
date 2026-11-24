@@ -399,3 +399,4 @@ export class Game {
         best = { x: t.x, z: t.z }
       }
     }
+    return best
