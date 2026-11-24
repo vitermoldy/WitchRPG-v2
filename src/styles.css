@@ -760,6 +760,7 @@ button {
   display: none;
 }
 
+.prompt .chance {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
