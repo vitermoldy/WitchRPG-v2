@@ -1034,6 +1034,8 @@ button {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.82rem;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
