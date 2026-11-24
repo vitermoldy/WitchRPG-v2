@@ -442,3 +442,4 @@ export class Fight {
   private land(s: SwingState) {
     const g = this.g
     const p = g.player
+    const armed = this.staff.state === 'hand'
