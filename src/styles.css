@@ -1507,6 +1507,7 @@ dialog::backdrop {
   text-align: right;
 }
 
+.node-effect,
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
