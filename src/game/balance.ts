@@ -398,3 +398,4 @@ export const TIERS: Record<TierId, TierSpec> = {
     roman: 'II',
     unlock: 4,
     maxAlive: 17,
+    waves: [
