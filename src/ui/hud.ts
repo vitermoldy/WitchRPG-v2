@@ -175,5 +175,6 @@ export class Hud {
     }
     this.hurt = Math.max(0, this.hurt - dt * 1.4)
     this.hurtVeil.style.opacity = this.hurt.toFixed(2)
+    this.manaFlash = Math.max(0, this.manaFlash - dt)
   }
 }
