@@ -566,3 +566,4 @@ export class Umbra {
       g.hud.message('Belum ada bayangan untuk bertukar tempat.', 'umbra')
       return
     }
+    const cam = g.camera.position
