@@ -84,3 +84,4 @@ export class IlyraModel {
     this.root.rotation.y = p.facing + Math.PI
     const amp = Math.min(1.6, p.speed / MOVE.jog)
     const sprint = Math.max(0, (p.speed - MOVE.jog) / (MOVE.sprint - MOVE.jog))
+    const s = Math.sin(p.stride)
