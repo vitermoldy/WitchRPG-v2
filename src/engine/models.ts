@@ -130,6 +130,7 @@ export class IlyraModel {
     const c = s.clone(true)
     c.position.set(0, 0, 0)
     c.rotation.set(0, 0, 0)
+    return c
   private rot(name: string, x: number, y = 0, z = 0) {
     const p = this.parts[name]
     if (p) p.rotation.set(rad(x), rad(y), rad(z))
