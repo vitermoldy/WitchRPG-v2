@@ -181,3 +181,5 @@ export class Unit implements Foe {
 
   get flyer() {
     return !!this.spec.fly && this.downed <= 0
+  }
+
