@@ -214,5 +214,6 @@ export class Hud {
     this.set('sk-staff-label', 'text', staff === 'hand' ? 'Lempar' : staff === 'returning' ? 'Kembali' : 'Panggil')
     this.set('sk-staff', 'class', staff === 'hand' ? 'skill' : 'skill skill-out')
 
+    // where the nearest camp is
   }
 }
