@@ -270,3 +270,4 @@ export class Game {
     let visible = true
     if (cur) {
       const lp = lockPoint(cur)
+      const c = this.camera.position
