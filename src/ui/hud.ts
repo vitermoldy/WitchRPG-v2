@@ -203,5 +203,6 @@ export class Hud {
       this.set(id + '-lv', 'text', locked ? `Lv ${unlock}` : '')
       this.set(id + '-cd', 'transform', `scaleY(${locked ? 0 : cd.toFixed(3)})`)
     }
+    skill('sk-burst', 3, cds.burst)
   }
 }
