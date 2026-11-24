@@ -41,6 +41,7 @@ export class Hud {
   private readonly pool: HTMLDivElement[] = []
   private readonly v = new THREE.Vector3()
   private bannerTime = 0
+  private bigBannerTime = 0
   private hintTime = 0
   private zoneKey = ''
 
