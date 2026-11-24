@@ -396,3 +396,4 @@ export class Fight {
 
   private release() {
     const g = this.g
+    const from = g.ilyra.hand('R')
