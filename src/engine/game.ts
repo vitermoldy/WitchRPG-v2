@@ -699,9 +699,7 @@ export class Game implements UnitHost {
       else this.rig.look(inp.dx, inp.dy, CAMERA.sensitivity * this.sensitivity)
     }
 
-    const targets = this.camps.targets
-    const p = this.player
-    if (inp.pressed('Mouse1') || this.botLock) this.lockon.toggle(targets, p.pos, this.rig.yaw)
+    const targets = this.units.enemies().filter((u) => u.targetable || (u === this.lockon.current && u.state === 'finishing'))
     this.botLock = false
     const cur = this.lockon.current
     let visible = true
