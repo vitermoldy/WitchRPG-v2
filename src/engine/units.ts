@@ -704,3 +704,5 @@ export class UnitSystem {
     this.host.telegraph(u)
   }
 
+  // ------------------------------------------------------------ shadows
+
