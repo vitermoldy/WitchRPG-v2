@@ -295,3 +295,4 @@ button {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 0.45rem 0.7rem;
+  margin: 0;
