@@ -23,3 +23,4 @@ export interface UnitHost {
   readonly height: HeightFn
   /** Her feet, her size, and whether she can be targeted. */
   readonly foe: Foe
+  /** Ground no creature may stand on: deep water, past the map edge. */
