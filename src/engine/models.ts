@@ -52,3 +52,4 @@ export class IlyraModel {
   private t = 0
 
   constructor(model: THREE.Group) {
+    this.root.name = 'ilyra'
