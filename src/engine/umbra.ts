@@ -407,3 +407,4 @@ export class Umbra {
       if (why.startsWith('Mana')) g.hud.flashMana()
       return
     }
+    this.casting = [...list]
