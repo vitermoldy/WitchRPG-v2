@@ -251,3 +251,4 @@ export class Spells {
       if (!canAct || !inp.held || !inp.aiming) this.drop(canAct && inp.aiming)
       else this.holdGrip(dt)
     }
+    this.updateBolts(dt)
