@@ -355,3 +355,4 @@ export class Game {
       calls: info.render.calls,
       triangles: info.render.triangles,
       chunks: this.terrain.built,
+      trees: this.forest.trees.filter((t) => t.kind !== 'rock' && t.kind !== 'rock_big').length,
