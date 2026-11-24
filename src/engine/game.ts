@@ -964,8 +964,7 @@ export class Game implements UnitHost {
       }))
   }
 
-  /** The nearest living Imp (world position), so the bot can look at it before locking on. */
-  nearestTarget(range: number) {
+  /** ?debug: creatures around her, for tests. */
     const p = this.player.pos
     let best: { x: number; z: number } | null = null
     let bd = range
