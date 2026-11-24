@@ -300,3 +300,4 @@ export class Spells {
       const b = this.bolts[i]
       b.prev.copy(b.pos)
       b.pos.addScaledVector(b.vel, dt)
+      b.life -= dt
