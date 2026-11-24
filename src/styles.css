@@ -1585,6 +1585,7 @@ dialog::backdrop {
   font-size: 0.8rem;
 }
 
+.room-item .room-meta {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
