@@ -333,6 +333,7 @@ export class Game implements UnitHost {
       ...V2_KINDS.map((k) => loadModel(`./models/${k}_lod.glb`)),
     ])
     this.ilyra = new IlyraModel(ilyra)
+    this.scene.add(this.ilyra.root)
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
