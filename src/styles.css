@@ -1571,6 +1571,7 @@ dialog::backdrop {
   border-radius: var(--radius);
 }
 
+.room-item p {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
