@@ -1365,6 +1365,7 @@ dialog::backdrop {
 
 .ledger-stats {
   grid-area: stats;
+  padding: 1.2rem 1.4rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
