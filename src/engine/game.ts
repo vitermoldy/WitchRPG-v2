@@ -777,6 +777,7 @@ export class Game implements UnitHost {
       if (this.deadT > REVIVE.delay) this.revive()
     }
     if (this.saveIn >= 0) {
+      this.saveIn -= dt
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
