@@ -126,3 +126,4 @@ describe('over-the-shoulder camera', () => {
     expect(sy).toBeLessThan(0.45)
   })
 
+  it('wanted spot and clear fraction agree when the path is empty', () => {
