@@ -558,3 +558,4 @@ export class Umbra {
       g.hud.message('Tukar Tempat terbuka di Lv 4.', 'umbra')
       return
     }
+    if (this.swapCd > 0) {
