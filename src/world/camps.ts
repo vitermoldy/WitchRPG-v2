@@ -119,6 +119,7 @@ export class Camps {
     camp.units = []
     const [lo, hi] = camp.def.levels
     let n = 0
+    for (const [kind, count] of Object.entries(camp.def.pack) as [V2Kind, number][]) {
     }
     this.update(0, 0, new THREE.Vector3(1e6, 0, 1e6))
   }
