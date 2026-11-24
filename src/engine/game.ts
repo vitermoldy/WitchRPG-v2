@@ -138,3 +138,4 @@ export class Game {
     this.terrain = new Terrain()
     this.scene.add(this.terrain.group)
     this.atmosphere = new Atmosphere(this.scene)
+    this.scene.add(water())
