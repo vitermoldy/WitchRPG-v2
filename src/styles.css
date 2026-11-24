@@ -436,3 +436,4 @@ button {
   gap: 0.4rem 1.4rem;
   width: max-content;
   max-width: calc(100% - 2 * var(--gutter));
+  margin: 0;
