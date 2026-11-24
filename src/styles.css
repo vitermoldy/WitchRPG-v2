@@ -1089,6 +1089,7 @@ button {
   top: 9.5rem;
 }
 
+.wheel-opt[data-opt='hold'] {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
