@@ -392,3 +392,4 @@ export class Umbra {
     const rank = u ? riteBlock(g.profile, u.kind) : null
     if (rank) return rank
     if (g.profile.shadows.length >= RITE.maxShadows) return 'Ruang Bayangan sudah penuh sekali.'
+    const need = this.cost(n)
