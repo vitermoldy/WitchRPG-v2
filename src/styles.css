@@ -1063,6 +1063,8 @@ button {
   width: 22rem;
   height: 22rem;
   transform: translate(-50%, -50%);
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
