@@ -129,6 +129,7 @@ export class Camps {
           at.x = camp.pos.x
           at.z = camp.pos.z
         }
+        const u = g.units.spawn(kind, 'enemy', lo + Math.floor(Math.random() * (hi - lo + 1)), at)
     }
     this.update(0, 0, new THREE.Vector3(1e6, 0, 1e6))
   }
