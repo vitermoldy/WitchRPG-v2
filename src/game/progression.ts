@@ -26,3 +26,4 @@ export interface ShadowRecord {
   name: string
   kind: UnitKind
   rank: RankId
+  level: number
