@@ -171,3 +171,4 @@ export interface UnitSpec {
   mass: number
   attackRange: number
   windup: number
+  recover: number
