@@ -565,6 +565,8 @@ export class Game implements UnitHost {
 
   hitstop(s: number) {
     this.hitstopT = Math.max(this.hitstopT, s)
+  }
+
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
