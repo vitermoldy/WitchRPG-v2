@@ -623,3 +623,4 @@ export class Spells {
       uniforms: { uTime: { value: 0 }, uFade: { value: 0 } },
       vertexShader: PLAIN_VERT,
       fragmentShader: WARP_FRAG,
+      transparent: true,
