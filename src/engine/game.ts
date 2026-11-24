@@ -840,6 +840,7 @@ export class Game implements UnitHost {
     // shake: small turns of the view (never a move, so it cannot push the camera into a tree)
     this.trauma = Math.max(0, this.trauma - dt * 1.6)
     if (this.trauma > 0 && this.profile.settings.shake) {
+      const k = this.trauma * this.trauma * 0.035
     if (Math.abs(c.fov - pose.fov) > 1e-3) {
       c.fov = pose.fov
       c.updateProjectionMatrix()
