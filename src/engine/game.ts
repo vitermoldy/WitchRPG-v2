@@ -936,6 +936,7 @@ export class Game implements UnitHost {
     const p = this.player.pos
     return this.units.units
       .filter((u) => u.team === 'enemy' && Math.hypot(u.pos.x - p.x, u.pos.z - p.z) < range)
+      .map((u) => ({
   }
 
   /** The nearest living Imp (world position), so the bot can look at it before locking on. */
