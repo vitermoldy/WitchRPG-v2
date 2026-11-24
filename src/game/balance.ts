@@ -49,3 +49,5 @@ export const CAMERA = {
   near: 0.1,
   far: 1200,
   sensitivity: 0.0022,
+} as const
+
