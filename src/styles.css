@@ -423,3 +423,4 @@ button {
 }
 
 .aim-dot.show {
+  opacity: 0.9;
