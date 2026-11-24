@@ -166,6 +166,7 @@ export class IlyraModel {
       this.rot('staff', 0)
       this.rot('cloak', 30 * k)
       return
+    }
     const amp = Math.min(1.6, p.speed / MOVE.jog)
     const sprint = Math.max(0, (p.speed - MOVE.jog) / (MOVE.sprint - MOVE.jog))
     const s = Math.sin(p.stride)
