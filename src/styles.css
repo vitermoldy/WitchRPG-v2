@@ -1335,6 +1335,7 @@ dialog::backdrop {
   transform-origin: left;
 }
 
+.ledger-xp-text {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
