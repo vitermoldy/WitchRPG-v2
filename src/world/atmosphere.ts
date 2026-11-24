@@ -117,3 +117,5 @@ export class Atmosphere {
     this.sun.position.copy(at).addScaledVector(SUN_DIR, 150)
     this.sun.target.position.copy(at)
   }
+}
+
