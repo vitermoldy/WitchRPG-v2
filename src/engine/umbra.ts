@@ -491,3 +491,4 @@ export class Umbra {
     if (!shadows.length && choice !== 'swap') {
       g.hud.message('Belum ada bayangan di medan. Tekan T untuk memanggil mereka.', 'umbra')
       return
+    }
