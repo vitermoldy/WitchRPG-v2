@@ -755,3 +755,4 @@ export const COMBAT = {
   block: {
     /** Attacks from within this angle in front (radians, total) are blocked. */
     arc: 2.4,
+    /** Her pace while holding block. */
