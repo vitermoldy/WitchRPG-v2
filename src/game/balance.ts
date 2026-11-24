@@ -503,6 +503,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // v2 mini-boss, Rawa Berkabut: snake bite, and a gaze that turns her to stone unless she blocks it.
   medusa: {
+    name: 'Medusa',
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
