@@ -805,3 +805,4 @@ export const COMBAT = {
  */
 export const CAMP = { wake: 80, sleep: 170, respawn: 120, aggro: 24, leash: 55 } as const
 
+/** v2 open world: falling, and getting up again. */
