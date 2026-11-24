@@ -794,6 +794,7 @@ button {
   position: absolute;
   left: var(--gutter);
   bottom: var(--gutter);
+  display: grid;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
