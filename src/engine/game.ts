@@ -263,3 +263,4 @@ export class Game {
     else this.rig.look(inp.dx, inp.dy, CAMERA.sensitivity * this.sensitivity)
 
     const targets = this.camps.targets
+    const p = this.player
