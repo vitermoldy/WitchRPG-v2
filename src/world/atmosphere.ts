@@ -91,3 +91,4 @@ export class Atmosphere {
     this.fogTarget.setRGB(0, 0, 0)
     this.skyTarget.setRGB(0, 0, 0)
     let inv = 0
+    let best = 0
