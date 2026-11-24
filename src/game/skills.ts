@@ -43,3 +43,4 @@ export const SKILLS: SkillDef[] = [
     branch: 'chaos',
     name: 'Telekinesis Grip',
     key: 'Tahan RMB',
+    unlock: 1,
