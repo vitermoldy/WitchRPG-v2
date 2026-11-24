@@ -249,3 +249,4 @@ export class Game {
     this.t += dt
     const inp = this.input
     const b = this.bot
+    const aiming = b ? b.aim : inp.held('Mouse2')
