@@ -694,3 +694,4 @@ export class UnitSystem {
     u.set('windup')
     if (atk.cooldown) u.atkCd.set(atk.name, atk.cooldown)
     if (atk.ahead !== undefined) {
+      // a breath: the circle lies in front of it and does not follow her
