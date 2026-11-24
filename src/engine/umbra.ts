@@ -53,3 +53,4 @@ export class Umbra {
   casting: Unit[] = []
   progress = 0
   swapCd = 0
+  summonCd = 0
