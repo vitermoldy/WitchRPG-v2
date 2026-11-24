@@ -799,3 +799,4 @@ export class UnitSystem {
       u.ground = host.height(u.pos.x, u.pos.z)
       u.groundX = u.pos.x
       u.groundZ = u.pos.z
+    }
