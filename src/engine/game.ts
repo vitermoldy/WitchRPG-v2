@@ -336,3 +336,4 @@ export class Game {
   /** Frame times (ms) of the recent frames while playing, and their median and 95th percentile. */
   frameStats() {
     const n = Math.min(this.frameCount, FRAME_SAMPLES)
+    const arr = Array.from(this.frames.slice(0, n)).filter((v) => v > 0).sort((a, b) => a - b)
