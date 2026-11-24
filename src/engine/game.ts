@@ -242,6 +242,7 @@ export class Game implements UnitHost {
     this.hurtPlayer(u.damage * (atk.damage ?? 1), u.pos)
     if (!p.alive) return
     if (atk.effect === 'petrify' && this.spells.barrierT <= 0) {
+      p.petrified = EFFECTS.petrify
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
