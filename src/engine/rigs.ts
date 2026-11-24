@@ -731,3 +731,4 @@ export class Rigs {
         const mat = shadowMaterial(piece.material as THREE.MeshStandardMaterial)
         b.parts.push({ geometry: piece.geometry, material: mat, mesh: new THREE.InstancedMesh(piece.geometry, mat, 1) })
       }
+      this.crowd.set(kind, b)
