@@ -61,3 +61,4 @@ export class Game {
   private readonly composer: EffectComposer
   private readonly bloom: UnrealBloomPass
   private readonly timer = new THREE.Timer()
+  private terrain!: Terrain
