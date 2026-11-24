@@ -129,3 +129,4 @@ export class Projectiles {
               hit = true
               break
             }
+          }
