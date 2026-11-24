@@ -78,3 +78,4 @@ export class IlyraModel {
   }
 
   update(dt: number, p: Player, aim: number) {
+    this.t += dt
