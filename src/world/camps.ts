@@ -203,5 +203,6 @@ export class Camps {
       }
     })
     if (colors) {
+      let i = 0
   }
 }
