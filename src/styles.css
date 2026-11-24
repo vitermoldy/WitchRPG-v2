@@ -1169,6 +1169,7 @@ button {
   position: absolute;
   bottom: 9px;
   left: 50%;
+  transform: translateX(-50%);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
