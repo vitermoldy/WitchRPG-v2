@@ -34,3 +34,4 @@ function world(groundHeight = 0) {
       each?.()
       sys.update(dt)
     }
+  }
