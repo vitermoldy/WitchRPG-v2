@@ -224,5 +224,6 @@ export class Camps {
     return best
   }
 
+  get cleared() {
   }
 }
