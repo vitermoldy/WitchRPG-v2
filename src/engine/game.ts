@@ -957,6 +957,7 @@ export class Game implements UnitHost {
         stun: u.stun.share,
         alt: u.alt,
         aggro: u.aggro,
+        camp: u.camp,
   }
 
   /** The nearest living Imp (world position), so the bot can look at it before locking on. */
