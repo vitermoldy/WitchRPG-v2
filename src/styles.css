@@ -898,6 +898,7 @@ button {
   transform-origin: left;
 }
 
+.xp-text {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
