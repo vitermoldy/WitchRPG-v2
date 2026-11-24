@@ -569,3 +569,4 @@ class Rig implements Poser {
     })
   }
 
+  private makePart(src: THREE.Mesh, mat: THREE.MeshStandardMaterial): Part {
