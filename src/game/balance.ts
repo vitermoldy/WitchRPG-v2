@@ -772,3 +772,4 @@ export const COMBAT = {
   /** A full stun meter staggers the creature this long; F executes it. */
   stagger: 3.2,
   /** The meter drains this fast after this long without new stun. */
+  stunDrain: 8,
