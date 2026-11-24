@@ -454,3 +454,4 @@ export class Umbra {
       this.spawnShadow(rec, at, this.field().length)
       this.armyOut = true
     }
+    this.stats.raised += raised.length
