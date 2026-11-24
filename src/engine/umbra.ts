@@ -381,3 +381,4 @@ export class Umbra {
   }
 
   /** Mana for raising `n` bodies in one cast. */
+  cost(n: number) {
