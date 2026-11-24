@@ -282,3 +282,4 @@ export class Game {
 
     this.cullIn -= dt
     if (this.cullIn <= 0) {
+      this.forest.cull(p.pos.x, p.pos.z)
