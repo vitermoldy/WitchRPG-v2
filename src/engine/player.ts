@@ -83,3 +83,4 @@ export class Player {
       let dx = wx
       let dz = wz
       if (Math.hypot(dx, dz) < 0.2) {
+        dx = Math.sin(this.facing)
