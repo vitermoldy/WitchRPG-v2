@@ -179,6 +179,7 @@ export class Camps {
         // rouse the whole pack when she or a shadow comes close, or one of them is hurt
         if (!camp.roused) {
           const close = (u: Unit) => {
+            if (p.alive && Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z) < CAMP.aggro) return true
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
