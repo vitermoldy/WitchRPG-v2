@@ -713,3 +713,4 @@ export class Rigs {
     for (const k of kinds) {
       this.rig(k, 'enemy')
       this.rig(k, 'shadow')
+      this.batch(k, 1)
