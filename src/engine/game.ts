@@ -26,3 +26,4 @@ export type State = 'loading' | 'title' | 'playing' | 'paused'
 export interface BotInput {
   x: number
   y: number
+  sprint: boolean
