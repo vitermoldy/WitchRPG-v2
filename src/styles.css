@@ -530,6 +530,7 @@ button {
   transition: opacity 0.25s;
 }
 
+.veil-chaos {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
