@@ -19,3 +19,4 @@ export const MOVE = {
   /** Deepest water she wades into; Danau Hitam and the swamp pools are deeper. */
   maxWade: 0.9,
   dodge: {
+    distance: 4.2,
