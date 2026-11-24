@@ -542,6 +542,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summon: { every: 16, count: 2, max: 4 },
     summonKind: 'imp',
     attacks: [
+      { name: 'sengat ular', strike: 'ring', windup: 0.7, recover: 0.8, range: 6, ring: 1.8, behind: true, damage: 0.7, effect: 'poison' },
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
