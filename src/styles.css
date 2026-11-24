@@ -558,6 +558,7 @@ button {
   animation: breath 1.1s ease-out;
 }
 
+@keyframes breath {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
