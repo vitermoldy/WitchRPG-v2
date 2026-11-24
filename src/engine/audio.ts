@@ -65,3 +65,4 @@ export class Sfx {
     this.env(g, t, 0.005, peak, dur)
     src.connect(f).connect(g).connect(this.master!)
     src.start(t, Math.random())
+    src.stop(t + dur + 0.05)
