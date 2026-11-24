@@ -867,3 +867,4 @@ export class UnitSystem {
     u.vel.y = 0
     u.flight = 0
     u.hurled = false
+    u.groundX = NaN
