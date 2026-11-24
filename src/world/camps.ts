@@ -9,3 +9,4 @@ import { heightMap, SPOTS, toWorld } from './map'
  * something to frame. They watch Ilyra but do not fight yet (that is phase 2).
  */
 const CAMPS: { c: [number, number]; n: number }[] = [
+  { c: [SPOTS.hero[0] + 9, SPOTS.hero[1] + 6], n: 6 },
