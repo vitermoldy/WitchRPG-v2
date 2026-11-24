@@ -62,3 +62,4 @@ export class Camps {
   }
 
   update(dt: number, t: number, player: THREE.Vector3) {
+    this.targets.forEach((imp, i) => {
