@@ -707,3 +707,5 @@ export class Spells {
     const p = this.g.player.pos
     this.shield.position.set(p.x, p.y + 1, p.z)
     if (this.barrierT <= 0) this.endBarrier()
+  }
+
