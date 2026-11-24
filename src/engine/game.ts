@@ -299,3 +299,4 @@ export class Game {
     if (this.debug) this.hud.debug(this.debugText())
   }
 
+  /** Camera, terrain detail, fog and shadows for the current state. */
