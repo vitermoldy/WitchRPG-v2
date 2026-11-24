@@ -1019,6 +1019,7 @@ button {
 }
 
 .army-row.dim,
+.army-row.dim b {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
