@@ -206,5 +206,6 @@ export class Hud {
     skill('sk-burst', 3, cds.burst)
     skill('sk-snare', 5, cds.snare)
     skill('sk-barrier', 7, cds.barrier)
+    skill('sk-warp', 10, cds.warp)
   }
 }
