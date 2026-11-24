@@ -369,3 +369,4 @@ export interface TierSpec {
   name: string
   roman: string
   unlock: number
+  waves: WaveSpec[]
