@@ -274,5 +274,6 @@ export class Hud {
     this.set('bossbar', 'class', boss ? 'bossbar on' : 'bossbar')
     if (!boss) return
     this.set('boss-name', 'text', `${boss.spec.name} Lv ${boss.level}${boss.staggered ? ', limbung' : ''}`)
+    this.set('boss-fill', 'transform', `scaleX(${Math.max(0, boss.hp / boss.maxHp).toFixed(3)})`)
   }
 }
