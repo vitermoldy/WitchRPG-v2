@@ -458,3 +458,4 @@ export class Spells {
     g.lights.release(this.tendrilLight)
     this.tendrilLight = null
     g.sfx.gripStop(throwIt)
+    if (throwIt) {
