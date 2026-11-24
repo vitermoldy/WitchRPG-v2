@@ -537,3 +537,4 @@ export class Umbra {
             if (d < bd && near < 8) {
               bd = d
               mine = e
+            }
