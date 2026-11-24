@@ -162,6 +162,7 @@ export class Camps {
         const alive = camp.units.filter((u) => u.alive)
         if (!alive.length) {
           camp.state = 'cleared'
+          camp.respawnAt = this.time + CAMP.respawn
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
