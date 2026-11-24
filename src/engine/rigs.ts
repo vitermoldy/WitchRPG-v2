@@ -40,3 +40,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMate
 }
 
 interface Part {
+  src: THREE.Mesh
