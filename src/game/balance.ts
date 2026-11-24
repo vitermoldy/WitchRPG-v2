@@ -193,3 +193,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   husk: {
     name: 'Husk',
     rank: 'prajurit',
+    hp: 40,
