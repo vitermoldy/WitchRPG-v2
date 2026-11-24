@@ -374,3 +374,4 @@ export class Sfx {
     g.gain.exponentialRampToValueAtTime(0.09, ctx.currentTime + 3)
     const f = ctx.createBiquadFilter()
     f.type = 'lowpass'
+    f.frequency.value = 380
