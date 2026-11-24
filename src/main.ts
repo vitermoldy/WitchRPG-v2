@@ -109,6 +109,7 @@ async function boot() {
     changed: () => {
       game.statsChanged()
     },
+    sfxUi: () => game.sfx.ui(),
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
