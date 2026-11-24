@@ -146,3 +146,4 @@ export class Game {
     this.forest = new Forest(trees)
     this.scene.add(this.forest.mesh)
     progress('Memanggil Ilyra')
+    const [ilyra, imp] = await Promise.all([loadModel('./models/ilyra.glb'), loadModel('./models/imp.glb')])
