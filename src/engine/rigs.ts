@@ -35,3 +35,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMate
     m.emissiveIntensity = 0.5
   }
   m.roughness = 0.55
+  m.metalness = 0
