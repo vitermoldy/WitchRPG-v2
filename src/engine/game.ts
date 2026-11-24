@@ -291,3 +291,4 @@ export class Game {
     this.hud.aim(this.rig.aim > 0.5)
     if (target) {
       const lp = lockPoint(target)
+      this.v.set(lp.x, lp.y, lp.z).project(this.camera)
