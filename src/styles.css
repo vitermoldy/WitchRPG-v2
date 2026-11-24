@@ -938,6 +938,7 @@ button {
   z-index: 1;
 }
 
+.skill-sub {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
