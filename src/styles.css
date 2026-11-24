@@ -1415,6 +1415,7 @@ dialog::backdrop {
 .stat button {
   width: 44px;
   height: 44px;
+  padding: 0;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
