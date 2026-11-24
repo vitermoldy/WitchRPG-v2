@@ -69,3 +69,4 @@ export class Camps {
         // turn to watch her; the model faces +z
         const want = Math.atan2(dx, dz)
         const d = Math.atan2(Math.sin(want - imp.yaw), Math.cos(want - imp.yaw))
+        imp.yaw += d * Math.min(1, dt * 3)
