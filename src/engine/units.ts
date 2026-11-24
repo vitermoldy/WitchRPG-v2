@@ -369,3 +369,4 @@ export class UnitSystem {
       }
       return best
     }
+    const cx = Math.floor(u.pos.x / CELL)
