@@ -220,3 +220,4 @@ export class Umbra {
     // UMB makes every soldier stronger
     const power = g.derived.shadowPower
     u.maxHp *= power
+    u.hp = u.maxHp
