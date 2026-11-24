@@ -241,3 +241,4 @@ export class Game {
     if (this.syncFrames) {
       const gl = this.renderer.getContext()
       gl.readPixels(0, 0, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, this.pixel)
+    }
