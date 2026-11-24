@@ -668,3 +668,4 @@ interface CrowdBatch {
 }
 
 /** How long a shadow takes to climb out of its pool, and to sink back in. */
+export const RISE_TIME = 1.0
