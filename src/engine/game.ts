@@ -74,6 +74,7 @@ export class Game implements UnitHost {
   derived: Derived
   glow!: Particles
   smoke!: Particles
+  lights!: LightPool
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
   debugSpeed = 1
