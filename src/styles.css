@@ -1095,6 +1095,7 @@ button {
 }
 
 .wheel-opt[data-opt='swap'] {
+  left: 0;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
