@@ -189,3 +189,4 @@ export class Game {
 
   start() {
     this.state = 'playing'
+    this.input.capture = true
