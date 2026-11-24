@@ -665,6 +665,7 @@ button {
 
 .banner.show {
   opacity: 1;
+  transform: translate(-50%, 0);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
