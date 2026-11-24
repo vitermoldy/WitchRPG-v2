@@ -637,3 +637,4 @@ class Rig implements Poser {
     for (const part of this.parts) {
       this.m.multiplyMatrices(this.unitM, part.src.matrixWorld)
       part.mesh.setMatrixAt(i, this.m)
+      part.glow.setXYZ(i, gr, gg, gb)
