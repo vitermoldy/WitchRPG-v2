@@ -58,3 +58,4 @@ export class Camps {
       this.meshes.push(mesh)
       this.group.add(mesh)
     }
+    this.update(0, 0, new THREE.Vector3(1e6, 0, 1e6))
