@@ -791,3 +791,4 @@ export class Rigs {
     }
     for (const r of this.rigs.values()) r.end()
 
+    for (const b of this.crowd.values()) b.used = 0
