@@ -122,6 +122,7 @@ async function boot() {
   })
   if (debug) Object.assign(window as unknown as Record<string, unknown>, { __ledger: ledger, __travel: travel })
 
+  /** A menu opens: the game waits and the mouse is freed for the buttons. */
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
