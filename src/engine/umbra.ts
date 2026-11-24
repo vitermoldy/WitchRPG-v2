@@ -151,3 +151,4 @@ export class Umbra {
    * formation, they rise out of it from the inner ranks outward.
    */
   summon() {
+    const g = this.g
