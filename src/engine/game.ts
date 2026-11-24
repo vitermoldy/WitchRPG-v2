@@ -904,6 +904,7 @@ export class Game implements UnitHost {
       level: this.profile.level,
       xp: this.profile.xp,
       alive: p.alive,
+      dodges: p.dodges,
       locked: !!this.lockon.current,
       width: this.renderer.domElement.width,
       height: this.renderer.domElement.height,
