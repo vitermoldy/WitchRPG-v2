@@ -40,3 +40,4 @@ export class Hud {
     this.lockMark.style.transform = `translate(${at.x.toFixed(1)}px, ${at.y.toFixed(1)}px)`
   }
 
+  aim(on: boolean) {
