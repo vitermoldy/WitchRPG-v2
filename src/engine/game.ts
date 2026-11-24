@@ -231,6 +231,7 @@ export class Game implements UnitHost {
     if (res === 'block') {
       this.fight.stats.blocks++
       this.units.hurt(u, 0, p.pos, 6, 2)
+      p.nudge(p.pos.x - u.pos.x, p.pos.z - u.pos.z, 0.35, 0.14)
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
