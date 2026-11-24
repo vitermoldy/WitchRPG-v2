@@ -743,6 +743,7 @@ export class Game implements UnitHost {
       barrier: inp.pressed('KeyX'),
       warp: inp.pressed('KeyV'),
     })
+    const t2 = performance.now()
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
