@@ -838,6 +838,7 @@ button {
   background: linear-gradient(90deg, #c71a2c, var(--chaos));
 }
 
+.bar-mana i {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
