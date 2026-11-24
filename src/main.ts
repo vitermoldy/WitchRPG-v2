@@ -35,3 +35,4 @@ async function boot() {
   } catch (e) {
     fail(`WebGL gagal dimulai: ${(e as Error).message}`)
     return
+  }
