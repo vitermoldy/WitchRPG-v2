@@ -117,6 +117,7 @@ export class Camps {
     camp.state = 'active'
     camp.roused = false
     camp.units = []
+    const [lo, hi] = camp.def.levels
     }
     this.update(0, 0, new THREE.Vector3(1e6, 0, 1e6))
   }
