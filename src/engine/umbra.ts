@@ -91,3 +91,4 @@ export class Umbra {
   }
 
   /** Shadows standing on the field (rising ones included, sinking ones not). */
+  field(): Unit[] {
