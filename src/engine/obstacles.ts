@@ -117,3 +117,4 @@ export class Obstacles {
     const mx = (ax + bx) / 2
     const mz = (az + bz) / 2
     let best = 1
+    this.near(mx, mz, len / 2 + cr + 8, (s) => {
