@@ -184,6 +184,7 @@ export class Camps {
             const s = g.units.nearestFoe(u, CAMP.aggro * 0.6)
             return !!s
           }
+          if (alive.some(close)) {
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
