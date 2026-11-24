@@ -234,3 +234,4 @@ export class Umbra {
     return this.glowColor.set(COLOR.umbra).multiplyScalar(k)
   }
 
+  update(dt: number, canAct: boolean, inp: UmbraInput) {
