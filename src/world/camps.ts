@@ -113,6 +113,7 @@ export class Camps {
   }
 
   private wake(camp: Camp, index: number) {
+    const g = this.g
     }
     this.update(0, 0, new THREE.Vector3(1e6, 0, 1e6))
   }
