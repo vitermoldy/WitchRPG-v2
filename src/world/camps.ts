@@ -13,8 +13,7 @@ export interface CampDef {
 }
 
 /**
- * Phase 1 creatures: packs of Imps standing in Hutan Pembuka so the camera and lock-on have
- * something to frame. They watch Ilyra but do not fight yet (that is phase 2).
+ * Hutan Pembuka (Tier I, Lv 1 to 3): Imps and Hellhounds, the first camps along the path north of the
  */
 const CAMPS: { c: [number, number]; n: number }[] = [
   { c: [SPOTS.hero[0] + 9, SPOTS.hero[1] + 6], n: 6 },
