@@ -53,3 +53,4 @@ export const toMap = (wx: number, wz: number): [number, number] => [wx, -wz]
 
 // ------------------------------------------------------------ noise
 
+function mulberry32(seed: number) {
