@@ -312,6 +312,7 @@ button {
   gap: 0.4rem 0.7rem;
   margin: 0;
   font-size: 0.86rem;
+  line-height: 1.4;
 }
 
 .controls dt {
