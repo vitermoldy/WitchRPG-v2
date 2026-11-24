@@ -34,3 +34,4 @@ export function normalizeProfile(data: Partial<Profile> | null | undefined): Pro
     shadows: Array.isArray(data.shadows) ? data.shadows : [],
   } as Profile
   for (const k of STAT_KEYS) if (typeof profile.stats[k] !== 'number') profile.stats[k] = base.stats[k]
+  return profile
