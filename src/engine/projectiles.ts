@@ -128,3 +128,4 @@ export class Projectiles {
               g.strikeUnit(s.source, u, s.atk)
               hit = true
               break
+            }
