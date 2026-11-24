@@ -1395,6 +1395,7 @@ dialog::backdrop {
   gap: 0.6rem;
 }
 
+.stat-name {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
