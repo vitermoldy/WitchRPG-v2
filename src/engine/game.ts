@@ -192,3 +192,5 @@ export class Game {
     this.input.capture = true
     this.hud.show(true)
     this.lastFrame = performance.now()
+  }
+
