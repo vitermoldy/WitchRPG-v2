@@ -1315,6 +1315,7 @@ dialog::backdrop {
   padding: 0 1.4rem 1rem;
 }
 
+.ledger-lv {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
