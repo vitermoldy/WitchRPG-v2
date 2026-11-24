@@ -461,3 +461,4 @@ export class Spells {
     if (throwIt) {
       g.fight.cast()
       g.addTrauma(0.12)
+    }
