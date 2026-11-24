@@ -209,6 +209,7 @@ export class Game implements UnitHost {
     const strike = atk.strike
     const angle = wrap(yawTo(p.pos.x, p.pos.z, u.pos.x, u.pos.z) - p.facing)
     const res = resolveDefense(this.t, strike, p.invulnerable || this.fight.invulnerable, this.fight.blocking, this.fight.blockPressedAt, angle)
+    if (this.debug && this.strikeLog.length < 2000) this.strikeLog.push({ t: this.t, kind: u.kind, strike, res, angle: +angle.toFixed(2), blocking: this.fight.blocking, since: +(this.t - this.fight.blockPressedAt).toFixed(3), swing: !!this.fight.combo.current, rolling: p.dodging })
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
