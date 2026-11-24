@@ -1026,6 +1026,8 @@ button {
 .army-row.key {
   margin-top: 0.15rem;
   color: var(--ink-2);
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
