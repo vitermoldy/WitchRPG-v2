@@ -154,3 +154,4 @@ export class Player {
     const nz = this.pos.z + dz
     if (g.blocked(nx, nz)) return
     const h0 = g.height(this.pos.x, this.pos.z)
+    const h1 = g.height(nx, nz)
