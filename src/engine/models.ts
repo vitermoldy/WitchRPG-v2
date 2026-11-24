@@ -193,9 +193,8 @@ export class IlyraModel {
     this.rot('pelvis', 0, -3 * s * amp)
     this.rot('cloak', 5 + 3 * Math.sin(p.stride * 2) * amp + 10 * sprint)
     this.rot('head', -2 - 6 * sprint, -3 * s * amp)
-    this.rot('upperarm_L', 14 * s * amp * (1 - aim) - 65 * aim, 0, 10 * aim)
-    this.rot('forearm_L', -12 * aim)
-    this.rot('upperarm_R', -8 * s * amp)
+
+    // upper body: the fight overrides the walk's arm swing
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
