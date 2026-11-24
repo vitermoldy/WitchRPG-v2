@@ -1292,6 +1292,7 @@ dialog::backdrop {
   padding: 1.2rem 1.4rem 0.8rem;
 }
 
+.ledger-title {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
