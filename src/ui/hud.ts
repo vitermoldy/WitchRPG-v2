@@ -49,6 +49,7 @@ export class Hud {
   private zoneKey = ''
 
   constructor(g: Game) {
+    this.g = g
   show(on: boolean) {
     this.root.hidden = !on
     if (on && this.hintTime === 0) this.hintTime = 14
