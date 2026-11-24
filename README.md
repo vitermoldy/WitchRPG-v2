@@ -12,3 +12,5 @@ Game ini dibangun per fase menurut [PROMPT.md](./PROMPT.md). Keputusan desain ad
 | 3. Umbra | Umbra Rite, pasukan bayangan | |
 | 4. Dunia dan progresi | Zona I sampai III penuh, kamp, altar, Ledger | |
 | 5. Boss | Hydra tiga fase, zona IV dan V | |
+| 6. Poles | Model akhir, suara, akun dan simpanan server | |
+
