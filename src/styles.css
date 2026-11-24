@@ -980,6 +980,7 @@ button {
 .army {
   position: absolute;
   right: var(--gutter);
+  bottom: var(--gutter);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
