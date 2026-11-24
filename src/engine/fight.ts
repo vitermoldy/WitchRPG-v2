@@ -297,3 +297,5 @@ export class Fight {
       }
     }
     return best
+  }
+
