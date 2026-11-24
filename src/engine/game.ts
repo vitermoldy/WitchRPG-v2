@@ -30,6 +30,7 @@ import { Projectiles } from './projectiles'
 import { Rigs } from './rigs'
 import { Spells } from './spells'
 import { Telegraphs } from './telegraph'
+import { Umbra } from './umbra'
 
 export type State = 'loading' | 'title' | 'playing' | 'paused'
 
