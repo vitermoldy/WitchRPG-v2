@@ -1444,6 +1444,7 @@ dialog::backdrop {
   gap: 1rem;
 }
 
+.tree {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
