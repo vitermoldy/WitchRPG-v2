@@ -49,3 +49,4 @@ export interface Profile {
   upgrades: Partial<Record<SkillId, boolean>>
   shadows: ShadowRecord[]
   nextShadowId: number
+  /** Rifts closed in total, and per tier. */
