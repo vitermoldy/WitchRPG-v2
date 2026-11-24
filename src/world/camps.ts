@@ -47,6 +47,7 @@ export const CAMP_DEFS: CampDef[] = [
 ]
 
 export interface Camp {
+  def: CampDef
 }
 
 export class Camps {
