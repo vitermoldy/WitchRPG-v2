@@ -222,5 +222,6 @@ export class Hud {
     this.set('altar-line', 'text', unlit ? `${unlit.altar.name} belum menyala, ${Math.round(unlit.dist)} m` : '')
     this.updateBoss()
 
+    this.updatePrompt()
   }
 }
