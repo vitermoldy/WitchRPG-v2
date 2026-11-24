@@ -256,6 +256,7 @@ export class IlyraModel {
       // the staff points out along the arm while it swings, head first
       staffX = mix(staffX, 165, weight)
       staffZ = mix(staffZ, 0, weight)
+      if (sw.heavy) {
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
