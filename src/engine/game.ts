@@ -251,3 +251,4 @@ export class Game {
     const b = this.bot
     const aiming = b ? b.aim : inp.held('Mouse2')
     const move: MoveInput = b
+      ? { x: b.x, y: b.y, sprint: b.sprint, dodge: this.botDodge }
