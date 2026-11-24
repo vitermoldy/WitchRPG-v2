@@ -161,3 +161,4 @@ export class Game {
       },
     }
     this.spawn(SPOTS.hero[0], SPOTS.hero[1], 0.86, 0.5)
+    progress('Menyiapkan cahaya dan shader')
