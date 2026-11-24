@@ -47,3 +47,5 @@ async function boot() {
     return
   }
   show('start')
+  $('btn-enter').focus()
+
