@@ -61,3 +61,4 @@ export class Unit implements Foe {
   readonly id = nextId++
   readonly kind: UnitKind
   readonly team: Team
+  readonly spec: UnitSpec
