@@ -164,3 +164,4 @@ export class Game {
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
+    this.forest.cull(this.player.pos.x, this.player.pos.z)
