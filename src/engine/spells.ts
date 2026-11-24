@@ -302,3 +302,4 @@ export class Spells {
       b.pos.addScaledVector(b.vel, dt)
       b.life -= dt
       b.mesh.position.copy(b.pos)
+      b.light?.position.copy(b.pos)
