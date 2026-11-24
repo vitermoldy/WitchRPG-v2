@@ -16,3 +16,4 @@ export class Hud {
   private hintTime = 0
   private zoneKey = ''
 
+  show(on: boolean) {
