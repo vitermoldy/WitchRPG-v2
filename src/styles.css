@@ -1361,6 +1361,8 @@ dialog::backdrop {
 .points {
   color: #ffbe73;
   font-weight: 400;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
