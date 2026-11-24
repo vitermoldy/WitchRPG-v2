@@ -114,6 +114,7 @@ async function boot() {
   })
   const travel = new TravelPanel({
     altars: () => {
+      const here = game.altars.near()
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
