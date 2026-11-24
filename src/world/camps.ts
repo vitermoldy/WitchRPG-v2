@@ -75,7 +75,7 @@ export class Camps {
   /** The Minotaur's shield is explained once, the first time a pack with one is roused. */
   private toldShield = false
 
-  constructor(model: THREE.Group, obstacles: Obstacles) {
+  constructor(g: Game) {
     this.group.name = 'camps'
     let seed = 11
     const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647)
