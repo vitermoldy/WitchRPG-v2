@@ -641,3 +641,4 @@ class Rig implements Poser {
     }
   }
 
+  end() {
