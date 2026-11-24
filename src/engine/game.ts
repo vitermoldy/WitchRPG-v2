@@ -235,6 +235,7 @@ export class Game implements UnitHost {
       this.sfx.clank()
       this.hitstop(COMBAT.hitstop.light)
       this.glow.emit({ pos: mid, count: 10, color: COLOR.rift, intensity: 2.4, life: 0.25, size: 0.08, speed: 4, gravity: 8 })
+      return
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
