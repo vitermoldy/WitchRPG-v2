@@ -322,6 +322,7 @@ export class Game implements UnitHost {
     this.telegraphs = new Telegraphs(this.scene, heightAt)
     progress('Menanam hutan')
     await frame()
+    const trees = scatter()
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
