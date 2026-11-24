@@ -619,6 +619,7 @@ button {
   position: absolute;
   top: var(--gutter);
   right: var(--gutter);
+  padding: 0.4rem 0.7rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
