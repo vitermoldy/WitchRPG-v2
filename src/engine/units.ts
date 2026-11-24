@@ -3,3 +3,5 @@ import { COMBAT, SHADOW, SPELL, UNITS, type AttackSpec, type UnitKind, type Unit
 import { unitStats, type ShadowRecord } from '../game/progression'
 import { StunMeter } from './combat'
 import type { HeightFn } from './camera'
+import type { Obstacles } from './obstacles'
+
