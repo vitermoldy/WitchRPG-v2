@@ -711,6 +711,7 @@ button {
   font-size: 0.72em;
 }
 
+.feed-item.chaos::before {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
