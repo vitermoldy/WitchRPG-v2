@@ -82,3 +82,4 @@ export class Game {
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
+    this.renderer = new THREE.WebGLRenderer({ canvas, antialias: false, powerPreference: 'high-performance' })
