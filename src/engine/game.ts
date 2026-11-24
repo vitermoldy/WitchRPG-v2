@@ -413,3 +413,4 @@ export class Game {
       `kamera bebas ${this.minClearance.toFixed(2)} m`,
       s.gpu,
     ].join('\n')
+  }
