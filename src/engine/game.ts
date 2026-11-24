@@ -259,6 +259,7 @@ export class Game implements UnitHost {
   }
 
   fire(u: Unit, atk: AttackSpec) {
+    this.shots.fire(u, atk)
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
