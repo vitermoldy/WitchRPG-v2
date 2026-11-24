@@ -974,6 +974,7 @@ export class Game implements UnitHost {
     }
   }
 
+  /** ?debug: adds shadows to the Shadow Room (for the army measurements). */
   }
 
   private debugText() {
