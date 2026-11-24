@@ -18,3 +18,4 @@ describe('Ilyra on foot', () => {
   it('moves the way the camera looks', () => {
     const p = new Player()
     run(p, { ...idle, y: 1 }, 1)
+    // camera yaw 0 looks north (-z)
