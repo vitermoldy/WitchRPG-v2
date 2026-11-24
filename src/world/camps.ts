@@ -149,6 +149,7 @@ export class Camps {
   }
 
   update(dt: number) {
+    const g = this.g
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
