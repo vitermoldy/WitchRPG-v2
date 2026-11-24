@@ -485,6 +485,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Minotaur',
     rank: 'ksatria',
     hp: 150,
+    damage: 20,
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
