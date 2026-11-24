@@ -84,3 +84,5 @@ export class Umbra {
     this.wheelOpen = false
     this.calls = []
     this.armyOut = false
+  }
+
