@@ -754,3 +754,4 @@ export const COMBAT = {
   unarmed: 0.5,
   block: {
     /** Attacks from within this angle in front (radians, total) are blocked. */
+    arc: 2.4,
