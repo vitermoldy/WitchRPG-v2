@@ -953,6 +953,7 @@ button {
 }
 
 .skill.locked span:not(.skill-sub),
+.skill.locked kbd {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
