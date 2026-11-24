@@ -75,3 +75,5 @@ export class Player {
     if (wl > 1) {
       wx /= wl
       wz /= wl
+    }
+
