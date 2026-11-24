@@ -685,3 +685,4 @@ export class Rigs {
   /** Shadows drawn in full detail; the rest join the crowd. */
   detail = 40
   private sortIn = 0
+  private readonly m = new THREE.Matrix4()
