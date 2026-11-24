@@ -23,3 +23,4 @@ import { Player, type Ground, type MoveInput } from './player'
 export type State = 'loading' | 'title' | 'playing' | 'paused'
 
 /** Inputs a ?debug bot can hold instead of the keyboard and mouse. */
+export interface BotInput {
