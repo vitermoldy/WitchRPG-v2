@@ -197,3 +197,4 @@ export class Spells {
   /** Spends mana unless Overload makes skills free. */
   private pay(cost: number): boolean {
     if (this.overloaded || cost <= 0) return true
+    const p = this.g.player
