@@ -363,3 +363,4 @@ export class Game {
       pos: toMap(this.player.pos.x, this.player.pos.z).map((v) => Math.round(v)),
       dodges: this.player.dodges,
       locked: !!this.lockon.current,
+      width: this.renderer.domElement.width,
