@@ -69,3 +69,4 @@ export class Game {
   private ground!: Ground
   private pivotY = 0
   private cullIn = 0
+  private botDodge = false
