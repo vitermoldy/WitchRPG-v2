@@ -119,3 +119,4 @@ export class Spells {
   snareCd = 0
   barrierCd = 0
   warpCd = 0
+  grabbed: Unit[] = []
