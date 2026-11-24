@@ -85,6 +85,7 @@ def flat(m):
 
 def lod_tris(coll):
     """Triangles after the decimate modifiers, as exported."""
+    deps = bpy.context.evaluated_depsgraph_get()
 def export(key):
     coll = bpy.data.collections.new(f"export_{key}")
     scene.collection.children.link(coll)
