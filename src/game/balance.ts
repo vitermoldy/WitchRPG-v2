@@ -462,6 +462,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   naga: {
     name: 'Naga Rawa',
     rank: 'prajurit',
+    hp: 48,
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
