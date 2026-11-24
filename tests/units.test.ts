@@ -36,3 +36,5 @@ function world(groundHeight = 0) {
     }
   }
   return { foe, log, sys, step, now: () => time }
+}
+
