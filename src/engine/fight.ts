@@ -295,3 +295,4 @@ export class Fight {
         bd = d
         best = u
       }
+    }
