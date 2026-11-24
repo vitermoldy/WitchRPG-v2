@@ -325,3 +325,4 @@ export class Game {
     const w = window.innerWidth
     const h = window.innerHeight
     this.renderer.setSize(w, h, false)
+    this.composer.setSize(w, h)
