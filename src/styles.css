@@ -629,6 +629,7 @@ button {
   margin: 0;
 }
 
+.camp-line {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
