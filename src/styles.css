@@ -1328,6 +1328,7 @@ dialog::backdrop {
   overflow: hidden;
 }
 
+.ledger-xp i {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
