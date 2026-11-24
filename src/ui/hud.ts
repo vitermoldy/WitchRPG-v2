@@ -22,7 +22,7 @@ const BOSS_HINT: Partial<Record<UnitKind, string>> = {
 export class Hud {
   private readonly g: Game
   private readonly root = $('hud')
-  private readonly banner = $('zone-banner')
+  private readonly banner_ = $('zone-banner')
   private readonly bannerName = $('zone-name')
   private readonly bannerTier = $('zone-tier')
   private readonly lockMark = $('lock-mark')
