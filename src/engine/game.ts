@@ -248,3 +248,4 @@ export class Game {
   private simulate(dt: number) {
     this.t += dt
     const inp = this.input
+    const b = this.bot
