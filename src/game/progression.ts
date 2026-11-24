@@ -53,3 +53,4 @@ export interface Profile {
   clears: number
   tierClears: Record<TierId, number>
   /** Times The Hollow Warden has fallen. */
+  bossKills: number
