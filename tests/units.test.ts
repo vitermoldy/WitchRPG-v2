@@ -65,3 +65,5 @@ describe('creature attacks', () => {
     })
     expect(moved).toBe(true)
     expect(w.log.strikes.length).toBe(0)
+  })
+
