@@ -22,7 +22,7 @@ import { Fight } from './fight'
 import { LightPool, Particles, Rings, ShadowPools } from './fx'
 import { Input } from './input'
 import { LockOn, lockPoint } from './lockon'
-import { IlyraModel, loadModel } from './models'
+import { idlePose, IlyraModel, loadModel, type IlyraPose } from './models'
 import { Obstacles } from './obstacles'
 import { Player, type Ground, type MoveInput } from './player'
 
