@@ -370,3 +370,4 @@ export class Sfx {
   private startAmbience() {
     const ctx = this.ctx!
     const g = ctx.createGain()
+    g.gain.value = 0.0001
