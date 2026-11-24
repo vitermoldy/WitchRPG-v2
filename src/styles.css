@@ -732,6 +732,7 @@ button {
   from {
     opacity: 0;
     transform: translateX(-8px);
+  }
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
