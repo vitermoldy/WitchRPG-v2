@@ -686,3 +686,4 @@ export class Rigs {
   detail = 40
   private sortIn = 0
   private readonly m = new THREE.Matrix4()
+  private readonly q = new THREE.Quaternion()
