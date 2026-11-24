@@ -54,7 +54,7 @@ export class Hud {
 
   show(on: boolean) {
     this.root.hidden = !on
-    if (on && this.hintTime === 0) this.hintTime = 14
+    if (on && this.hintTime === 0) this.hintTime = 16
   }
 
   zone(z: Zone) {
