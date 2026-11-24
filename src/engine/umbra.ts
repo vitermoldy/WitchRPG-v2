@@ -308,3 +308,4 @@ export class Umbra {
     const holding = canAct && inp.riteHeld
     if (this.casting.length && !holding) this.cancel()
     if (canAct && inp.ritePressed) this.begin()
+    if (this.casting.length) {
