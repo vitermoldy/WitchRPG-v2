@@ -586,3 +586,5 @@ class Rig implements Poser {
     mesh.visible = false
     this.group.add(mesh)
     return { src, geo, mat, mesh, glow }
+  }
+
