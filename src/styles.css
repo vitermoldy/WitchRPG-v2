@@ -1303,6 +1303,7 @@ dialog::backdrop {
 
 .ledger-sub {
   margin: 0.2rem 0 0;
+  color: var(--ink-3);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
