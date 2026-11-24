@@ -682,3 +682,4 @@ export class UnitSystem {
         if (u.t >= atk.recover) {
           u.token = false
           u.cd = spec.cooldown * (0.8 + Math.random() * 0.4)
+          u.set('move')
