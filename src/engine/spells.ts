@@ -248,3 +248,4 @@ export class Spells {
       if (inp.warp) this.cast('warp', inp.aiming)
     }
     if (this.gripping) {
+      if (!canAct || !inp.held || !inp.aiming) this.drop(canAct && inp.aiming)
