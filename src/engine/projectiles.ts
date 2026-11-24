@@ -137,3 +137,4 @@ export class Projectiles {
         continue
       }
 
+      // a glob: it bursts on its circle and hurts whoever stands inside
