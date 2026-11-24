@@ -289,6 +289,7 @@ export class Game implements UnitHost {
     if (near) this.sfx.warn(u.spec.strike ?? 'ring')
   }
 
+  clearTelegraph(u: Unit) {
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
