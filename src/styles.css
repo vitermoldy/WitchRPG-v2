@@ -445,6 +445,8 @@ button {
   height: 0;
   opacity: 0;
   transition: opacity 0.12s;
+}
+
   width: 6px;
   height: 6px;
   margin: -3px 0 0 -3px;
