@@ -345,5 +345,6 @@ export class Hud {
       el.classList.toggle('weak', u.vulnerable > 0)
       el.classList.toggle('staggered', u.staggered)
       const label = u.staggered ? 'Limbung' : ''
+      if (el.dataset.label !== label) el.dataset.label = label
   }
 }
