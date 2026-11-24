@@ -720,6 +720,7 @@ button {
 }
 
 .feed-item.level::before {
+  content: 'Level';
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
