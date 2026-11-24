@@ -1173,6 +1173,7 @@ button {
   padding: 0 0.3rem;
   border-radius: var(--radius-sm);
   background: var(--plate);
+  color: #fff0dc;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
