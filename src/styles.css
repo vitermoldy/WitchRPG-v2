@@ -748,6 +748,7 @@ button {
 .prompt {
   margin: 0;
   max-width: 90vw;
+  padding: 0.25rem 0.7rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
