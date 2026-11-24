@@ -766,3 +766,4 @@ export class Rigs {
     return 0
   }
 
+  update(units: Unit[], t: number, dt: number, cam: THREE.Vector3, glowOf: (u: Unit) => THREE.Color | null) {
