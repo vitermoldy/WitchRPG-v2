@@ -8,3 +8,4 @@ import type { Unit } from './units'
 export type WheelChoice = 'follow' | 'attack' | 'hold' | 'swap'
 
 export interface UmbraInput {
+  riteHeld: boolean
