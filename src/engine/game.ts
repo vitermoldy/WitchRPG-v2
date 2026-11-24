@@ -195,3 +195,4 @@ export class Game {
   }
 
   pause() {
+    if (this.state !== 'playing') return
