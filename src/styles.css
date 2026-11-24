@@ -1453,6 +1453,7 @@ dialog::backdrop {
   list-style: none;
 }
 
+.tree::before {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
