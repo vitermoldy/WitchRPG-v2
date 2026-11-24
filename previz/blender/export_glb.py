@@ -30,3 +30,4 @@ _flat = {}
 
 def emission_of(m):
     if not m or not m.node_tree:
+        return None
