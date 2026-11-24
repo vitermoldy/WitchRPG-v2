@@ -294,3 +294,4 @@ export class Fight {
       if (d < bd) {
         bd = d
         best = u
+      }
