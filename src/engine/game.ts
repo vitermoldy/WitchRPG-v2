@@ -364,3 +364,4 @@ export class Game {
       dodges: this.player.dodges,
       locked: !!this.lockon.current,
       width: this.renderer.domElement.width,
+      height: this.renderer.domElement.height,
