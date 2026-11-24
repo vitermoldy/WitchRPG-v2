@@ -620,6 +620,7 @@ button {
   top: var(--gutter);
   right: var(--gutter);
   padding: 0.4rem 0.7rem;
+  border-radius: var(--radius);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
