@@ -112,3 +112,5 @@ export class Umbra {
       }
     }
     return { count, next: Number.isFinite(next) ? Math.ceil(next) : 0 }
+  }
+
