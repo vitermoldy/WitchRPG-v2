@@ -261,6 +261,7 @@ export class IlyraModel {
         armLX = armRX + 10
         armLY = -20
         foreL = foreR - 10
+        const slam = sw.t > sw.windup ? Math.sin(Math.PI * Math.min(1, (sw.t - sw.windup) / (sw.active + sw.recover * 0.6))) : 0
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
