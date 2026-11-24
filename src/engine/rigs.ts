@@ -712,3 +712,4 @@ export class Rigs {
   prepare(kinds: UnitKind[]) {
     for (const k of kinds) {
       this.rig(k, 'enemy')
+      this.rig(k, 'shadow')
