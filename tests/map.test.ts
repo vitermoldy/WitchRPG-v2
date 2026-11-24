@@ -60,6 +60,7 @@ describe('the forest valley', () => {
 
   it('stands every camp and altar on ground she can walk: not deep water, not a cliff', () => {
     const spots = [...CAMP_DEFS.map((c) => ({ name: `kamp ${c.c}`, c: c.c })), ...ALTARS.map((a) => ({ name: a.name, c: a.c }))]
+    for (const { name, c } of spots) {
   it('raises Tebing Berangin as a plateau above the forest floor', () => {
     const t = ZONES.find((z) => z.key === 'tebing')!
     expect(heightMap(t.c[0], t.c[1]) - heightMap(0, -280)).toBeGreaterThan(25)
