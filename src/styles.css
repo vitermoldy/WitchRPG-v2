@@ -738,6 +738,7 @@ button {
 .prompt-box {
   position: absolute;
   left: 50%;
+  top: calc(50% + 64px);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
