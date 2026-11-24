@@ -326,3 +326,5 @@ export class Umbra {
       if (this.progress >= 1) this.complete([...this.casting])
     }
 
+    if (canAct && inp.toggle) this.toggle()
+
