@@ -1067,6 +1067,7 @@ button {
 
 .wheel-opt {
   position: absolute;
+  display: grid;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
