@@ -812,6 +812,8 @@ button {
 
 .vital-label {
   color: var(--ink-2);
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
