@@ -380,3 +380,4 @@ export class Sfx {
       o.type = 'sawtooth'
       o.frequency.value = freq
       o.connect(f)
+      o.start()
