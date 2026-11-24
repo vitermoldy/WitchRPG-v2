@@ -56,3 +56,4 @@ export class Atmosphere {
   constructor(scene: THREE.Scene) {
     scene.fog = this.fog
     this.uniforms = {
+      zenith: { value: new THREE.Color('#47689a') },
