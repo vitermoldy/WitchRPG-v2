@@ -925,6 +925,8 @@ button {
   font-size: 0.74rem;
   color: var(--ink);
   overflow: hidden;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
