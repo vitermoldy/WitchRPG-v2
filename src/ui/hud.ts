@@ -5,3 +5,4 @@ const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as 
 /** Phase 1 HUD: the zone banner, the lock-on mark, the aim dot, a control hint and the debug readout. */
 export class Hud {
   private readonly root = $('hud')
+  private readonly banner = $('zone-banner')
