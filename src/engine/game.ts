@@ -997,6 +997,7 @@ export class Game implements UnitHost {
       `draw ${i.calls}, segitiga ${(i.triangles / 1000).toFixed(0)}k`,
       `peta ${mx.toFixed(0)}, ${my.toFixed(0)}  ${ZONES[this.atmosphere.zone].name}`,
       `musuh ${this.units.enemies().length}, bayangan ${this.umbra.field().length} dari ${this.profile.shadows.length}`,
+      `telegraf ${this.telegraphs.active}, chaos ${Math.round(this.spells.chaos)} dari ${CHAOS.max}, rite ${RITE.window} dtk`,
       `kamera bebas ${this.minClearance.toFixed(2)} m`,
       s.gpu,
     ].join('\n')
