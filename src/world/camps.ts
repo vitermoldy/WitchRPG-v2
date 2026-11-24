@@ -154,6 +154,7 @@ export class Camps {
     this.time += dt
     let colors = false
     this.camps.forEach((camp, index) => {
+      const d = Math.hypot(p.pos.x - camp.pos.x, p.pos.z - camp.pos.z)
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
