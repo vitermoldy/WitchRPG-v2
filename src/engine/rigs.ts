@@ -623,3 +623,4 @@ class Rig implements Poser {
     if (this.used >= this.cap) this.grow(this.used + 1)
     for (const [o, r] of this.rest) o.rotation.copy(r)
     this.body(0)
+    this.pose(this, u, t)
