@@ -284,5 +284,6 @@ export class Hud {
     const field = g.umbra.field()
     const total = g.profile.shadows.length
     const reform = g.umbra.reforming()
+    const rows: string[] = []
   }
 }
