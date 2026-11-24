@@ -185,3 +185,5 @@ export class Game {
     this.lockon.current = null
     this.place(1 / 60, true)
     this.ilyra.update(0, this.player, 0)
+  }
+
