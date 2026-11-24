@@ -420,6 +420,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2, Tebing Berangin: hovers, screams for 0.7 s, then dives along a flashing line. A Hex Bolt or Telekinesis brings it down.
   harpy: {
     name: 'Harpy',
+    rank: 'prajurit',
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
