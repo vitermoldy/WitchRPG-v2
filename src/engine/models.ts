@@ -58,6 +58,7 @@ export interface IlyraPose {
   throwK: number
   catchK: number
   /** The staff is in her hand (not thrown). */
+  staff: boolean
 
 /**
  * Ilyra's model with procedural motion on its named parts: the walk cycle of the previz animatic,
