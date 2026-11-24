@@ -1205,6 +1205,7 @@ button {
 
 .boss-name {
   margin: 0 0 0.3rem;
+  font-family: var(--font-display);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
