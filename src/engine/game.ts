@@ -45,3 +45,4 @@ export class Game {
   readonly lockon = new LockOn()
   readonly obstacles = new Obstacles()
   readonly profile = loadProfile().profile
+  state: State = 'loading'
