@@ -187,3 +187,4 @@ export class Spells {
   }
 
   private unlocked(id: SkillId) {
+    return isUnlocked(this.g.profile, id)
