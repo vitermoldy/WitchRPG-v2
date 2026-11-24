@@ -19,3 +19,5 @@ const CAMPS: { c: [number, number]; n: number }[] = [
   { c: [40, -168], n: 4 },
   { c: [-150, -250], n: 4 },
   { c: [110, -280], n: 4 },
+]
+
