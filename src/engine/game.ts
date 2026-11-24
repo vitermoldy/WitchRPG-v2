@@ -245,3 +245,4 @@ export class Game {
     this.input.endFrame()
   }
 
+  private simulate(dt: number) {
