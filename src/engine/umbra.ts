@@ -31,3 +31,5 @@ function ringRadius(count: number) {
     ring++
   }
   return 3.4 + ring * 1.8
+}
+
