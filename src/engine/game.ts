@@ -737,6 +737,7 @@ export class Game implements UnitHost {
       pressed: inp.pressed('Mouse0'),
       held: inp.held('Mouse0'),
       aiming,
+      overload: inp.pressed('KeyG'),
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
