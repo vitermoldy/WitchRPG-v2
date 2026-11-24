@@ -957,6 +957,7 @@ button {
   opacity: 0.45;
 }
 
+.skill.locked .skill-sub {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
