@@ -11,3 +11,4 @@ Game ini dibangun per fase menurut [PROMPT.md](./PROMPT.md). Keputusan desain ad
 | 2. Tempur | Kombo tongkat, parry, Eksekusi, sihir Chaos, Imp, Hellhound, Harpy | Berikutnya |
 | 3. Umbra | Umbra Rite, pasukan bayangan | |
 | 4. Dunia dan progresi | Zona I sampai III penuh, kamp, altar, Ledger | |
+| 5. Boss | Hydra tiga fase, zona IV dan V | |
