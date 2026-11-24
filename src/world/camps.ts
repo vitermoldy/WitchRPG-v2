@@ -72,6 +72,7 @@ export class Camps {
   private readonly dark = new THREE.Color(0x3a2a20)
   private readonly c = new THREE.Color()
   private time = 0
+  /** The Minotaur's shield is explained once, the first time a pack with one is roused. */
 
   constructor(model: THREE.Group, obstacles: Obstacles) {
     this.group.name = 'camps'
