@@ -338,3 +338,4 @@ export class Spells {
     }
   }
 
+  private grippable(u: Unit) {
