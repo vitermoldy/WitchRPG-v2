@@ -831,6 +831,7 @@ button {
   position: absolute;
   inset: 0;
   transform-origin: left;
+  transition: transform 0.12s linear;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
