@@ -28,6 +28,7 @@ import { COLOR } from './palette'
 import { Player, type Ground, type MoveInput } from './player'
 import { Projectiles } from './projectiles'
 import { Rigs } from './rigs'
+import { Spells } from './spells'
 
 export type State = 'loading' | 'title' | 'playing' | 'paused'
 
