@@ -764,6 +764,7 @@ button {
   color: var(--umbra-ink);
 }
 
+.prompt .blocked {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
