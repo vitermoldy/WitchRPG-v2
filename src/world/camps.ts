@@ -60,6 +60,7 @@ const STONES = 7
 
 /**
  * The creature camps: they wake when she comes near, rouse when she or a shadow comes close, walk home
+ * when she runs, clear when every creature has fallen, and stand again later out of her sight.
 export class Camps {
   readonly group = new THREE.Group()
   readonly targets: Imp[] = []
