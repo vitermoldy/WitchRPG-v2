@@ -517,6 +517,8 @@ export class Game implements UnitHost {
     for (const u of this.units.units) u.token = false
     this.sfx.collapse()
     this.hud.message(`Ilyra tumbang. Ia bangkit lagi di ${this.altars.byKey(this.profile.world.last).name}; XP dan bayangan tetap.`, 'chaos')
+  }
+
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
