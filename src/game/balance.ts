@@ -734,3 +734,5 @@ export interface Swing {
   stun: number
   /** She steps this far into the swing. */
   lunge: number
+}
+
