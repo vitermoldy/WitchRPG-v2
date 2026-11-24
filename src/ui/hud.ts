@@ -34,3 +34,4 @@ export class Hud {
   lock(at: { x: number; y: number } | null) {
     if (!at) {
       this.lockMark.classList.remove('show')
+      return
