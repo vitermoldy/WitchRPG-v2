@@ -920,6 +920,7 @@ button {
   width: 4.6rem;
   padding: 0.4rem 0.2rem 0.35rem;
   border: 1px solid var(--line);
+  border-radius: var(--radius);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
