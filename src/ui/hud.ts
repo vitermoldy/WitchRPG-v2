@@ -337,5 +337,6 @@ export class Hud {
         el.innerHTML = '<i class="hp"></i><i class="stun"></i>'
         this.bars.appendChild(el)
         this.pool.push(el)
+      }
   }
 }
