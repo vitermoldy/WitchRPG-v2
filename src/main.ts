@@ -14,3 +14,4 @@ const screens = {
   start: $('screen-start'),
   pause: $('screen-pause'),
 }
+function show(name: keyof typeof screens | null) {
