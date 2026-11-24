@@ -11,3 +11,4 @@ import { heightMap, SPOTS, toWorld } from './map'
 const CAMPS: { c: [number, number]; n: number }[] = [
   { c: [SPOTS.hero[0] + 9, SPOTS.hero[1] + 6], n: 6 },
   { c: [30, -300], n: 4 },
+  { c: [-72, -292], n: 4 },
