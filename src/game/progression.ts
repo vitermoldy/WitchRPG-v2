@@ -179,3 +179,4 @@ export function derive(stats: Stats, level = 1): Derived {
   }
 }
 
+export const isUnlocked = (p: Profile, id: SkillId) => p.level >= skillById(id).unlock
