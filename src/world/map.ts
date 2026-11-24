@@ -66,3 +66,4 @@ function mulberry32(seed: number) {
 
 const LAT = (() => {
   const rnd = mulberry32(20261124)
+  const a = new Float32Array(256 * 256)
