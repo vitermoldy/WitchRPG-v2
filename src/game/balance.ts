@@ -189,3 +189,4 @@ export interface UnitSpec {
   anchored?: boolean
 }
 
+export const UNITS: Record<UnitKind, UnitSpec> = {
