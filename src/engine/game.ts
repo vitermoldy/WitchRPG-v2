@@ -353,3 +353,4 @@ export class Game {
       ...this.frameStats(),
       minClearance: this.minClearance,
       calls: info.render.calls,
+      triangles: info.render.triangles,
