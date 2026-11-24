@@ -234,3 +234,5 @@ export class Spells {
         g.sfx.overload(false)
       }
     }
+    this.backlashT = Math.max(0, this.backlashT - dt)
+
