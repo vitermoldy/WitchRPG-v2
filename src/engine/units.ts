@@ -40,3 +40,5 @@ export interface UnitHost {
   /** Telegraph shown while a unit winds up and lunges; cleared when the blow is over. */
   telegraph(u: Unit): void
   clearTelegraph(u: Unit): void
+}
+
