@@ -346,3 +346,4 @@ export class Umbra {
         else this.wheelChoice = 'swap'
       }
       if (!inp.wheelHeld || !canAct) {
+        this.wheelOpen = false
