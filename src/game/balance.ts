@@ -147,3 +147,5 @@ export const XP = {
    * so Tier IV and V take a few Rifts per level instead of one Rift for five.
    */
   lateSteep: 0.5,
+} as const
+
