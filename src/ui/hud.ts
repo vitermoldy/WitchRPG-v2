@@ -310,5 +310,6 @@ export class Hud {
       const opt = el.dataset.opt
       el.classList.toggle('on', opt === u.wheelChoice)
       if (opt === 'swap') {
+        el.classList.toggle('locked', swapLocked)
   }
 }
