@@ -320,3 +320,5 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     // A slow, high arc (about 12 m at 26 m range) clears street cover and gives time to step out of the circle.
     shot: { speed: 10, gravity: 14, radius: 0.55, keepAway: 16, blast: 3.5 },
   },
+}
+
