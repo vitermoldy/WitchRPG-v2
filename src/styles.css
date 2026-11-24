@@ -1050,6 +1050,7 @@ button {
 }
 
 .army-slot .hp i {
+  display: block;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
