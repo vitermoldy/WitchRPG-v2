@@ -135,7 +135,7 @@ export const SKILLS: SkillDef[] = [
     name: 'Kebangkitan Marsekal',
     key: 'Tahan R',
     unlock: 9,
-    effect: 'Bisa membangkitkan The Hollow Warden, satu kali. Sebagai bayangan, ia menarik dan membekukan musuh di sekitarnya.',
+    effect: 'Bisa membangkitkan boss berpangkat Marsekal, satu kali per boss. Hydra datang di fase berikutnya.',
     upgrade: '',
     built: true,
     noUpgrade: true,
