@@ -326,3 +326,4 @@ export class Game {
     const h = window.innerHeight
     this.renderer.setSize(w, h, false)
     this.composer.setSize(w, h)
+    this.bloom.resolution.set(w / 2, h / 2)
