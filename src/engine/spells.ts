@@ -641,3 +641,4 @@ export class Spells {
   }
 
   private updateWarps(dt: number) {
+    const g = this.g
