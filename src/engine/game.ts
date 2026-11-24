@@ -393,3 +393,4 @@ export class Game {
     let best: { x: number; z: number } | null = null
     let bd = range
     for (const t of this.camps.targets) {
+      const d = Math.hypot(t.x - p.x, t.z - p.z)
