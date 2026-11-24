@@ -281,5 +281,6 @@ export class Hud {
   /** A summary that stays the same size whether the army is three shadows or three hundred. */
   private updateArmy() {
     const g = this.g
+    const field = g.umbra.field()
   }
 }
