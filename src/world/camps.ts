@@ -176,6 +176,7 @@ export class Camps {
           camp.state = 'idle'
           return
         }
+        // rouse the whole pack when she or a shadow comes close, or one of them is hurt
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
