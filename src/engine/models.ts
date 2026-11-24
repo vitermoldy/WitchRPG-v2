@@ -223,6 +223,7 @@ export class IlyraModel {
       // found on the pose sheet: across the chest, long seen from the front, short from the side
       staffX = mix(staffX, 20, b)
       staffZ = mix(staffZ, -110, b)
+      torsoX = mix(torsoX, 8 - 6 * push, b)
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
