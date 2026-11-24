@@ -84,3 +84,4 @@ def export(key):
         ob.select_set(True)
     path = os.path.join(OUT, f"{key}.glb")
     bpy.ops.export_scene.gltf(
+        filepath=path, export_format="GLB", use_selection=True, export_yup=True, export_apply=False,
