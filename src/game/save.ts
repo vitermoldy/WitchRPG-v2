@@ -48,3 +48,4 @@ export function saveProfile(p: Profile, stamp = true): boolean {
   }
 }
 
+export function clearProfile(): void {
