@@ -31,7 +31,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 
 ## Kontrol (fase 4)
 
-| Gerak | |
+| Gerak dan kamera | |
 | --- | --- |
 | WASD | Jalan ke arah kamera |
 | Shift | Lari |
