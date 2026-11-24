@@ -416,3 +416,4 @@ export class UnitSystem {
     for (let i = this.units.length - 1; i >= 0; i--) {
       const u = this.units[i]
       if (!u) continue
+      u.t += dt
