@@ -814,3 +814,4 @@ export class Rigs {
         if (b.used) part.mesh.instanceMatrix.needsUpdate = true
       }
     }
+  }
