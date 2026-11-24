@@ -284,3 +284,4 @@ export class Fight {
     const g = this.g
     const p = g.player.pos
     const reach = (u: Unit) => Math.hypot(u.pos.x - p.x, u.pos.z - p.z) - u.radius
+    const locked = g.lockon.current as Unit | null
