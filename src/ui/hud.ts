@@ -41,3 +41,4 @@ export class Hud {
   }
 
   aim(on: boolean) {
+    this.aimDot.classList.toggle('show', on)
