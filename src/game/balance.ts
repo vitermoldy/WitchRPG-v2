@@ -179,6 +179,7 @@ export interface AttackSpec {
   windup: number
   recover: number
   /** Starts when the target is within this reach (m), and not closer than minRange. */
+  range: number
 
 export interface UnitSpec {
   name: string
