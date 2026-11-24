@@ -31,6 +31,7 @@ export class Hud {
   private readonly hint = $('hint')
   private readonly debugEl = $('debug')
   private readonly feed = $('feed')
+  private readonly bigBanner = $('banner')
   private bannerTime = 0
   private hintTime = 0
   private zoneKey = ''
