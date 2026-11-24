@@ -210,3 +210,4 @@ export class Game {
 
   run() {
     this.timer.connect(document)
+    this.renderer.setAnimationLoop((ts) => {
