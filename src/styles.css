@@ -1433,6 +1433,7 @@ dialog::backdrop {
   color: var(--ink-3);
 }
 
+.derived dd {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
