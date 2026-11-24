@@ -668,6 +668,7 @@ button {
   transform: translate(-50%, 0);
 }
 
+.banner-title {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
