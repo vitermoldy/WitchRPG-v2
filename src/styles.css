@@ -989,6 +989,7 @@ button {
 
 .army-head {
   display: flex;
+  justify-content: space-between;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
