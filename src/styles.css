@@ -1203,6 +1203,7 @@ button {
   opacity: 1;
 }
 
+.boss-name {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
