@@ -86,3 +86,4 @@ kbd {
 }
 
 button {
+  font: inherit;
