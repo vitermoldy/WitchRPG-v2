@@ -453,3 +453,4 @@ export class UnitSystem {
         u.token = false
         if (u.state === 'windup' || u.state === 'strike') {
           this.host.clearTelegraph(u)
+          u.set('move')
