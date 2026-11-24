@@ -1577,6 +1577,7 @@ dialog::backdrop {
 
 .room-name {
   color: var(--umbra-ink);
+  font-weight: 500;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
