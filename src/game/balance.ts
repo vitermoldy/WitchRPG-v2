@@ -455,3 +455,4 @@ export const TIERS: Record<TierId, TierSpec> = {
   },
 }
 
+export const RIFT = {
