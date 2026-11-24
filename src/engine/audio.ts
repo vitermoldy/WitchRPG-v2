@@ -376,3 +376,4 @@ export class Sfx {
     f.type = 'lowpass'
     f.frequency.value = 380
     for (const freq of [43.65, 44.1, 65.4]) {
+      const o = ctx.createOscillator()
