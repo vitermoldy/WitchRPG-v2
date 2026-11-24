@@ -1043,6 +1043,7 @@ button {
   background: var(--umbra);
 }
 
+.army-slot .hp {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
