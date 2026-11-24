@@ -655,6 +655,7 @@ button {
   width: min(90vw, 40rem);
   padding: 0.8rem 1rem;
   border-radius: var(--radius);
+  /* the same soft dark pool as the zone banner */
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
