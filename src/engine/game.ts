@@ -254,3 +254,4 @@ export class Game {
       ? { x: b.x, y: b.y, sprint: b.sprint, dodge: this.botDodge }
       : {
           x: (inp.held('KeyD') ? 1 : 0) - (inp.held('KeyA') ? 1 : 0),
+          y: (inp.held('KeyW') ? 1 : 0) - (inp.held('KeyS') ? 1 : 0),
