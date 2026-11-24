@@ -138,15 +138,7 @@ export class Camps {
     }
   }
 
-  update(dt: number, t: number, player: THREE.Vector3) {
-    this.targets.forEach((imp, i) => {
-      const dx = player.x - imp.x
-      const dz = player.z - imp.z
-      if (dx * dx + dz * dz < 18 * 18) {
-        // turn to watch her; the model faces +z
-        const want = Math.atan2(dx, dz)
-        const d = Math.atan2(Math.sin(want - imp.yaw), Math.cos(want - imp.yaw))
-        imp.yaw += d * Math.min(1, dt * 3)
+  /** Puts every awake pack back to sleep (she fell); cleared camps stay cleared. */
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
