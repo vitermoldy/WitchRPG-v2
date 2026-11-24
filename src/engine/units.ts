@@ -856,3 +856,4 @@ export class UnitSystem {
     this.host.clearTelegraph(u)
     u.token = false
     u.vel.set(vel.x, vel.y, vel.z)
+    u.hurled = hurled
