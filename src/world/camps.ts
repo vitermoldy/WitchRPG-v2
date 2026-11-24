@@ -97,6 +97,7 @@ export class Camps {
         const x = camp.pos.x + Math.cos(a) * 2.2
         const z = camp.pos.z + Math.sin(a) * 2.2
         const y = g.ground.height(x, z)
+        q.setFromEuler(new THREE.Euler(Math.random(), a, Math.random()))
       }
     }
     for (const b of bakeByMaterial(model)) {
