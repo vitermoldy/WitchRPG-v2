@@ -1310,6 +1310,7 @@ dialog::backdrop {
 .ledger-level {
   display: grid;
   grid-template-columns: auto 1fr auto;
+  align-items: center;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
