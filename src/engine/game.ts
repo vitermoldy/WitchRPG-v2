@@ -224,3 +224,4 @@ export class Game {
     if (this.state === 'playing') {
       this.frames[this.frameCount % FRAME_SAMPLES] = now - this.lastFrame
       this.frameCount++
+      for (let i = 0; i < this.debugSpeed; i++) {
