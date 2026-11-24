@@ -421,6 +421,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   harpy: {
     name: 'Harpy',
     rank: 'prajurit',
+    hp: 30,
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
