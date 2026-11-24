@@ -786,3 +786,4 @@ export class Rigs {
       if (u.team === 'shadow' && !u.detailed && u.state !== 'dead') {
         counts.set(u.kind, (counts.get(u.kind) ?? 0) + 1)
         continue
+      }
