@@ -303,3 +303,4 @@ export class UnitSystem {
     return false
   }
 
+  /** Knocks a flyer out of the air for a while. */
