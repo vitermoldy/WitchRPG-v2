@@ -438,3 +438,4 @@ button {
   max-width: calc(100% - 2 * var(--gutter));
   margin: 0;
   transform: translateX(-50%);
+  padding: 0.4rem 0.9rem;
