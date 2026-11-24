@@ -93,3 +93,4 @@ export class Player {
       this.dodges++
     }
 
+    if (this.dodgeT >= 0) {
