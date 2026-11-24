@@ -981,6 +981,7 @@ export class Game implements UnitHost {
   }
 
   /** ?debug: a witch of this level (for trying the skills that open later). */
+  debugLevel(level: number) {
   }
 
   private debugText() {
