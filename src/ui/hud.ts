@@ -12,3 +12,4 @@ export class Hud {
   private readonly aimDot = $('aim-dot')
   private readonly hint = $('hint')
   private readonly debugEl = $('debug')
+  private bannerTime = 0
