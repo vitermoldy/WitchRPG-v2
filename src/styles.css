@@ -776,6 +776,7 @@ button {
   width: 9rem;
   height: 3px;
   background: rgba(239, 230, 223, 0.14);
+  opacity: 0;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
