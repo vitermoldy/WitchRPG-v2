@@ -72,3 +72,4 @@ export class Umbra {
   private readonly spotV = new THREE.Vector3()
 
   constructor(g: Game) {
+    this.g = g
