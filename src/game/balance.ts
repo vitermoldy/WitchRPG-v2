@@ -364,3 +364,4 @@ export type TierId = 1 | 2 | 3 | 4 | 5
 
 export const TIER_IDS: TierId[] = [1, 2, 3, 4, 5]
 
+export interface TierSpec {
