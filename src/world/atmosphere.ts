@@ -129,3 +129,4 @@ export function water(): THREE.Mesh {
   m.position.set((x0 + x1) / 2, WATER_LEVEL, -(y0 + y1) / 2)
   m.name = 'water'
   m.receiveShadow = true
+  return m
