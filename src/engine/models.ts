@@ -43,3 +43,4 @@ const rad = (d: number) => (d * Math.PI) / 180
 /**
  * Ilyra's model with procedural motion on its named parts: the walk cycle of the previz animatic,
  * a forward roll for the dodge, a raised left hand while aiming, breathing when still.
+ */
