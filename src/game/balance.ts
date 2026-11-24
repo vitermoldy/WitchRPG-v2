@@ -107,3 +107,4 @@ export const SPELL = {
 
 export const RITE = {
   window: 20,
+  range: 10,
