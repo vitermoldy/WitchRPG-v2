@@ -211,3 +211,4 @@ export class Umbra {
   }
 
   private spawnShadow(rec: ShadowRecord, at: THREE.Vector3, slot: number) {
+    const g = this.g
