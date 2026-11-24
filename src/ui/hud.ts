@@ -238,5 +238,6 @@ export class Hud {
     const c = g.umbra.candidate
     const many = g.umbra.targets.length
     if (!g.player.alive) html = 'Ilyra tumbang'
+    else if (g.player.petrified > 0) html = `Membatu ${g.player.petrified.toFixed(1)} detik`
   }
 }
