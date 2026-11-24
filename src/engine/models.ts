@@ -111,3 +111,4 @@ export class IlyraModel {
     this.rot('cloak', 5 + 3 * Math.sin(p.stride * 2) * amp + 10 * sprint)
     this.rot('head', -2 - 6 * sprint, -3 * s * amp)
     this.rot('upperarm_L', 14 * s * amp * (1 - aim) - 65 * aim, 0, 10 * aim)
+    this.rot('forearm_L', -12 * aim)
