@@ -306,6 +306,7 @@ export class IlyraModel {
       armLZ = 8
       foreL = -5 + 4 * Math.sin(this.t * 30)
     } else if (act.cast > 0) {
+      foreL += -25 * act.cast
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
