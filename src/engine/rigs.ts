@@ -588,3 +588,4 @@ class Rig implements Poser {
     return { src, geo, mat, mesh, glow }
   }
 
+  /** Doubles the room for instances; the shared vertex data stays where it is. */
