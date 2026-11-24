@@ -31,6 +31,7 @@ import { Rigs } from './rigs'
 import { Spells } from './spells'
 import { Telegraphs } from './telegraph'
 import { Umbra } from './umbra'
+import { shieldShare, Unit, UnitSystem, type DamageKind, type Foe, type UnitHost } from './units'
 
 export type State = 'loading' | 'title' | 'playing' | 'paused'
 
