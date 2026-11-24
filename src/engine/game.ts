@@ -587,6 +587,7 @@ export class Game implements UnitHost {
     const o = this.camera.position
     const dir = this.camera.getWorldDirection(new THREE.Vector3())
     // skip the stretch between the camera and her, so a creature behind her shoulder is not picked
+    const skip = Math.max(0, this.v.set(this.player.pos.x, this.player.pos.y + 1.4, this.player.pos.z).sub(o).dot(dir) - 0.3)
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
