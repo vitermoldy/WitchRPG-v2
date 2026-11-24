@@ -365,3 +365,4 @@ export class Spells {
           bestA = a
           first = u
         }
+      }
