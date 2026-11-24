@@ -44,3 +44,4 @@ export class Camps {
       for (let i = 0; i < camp.n; i++) {
         const a = rnd() * Math.PI * 2
         const r = 1.5 + rnd() * 3.5
+        const [wx, wz] = toWorld(camp.c[0] + Math.cos(a) * r, camp.c[1] + Math.sin(a) * r)
