@@ -77,3 +77,4 @@ describe('creature attacks', () => {
       expect(w.sys.tokens()).toBeLessThanOrEqual(COMBAT.attackers)
     })
     expect(most).toBeLessThanOrEqual(COMBAT.attackers)
+    expect(most).toBeGreaterThan(0)
