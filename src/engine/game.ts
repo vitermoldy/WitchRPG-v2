@@ -774,6 +774,7 @@ export class Game implements UnitHost {
       if (this.calm > REVIVE.calm) p.hp = Math.min(p.maxHp, p.hp + p.maxHp * REVIVE.calmRegen * dt)
     } else {
       this.deadT += dt
+      if (this.deadT > REVIVE.delay) this.revive()
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
