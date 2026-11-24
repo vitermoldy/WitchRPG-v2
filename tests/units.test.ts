@@ -115,3 +115,4 @@ describe('creature attacks', () => {
   })
 
   it('staggers a creature whose stun meter fills, and an execution marks the body', () => {
+    const w = world()
