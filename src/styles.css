@@ -339,3 +339,4 @@ button {
 
 /* HUD */
 .hud {
+  position: absolute;
