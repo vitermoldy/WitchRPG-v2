@@ -148,3 +148,4 @@ export class Player {
   }
 
   /** Moves along one axis unless that would climb a cliff or wade into deep water. */
+  private moveAxis(dx: number, dz: number, g: Ground) {
