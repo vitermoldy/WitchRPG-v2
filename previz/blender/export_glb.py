@@ -28,3 +28,4 @@ for ob in list(bpy.data.objects):
 _flat = {}
 
 
+def emission_of(m):
