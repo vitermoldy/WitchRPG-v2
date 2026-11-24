@@ -77,3 +77,4 @@ export class Obstacles {
   pushOut(pos: { x: number; y: number; z: number }, radius: number, height: number): boolean {
     let moved = false
     for (let pass = 0; pass < 2; pass++) {
+      this.near(pos.x, pos.z, radius + 8, (s) => {
