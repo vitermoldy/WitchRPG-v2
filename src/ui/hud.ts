@@ -67,6 +67,8 @@ export class Hud {
     else el.className = value
   }
 
+  }
+
   zone(z: Zone) {
     if (z.key === this.zoneKey) return
     this.zoneKey = z.key
