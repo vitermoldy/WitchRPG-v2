@@ -492,6 +492,7 @@ export class Game implements UnitHost {
       stun *= 0.3
       if (source === 'player') {
         this.sfx.clank()
+        this.glow.emit({ pos: u.center(this.v), count: 8, color: 0xfff2e0, intensity: 2.4, life: 0.25, size: 0.08, speed: 4, gravity: 6 })
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
