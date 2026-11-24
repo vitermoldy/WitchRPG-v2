@@ -124,3 +124,4 @@ export const RITE = {
   /** How many shadows stand on the field at once. A setting: more costs frame rate. */
   /** Shadows nearest the camera drawn with their own animated model; the rest are drawn as one crowd. */
   detail: { default: 40, min: 10, max: 120 },
+  shadowXpShare: 0.3,
