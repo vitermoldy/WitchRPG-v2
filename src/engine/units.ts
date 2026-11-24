@@ -128,3 +128,4 @@ export class Unit implements Foe {
   command: Command = 'follow'
   readonly holdPos = new THREE.Vector3()
   slot = 0
+  focus: Unit | null = null
