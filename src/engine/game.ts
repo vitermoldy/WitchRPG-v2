@@ -348,3 +348,4 @@ export class Game {
   }
 
   stats() {
+    const info = this.renderer.info
