@@ -159,6 +159,7 @@ export class Camps {
         this.wake(camp, index)
         colors = true
       } else if (camp.state === 'active') {
+        const alive = camp.units.filter((u) => u.alive)
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
