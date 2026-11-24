@@ -106,3 +106,4 @@ export class Game {
 
     this.composer = new EffectComposer(this.renderer)
     this.composer.addPass(new RenderPass(this.scene, this.camera))
+    // One NaN pixel blurred by bloom turns the whole screen black (v1). Zero any that slip through.
