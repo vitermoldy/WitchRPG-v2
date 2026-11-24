@@ -125,3 +125,4 @@ export const SKILLS: SkillDef[] = [
     key: 'Tahan R',
     unlock: 8,
     effect: 'Bisa membangkitkan Rift Lord. Sebagai bayangan, ia memanggil dua husk bayangan setiap 20 detik.',
+    upgrade: '',
