@@ -52,6 +52,7 @@ export interface Camp {
   pos: THREE.Vector3
   state: 'idle' | 'active' | 'cleared'
   units: Unit[]
+  respawnAt: number
 }
 
 export class Camps {
