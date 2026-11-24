@@ -272,5 +272,6 @@ export class Hud {
       }
     }
     this.set('bossbar', 'class', boss ? 'bossbar on' : 'bossbar')
+    if (!boss) return
   }
 }
