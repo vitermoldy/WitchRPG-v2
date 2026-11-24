@@ -400,6 +400,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2, Hutan Pembuka: packs of three to five. Circles to her side and lunges along a flashing line: dodge it.
   hellhound: {
     name: 'Hellhound',
+    rank: 'prajurit',
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
