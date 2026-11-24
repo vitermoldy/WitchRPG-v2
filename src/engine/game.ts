@@ -135,3 +135,4 @@ export class Game {
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
     await frame()
+    this.terrain = new Terrain()
