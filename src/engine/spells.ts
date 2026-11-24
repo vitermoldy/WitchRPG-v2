@@ -585,3 +585,4 @@ export class Spells {
         m.uniforms.uFade.value = fade
       }
       for (const u of g.units.units) {
+        if (u.team !== 'enemy' || !u.alive) continue
