@@ -82,6 +82,7 @@ async function boot() {
     game.sensitivity = v
     pr.settings.sensitivity = v
   })
+  })
 
   game.onPause = () => {
     $('lock-note').hidden = true
