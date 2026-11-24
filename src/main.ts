@@ -62,3 +62,4 @@ async function boot() {
   $('btn-enter').addEventListener('click', enter)
 
   const sens = $('set-sens') as HTMLInputElement
+  const out = $('out-sens') as HTMLOutputElement
