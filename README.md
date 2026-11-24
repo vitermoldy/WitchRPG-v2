@@ -34,3 +34,4 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | --- | --- |
 | WASD | Jalan ke arah kamera |
 | Shift | Lari |
+| Spasi | Dodge ke arah gerak; tanpa arah, mundur |
