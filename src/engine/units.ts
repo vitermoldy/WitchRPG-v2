@@ -171,3 +171,4 @@ export class Unit implements Foe {
   }
 
   /** Can be aimed at, locked on to, and struck. */
+  get targetable() {
