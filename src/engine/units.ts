@@ -90,3 +90,4 @@ export class Unit implements Foe {
   /** Hit flash for the renderer (seconds left). */
   flash = 0
   /** Seconds the health bar stays up after a hit. */
+  barShown = 0
