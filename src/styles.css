@@ -1503,6 +1503,7 @@ dialog::backdrop {
 .node-meta {
   margin: 0;
   color: var(--ink-3);
+  font-size: 0.78rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
