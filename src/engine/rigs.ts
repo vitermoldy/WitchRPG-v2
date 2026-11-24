@@ -217,3 +217,5 @@ const poseHound: PoseFn = (p, u, t) => {
   p.rot('leg_HL', -38 * a * amp)
 }
 
+const HARPY_LIMBS = ['upperarm_L', 'upperarm_R', 'thigh_L', 'thigh_R']
+
