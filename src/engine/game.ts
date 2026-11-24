@@ -967,14 +967,7 @@ export class Game implements UnitHost {
   /** ?debug: creatures around her, for tests. */
   debugSpawn(kind: V2Kind, n: number, level = 1, dist = 12) {
     const p = this.player.pos
-    let best: { x: number; z: number } | null = null
-    let bd = range
-    for (const t of this.camps.targets) {
-      const d = Math.hypot(t.x - p.x, t.z - p.z)
-      if (t.alive && d < bd) {
-        bd = d
-        best = { x: t.x, z: t.z }
-      }
+    for (let i = 0; i < n; i++) {
     }
     return best
   }
