@@ -79,3 +79,4 @@ export class Umbra {
   reset() {
     this.candidate = null
     this.targets = []
+    this.casting = []
