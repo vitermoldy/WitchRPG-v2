@@ -43,6 +43,7 @@ export class Hud {
   private bannerTime = 0
   private bigBannerTime = 0
   private hintTime = 0
+  private hitTime = 0
   private zoneKey = ''
 
   show(on: boolean) {
