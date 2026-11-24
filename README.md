@@ -59,6 +59,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 
 | Umbra (tangan kanan) | |
 | --- | --- |
+| Tahan R | Umbra Rite pada tubuh yang bersinar ungu (Lv 2); dua tubuh atau lebih dalam 12 m dibangkitkan sekaligus |
 
 ## Struktur
 
