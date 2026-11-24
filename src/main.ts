@@ -132,6 +132,7 @@ async function boot() {
   const backToFight = async () => {
     if (ledger.isOpen || travel.isOpen) return
     const locked = await game.input.lock()
+    if (!locked && !debug) {
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
