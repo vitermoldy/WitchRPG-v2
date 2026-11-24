@@ -17,3 +17,4 @@ interface Bolt {
 }
 
 interface Field {
+  pos: THREE.Vector3
