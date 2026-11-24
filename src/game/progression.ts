@@ -10,3 +10,4 @@ import {
   UNITS,
   TIERS,
   XP,
+  type RankId,
