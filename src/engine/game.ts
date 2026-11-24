@@ -961,6 +961,7 @@ export class Game implements UnitHost {
         executed: u.executed,
         riteTried: u.riteTried,
         deadT: u.deadT,
+      }))
   }
 
   /** The nearest living Imp (world position), so the bot can look at it before locking on. */
