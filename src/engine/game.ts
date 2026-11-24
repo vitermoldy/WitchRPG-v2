@@ -104,3 +104,4 @@ export class Game {
     this.player.speedMult = derive(this.profile.stats, this.profile.level).speedMult
     this.player.dodgeDistance = derive(this.profile.stats, this.profile.level).dodgeDistance
 
+    this.composer = new EffectComposer(this.renderer)
