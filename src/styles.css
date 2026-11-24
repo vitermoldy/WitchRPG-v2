@@ -823,6 +823,7 @@ button {
   position: relative;
   height: 9px;
   border-radius: 2px;
+  background: rgba(239, 230, 223, 0.1);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
