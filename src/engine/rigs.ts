@@ -549,3 +549,4 @@ class Rig implements Poser {
     this.group = group
     this.team = team
     this.cap = cap
+    this.pose = POSES[kind] ?? (() => {})
