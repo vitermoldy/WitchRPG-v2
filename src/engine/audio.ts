@@ -394,3 +394,4 @@ export class Sfx {
     const lg = ctx.createGain()
     lg.gain.value = 260
     lfo.connect(lg).connect(wf.frequency)
+    lfo.start()
