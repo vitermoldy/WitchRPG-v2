@@ -132,6 +132,7 @@ export class Hud {
   }
 
   /** A quick bright ring around the middle of the view: the parry landed. */
+  parry() {
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
