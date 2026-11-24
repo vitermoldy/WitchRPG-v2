@@ -591,6 +591,7 @@ button {
 .parry-flash {
   position: absolute;
   top: 50%;
+  left: 50%;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
