@@ -152,6 +152,7 @@ export class Camps {
     const g = this.g
     const p = g.player
     this.time += dt
+    let colors = false
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
