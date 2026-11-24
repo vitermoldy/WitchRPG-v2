@@ -841,6 +841,7 @@ export class Game implements UnitHost {
     this.trauma = Math.max(0, this.trauma - dt * 1.6)
     if (this.trauma > 0 && this.profile.settings.shake) {
       const k = this.trauma * this.trauma * 0.035
+      const t = this.t * 40
     if (Math.abs(c.fov - pose.fov) > 1e-3) {
       c.fov = pose.fov
       c.updateProjectionMatrix()
