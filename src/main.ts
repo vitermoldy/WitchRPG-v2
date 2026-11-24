@@ -111,6 +111,7 @@ async function boot() {
     },
     sfxUi: () => game.sfx.ui(),
     liveShadows: () => new Set(game.umbra.field().map((u) => u.record!.id)),
+  })
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
