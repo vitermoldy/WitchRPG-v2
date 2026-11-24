@@ -556,6 +556,8 @@ button {
 
 .veil-umbra.on {
   animation: breath 1.1s ease-out;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
