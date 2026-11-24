@@ -531,3 +531,4 @@ export class Umbra {
         let mine: Unit = target
         if (!focusOn) {
           let bd = Infinity
+          for (const e of enemies) {
