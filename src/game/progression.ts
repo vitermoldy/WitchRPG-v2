@@ -225,3 +225,4 @@ export function gainXp(p: Profile, amount: number, skills: SkillId[]): XpResult 
     while (s.level < p.level && s.xp >= xpToNext(s.level)) {
       s.xp -= xpToNext(s.level)
       s.level += 1
+      result.shadowLevels.push({ id: s.id, level: s.level })
