@@ -313,6 +313,7 @@ export class Game implements UnitHost {
       },
     }
     this.glow = new Particles(5000, 'glow')
+    this.smoke = new Particles(1400, 'smoke')
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
