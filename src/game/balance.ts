@@ -776,3 +776,4 @@ export const COMBAT = {
   stunDrainDelay: 2.5,
   execute: {
     range: 2.8,
+    time: 1.0,
