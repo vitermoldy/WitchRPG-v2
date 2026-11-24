@@ -94,3 +94,4 @@ export class Atmosphere {
     let best = 0
     for (let i = 0; i < ZONES.length; i++) {
       const w = this.w[i]
+      this.fogTarget.r += this.zoneFog[i].r * w
