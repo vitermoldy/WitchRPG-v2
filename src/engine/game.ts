@@ -331,3 +331,5 @@ export class Game {
     this.camera.updateProjectionMatrix()
   }
 
+  // ------------------------------------------------------------ measurements for ?debug and the bot
+
