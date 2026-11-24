@@ -549,6 +549,7 @@ export class Game implements UnitHost {
     this.placeAt(at.x, at.z, yawTo(at.x, at.z, a.pos.x, a.pos.z) + Math.PI)
     this.profile.world.last = key
     for (const u of this.umbra.field()) {
+      const spot = this.umbra.spot(u.slot)
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
