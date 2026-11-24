@@ -755,3 +755,5 @@ export class UnitSystem {
     u.hp = Math.min(u.maxHp, u.hp + u.maxHp * SHADOW.regen * dt)
   }
 
+  // ------------------------------------------------------------ movement
+
