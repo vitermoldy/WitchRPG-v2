@@ -783,6 +783,7 @@ button {
   opacity: 1;
 }
 
+.rite-bar i {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
