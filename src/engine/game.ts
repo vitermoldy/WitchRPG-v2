@@ -47,3 +47,4 @@ export class Game {
   readonly profile = loadProfile().profile
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
+  debugSpeed = 1
