@@ -123,3 +123,5 @@ describe('creature attacks', () => {
     expect(imp.executed).toBe(true)
     expect(w.log.died).toContain(imp)
   })
+})
+
