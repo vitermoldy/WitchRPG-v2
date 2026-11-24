@@ -746,3 +746,4 @@ export class Rigs {
         part.mesh.count = 0
         this.group.add(part.mesh)
       }
+      b.cap = cap
