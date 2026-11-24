@@ -175,3 +175,4 @@ export class Umbra {
     g.pools.open(feet, spill, 1.4 + n * stagger)
     g.pools.open(feet, spill * 0.45, 1.6 + n * stagger, 0.1)
     for (let i = 0; i < n; i++) {
+      const pos = this.spot(base + i)
