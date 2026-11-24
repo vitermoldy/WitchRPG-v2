@@ -267,3 +267,4 @@ button {
 }
 
 .controls {
+  display: grid;
