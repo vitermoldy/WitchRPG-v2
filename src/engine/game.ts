@@ -155,3 +155,4 @@ export class Game {
       height: heightAt,
       obstacles: this.obstacles,
       blocked: (x, z) => {
+        const [mx, my] = toMap(x, z)
