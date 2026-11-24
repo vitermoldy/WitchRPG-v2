@@ -87,3 +87,4 @@ export class Unit implements Foe {
   /** Holds one of the attack slots against her. */
   token = false
   readonly stun: StunMeter
+  /** Hit flash for the renderer (seconds left). */
