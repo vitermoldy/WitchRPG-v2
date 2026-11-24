@@ -286,3 +286,4 @@ export class Fight {
     const reach = (u: Unit) => Math.hypot(u.pos.x - p.x, u.pos.z - p.z) - u.radius
     const locked = g.lockon.current as Unit | null
     if (locked && locked.alive && locked.staggered && reach(locked) < COMBAT.execute.range) return locked
+    let best: Unit | null = null
