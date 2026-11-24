@@ -48,6 +48,7 @@ export class Hud {
   private manaFlash = 0
   private zoneKey = ''
 
+  constructor(g: Game) {
   show(on: boolean) {
     this.root.hidden = !on
     if (on && this.hintTime === 0) this.hintTime = 14
