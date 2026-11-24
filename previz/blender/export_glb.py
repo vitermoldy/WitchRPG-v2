@@ -118,7 +118,7 @@ def export(key):
         ob.select_set(True)
     path = os.path.join(OUT, f"{key}_lod.glb" if LOD else f"{key}.glb")
     bpy.ops.export_scene.gltf(
-        filepath=path, export_format="GLB", use_selection=True, export_yup=True, export_apply=False,
+        filepath=path, export_format="GLB", use_selection=True, export_yup=True, export_apply=bool(SHRINK),
         export_lights=False, export_cameras=False, export_materials="EXPORT", export_animations=False,
     )
     tris = C.tri_count(coll)
