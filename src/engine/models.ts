@@ -215,6 +215,7 @@ export class IlyraModel {
       const push = act.parry
       armRX = mix(armRX, -70 - 15 * push, b)
       armRY = mix(armRY, 30, b)
+      foreR = mix(foreR, -45 + 35 * push, b)
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
