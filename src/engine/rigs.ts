@@ -118,3 +118,4 @@ const poseImp: PoseFn = (p, u, t) => {
     return
   }
   if (u.state === 'strike') {
+    const k = Math.min(1, u.t / (u.spec.lungeTime ?? 0.3))
