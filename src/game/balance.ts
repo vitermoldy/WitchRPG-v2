@@ -471,6 +471,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     attackRange: 20,
     windup: 0.9,
     recover: 0.7,
+    cooldown: 2.8,
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
