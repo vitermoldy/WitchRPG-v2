@@ -225,3 +225,4 @@ export class Game {
       this.frames[this.frameCount % FRAME_SAMPLES] = now - this.lastFrame
       this.frameCount++
       for (let i = 0; i < this.debugSpeed; i++) {
+        this.simulate(dt)
