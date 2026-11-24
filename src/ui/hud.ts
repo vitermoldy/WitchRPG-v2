@@ -150,6 +150,7 @@ export class Hud {
     const el = $(id)
     el.classList.remove('on')
     void el.offsetWidth
+    el.classList.add('on')
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
