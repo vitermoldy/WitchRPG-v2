@@ -217,3 +217,4 @@ describe('phase 4 creatures', () => {
       })
       return used
     }
+    expect(pick([0, 5], false)).toBe('napas api')
