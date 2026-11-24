@@ -347,3 +347,4 @@ export class Umbra {
       }
       if (!inp.wheelHeld || !canAct) {
         this.wheelOpen = false
+        if (this.wheelChoice && canAct) this.order(this.wheelChoice)
