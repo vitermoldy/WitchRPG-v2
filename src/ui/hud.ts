@@ -278,5 +278,6 @@ export class Hud {
     this.set('boss-hint', 'text', BOSS_HINT[boss.kind] ?? '')
   }
 
+  /** A summary that stays the same size whether the army is three shadows or three hundred. */
   }
 }
