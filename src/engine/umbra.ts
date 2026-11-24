@@ -294,3 +294,4 @@ export class Umbra {
       } else if (!u.ash && u.deadT >= (u.riteTried ? 0 : window)) this.turnToAsh(u)
       if (u.ash && u.deadT - u.ashAt > 2) g.units.remove(u)
     }
+    this.casting = this.casting.filter((u) => u.state === 'dead' && !u.riteTried && !u.ash)
