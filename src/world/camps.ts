@@ -193,6 +193,7 @@ export class Camps {
               g.hud.message('Minotaur menahan pukulan dan bolt dari depan. Lempar tongkat (H), Telekinesis, atau serang dari samping.', 'info')
             }
           }
+        } else if (!p.alive || d > CAMP.leash) {
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
