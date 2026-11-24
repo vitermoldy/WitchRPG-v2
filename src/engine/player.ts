@@ -52,6 +52,7 @@ export class Player {
   poisonDps = 0
   /** Share of her pace she keeps this frame (block, swings); set by the fight each frame. */
   moveScale = 1
+  /** A short scripted push (a swing's step, a parry's recoil) that overrides steering while it lasts. */
 
   get speed() {
     return Math.hypot(this.vx, this.vz)
