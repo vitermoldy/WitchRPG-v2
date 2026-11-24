@@ -90,6 +90,7 @@ async function boot() {
     pr.settings.detail = v
     game.rigs.detail = v
   })
+  })
 
   game.onPause = () => {
     $('lock-note').hidden = true
