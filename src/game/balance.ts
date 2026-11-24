@@ -70,3 +70,4 @@ export const LOCKON = {
   turn: 7,
 } as const
 
+export const PLAYER = {
