@@ -697,3 +697,4 @@ export class Rigs {
   }
 
   private rig(kind: UnitKind, team: Team): Rig | null {
+    const key = kind + team
