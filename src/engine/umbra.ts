@@ -95,3 +95,4 @@ export class Umbra {
     return this.g.units.units.filter((u) => u.team === 'shadow' && u.record && u.alive && u.state !== 'sinking')
   }
 
+  /** Records that could be called right now: not out, not reforming. */
