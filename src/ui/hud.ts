@@ -57,6 +57,8 @@ export class Hud {
     if (on && this.hintTime === 0) this.hintTime = 16
   }
 
+  }
+
   zone(z: Zone) {
     if (z.key === this.zoneKey) return
     this.zoneKey = z.key
