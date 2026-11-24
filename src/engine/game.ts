@@ -160,3 +160,4 @@ export class Game {
         return inWaterRect(mx, my) && WATER_LEVEL - heightAt(x, z) > MOVE.maxWade
       },
     }
+    this.spawn(SPOTS.hero[0], SPOTS.hero[1], 0.86, 0.5)
