@@ -296,3 +296,4 @@ export class Fight {
         best = u
       }
     }
+    return best
