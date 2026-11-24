@@ -329,3 +329,4 @@ export class UnitSystem {
     u.executed = executed
     u.set('dead')
     u.deadT = 0
+    u.lifted = 0
