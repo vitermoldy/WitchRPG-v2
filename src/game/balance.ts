@@ -422,3 +422,4 @@ export const TIERS: Record<TierId, TierSpec> = {
     boss: { level: 10, unlock: 10 },
   },
   // Past the GDD's first version: enemies Lv 10 and up, elite combinations.
+  4: {
