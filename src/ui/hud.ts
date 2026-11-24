@@ -224,5 +224,6 @@ export class Hud {
 
     this.updatePrompt()
     this.set('rite-fill', 'transform', `scaleX(${Math.min(1, g.umbra.progress).toFixed(3)})`)
+    this.set('rite-bar', 'class', g.umbra.casting.length ? 'rite-bar on' : 'rite-bar')
   }
 }
