@@ -281,3 +281,4 @@ export class Game {
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
+    if (this.cullIn <= 0) {
