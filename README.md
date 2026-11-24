@@ -45,6 +45,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | Tempur | |
 | --- | --- |
 | Klik kiri | Tiga pukulan tongkat berantai; tahan untuk pukulan berat |
+| Tahan C | Tahan serangan dari depan. Tekan tepat saat cincin amber penuh untuk parry: makhluk limbung |
 
 ## Struktur
 
