@@ -70,3 +70,5 @@ export class IlyraModel {
       l.position.set(0, -0.06, 0.04)
       hand.add(l)
     }
+  }
+
