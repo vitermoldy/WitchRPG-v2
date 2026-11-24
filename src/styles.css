@@ -651,6 +651,7 @@ button {
   position: absolute;
   top: 24%;
   left: 50%;
+  transform: translate(-50%, 8px);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
