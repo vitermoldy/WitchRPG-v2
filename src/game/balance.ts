@@ -789,3 +789,4 @@ export const COMBAT = {
     stun: 20,
     recallSpeed: 34,
     recallDamage: 12,
+    recallStun: 16,
