@@ -948,6 +948,7 @@ button {
   position: absolute;
   inset: 0;
   background: rgba(12, 8, 9, 0.72);
+  transform-origin: bottom;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
