@@ -556,3 +556,4 @@ export class Spells {
   }
 
   private snare(at: THREE.Vector3) {
+    const g = this.g
