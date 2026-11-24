@@ -15,3 +15,4 @@ void main() {
 
 const SKY_FRAG = /* glsl */ `
 uniform vec3 zenith;
+uniform vec3 horizon;
