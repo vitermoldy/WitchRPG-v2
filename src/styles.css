@@ -1240,6 +1240,7 @@ button {
   opacity: 1;
 }
 
+.vital.poisoned .bar-hp i {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
