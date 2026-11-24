@@ -199,6 +199,7 @@ export interface AttackSpec {
   cooldown?: number
 }
 
+/** What petrifying and poison do to her. */
 
 export interface UnitSpec {
   name: string
