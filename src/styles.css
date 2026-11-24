@@ -757,6 +757,7 @@ button {
 }
 
 .prompt:empty {
+  display: none;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
