@@ -158,3 +158,4 @@ export class Projectiles {
     this.group.remove(s.mesh)
     this.shots.splice(i, 1)
   }
+}
