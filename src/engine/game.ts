@@ -537,6 +537,7 @@ export class Game implements UnitHost {
     this.saveNow()
   }
 
+  /** Fast travel from one lit altar to another; the shadows on the field come along. */
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
