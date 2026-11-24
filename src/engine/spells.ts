@@ -26,3 +26,4 @@ interface Field {
 }
 
 export interface SpellInput {
+  /** Left button this frame, and whether she is aiming (right button held). */
