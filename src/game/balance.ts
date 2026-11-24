@@ -368,3 +368,4 @@ export interface TierSpec {
   tier: TierId
   name: string
   roman: string
+  unlock: number
