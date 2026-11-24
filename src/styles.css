@@ -451,6 +451,7 @@ button {
   opacity: 1;
 }
 
+.aim-dot {
   width: 6px;
   height: 6px;
   margin: -3px 0 0 -3px;
