@@ -152,3 +152,4 @@ export class CameraRig {
       dir: forward(this.yaw, this.pitch),
       fov: p.fov,
     }
+  }
