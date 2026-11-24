@@ -113,6 +113,7 @@ export class Hud {
 
   banner(title: string, sub: string) {
     ;(this.bigBanner.querySelector('.banner-title') as HTMLElement).textContent = title
+    ;(this.bigBanner.querySelector('.banner-sub') as HTMLElement).textContent = sub
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
