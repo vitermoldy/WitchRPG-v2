@@ -24,3 +24,4 @@ function patchGlow(mat: THREE.MeshStandardMaterial) {
 function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMaterial {
   const m = src.clone()
   const c = src.color
+  const lum = c.r * 0.3 + c.g * 0.59 + c.b * 0.11
