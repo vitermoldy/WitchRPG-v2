@@ -793,6 +793,7 @@ button {
 .vitals {
   position: absolute;
   left: var(--gutter);
+  bottom: var(--gutter);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
