@@ -315,3 +315,4 @@ export class Game {
       c.fov = pose.fov
       c.updateProjectionMatrix()
     }
+    const clear = Math.min(this.obstacles.clearance(c.position.x, c.position.y, c.position.z), c.position.y - heightAt(c.position.x, c.position.z))
