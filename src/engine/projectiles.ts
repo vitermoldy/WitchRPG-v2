@@ -111,3 +111,4 @@ export class Projectiles {
         continue
       }
 
+      if (s.atk.strike === 'line') {
