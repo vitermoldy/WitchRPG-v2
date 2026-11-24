@@ -435,6 +435,7 @@ export class Game implements UnitHost {
     p.hp = p.maxHp * hpShare
     p.mana = p.maxMana * manaShare
     p.speedMult = d.speedMult
+    p.dodgeDistance = d.dodgeDistance
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
