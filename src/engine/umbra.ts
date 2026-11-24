@@ -299,3 +299,4 @@ export class Umbra {
     if (this.casting.length) {
       this.candidate = this.casting[0]
       this.targets = this.casting
+    } else {
