@@ -440,3 +440,4 @@ export class UnitSystem {
         if (u.t > 1.0) u.set('move')
         continue
       }
+      if (u.state === 'sinking') {
