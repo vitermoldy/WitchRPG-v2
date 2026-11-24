@@ -49,3 +49,4 @@ export class Player {
     return this.dodgeT >= 0
   }
 
+  get invulnerable() {
