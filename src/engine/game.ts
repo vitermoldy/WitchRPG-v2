@@ -73,6 +73,7 @@ export class Game implements UnitHost {
   readonly shots: Projectiles
   derived: Derived
   glow!: Particles
+  smoke!: Particles
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
   debugSpeed = 1
