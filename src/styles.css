@@ -256,6 +256,7 @@ button {
 
 .phase-note b {
   color: #ffbe73;
+  font-weight: 600;
 .touch-note {
   display: none;
   margin: 1rem 0 0;
