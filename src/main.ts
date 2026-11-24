@@ -69,6 +69,7 @@ async function boot() {
   const range = (id: string, value: number, fmt: (v: number) => string, apply: (v: number) => void) => {
     const input = $(`set-${id}`) as HTMLInputElement
     const out = $(`out-${id}`) as HTMLOutputElement
+    input.value = String(value)
   })
 
   game.onPause = () => {
