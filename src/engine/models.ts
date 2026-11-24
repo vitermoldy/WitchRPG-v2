@@ -124,6 +124,7 @@ export class IlyraModel {
   }
 
   /** A copy of the staff for the throw (shares its geometry and materials). */
+  staffCopy(): THREE.Object3D | null {
   private rot(name: string, x: number, y = 0, z = 0) {
     const p = this.parts[name]
     if (p) p.rotation.set(rad(x), rad(y), rad(z))
