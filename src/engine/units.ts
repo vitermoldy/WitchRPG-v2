@@ -292,3 +292,4 @@ export class UnitSystem {
       this.kill(u)
       return true
     }
+    // a Naga that is hurt slips under and comes up somewhere else
