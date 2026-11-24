@@ -403,3 +403,4 @@ export class Game {
   }
 
   private debugText() {
+    const s = this.frameStats()
