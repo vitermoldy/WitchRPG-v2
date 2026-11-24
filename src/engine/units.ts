@@ -115,3 +115,4 @@ export class Unit implements Foe {
   skillCd = 6
   helpers = 0
   owner: Unit | null = null
+  /** Which way a body falls (for the death pose). */
