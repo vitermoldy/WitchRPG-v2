@@ -150,6 +150,7 @@ export class IlyraModel {
     this.pivot.rotation.set(0, 0, 0)
     if (act.dead >= 0) {
       // she sinks to her knees and falls back
+      const k = ease(act.dead / 0.8)
     const amp = Math.min(1.6, p.speed / MOVE.jog)
     const sprint = Math.max(0, (p.speed - MOVE.jog) / (MOVE.sprint - MOVE.jog))
     const s = Math.sin(p.stride)
