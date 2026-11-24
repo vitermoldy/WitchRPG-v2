@@ -77,6 +77,7 @@ src/engine/   kamera (camera.ts), gerak (player.ts), rintangan (obstacles.ts), l
               model Ilyra dan animasinya (models.ts), efek dan suara dari v1 (fx.ts, audio.ts)
               proyektil makhluk: panah dan semburan (projectiles.ts)
 src/world/    peta, zona, dan altar (map.ts, altars.ts), medan per chunk, hutan, kabut dan langit, kamp makhluk (camps.ts)
+src/ui/       HUD, Ledger dan panel altar (ledger.ts)
 previz/       skrip Blender, render, animatic, papan makhluk, PREVIZ.md
 public/models model GLB hasil ekspor dari previz
 ```
