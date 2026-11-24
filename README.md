@@ -43,6 +43,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | Esc | Jeda: sensitivitas, volume, bayangan detail penuh, guncangan kamera |
 
 | Tempur | |
+| --- | --- |
 
 ## Struktur
 
