@@ -574,3 +574,4 @@ export class Spells {
     const g = this.g
     for (const u of g.units.units) {
       u.slow = 1
+      u.vulnerable = 0
