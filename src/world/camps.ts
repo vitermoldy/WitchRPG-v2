@@ -43,3 +43,4 @@ export class Camps {
     for (const camp of CAMPS) {
       for (let i = 0; i < camp.n; i++) {
         const a = rnd() * Math.PI * 2
+        const r = 1.5 + rnd() * 3.5
