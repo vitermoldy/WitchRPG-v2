@@ -382,6 +382,7 @@ export class Game implements UnitHost {
   start() {
     this.state = 'playing'
     this.input.capture = true
+    this.sfx.start()
     this.hud.show(true)
     this.lastFrame = performance.now()
   }
