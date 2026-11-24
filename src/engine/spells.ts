@@ -399,3 +399,4 @@ export class Spells {
     const g = this.g
     if (!this.overloaded) {
       g.player.mana -= SPELL.grip.manaPerSec * dt
+      if (g.player.mana <= 0) {
