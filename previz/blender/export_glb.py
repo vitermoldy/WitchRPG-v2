@@ -48,3 +48,4 @@ def flat(m):
     f = bpy.data.materials.new(f"g_{m.name}")
     f.use_nodes = True
     b = f.node_tree.nodes["Principled BSDF"]
+    col = tuple(m.diffuse_color[:3])
