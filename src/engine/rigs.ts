@@ -550,3 +550,4 @@ class Rig implements Poser {
     this.team = team
     this.cap = cap
     this.pose = POSES[kind] ?? (() => {})
+    const scene = model.clone(true)
