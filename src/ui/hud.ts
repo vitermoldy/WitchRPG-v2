@@ -55,3 +55,4 @@ export class Hud {
       if (this.bannerTime <= 0) this.banner.classList.remove('show')
     }
     if (this.hintTime > 0) {
+      this.hintTime -= dt
