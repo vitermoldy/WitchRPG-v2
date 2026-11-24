@@ -1383,6 +1383,7 @@ dialog::backdrop {
 .stat-list {
   display: grid;
   gap: 0.35rem;
+  margin: 0 0 1rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
