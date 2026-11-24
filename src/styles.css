@@ -715,6 +715,7 @@ button {
   color: var(--chaos-ink);
 }
 
+.feed-item.umbra::before {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
