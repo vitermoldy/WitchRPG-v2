@@ -198,3 +198,4 @@ export class Unit implements Foe {
     return this.pos.z
   }
 
+  /** Middle of the body, for aiming and effects. */
