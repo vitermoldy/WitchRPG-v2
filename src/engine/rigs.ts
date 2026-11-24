@@ -619,3 +619,4 @@ class Rig implements Poser {
     this.used = 0
   }
 
+  add(u: Unit, t: number, glow: THREE.Color | null, sink: number) {
