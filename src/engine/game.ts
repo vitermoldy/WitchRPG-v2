@@ -172,3 +172,4 @@ export class Game {
   /** Puts her at a map point facing a map direction, with the camera behind her. */
   spawn(mx: number, my: number, fx = 0, fy = 1) {
     const [x, z] = toWorld(mx, my)
+    const yaw = yawTo(0, 0, fx, -fy)
