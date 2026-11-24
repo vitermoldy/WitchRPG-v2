@@ -70,6 +70,7 @@ export class Camps {
   private readonly shards: THREE.InstancedMesh
   private readonly lit = new THREE.Color(COLOR.rift).multiplyScalar(2.2)
   private readonly dark = new THREE.Color(0x3a2a20)
+  private readonly c = new THREE.Color()
 
   constructor(model: THREE.Group, obstacles: Obstacles) {
     this.group.name = 'camps'
