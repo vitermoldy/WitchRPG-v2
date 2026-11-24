@@ -516,3 +516,4 @@ export class Spells {
       fragmentShader: RUNE_FRAG,
       transparent: true,
       depthWrite: false,
+      blending: THREE.AdditiveBlending,
