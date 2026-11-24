@@ -980,6 +980,8 @@ export class Game implements UnitHost {
     this.saveSoon()
   }
 
+  }
+
   private debugText() {
     const s = this.frameStats()
     const i = this.renderer.info.render
