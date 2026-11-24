@@ -174,3 +174,4 @@ export class Game {
     const [x, z] = toWorld(mx, my)
     const yaw = yawTo(0, 0, fx, -fy)
     this.player.place(x, z, this.ground, yaw)
+    this.obstacles.pushOut(this.player.pos, MOVE.radius, MOVE.height)
