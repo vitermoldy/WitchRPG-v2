@@ -448,3 +448,4 @@ const poseMedusa: PoseFn = (p, u, t) => {
     return
   }
   if (u.state === 'strike') {
+    p.body(0, 20)
