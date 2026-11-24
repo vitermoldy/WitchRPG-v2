@@ -392,6 +392,7 @@ export class Game implements UnitHost {
     if (this.state !== 'playing') return
     this.state = 'paused'
     this.input.capture = false
+    this.sfx.suspend()
     this.onPause?.()
   }
 
