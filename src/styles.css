@@ -886,6 +886,7 @@ button {
   letter-spacing: -0.02em;
 }
 
+.xp {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
