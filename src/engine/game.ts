@@ -20,3 +20,5 @@ import { IlyraModel, loadModel } from './models'
 import { Obstacles } from './obstacles'
 import { Player, type Ground, type MoveInput } from './player'
 
+export type State = 'loading' | 'title' | 'playing' | 'paused'
+
