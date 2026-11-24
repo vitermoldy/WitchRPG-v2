@@ -254,6 +254,7 @@ button {
   font-size: 0.92rem;
 }
 
+.phase-note b {
 .touch-note {
   display: none;
   margin: 1rem 0 0;
