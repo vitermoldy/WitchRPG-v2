@@ -441,3 +441,4 @@ export class Spells {
     for (const u of this.grabbed) g.glow.emit({ pos: u.center(), count: 2, color: COLOR.chaos, intensity: 2.4, life: 0.4, size: 0.22, sizeEnd: 0.04, speed: 1.2, jitter: 0.5 })
   }
 
+  /** Lets go: thrown at the aim point when `throwIt`, else dropped where it hangs. */
