@@ -354,3 +354,4 @@ export class Game {
       minClearance: this.minClearance,
       calls: info.render.calls,
       triangles: info.render.triangles,
+      chunks: this.terrain.built,
