@@ -311,3 +311,4 @@ export class Fight {
   }
 
   cast() {
+    this.castFx = 1
