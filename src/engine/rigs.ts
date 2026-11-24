@@ -317,3 +317,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
     p.rot('leg_FR', 25)
     return
   }
+  if (u.state === 'stagger') {
