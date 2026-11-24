@@ -731,6 +731,8 @@ export class Game implements UnitHost {
     p.moveScale = alive ? this.fight.moveScale * (this.umbra.casting.length ? 0.4 : 1) : 0
     p.update(sdt, move, this.rig.yaw, face, aiming, this.ground)
     this.foe.pos.set(p.pos.x, p.pos.y, p.pos.z)
+    this.foe.alive = alive
+
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
