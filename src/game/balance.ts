@@ -378,3 +378,4 @@ export interface TierSpec {
 }
 
 export const TIERS: Record<TierId, TierSpec> = {
+  1: {
