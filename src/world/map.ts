@@ -192,3 +192,4 @@ export function zoneAt(x: number, y: number): Zone {
   return ZONES[best]
 }
 
+export function pathDist(x: number, y: number): number {
