@@ -865,3 +865,4 @@ export class UnitSystem {
   private land(u: Unit, keep: number) {
     u.vel.multiplyScalar(keep)
     u.vel.y = 0
+    u.flight = 0
