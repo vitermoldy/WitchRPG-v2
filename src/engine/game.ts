@@ -105,3 +105,4 @@ export class Game {
     this.player.dodgeDistance = derive(this.profile.stats, this.profile.level).dodgeDistance
 
     this.composer = new EffectComposer(this.renderer)
+    this.composer.addPass(new RenderPass(this.scene, this.camera))
