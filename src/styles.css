@@ -1375,6 +1375,7 @@ dialog::backdrop {
 }
 
 .ledger-room {
+  grid-area: room;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
