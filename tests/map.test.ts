@@ -58,6 +58,7 @@ describe('the forest valley', () => {
     for (const key of ['pembuka', 'tebing', 'rawa']) expect(CAMP_DEFS.some((c) => zoneAt(c.c[0], c.c[1]).key === key), key).toBe(true)
   })
 
+  it('stands every camp and altar on ground she can walk: not deep water, not a cliff', () => {
   it('raises Tebing Berangin as a plateau above the forest floor', () => {
     const t = ZONES.find((z) => z.key === 'tebing')!
     expect(heightMap(t.c[0], t.c[1]) - heightMap(0, -280)).toBeGreaterThan(25)
