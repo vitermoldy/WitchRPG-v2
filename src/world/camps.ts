@@ -211,4 +211,6 @@ export class Camps {
       if (this.shards.instanceColor) this.shards.instanceColor.needsUpdate = true
     }
   }
+
+  }
 }
