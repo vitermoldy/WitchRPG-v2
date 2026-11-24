@@ -542,6 +542,8 @@ button {
 .hud.overloaded .veil-chaos {
   opacity: 1;
   animation: veil 0.9s ease-in-out infinite alternate;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
