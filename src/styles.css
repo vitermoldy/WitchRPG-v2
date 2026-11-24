@@ -363,6 +363,8 @@ button {
   margin: 0;
   accent-color: var(--chaos);
   cursor: pointer;
+}
+
 /* HUD */
 .hud {
   position: absolute;
