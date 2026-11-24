@@ -432,6 +432,7 @@ export class Game implements UnitHost {
     const manaShare = fill ? 1 : p.mana / p.maxMana
     p.maxHp = d.maxHp
     p.maxMana = d.maxMana
+    p.hp = p.maxHp * hpShare
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
