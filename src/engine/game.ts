@@ -337,6 +337,7 @@ export class Game implements UnitHost {
     const models: Partial<Record<UnitKind, THREE.Group>> = {}
     const lods: Partial<Record<UnitKind, THREE.Group>> = {}
     V2_KINDS.forEach((k, i) => {
+      models[k] = creatures[i]
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
