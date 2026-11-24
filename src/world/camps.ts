@@ -156,6 +156,7 @@ export class Camps {
     this.camps.forEach((camp, index) => {
       const d = Math.hypot(p.pos.x - camp.pos.x, p.pos.z - camp.pos.z)
       if (camp.state === 'idle' && d < CAMP.wake && p.alive) {
+        this.wake(camp, index)
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
