@@ -424,3 +424,4 @@ export class Fight {
         const score = d + off * 1.5
         if (score < best) {
           best = score
+          target = u
