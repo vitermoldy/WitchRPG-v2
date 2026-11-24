@@ -26,7 +26,7 @@ export class Hud {
   private readonly bannerName = $('zone-name')
   private readonly bannerTier = $('zone-tier')
   private readonly lockMark = $('lock-mark')
-  private readonly aimDot = $('aim-dot')
+  private readonly aimEl = $('aim')
   private readonly hint = $('hint')
   private readonly debugEl = $('debug')
   private bannerTime = 0
