@@ -266,5 +266,6 @@ export class Hud {
     let boss = null
     for (const u of g.units.units) {
       if (u.team !== 'enemy' || !u.spec.boss || !u.alive) continue
+      if ((u.aggro && Math.hypot(u.pos.x - p.x, u.pos.z - p.z) < 45) || u.barShown > 0) {
   }
 }
