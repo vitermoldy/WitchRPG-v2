@@ -142,3 +142,4 @@ export class Game {
     progress('Menanam hutan')
     await frame()
     const trees = scatter()
+    addColliders(trees, this.obstacles)
