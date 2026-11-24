@@ -39,6 +39,7 @@ export class Hud {
   private readonly hurtVeil = $('hurt-veil')
   private readonly cache = new Map<string, string>()
   private readonly pool: HTMLDivElement[] = []
+  private readonly v = new THREE.Vector3()
   private bannerTime = 0
   private hintTime = 0
   private zoneKey = ''
