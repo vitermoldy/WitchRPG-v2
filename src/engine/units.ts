@@ -449,3 +449,4 @@ export class UnitSystem {
         continue
       }
       if (u.lifted > 0) {
+        u.lifted = Math.max(0, u.lifted - dt)
