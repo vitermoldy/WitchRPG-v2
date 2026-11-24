@@ -137,3 +137,4 @@ export const XP = {
   base: 80,
   exponent: 1.5,
   perEnemyLevel: 10,
+  perBossLevel: 15,
