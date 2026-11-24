@@ -789,6 +789,7 @@ export class Game implements UnitHost {
       this.cullIn = 0.5
     }
     this.glow.update(dt)
+    this.smoke.update(dt)
     this.hud.zone(ZONES[this.atmosphere.zone])
     this.hud.aim(this.rig.aim > 0.5)
     if (target) {
