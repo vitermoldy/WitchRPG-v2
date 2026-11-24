@@ -650,3 +650,4 @@ export class Spells {
         m.uniforms.uTime.value = w.t
         m.uniforms.uFade.value = fade
       }
+      const left = w.duration - w.t
