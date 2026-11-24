@@ -482,3 +482,4 @@ const poseChimera: PoseFn = (p, u, t) => {
     if (name === 'napas api') {
       p.body(-0.15 * k, -6 * k)
       p.rot('head_lion', -30 * k)
+    } else if (name === 'seruduk kambing') {
