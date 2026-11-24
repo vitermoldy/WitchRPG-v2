@@ -80,6 +80,7 @@ export class Game implements UnitHost {
   telegraphs!: Telegraphs
   rigs!: Rigs
   camps!: Camps
+  altars!: Altars
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
   debugSpeed = 1
