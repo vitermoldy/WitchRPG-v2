@@ -105,6 +105,7 @@ export class Hud {
     const p = document.createElement('p')
     p.className = `feed-item ${tone}`
     p.textContent = text
+    this.feed.appendChild(p)
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
