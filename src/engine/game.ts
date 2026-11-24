@@ -67,6 +67,7 @@ export class Game implements UnitHost {
   readonly sfx = new Sfx()
   readonly units: UnitSystem
   readonly fight: Fight
+  readonly spells: Spells
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
   debugSpeed = 1
