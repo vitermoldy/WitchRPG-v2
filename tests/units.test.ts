@@ -241,3 +241,4 @@ describe('phase 4 creatures', () => {
     })
     expect(gaze).toBe(true)
   })
+})
