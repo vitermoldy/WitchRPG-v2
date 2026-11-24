@@ -14,3 +14,4 @@ export interface Ground {
   height: HeightFn
   obstacles: Obstacles | null
   /** True where she may not stand: deep water, past the map edge. */
+  blocked: (x: number, z: number) => boolean
