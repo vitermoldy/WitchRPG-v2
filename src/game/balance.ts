@@ -238,3 +238,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   warden: {
     name: 'Warden',
     rank: 'ksatria',
+    hp: 110,
