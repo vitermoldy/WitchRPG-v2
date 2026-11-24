@@ -48,6 +48,7 @@ export class Player {
   /** Seconds turned to stone (Medusa's gaze): no moving, no acting. */
   petrified = 0
   /** Poison: seconds left and damage per second. */
+  poisonT = 0
 
   get speed() {
     return Math.hypot(this.vx, this.vz)
