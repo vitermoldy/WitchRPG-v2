@@ -136,3 +136,4 @@ export class Game {
     progress('Membentuk lembah')
     await frame()
     this.terrain = new Terrain()
+    this.scene.add(this.terrain.group)
