@@ -13,3 +13,4 @@ interface Bolt {
   life: number
   damage: number
   mesh: THREE.Mesh
+  light: THREE.PointLight | null
