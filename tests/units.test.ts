@@ -101,3 +101,4 @@ describe('creature attacks', () => {
     expect(side.log.strikes.length).toBe(0)
   })
 
+  it('keeps a camp creature at home until its pack is roused', () => {
