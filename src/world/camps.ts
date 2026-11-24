@@ -5,6 +5,7 @@ import { COLOR } from '../engine/palette'
 import type { Unit } from '../engine/units'
 import { heightMap, toWorld } from './map'
 
+export interface CampDef {
 
 /**
  * Phase 1 creatures: packs of Imps standing in Hutan Pembuka so the camera and lock-on have
