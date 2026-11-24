@@ -56,3 +56,4 @@ export class Camps {
       mesh.castShadow = true
       mesh.frustumCulled = false
       this.meshes.push(mesh)
+      this.group.add(mesh)
