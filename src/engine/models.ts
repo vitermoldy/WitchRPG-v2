@@ -198,6 +198,7 @@ export class IlyraModel {
     let torsoX = 3 + 9 * sprint + breath * 1.2
     let torsoY = 4 * s * amp
     let armRX = -8 * s * amp
+    let armRY = 0
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
