@@ -968,6 +968,7 @@ export class Game implements UnitHost {
   debugSpawn(kind: V2Kind, n: number, level = 1, dist = 12) {
     const p = this.player.pos
     for (let i = 0; i < n; i++) {
+      const a = (i / n) * Math.PI * 2
     }
     return best
   }
