@@ -747,6 +747,7 @@ export class Game implements UnitHost {
     this.umbra.update(sdt, canAct && !this.fight.exec, {
       riteHeld: inp.held('KeyR'),
       ritePressed: inp.pressed('KeyR'),
+      toggle: inp.pressed('KeyT'),
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
