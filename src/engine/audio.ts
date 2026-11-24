@@ -386,3 +386,4 @@ export class Sfx {
     wind.buffer = this.noiseBuf
     wind.loop = true
     const wf = ctx.createBiquadFilter()
+    wf.type = 'bandpass'
