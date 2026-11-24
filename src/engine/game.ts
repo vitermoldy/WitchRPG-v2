@@ -131,3 +131,4 @@ export class Game {
     this.resize()
   }
 
+  /** Builds the valley, loads the models and warms the shaders. */
