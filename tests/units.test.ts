@@ -78,3 +78,5 @@ describe('creature attacks', () => {
     })
     expect(most).toBeLessThanOrEqual(COMBAT.attackers)
     expect(most).toBeGreaterThan(0)
+  })
+
