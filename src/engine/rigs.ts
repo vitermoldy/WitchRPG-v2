@@ -310,3 +310,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
     p.rot('leg_FL', -70 * k)
     p.rot('leg_FR', -55 * k)
     return
+  }
