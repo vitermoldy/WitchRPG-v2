@@ -124,6 +124,7 @@ export class Game implements UnitHost {
   private readonly v = new THREE.Vector3()
   private gpu = ''
   private readonly pixel = new Uint8Array(4)
+  private hitstopT = 0
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
