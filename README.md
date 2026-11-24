@@ -38,3 +38,4 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | Mouse | Putar kamera |
 
 | Kamera | |
+| --- | --- |
