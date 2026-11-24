@@ -121,3 +121,4 @@ export class Unit implements Foe {
   /** Finished by an execution: raises the Umbra Rite chance of the body. */
   executed = false
   riteTried = false
+  ash = false
