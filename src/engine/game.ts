@@ -181,3 +181,4 @@ export class Game {
     this.rig.aim = 0
     this.rig.lock = 0
     this.rig.frac = 1
+    this.pivotY = this.player.pos.y + CAMERA.normal.height
