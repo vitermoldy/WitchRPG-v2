@@ -120,3 +120,4 @@ export class CameraRig {
     const dy = target.point.y - from.y
     const yaw = yawTo(0, 0, dx, dz) + Math.atan(LOCKON.thirdX * th)
     const pitch = Math.atan2(dy, Math.hypot(dx, dz)) - Math.atan(LOCKON.thirdY * tv)
+    return { yaw, pitch: Math.min(rad(CAMERA.pitchMax), Math.max(rad(CAMERA.pitchMin), pitch)) }
