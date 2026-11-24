@@ -12,3 +12,4 @@ const screens = {
   loading: $('screen-loading'),
   error: $('screen-error'),
   start: $('screen-start'),
+  pause: $('screen-pause'),
