@@ -366,3 +366,5 @@ export class Game {
       width: this.renderer.domElement.width,
       height: this.renderer.domElement.height,
     }
+  }
+
