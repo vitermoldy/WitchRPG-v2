@@ -492,3 +492,4 @@ export class Umbra {
       g.hud.message('Belum ada bayangan di medan. Tekan T untuk memanggil mereka.', 'umbra')
       return
     }
+    if (choice === 'follow') {
