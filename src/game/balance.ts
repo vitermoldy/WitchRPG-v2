@@ -92,3 +92,4 @@ export const CHAOS = {
   overloadTime: 12,
   overloadDamage: 1.5,
   backlashTime: 3,
+  backlashHpLoss: 0.1,
