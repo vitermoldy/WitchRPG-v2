@@ -947,6 +947,7 @@ export class Game implements UnitHost {
         t: u.t,
         strike: u.spec.strike ?? 'ring',
         windup: u.spec.windup,
+        lunge: u.spec.lungeTime ?? 0.3,
   }
 
   /** The nearest living Imp (world position), so the bot can look at it before locking on. */
