@@ -739,6 +739,7 @@ export class Game implements UnitHost {
       aiming,
       overload: inp.pressed('KeyG'),
       burst: inp.pressed('KeyQ'),
+      snare: inp.pressed('KeyE'),
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
