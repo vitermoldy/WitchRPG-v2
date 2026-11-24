@@ -108,6 +108,7 @@ async function boot() {
     profile: pr,
     changed: () => {
       game.statsChanged()
+    },
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
