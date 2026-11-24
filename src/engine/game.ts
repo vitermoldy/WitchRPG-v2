@@ -157,6 +157,7 @@ export class Game implements UnitHost {
     this.sensitivity = this.profile.settings.sensitivity
     this.derived = derive(this.profile.stats, this.profile.level)
     this.applyDerived(true)
+    this.units = new UnitSystem(this)
 
     this.composer = new EffectComposer(this.renderer)
     this.composer.addPass(new RenderPass(this.scene, this.camera))
