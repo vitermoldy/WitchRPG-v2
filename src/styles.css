@@ -1343,6 +1343,7 @@ dialog::backdrop {
 .ledger-body {
   display: grid;
   grid-template-columns: minmax(15rem, 0.8fr) minmax(0, 2fr);
+  grid-template-areas: 'stats tree' 'room room';
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
