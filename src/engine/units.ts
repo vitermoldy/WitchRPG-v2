@@ -269,3 +269,4 @@ export class UnitSystem {
     return this.units.filter((u) => u.team === 'enemy' && u.alive)
   }
 
+  /** Attack slots in use against her. */
