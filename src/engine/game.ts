@@ -110,3 +110,4 @@ export class Game {
     this.composer.addPass(
       new ShaderPass({
         uniforms: { tDiffuse: { value: null } },
+        vertexShader: 'varying vec2 vUv; void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
