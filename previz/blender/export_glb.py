@@ -109,6 +109,7 @@ def export(key):
         for slot in ob.material_slots:
             if slot.material:
                 slot.material = flat(slot.material)
+        if SHRINK and ob.type == "MESH" and len(ob.data.polygons) >= 60:
     for ob in scene.objects:
         ob.select_set(False)
     for ob in coll.objects:
