@@ -695,6 +695,7 @@ export class Game implements UnitHost {
     this.botDodge = false
     // the wheel takes the mouse while it is open
     if (!wheel) {
+      if (b) this.rig.look((-b.turn * dt) / (CAMERA.sensitivity * this.sensitivity), 0, CAMERA.sensitivity * this.sensitivity)
 
     const targets = this.camps.targets
     const p = this.player
