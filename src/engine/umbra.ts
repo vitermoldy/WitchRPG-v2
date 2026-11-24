@@ -55,3 +55,4 @@ export class Umbra {
   swapCd = 0
   summonCd = 0
   wheelOpen = false
+  wheelChoice: WheelChoice | null = null
