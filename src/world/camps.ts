@@ -42,3 +42,4 @@ export class Camps {
     const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647)
     for (const camp of CAMPS) {
       for (let i = 0; i < camp.n; i++) {
+        const a = rnd() * Math.PI * 2
