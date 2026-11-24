@@ -573,3 +573,4 @@ export class UnitSystem {
     const atk = u.atk
     const speed = u.speed * u.slow
     switch (u.state) {
+      case 'move': {
