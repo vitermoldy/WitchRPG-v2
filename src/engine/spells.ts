@@ -84,3 +84,4 @@ const SHIELD_VERT = /* glsl */ `
   }
 `
 const SHIELD_FRAG = /* glsl */ `
+  varying vec3 vNormal;
