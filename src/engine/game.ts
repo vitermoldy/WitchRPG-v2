@@ -709,7 +709,8 @@ export class Game implements UnitHost {
       const c = this.camera.position
       visible = this.obstacles.sweep(c.x, c.y, c.z, lp.x, lp.y, lp.z, 0) > 0.97
     }
-    this.lockon.update(dt, targets, p.pos, b ? 0 : inp.dx, visible)
+    this.lockon.update(dt, targets, p.pos, b || wheel ? 0 : inp.dx, visible)
+
 
     const target = this.lockon.current
     const face = target ? yawTo(p.pos.x, p.pos.z, target.x, target.z) : aiming ? this.rig.yaw : null
