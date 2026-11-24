@@ -4,6 +4,7 @@ import '@fontsource-variable/martian-mono'
 import './styles.css'
 import { Game } from './engine/game'
 import { saveProfile } from './game/save'
+import { Ledger, TravelPanel } from './ui/ledger'
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T
 const debug = new URLSearchParams(location.search).has('debug')
