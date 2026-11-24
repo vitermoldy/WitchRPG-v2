@@ -484,3 +484,4 @@ export class Fight {
     u.vel.set(0, 0, 0)
     u.token = false
     g.telegraphs.clear(u)
+    // step up to it
