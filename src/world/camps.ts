@@ -133,6 +133,7 @@ export class Camps {
         u.camp = index
         u.home = new THREE.Vector3(at.x, 0, at.z)
         u.aggro = false
+        camp.units.push(u)
     }
     this.update(0, 0, new THREE.Vector3(1e6, 0, 1e6))
   }
