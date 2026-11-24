@@ -52,3 +52,4 @@ export class Game {
   syncFrames = false
   /** ?debug: when set, the bot drives her instead of the keyboard. */
   bot: BotInput | null = null
+  /** Game seconds played (simulation time, includes debugSpeed). */
