@@ -81,3 +81,4 @@ async function boot() {
     const locked = await game.input.lock()
     if (!locked && !debug) {
       $('lock-note').hidden = false
+      return
