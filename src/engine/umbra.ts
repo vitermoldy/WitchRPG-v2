@@ -214,3 +214,4 @@ export class Umbra {
     const g = this.g
     const u = g.units.spawn(rec.kind, 'shadow', rec.level, at, true)
     u.record = rec
+    u.slot = slot
