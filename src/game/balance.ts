@@ -187,3 +187,5 @@ export interface UnitSpec {
   summon?: { every: number; count: number; max: number }
   /** Too big to be lifted or flipped by Reality Warp. */
   anchored?: boolean
+}
+
