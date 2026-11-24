@@ -78,6 +78,7 @@ async function boot() {
       saveProfile(pr)
     })
   }
+  range('sens', game.sensitivity, (v) => v.toFixed(2), (v) => {
   })
 
   game.onPause = () => {
