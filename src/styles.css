@@ -1075,6 +1075,7 @@ button {
   border: 1px solid var(--line-strong);
   border-radius: var(--radius);
   background: rgba(12, 8, 9, 0.84);
+  font-size: 0.95rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
