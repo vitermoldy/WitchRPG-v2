@@ -309,3 +309,4 @@ export class Game {
     const target = this.lockon.current
     const pose: CamPose = this.rig.update(dt, pivot, aiming, target ? { point: lockPoint(target), height: target.height } : null, this.obstacles, heightAt)
     const c = this.camera
+    c.position.set(pose.pos.x, pose.pos.y, pose.pos.z)
