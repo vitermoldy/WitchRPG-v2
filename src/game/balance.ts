@@ -115,3 +115,4 @@ export const RITE = {
   massRadius: 12,
   massManaPerExtra: 8,
   /** The Shadow Room has no slots; this only guards the save from running away. */
+  maxShadows: 2000,
