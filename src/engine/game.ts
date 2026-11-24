@@ -648,6 +648,7 @@ export class Game implements UnitHost {
       this.ilyra.update(dt, this.player, 0, this.pose)
     }
     this.lastFrame = now
+    const th = performance.now()
     this.hud.update(dt)
     this.renderer.info.reset()
     this.composer.render(dt)
