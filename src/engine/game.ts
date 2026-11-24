@@ -347,6 +347,7 @@ export class Game implements UnitHost {
     this.camps = new Camps(this)
     this.scene.add(this.camps.group)
     this.altars = new Altars(this)
+    this.scene.add(this.altars.group)
     progress('Menyiapkan cahaya dan shader')
     await frame()
     this.terrain.prepare(this.camera.position)
