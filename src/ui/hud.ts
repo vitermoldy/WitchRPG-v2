@@ -17,3 +17,4 @@ export class Hud {
   private zoneKey = ''
 
   show(on: boolean) {
+    this.root.hidden = !on
