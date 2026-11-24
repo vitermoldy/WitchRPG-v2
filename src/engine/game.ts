@@ -162,6 +162,7 @@ export class Game implements UnitHost {
     this.spells = new Spells(this)
     this.umbra = new Umbra(this)
     this.hud = new Hud(this)
+    this.shots = new Projectiles(this)
 
     this.composer = new EffectComposer(this.renderer)
     this.composer.addPass(new RenderPass(this.scene, this.camera))
