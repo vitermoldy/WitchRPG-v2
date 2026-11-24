@@ -15,3 +15,4 @@ import { heightAt, inWaterRect, PLAY_HALF, SPOTS, toMap, toWorld, WATER_LEVEL, Z
 import { Terrain } from '../world/terrain'
 import { CameraRig, yawTo, type CamPose } from './camera'
 import { Input } from './input'
+import { LockOn, lockPoint } from './lockon'
