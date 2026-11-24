@@ -8,3 +8,5 @@ colour (the part's top colour) plus emission, which glTF carries without baking.
 import os
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
