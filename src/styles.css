@@ -443,3 +443,4 @@ button {
   background: rgba(12, 8, 9, 0.55);
   color: var(--ink-2);
   font-size: 0.85rem;
+  opacity: 0;
