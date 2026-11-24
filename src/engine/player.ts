@@ -42,6 +42,7 @@ export class Player {
   dodges = 0
   hp = 100
   maxHp = 100
+  mana = 100
 
   get speed() {
     return Math.hypot(this.vx, this.vz)
