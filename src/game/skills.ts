@@ -45,3 +45,4 @@ export const SKILLS: SkillDef[] = [
     key: 'Tahan RMB',
     unlock: 1,
     effect: 'Angkat musuh atau objek hingga 500 kg, lepas untuk melempar.',
+    upgrade: 'Mengangkat 2 target sekaligus.',
