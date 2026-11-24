@@ -536,6 +536,7 @@ button {
 
 .veil-hurt {
   background: radial-gradient(ellipse at center, transparent 35%, rgba(160, 0, 20, 0.55) 100%);
+  transition: opacity 0.4s;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
