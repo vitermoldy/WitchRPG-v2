@@ -78,3 +78,4 @@ async function boot() {
     $('btn-resume').focus()
   }
   $('btn-resume').addEventListener('click', async () => {
+    const locked = await game.input.lock()
