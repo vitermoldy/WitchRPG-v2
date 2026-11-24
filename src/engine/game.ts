@@ -482,6 +482,7 @@ export class Game implements UnitHost {
     if (p.hp <= 0) this.fall()
   }
 
+  /** Damage to a creature or shadow; her blows fill the Chaos meter and flash the hit mark. */
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
