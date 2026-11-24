@@ -260,3 +260,5 @@ export class Game {
         }
     this.botDodge = false
     if (b) this.rig.look(-b.turn * dt / (CAMERA.sensitivity * this.sensitivity), 0, CAMERA.sensitivity * this.sensitivity)
+    else this.rig.look(inp.dx, inp.dy, CAMERA.sensitivity * this.sensitivity)
+
