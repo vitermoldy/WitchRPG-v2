@@ -432,3 +432,4 @@ button {
   left: 50%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
