@@ -253,6 +253,7 @@ export class Game implements UnitHost {
   }
 
   /** A blow between a creature and a shadow. */
+  strikeUnit(u: Unit, target: Unit, atk?: AttackSpec) {
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
