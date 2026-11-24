@@ -258,3 +258,4 @@ export class UnitSystem {
     return u
   }
 
+  remove(u: Unit) {
