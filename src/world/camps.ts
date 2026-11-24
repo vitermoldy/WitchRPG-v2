@@ -66,13 +66,7 @@ const STONES = 7
 export class Camps {
   readonly camps: Camp[]
   readonly group = new THREE.Group()
-  readonly targets: Imp[] = []
-  private readonly meshes: THREE.InstancedMesh[] = []
-  private readonly m = new THREE.Matrix4()
-  private readonly q = new THREE.Quaternion()
-  private readonly v = new THREE.Vector3()
-  private readonly one = new THREE.Vector3(1, 1, 1)
-  private readonly up = new THREE.Vector3(0, 1, 0)
+  private readonly g: Game
 
   constructor(model: THREE.Group, obstacles: Obstacles) {
     this.group.name = 'camps'
