@@ -239,3 +239,4 @@ export class Game {
     this.renderer.info.reset()
     this.composer.render(dt)
     if (this.syncFrames) {
+      const gl = this.renderer.getContext()
