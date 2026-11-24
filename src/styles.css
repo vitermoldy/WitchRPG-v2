@@ -1269,6 +1269,7 @@ dialog::backdrop {
   font-size: 0.875rem;
 }
 
+.btn:disabled {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
