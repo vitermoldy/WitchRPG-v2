@@ -64,3 +64,4 @@ describe('Ilyra on foot', () => {
     const p = new Player()
     p.update(1 / 120, { ...idle, dodge: true }, 0, null, false, flat)
     let t = 0
+    while (p.dodging) {
