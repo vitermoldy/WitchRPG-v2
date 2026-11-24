@@ -554,6 +554,7 @@ button {
   background: radial-gradient(ellipse at center, transparent 30%, rgba(90, 40, 180, 0.4) 100%);
 }
 
+.veil-umbra.on {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
