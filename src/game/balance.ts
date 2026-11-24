@@ -719,3 +719,6 @@ export const BOSS = {
 } as const
 
 export const WORLD = { maxPhysicsProps: 20, arenaHalf: 38 } as const
+
+// ------------------------------------------------------------ v2 melee and the forest camps
+
