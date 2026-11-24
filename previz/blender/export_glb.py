@@ -88,3 +88,4 @@ def export(key):
         export_lights=False, export_cameras=False, export_materials="EXPORT", export_animations=False,
     )
     tris = C.tri_count(coll)
+    print(f"[export] {key}: {path} ({os.path.getsize(path) // 1024} kB, {tris} segitiga, {len(r.objs)} bagian)", flush=True)
