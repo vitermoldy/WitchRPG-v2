@@ -27,6 +27,7 @@ export const ZONES: Zone[] = [
 export const LAKE = { c: [-330, 300] as [number, number], r: 95 }
 export const ALTAR: [number, number] = [-10, -395]
 /**
+ * Altars: heal, the point she rises at after a fall, and fast travel between the ones already lit
 export const TEMPLE: [number, number] = [40, 318]
 /** Where the previz shots stood; the start point is the hero clearing of render 01. */
 export const SPOTS = {
