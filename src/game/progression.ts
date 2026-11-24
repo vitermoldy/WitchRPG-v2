@@ -99,3 +99,4 @@ export const bossUnlocked = (p: Profile) => p.level >= (TIERS[3].boss?.unlock ??
 export function riteBlock(p: Profile, kind: UnitKind): string | null {
   const rank = UNITS[kind].rank
   if (rank === 'jenderal' && !isUnlocked(p, 'general')) return `${UNITS[kind].name} butuh Kebangkitan Jenderal (Lv 8).`
+  if (rank === 'marsekal') {
