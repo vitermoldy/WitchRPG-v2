@@ -1635,6 +1635,7 @@ dialog::backdrop {
   justify-content: flex-start;
 }
 
+.travel-note {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
