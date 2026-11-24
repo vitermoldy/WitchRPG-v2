@@ -405,3 +405,4 @@ export class Umbra {
     if (why) {
       g.hud.message(why, 'umbra')
       if (why.startsWith('Mana')) g.hud.flashMana()
+      return
