@@ -155,8 +155,7 @@ export class Game implements UnitHost {
       if (!locked && this.state === 'playing' && !this.debug) this.pause()
     }
     this.sensitivity = this.profile.settings.sensitivity
-    this.player.speedMult = derive(this.profile.stats, this.profile.level).speedMult
-    this.player.dodgeDistance = derive(this.profile.stats, this.profile.level).dodgeDistance
+    this.derived = derive(this.profile.stats, this.profile.level)
 
     this.composer = new EffectComposer(this.renderer)
     this.composer.addPass(new RenderPass(this.scene, this.camera))
