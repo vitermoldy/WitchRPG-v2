@@ -41,3 +41,4 @@ export class Game {
   readonly input: Input
   readonly hud = new Hud()
   readonly rig = new CameraRig()
+  readonly player = new Player()
