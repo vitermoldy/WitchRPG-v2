@@ -100,6 +100,7 @@ export class Camps {
         q.setFromEuler(new THREE.Euler(Math.random(), a, Math.random()))
         s.setScalar(0.7 + Math.random() * 0.5)
         m.compose(new THREE.Vector3(x, y + 0.1, z), q, s)
+        stones.setMatrixAt(i, m)
       }
     }
     for (const b of bakeByMaterial(model)) {
