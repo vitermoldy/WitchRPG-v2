@@ -888,6 +888,7 @@ export class Game implements UnitHost {
 
   stats() {
     const info = this.renderer.info
+    const p = this.player
     return {
       ...this.frameStats(),
       minClearance: this.minClearance,
