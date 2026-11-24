@@ -64,3 +64,4 @@ export class Unit implements Foe {
   readonly spec: UnitSpec
   level: number
   hp: number
+  maxHp: number
