@@ -431,3 +431,4 @@ button {
   bottom: var(--gutter);
   left: 50%;
   display: flex;
+  flex-wrap: wrap;
