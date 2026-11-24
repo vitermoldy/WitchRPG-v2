@@ -28,3 +28,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMate
   m.color.setRGB(0.045 + lum * 0.16, 0.02 + lum * 0.07, 0.085 + lum * 0.28)
   const glowing = src.emissive && src.emissive.getHex() !== 0 && src.emissiveIntensity > 0
   if (glowing) {
+    m.emissive.set(COLOR.umbraHot)
