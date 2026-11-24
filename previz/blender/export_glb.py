@@ -21,7 +21,7 @@ import pv_common as C  # noqa: E402
 import pv_creatures as K  # noqa: E402
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
-WANT = argv or ["ilyra", "imp"]
+LOD = None
 POSE = {"ilyra": "walk"}
 OUT = os.path.join(C.ROOT, "public", "models")
 os.makedirs(OUT, exist_ok=True)
