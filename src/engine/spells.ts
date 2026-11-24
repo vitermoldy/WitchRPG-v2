@@ -200,3 +200,4 @@ export class Spells {
     const p = this.g.player
     if (p.mana < cost) {
       this.g.hud.flashMana()
+      return false
