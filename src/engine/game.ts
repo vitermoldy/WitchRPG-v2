@@ -64,6 +64,7 @@ export class Game implements UnitHost {
   readonly lockon = new LockOn()
   readonly obstacles = new Obstacles()
   readonly profile = loadProfile().profile
+  readonly sfx = new Sfx()
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
   debugSpeed = 1
