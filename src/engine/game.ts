@@ -512,6 +512,7 @@ export class Game implements UnitHost {
     this.fight.reset()
     this.umbra.cancel()
     this.lockon.current = null
+    this.telegraphs.clearAll()
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
