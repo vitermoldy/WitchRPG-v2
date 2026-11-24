@@ -234,3 +234,4 @@ export class Game {
       this.place(dt, false)
       this.ilyra.update(dt, this.player, 0)
     }
+    this.lastFrame = now
