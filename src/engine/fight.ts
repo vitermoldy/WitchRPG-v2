@@ -493,3 +493,4 @@ export class Fight {
 
   private updateExecution(dt: number) {
     const g = this.g
+    const ex = this.exec!
