@@ -122,3 +122,4 @@ export class Projectiles {
           }
         }
         if (!hit) {
+          for (const u of g.units.units) {
