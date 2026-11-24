@@ -258,3 +258,4 @@ export class Spells {
   }
 
   private startOverload() {
+    const g = this.g
