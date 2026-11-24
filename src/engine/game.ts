@@ -345,3 +345,5 @@ export class Game {
     this.frameCount = 0
     this.frames.fill(0)
     this.minClearance = Infinity
+  }
+
