@@ -153,3 +153,4 @@ export class Game {
     this.scene.add(this.camps.group)
     this.ground = {
       height: heightAt,
+      obstacles: this.obstacles,
