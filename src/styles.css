@@ -1147,6 +1147,7 @@ button {
 }
 
 .hpbar .hp {
+  height: 4px;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
