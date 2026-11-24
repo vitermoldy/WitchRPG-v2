@@ -448,3 +448,4 @@ export class UnitSystem {
         if (u.t >= (u.spec.dive ?? 3)) this.surface(u)
         continue
       }
+      if (u.lifted > 0) {
