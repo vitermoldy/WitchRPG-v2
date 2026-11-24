@@ -289,3 +289,4 @@ export class Game {
     this.ilyra.update(dt, p, this.rig.aim)
     this.hud.zone(ZONES[this.atmosphere.zone])
     this.hud.aim(this.rig.aim > 0.5)
+    if (target) {
