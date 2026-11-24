@@ -700,6 +700,7 @@ export class Game implements UnitHost {
     }
 
     const targets = this.units.enemies().filter((u) => u.targetable || (u === this.lockon.current && u.state === 'finishing'))
+    if (alive && (inp.pressed('Mouse1') || this.botLock)) this.lockon.toggle(targets, p.pos, this.rig.yaw)
     this.botLock = false
     const cur = this.lockon.current
     let visible = true
