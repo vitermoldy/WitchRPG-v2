@@ -118,3 +118,4 @@ export class Player {
       this.vz += (tz - this.vz) * k
     }
 
+    this.moveAxis(this.vx * dt, 0, g)
