@@ -628,3 +628,4 @@ export class UnitSystem {
         if (u.t >= atk.windup) {
           if (atk.shot) {
             // the shot flies; the telegraph stays until it lands
+            host.fire(u, atk)
