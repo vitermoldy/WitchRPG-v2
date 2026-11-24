@@ -321,3 +321,4 @@ export class Game {
     this.terrain.update(c.position, snap ? 1000 : 1)
   }
 
+  private resize() {
