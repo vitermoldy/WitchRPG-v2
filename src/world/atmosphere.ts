@@ -96,3 +96,4 @@ export class Atmosphere {
       const w = this.w[i]
       this.fogTarget.r += this.zoneFog[i].r * w
       this.fogTarget.g += this.zoneFog[i].g * w
+      this.fogTarget.b += this.zoneFog[i].b * w
