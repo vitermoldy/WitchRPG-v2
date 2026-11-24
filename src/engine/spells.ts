@@ -150,3 +150,4 @@ export class Spells {
       }),
     )
     this.shield.visible = false
+    this.shield.renderOrder = 12
