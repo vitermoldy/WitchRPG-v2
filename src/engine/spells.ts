@@ -618,3 +618,4 @@ export class Spells {
     disc.rotation.x = -Math.PI / 2
     disc.position.y = 0.08
     disc.renderOrder = 7
+    group.add(disc)
