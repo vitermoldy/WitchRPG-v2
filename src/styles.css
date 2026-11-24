@@ -1470,6 +1470,7 @@ dialog::backdrop {
 
 .node {
   display: grid;
+  grid-template-columns: 1fr auto;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
