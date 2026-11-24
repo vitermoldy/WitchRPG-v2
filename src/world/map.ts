@@ -72,3 +72,4 @@ const LAT = (() => {
 })()
 
 export function vnoise(x: number, y: number): number {
+  const xi = Math.floor(x)
