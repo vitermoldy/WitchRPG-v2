@@ -38,3 +38,4 @@ describe('the forest valley', () => {
     }
   })
 
+  it('raises Tebing Berangin as a plateau above the forest floor', () => {
