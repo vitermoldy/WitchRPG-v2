@@ -71,3 +71,4 @@ const WARP_FRAG = /* glsl */ `
     gl_FragColor = vec4(col * a, a);
   }
 `
+const SHIELD_VERT = /* glsl */ `
