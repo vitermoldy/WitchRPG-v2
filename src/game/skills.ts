@@ -35,3 +35,4 @@ export const SKILLS: SkillDef[] = [
     key: 'LMB',
     unlock: 1,
     effect: 'Proyektil merah lurus, 12 damage, mengisi meter Chaos.',
+    upgrade: 'Menembak 3 peluru menyebar.',
