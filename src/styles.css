@@ -1160,6 +1160,7 @@ button {
   background: #ffd29a;
 }
 
+.hpbar.staggered .stun {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
