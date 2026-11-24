@@ -847,3 +847,4 @@ export class UnitSystem {
       u.pos.y = ground
       if (u.hurled && speed > SPELL.impact.minSpeed) host.impact(u, null, speed)
       this.land(u, 0.3)
+    }
