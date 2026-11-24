@@ -527,6 +527,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Chimera',
     rank: 'jenderal',
     hp: 720,
+    damage: 22,
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
