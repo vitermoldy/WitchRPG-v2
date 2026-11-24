@@ -118,3 +118,4 @@ export class CameraRig {
     const dx = target.point.x - from.x
     const dz = target.point.z - from.z
     const dy = target.point.y - from.y
+    const yaw = yawTo(0, 0, dx, dz) + Math.atan(LOCKON.thirdX * th)
