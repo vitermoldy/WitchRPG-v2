@@ -47,3 +47,4 @@ export class Camps {
         const [wx, wz] = toWorld(camp.c[0] + Math.cos(a) * r, camp.c[1] + Math.sin(a) * r)
         const p = { x: wx, y: 0, z: wz }
         obstacles.pushOut(p, 0.5, 1.3)
+        p.y = heightMap(p.x, -p.z)
