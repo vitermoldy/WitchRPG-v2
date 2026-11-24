@@ -418,3 +418,4 @@ button {
   border-radius: 50%;
   background: var(--ink);
   box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.55);
+  opacity: 0;
