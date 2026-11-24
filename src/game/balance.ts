@@ -204,3 +204,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     recover: 0.8,
     cooldown: 1.3,
   },
+  hound: {
