@@ -91,6 +91,7 @@ def lod_tris(coll):
         if o.type != "MESH":
             continue
         e = o.evaluated_get(deps)
+        me = e.to_mesh()
 def export(key):
     coll = bpy.data.collections.new(f"export_{key}")
     scene.collection.children.link(coll)
