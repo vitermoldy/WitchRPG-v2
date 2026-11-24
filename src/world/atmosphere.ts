@@ -2,3 +2,5 @@ import * as THREE from 'three'
 import { toMap, WATER_LEVEL, WATER_RECT, ZONES, zoneWeights } from './map'
 
 /** Towards the morning sun: low in the east-south-east, like the previz hero shot. */
+export const SUN_DIR = new THREE.Vector3(0.78, 0.42, 0.46).normalize()
+
