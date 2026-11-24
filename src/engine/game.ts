@@ -159,3 +159,4 @@ export class Game {
         if (Math.abs(mx) > PLAY_HALF || Math.abs(my) > PLAY_HALF) return true
         return inWaterRect(mx, my) && WATER_LEVEL - heightAt(x, z) > MOVE.maxWade
       },
+    }
