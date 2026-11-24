@@ -399,6 +399,7 @@ export class Game implements UnitHost {
 
   /** A menu (the Ledger, an altar) holds the game without the pause screen. */
   openMenu() {
+    if (this.state !== 'playing') return
   resume() {
     if (this.state !== 'paused') return
     this.state = 'playing'
