@@ -417,3 +417,4 @@ export class Spells {
     const right = new THREE.Vector3(-f.z, 0, f.x).normalize()
     this.grabbed.forEach((u, i) => {
       const heavy = u.mass > 200
+      const dist = 4.6 + (heavy ? 1.5 : 0)
