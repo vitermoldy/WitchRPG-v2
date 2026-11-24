@@ -526,3 +526,4 @@ export class Umbra {
       }
       const enemies = g.units.enemies()
       for (const s of shadows) {
+        s.command = 'attack'
