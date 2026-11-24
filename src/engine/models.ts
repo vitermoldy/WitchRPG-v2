@@ -116,6 +116,7 @@ export class IlyraModel {
   }
 
   /** World position of a palm (L: Chaos, R: Umbra). */
+  hand(side: 'L' | 'R', out = new THREE.Vector3()): THREE.Vector3 {
   private rot(name: string, x: number, y = 0, z = 0) {
     const p = this.parts[name]
     if (p) p.rotation.set(rad(x), rad(y), rad(z))
