@@ -57,3 +57,5 @@ export interface Profile {
   settings: Settings
   /** When this witch last changed; with an account, the newer copy wins. */
   updatedAt?: string
+}
+
