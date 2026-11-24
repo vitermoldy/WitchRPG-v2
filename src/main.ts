@@ -62,15 +62,7 @@ async function boot() {
   }
   $('btn-enter').addEventListener('click', enter)
 
-  const sens = $('set-sens') as HTMLInputElement
-  const out = $('out-sens') as HTMLOutputElement
-  sens.value = String(game.sensitivity)
-  out.textContent = game.sensitivity.toFixed(2)
-  sens.addEventListener('input', () => {
-    game.sensitivity = Number(sens.value)
-    out.textContent = game.sensitivity.toFixed(2)
-    game.profile.settings.sensitivity = game.sensitivity
-    saveProfile(game.profile)
+  const pr = game.profile
   })
 
   game.onPause = () => {
