@@ -683,6 +683,7 @@ button {
 
 .feed {
   position: absolute;
+  left: var(--gutter);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
