@@ -690,3 +690,4 @@ export class UnitSystem {
   }
 
   private windup(u: Unit, tgt: Foe, atk: AttackSpec) {
+    u.atk = atk
