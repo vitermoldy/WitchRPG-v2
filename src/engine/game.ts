@@ -480,6 +480,8 @@ export class Game implements UnitHost {
     this.addTrauma(0.28)
     p.nudge(p.pos.x - from.x, p.pos.z - from.z, 0.7, 0.18)
     if (p.hp <= 0) this.fall()
+  }
+
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
