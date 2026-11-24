@@ -1236,6 +1236,7 @@ button {
   background: radial-gradient(ellipse at center, transparent 30%, rgba(150, 150, 140, 0.55) 100%);
 }
 
+.hud.stone .veil-stone {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
