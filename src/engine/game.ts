@@ -693,8 +693,7 @@ export class Game implements UnitHost {
       ? { x: steer.x, y: steer.y, sprint: b ? b.sprint : inp.held('ShiftLeft') || inp.held('ShiftRight'), dodge: (b ? this.botDodge : inp.pressed('Space')) && this.fight.canDodge }
       : { x: 0, y: 0, sprint: false, dodge: false }
     this.botDodge = false
-    if (b) this.rig.look(-b.turn * dt / (CAMERA.sensitivity * this.sensitivity), 0, CAMERA.sensitivity * this.sensitivity)
-    else this.rig.look(inp.dx, inp.dy, CAMERA.sensitivity * this.sensitivity)
+    // the wheel takes the mouse while it is open
 
     const targets = this.camps.targets
     const p = this.player
