@@ -118,6 +118,7 @@ async function boot() {
       return game.altars.list.filter((a) => game.altars.isLit(a.key)).map((a) => ({ key: a.key, name: a.name, here: a === here }))
     },
     travel: (key) => game.travel(key),
+    openLedger: () => ledger.open(),
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
