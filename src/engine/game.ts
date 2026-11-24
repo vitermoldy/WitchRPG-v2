@@ -269,3 +269,4 @@ export class Game {
     const cur = this.lockon.current
     let visible = true
     if (cur) {
+      const lp = lockPoint(cur)
