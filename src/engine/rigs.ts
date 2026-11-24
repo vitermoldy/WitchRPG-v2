@@ -45,3 +45,5 @@ interface Part {
   mat: THREE.MeshStandardMaterial
   mesh: THREE.InstancedMesh
   glow: THREE.InstancedBufferAttribute
+}
+
