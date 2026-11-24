@@ -570,3 +570,4 @@ export class Umbra {
     const fwd = g.camera.getWorldDirection(new THREE.Vector3())
     let pick = shadows[0]
     let ba = Infinity
+    for (const s of shadows) {
