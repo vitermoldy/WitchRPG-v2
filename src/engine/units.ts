@@ -325,3 +325,4 @@ export class UnitSystem {
     if (u.state === 'dead') return
     this.host.clearTelegraph(u)
     u.hp = 0
+    u.token = false
