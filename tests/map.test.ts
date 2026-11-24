@@ -24,3 +24,4 @@ describe('the forest valley', () => {
     }
   })
 
+  it('starts her and every previz spot on dry ground', () => {
