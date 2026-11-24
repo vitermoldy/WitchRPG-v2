@@ -109,3 +109,4 @@ export const RITE = {
   window: 20,
   range: 10,
   castTime: 1.5,
+  castTimeUpgraded: 1,
