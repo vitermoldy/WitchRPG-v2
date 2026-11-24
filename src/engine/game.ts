@@ -66,3 +66,4 @@ export class Game {
   private atmosphere!: Atmosphere
   private camps!: Camps
   private ilyra!: IlyraModel
+  private ground!: Ground
