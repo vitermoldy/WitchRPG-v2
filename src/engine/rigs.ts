@@ -595,3 +595,4 @@ class Rig implements Poser {
     this.cap = cap
     for (const part of this.parts) {
       this.group.remove(part.mesh)
+      part.mesh.dispose()
