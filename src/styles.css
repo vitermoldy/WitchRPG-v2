@@ -1322,6 +1322,7 @@ dialog::backdrop {
 }
 
 .ledger-xp {
+  height: 6px;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
