@@ -437,3 +437,4 @@ export class Umbra {
     for (const u of list) {
       u.riteTried = true
       if (Math.random() >= this.chance(u)) {
+        this.turnToAsh(u)
