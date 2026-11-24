@@ -1172,6 +1172,7 @@ button {
   transform: translateX(-50%);
   padding: 0 0.3rem;
   border-radius: var(--radius-sm);
+  background: var(--plate);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
