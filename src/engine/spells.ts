@@ -30,3 +30,4 @@ export interface SpellInput {
   pressed: boolean
   held: boolean
   aiming: boolean
+  overload: boolean
