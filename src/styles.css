@@ -1618,6 +1618,7 @@ dialog::backdrop {
 }
 
 .confirm-text {
+  margin: 0 0 1rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
