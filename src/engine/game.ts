@@ -194,3 +194,4 @@ export class Game {
     this.lastFrame = performance.now()
   }
 
+  pause() {
