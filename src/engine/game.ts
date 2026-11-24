@@ -57,3 +57,4 @@ export class Game {
   sensitivity = 1
   onPause: (() => void) | null = null
 
+  private readonly debug: boolean
