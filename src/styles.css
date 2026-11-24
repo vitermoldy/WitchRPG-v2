@@ -1637,6 +1637,7 @@ dialog::backdrop {
 
 .travel-note {
   margin: 0 0 1rem;
+  color: var(--ink-3);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
