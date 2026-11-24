@@ -664,6 +664,7 @@ export class Game implements UnitHost {
     this.input.endFrame()
   }
 
+  /** ?debug: average milliseconds of each part of a frame (CPU side), for finding what costs. */
   private simulate(dt: number) {
     this.t += dt
     const inp = this.input
