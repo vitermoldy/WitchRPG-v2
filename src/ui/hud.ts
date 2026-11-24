@@ -14,6 +14,7 @@ const BOSS_HINT: Partial<Record<UnitKind, string>> = {
   chimera: 'Api di depan, seruduk kambing dari jauh, sengat ular di belakang. Ia memanggil Imp.',
 }
 
+/**
 export class Hud {
   private readonly root = $('hud')
   private readonly banner = $('zone-banner')
