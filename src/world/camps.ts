@@ -26,3 +26,4 @@ export interface Imp extends Target {
   phase: number
 }
 
+export class Camps {
