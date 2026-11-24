@@ -95,3 +95,4 @@ export const CHAOS = {
   backlashHpLoss: 0.1,
 } as const
 
+export const SPELL = {
