@@ -44,7 +44,7 @@ export const SKILLS: SkillDef[] = [
     name: 'Telekinesis Grip',
     key: 'Bidik, tahan LMB',
     unlock: 1,
-    effect: 'Angkat musuh atau objek hingga 500 kg, lepas untuk melempar.',
+    effect: 'Angkat makhluk hingga 500 kg, lepas untuk melempar; lemparan menembus perisai Minotaur.',
     upgrade: 'Mengangkat 2 target sekaligus.',
     built: true,
   },
