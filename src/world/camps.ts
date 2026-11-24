@@ -73,3 +73,4 @@ export class Camps {
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
+      this.m.compose(this.v.set(imp.x, imp.y + bob, imp.z), this.q, this.one)
