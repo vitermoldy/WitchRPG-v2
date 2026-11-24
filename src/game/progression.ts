@@ -156,3 +156,4 @@ export interface Derived {
   maxHp: number
   maxMana: number
   manaRegen: number
+  damageMult: number
