@@ -97,3 +97,4 @@ button {
   gap: 0.5em;
   min-height: 44px;
   padding: 0.55em 1.15em;
+  border: 1px solid var(--line-strong);
