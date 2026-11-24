@@ -645,7 +645,7 @@ export class Game implements UnitHost {
       // a slow drift around her while the title is up
       this.rig.yaw += dt * 0.05
       this.place(dt, false)
-      this.ilyra.update(dt, this.player, 0)
+      this.ilyra.update(dt, this.player, 0, this.pose)
     }
     this.lastFrame = now
     this.hud.update(dt)
