@@ -1321,6 +1321,7 @@ dialog::backdrop {
   color: #ffbe73;
 }
 
+.ledger-xp {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
