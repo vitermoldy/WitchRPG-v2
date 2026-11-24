@@ -328,3 +328,4 @@ export class Umbra {
 
     if (canAct && inp.toggle) this.toggle()
 
+    // command wheel: hold Z, move the mouse toward an order, let go
