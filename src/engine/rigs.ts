@@ -14,3 +14,4 @@ function patchGlow(mat: THREE.MeshStandardMaterial) {
       .replace('#include <common>', '#include <common>\nattribute vec3 aGlow;\nvarying vec3 vGlow;')
       .replace('#include <begin_vertex>', '#include <begin_vertex>\nvGlow = aGlow;')
     s.fragmentShader = s.fragmentShader
+      .replace('#include <common>', '#include <common>\nvarying vec3 vGlow;')
