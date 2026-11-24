@@ -43,3 +43,4 @@ export const CAMERA = {
   /** Rate the camera blends between normal and aim (1/s). */
   blend: 9,
   /** Radius of the sphere swept from the pivot to the camera; nothing may come closer. */
+  radius: 0.24,
