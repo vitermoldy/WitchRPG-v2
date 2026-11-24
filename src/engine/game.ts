@@ -464,6 +464,7 @@ export class Game implements UnitHost {
 
   /** Damage to her after the barrier. */
   hurtPlayer(dmg: number, from: { x: number; z: number }) {
+    const p = this.player
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
