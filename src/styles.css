@@ -1547,6 +1547,7 @@ dialog::backdrop {
   justify-content: space-between;
   gap: 0.3rem 1rem;
   min-height: 44px;
+  align-items: center;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
