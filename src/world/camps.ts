@@ -45,3 +45,4 @@ export class Camps {
         const a = rnd() * Math.PI * 2
         const r = 1.5 + rnd() * 3.5
         const [wx, wz] = toWorld(camp.c[0] + Math.cos(a) * r, camp.c[1] + Math.sin(a) * r)
+        const p = { x: wx, y: 0, z: wz }
