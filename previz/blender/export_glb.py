@@ -76,3 +76,4 @@ def export(key):
     for name, ob in r.objs.items():
         ob.name = name
         for slot in ob.material_slots:
+            if slot.material:
