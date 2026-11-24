@@ -1164,6 +1164,7 @@ button {
   animation: stun-blink 0.4s steps(2) infinite;
 }
 
+.hpbar[data-label]:not([data-label=''])::before {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
