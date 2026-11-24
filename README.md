@@ -29,7 +29,7 @@ npm run models -- imp hellhound harpy --lod 0.22   # versi sederhana untuk kerum
 
 Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performance" di Windows: Settings, System, Display, Graphics.
 
-## Kontrol (fase 1)
+## Kontrol (fase 4)
 
 | Gerak | |
 | --- | --- |
