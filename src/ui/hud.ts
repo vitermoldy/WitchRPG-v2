@@ -20,6 +20,7 @@ const BOSS_HINT: Partial<Record<UnitKind, string>> = {
  * Writes to the DOM only when a value changes.
  */
 export class Hud {
+  private readonly g: Game
   private readonly root = $('hud')
   private readonly banner = $('zone-banner')
   private readonly bannerName = $('zone-name')
