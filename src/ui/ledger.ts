@@ -9,3 +9,4 @@ const STAT_INFO: Record<StatKey, { name: string; effect: string }> = {
   spr: { name: 'Spirit', effect: '+5 mana maks, regen lebih cepat' },
   vit: { name: 'Vitality', effect: '+10 HP maks' },
   agi: { name: 'Agility', effect: '+1% gerak, dodge sedikit lebih jauh' },
+  umb: { name: 'Umbra', effect: '+1% peluang Rite, bayangan +2% lebih kuat' },
