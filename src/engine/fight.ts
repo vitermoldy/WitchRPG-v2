@@ -485,3 +485,4 @@ export class Fight {
     u.token = false
     g.telegraphs.clear(u)
     // step up to it
+    const d = Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z)
