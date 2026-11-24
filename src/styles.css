@@ -1497,6 +1497,7 @@ dialog::backdrop {
 }
 
 .node-name kbd {
+  margin-left: 0.4em;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
