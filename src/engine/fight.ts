@@ -359,3 +359,4 @@ export class Fight {
       }
     }
 
+    // throw or call back the staff
