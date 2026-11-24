@@ -19,3 +19,4 @@ uniform vec3 horizon;
 uniform vec3 ground;
 uniform vec3 fogColor;
 uniform vec3 sunDir;
+uniform vec3 sunColor;
