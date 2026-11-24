@@ -21,3 +21,4 @@ Butuh Node 22 atau lebih baru dan browser dengan WebGL 2.
 ```bash
 npm install
 npm run dev      # http://localhost:5297
+npm test         # tes progresi v1, kamera, gerak, dan peta
