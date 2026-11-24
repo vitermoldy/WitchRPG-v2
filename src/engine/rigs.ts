@@ -516,3 +516,4 @@ const poseChimera: PoseFn = (p, u, t) => {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
+  harpy: poseHarpy,
