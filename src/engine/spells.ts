@@ -157,3 +157,4 @@ export class Spells {
       new THREE.BufferGeometry().setFromPoints(this.tendrilPts),
       new THREE.LineBasicMaterial({ color: new THREE.Color(COLOR.chaos).multiplyScalar(3), transparent: true, blending: THREE.AdditiveBlending, depthWrite: false }),
     )
+    this.tendril.frustumCulled = false
