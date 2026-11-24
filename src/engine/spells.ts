@@ -294,3 +294,4 @@ export class Spells {
     b.light = null
   }
 
+  private updateBolts(dt: number) {
