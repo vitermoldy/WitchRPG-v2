@@ -130,3 +130,4 @@ export class Obstacles {
     this.near(x, z, reach, (s) => {
       let d: number
       if (s.kind === CYL) {
+        // signed distances outside the side and outside the caps; both negative means inside
