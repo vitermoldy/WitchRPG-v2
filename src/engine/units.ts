@@ -627,3 +627,4 @@ export class UnitSystem {
         if (spec.fly) u.alt += (spec.fly.height + 1 - u.alt) * Math.min(1, dt * 3)
         if (u.t >= atk.windup) {
           if (atk.shot) {
+            // the shot flies; the telegraph stays until it lands
