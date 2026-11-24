@@ -1471,6 +1471,7 @@ dialog::backdrop {
 .node {
   display: grid;
   grid-template-columns: 1fr auto;
+  gap: 0.2rem 0.8rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
