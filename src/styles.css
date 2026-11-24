@@ -1154,6 +1154,8 @@ button {
 .hpbar .stun {
   height: 2px;
   background: #fff0dc;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
