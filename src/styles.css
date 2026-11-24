@@ -1525,6 +1525,8 @@ dialog::backdrop {
 
 .node-up.bought {
   color: var(--ink);
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
