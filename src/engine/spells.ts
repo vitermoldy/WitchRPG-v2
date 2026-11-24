@@ -510,3 +510,4 @@ export class Spells {
   }
 
   private rune(color: number): THREE.ShaderMaterial {
+    return new THREE.ShaderMaterial({
