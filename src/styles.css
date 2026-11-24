@@ -981,6 +981,7 @@ button {
   position: absolute;
   right: var(--gutter);
   bottom: var(--gutter);
+  width: min(17rem, 34vw);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
