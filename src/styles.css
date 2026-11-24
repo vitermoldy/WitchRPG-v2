@@ -1185,6 +1185,7 @@ button {
 }
 
 /* Mini-boss bar: under the camp line, only while Medusa or the Chimera fights her. */
+.bossbar {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
