@@ -342,3 +342,5 @@ export class Fight {
       this.updateExecution(dt)
       this.blockBlend = Math.max(0, this.blockBlend - dt * 8)
       return
+    }
+
