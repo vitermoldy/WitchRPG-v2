@@ -41,3 +41,4 @@ export class Player {
   /** Every roll started, for the debug readout and the bot. */
   dodges = 0
 
+  get speed() {
