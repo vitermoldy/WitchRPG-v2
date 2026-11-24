@@ -53,3 +53,4 @@ body {
 
 #view {
   position: absolute;
+  inset: 0;
