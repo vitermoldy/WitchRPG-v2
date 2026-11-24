@@ -93,7 +93,7 @@ export class Hud {
   }
 
   aim(on: boolean) {
-    this.aimDot.classList.toggle('show', on)
+    this.aimEl.classList.toggle('show', on)
   }
 
   debug(text: string | null) {
