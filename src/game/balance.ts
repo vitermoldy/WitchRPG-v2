@@ -438,3 +438,4 @@ export const TIERS: Record<TierId, TierSpec> = {
     ],
   },
   5: {
+    tier: 5,
