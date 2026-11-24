@@ -656,3 +656,4 @@ class Rig implements Poser {
   standing(): THREE.Group {
     for (const [o, r] of this.rest) o.rotation.copy(r)
     this.body(0)
+    this.holder.updateMatrixWorld(true)
