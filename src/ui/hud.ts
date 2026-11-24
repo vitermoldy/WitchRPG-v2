@@ -178,5 +178,6 @@ export class Hud {
     this.manaFlash = Math.max(0, this.manaFlash - dt)
     if (this.root.hidden || !g.camps) return
 
+    // vitals
   }
 }
