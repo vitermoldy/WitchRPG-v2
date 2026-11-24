@@ -801,6 +801,7 @@ export class Game implements UnitHost {
     // her pose: the fight, the spells and the rite
     this.fight.pose(this.pose)
     this.pose.grip = this.spells.gripping
+    this.pose.rite = this.umbra.casting.length ? Math.min(1, this.umbra.progress) : -1
     this.hud.zone(ZONES[this.atmosphere.zone])
     this.hud.aim(this.rig.aim > 0.5)
     if (target) {
