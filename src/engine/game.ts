@@ -128,3 +128,4 @@ export class Game {
     this.composer.addPass(this.bloom)
     this.composer.addPass(new OutputPass())
     window.addEventListener('resize', () => this.resize())
+    this.resize()
