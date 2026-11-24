@@ -230,5 +230,6 @@ export class Hud {
     this.updateBars()
   }
 
+  /** One line under the middle of the view: execute, raise, or why not. */
   }
 }
