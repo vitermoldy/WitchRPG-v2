@@ -183,6 +183,7 @@ export class Camps {
             if (u.hp < u.maxHp - 0.01) return true
             const s = g.units.nearestFoe(u, CAMP.aggro * 0.6)
             return !!s
+          }
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
