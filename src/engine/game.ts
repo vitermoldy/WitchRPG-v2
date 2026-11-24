@@ -117,3 +117,4 @@ export class Game {
           'varying vec2 vUv;',
           'bool bad(float v) { return (floatBitsToUint(v) & 0x7f800000u) == 0x7f800000u; }',
           'void main() {',
+          '  vec4 c = texture2D(tDiffuse, vUv);',
