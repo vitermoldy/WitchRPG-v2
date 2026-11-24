@@ -29,3 +29,4 @@ export const ALTAR: [number, number] = [-10, -395]
 export const TEMPLE: [number, number] = [40, 318]
 /** Where the previz shots stood; the start point is the hero clearing of render 01. */
 export const SPOTS = {
+  hero: [-34, -335] as [number, number],
