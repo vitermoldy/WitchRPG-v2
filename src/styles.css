@@ -663,6 +663,7 @@ button {
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9);
 }
 
+.banner.show {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
