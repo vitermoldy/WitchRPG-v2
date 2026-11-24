@@ -702,3 +702,4 @@ export class Rigs {
     if (!r) {
       const model = this.models[kind]
       if (!model) return null
+      r = new Rig(model, kind, team, this.group, team === 'enemy' ? 32 : 64)
