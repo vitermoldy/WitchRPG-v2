@@ -360,3 +360,4 @@ export class Game {
       obstacles: this.obstacles.shapes.length,
       t: this.t,
       zone: ZONES[this.atmosphere.zone].name,
+      pos: toMap(this.player.pos.x, this.player.pos.z).map((v) => Math.round(v)),
