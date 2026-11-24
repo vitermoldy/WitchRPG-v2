@@ -110,3 +110,4 @@ export class Unit implements Foe {
   /** Seconds Reality Warp keeps it hanging in the air. */
   lifted = 0
   /** Seconds before it can dive again (Naga). */
+  diveCd = 0
