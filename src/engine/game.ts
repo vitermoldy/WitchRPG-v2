@@ -199,3 +199,5 @@ export class Game {
     this.state = 'paused'
     this.input.capture = false
     this.onPause?.()
+  }
+
