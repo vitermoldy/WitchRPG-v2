@@ -102,3 +102,4 @@ export function riteBlock(p: Profile, kind: UnitKind): string | null {
   if (rank === 'marsekal') {
     if (!isUnlocked(p, 'marshal')) return `${UNITS[kind].name} butuh Kebangkitan Marsekal (Lv 9).`
     if (p.shadows.some((s) => s.kind === kind)) return `Hanya satu Marsekal per boss, dan ${UNITS[kind].name} sudah ada di Ruang Bayangan.`
+  }
