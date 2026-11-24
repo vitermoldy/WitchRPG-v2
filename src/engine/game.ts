@@ -374,3 +374,5 @@ export class Game {
 
   toggleLock() {
     this.botLock = true
+  }
+
