@@ -117,6 +117,7 @@ async function boot() {
       const here = game.altars.near()
       return game.altars.list.filter((a) => game.altars.isLit(a.key)).map((a) => ({ key: a.key, name: a.name, here: a === here }))
     },
+    travel: (key) => game.travel(key),
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
