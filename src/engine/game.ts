@@ -400,3 +400,5 @@ export class Game {
       }
     }
     return best
+  }
+
