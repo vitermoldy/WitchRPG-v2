@@ -249,3 +249,4 @@ export class UnitSystem {
     this.host = host
   }
 
+  spawn(kind: UnitKind, team: Team, level: number, at: { x: number; z: number }, rising = false): Unit {
