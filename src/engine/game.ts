@@ -115,3 +115,4 @@ export class Game {
         fragmentShader: [
           'uniform sampler2D tDiffuse;',
           'varying vec2 vUv;',
+          'bool bad(float v) { return (floatBitsToUint(v) & 0x7f800000u) == 0x7f800000u; }',
