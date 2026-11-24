@@ -803,3 +803,4 @@ export class UnitSystem {
     const ground = u.ground
     if (u.lifted > 0) {
       u.pos.y += (ground + SPELL.warp.liftHeight - u.pos.y) * Math.min(1, dt * 3)
+      return
