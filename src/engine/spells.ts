@@ -604,3 +604,5 @@ export class Spells {
         this.snares.splice(i, 1)
       }
     }
+  }
+
