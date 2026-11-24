@@ -384,3 +384,4 @@ export class Game {
   /** Imps within this distance of her (for the bot to know when a lock-on can find something). */
   targetsNear(range: number) {
     const p = this.player.pos
+    return this.camps.targets.filter((t) => t.alive && Math.hypot(t.x - p.x, t.z - p.z) < range).length
