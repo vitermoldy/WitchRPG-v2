@@ -949,6 +949,7 @@ export class Game implements UnitHost {
         windup: u.spec.windup,
         lunge: u.spec.lungeTime ?? 0.3,
         aimX: u.aimAt.x,
+        aimZ: u.aimAt.z,
   }
 
   /** The nearest living Imp (world position), so the bot can look at it before locking on. */
