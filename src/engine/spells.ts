@@ -172,3 +172,5 @@ export class Spells {
     this.boltCd = this.burstCd = this.snareCd = this.barrierCd = this.warpCd = 0
     this.overloadT = this.backlashT = this.barrierT = 0
     this.shield.visible = false
+  }
+
