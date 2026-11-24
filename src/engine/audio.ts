@@ -372,3 +372,4 @@ export class Sfx {
     const g = ctx.createGain()
     g.gain.value = 0.0001
     g.gain.exponentialRampToValueAtTime(0.09, ctx.currentTime + 3)
+    const f = ctx.createBiquadFilter()
