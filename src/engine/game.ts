@@ -412,3 +412,4 @@ export class Game {
       `peta ${mx.toFixed(0)}, ${my.toFixed(0)}  ${ZONES[this.atmosphere.zone].name}`,
       `kamera bebas ${this.minClearance.toFixed(2)} m`,
       s.gpu,
+    ].join('\n')
