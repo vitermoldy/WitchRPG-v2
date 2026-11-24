@@ -302,3 +302,5 @@ export class Umbra {
     } else {
       this.candidate = best ?? (near.length ? near[0] : null)
       this.targets = near.length >= 2 ? near : this.candidate ? [this.candidate] : []
+    }
+
