@@ -17,3 +17,4 @@ function patchGlow(mat: THREE.MeshStandardMaterial) {
       .replace('#include <common>', '#include <common>\nvarying vec3 vGlow;')
       .replace('#include <emissivemap_fragment>', '#include <emissivemap_fragment>\ntotalEmissiveRadiance += vGlow;')
   }
+  mat.customProgramCacheKey = () => 'unit-glow'
