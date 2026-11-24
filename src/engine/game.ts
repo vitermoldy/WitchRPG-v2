@@ -67,3 +67,4 @@ export class Game {
   private camps!: Camps
   private ilyra!: IlyraModel
   private ground!: Ground
+  private pivotY = 0
