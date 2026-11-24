@@ -131,6 +131,7 @@ export class Game implements UnitHost {
   private deadT = 0
   private saveIn = -1
   private readonly pose = idlePose()
+  private readonly ray = new THREE.Ray()
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
