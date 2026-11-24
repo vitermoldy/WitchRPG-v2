@@ -2,3 +2,4 @@
 
     blender -b --factory-startup -P previz/blender/export_glb.py -- [ilyra imp ...]
 
+Every part stays a named node with its own pivot (pelvis, thigh_L, neck2_3, ...), so the game can pose
