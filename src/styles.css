@@ -1463,6 +1463,7 @@ dialog::backdrop {
   color: var(--chaos-ink);
 }
 
+.tree-umbra::before {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
