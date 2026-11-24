@@ -54,3 +54,4 @@ src/ui/       HUD
 tests/        Vitest: progresi v1, kamera, gerak, peta
 previz/       skrip Blender, render, animatic, papan makhluk, PREVIZ.md
 public/models model GLB hasil ekspor dari previz
+```
