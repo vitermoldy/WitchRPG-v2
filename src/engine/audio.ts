@@ -387,3 +387,4 @@ export class Sfx {
     wind.loop = true
     const wf = ctx.createBiquadFilter()
     wf.type = 'bandpass'
+    wf.frequency.value = 500
