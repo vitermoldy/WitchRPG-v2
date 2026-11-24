@@ -772,6 +772,7 @@ export class Game implements UnitHost {
       if (this.spells.backlashT <= 0) p.mana = Math.min(p.maxMana, p.mana + this.derived.manaRegen * dt)
       this.calm += dt
       if (this.calm > REVIVE.calm) p.hp = Math.min(p.maxHp, p.hp + p.maxHp * REVIVE.calmRegen * dt)
+    } else {
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
