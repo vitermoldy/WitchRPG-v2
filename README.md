@@ -23,3 +23,4 @@ npm install
 npm run dev      # http://localhost:5297
 npm test         # tes progresi v1, kamera, gerak, dan peta
 npm run build    # hasil di dist/
+npm run models   # buat ulang model GLB dari block-out Blender (butuh Blender 5.1)
