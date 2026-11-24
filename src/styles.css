@@ -1196,6 +1196,7 @@ button {
   background: var(--plate);
   text-align: center;
   opacity: 0;
+  transition: opacity 0.3s;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
