@@ -367,3 +367,4 @@ export class Umbra {
     }
   }
 
+  private turnToAsh(u: Unit) {
