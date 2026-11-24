@@ -1167,6 +1167,7 @@ button {
 .hpbar[data-label]:not([data-label=''])::before {
   content: attr(data-label);
   position: absolute;
+  bottom: 9px;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
