@@ -931,8 +931,7 @@ export class Game implements UnitHost {
     return this.lockon.switchSide(this.units.enemies(), this.player.pos, side)
   }
 
-  /** Imps within this distance of her (for the bot to know when a lock-on can find something). */
-  targetsNear(range: number) {
+  /** ?debug: what the bot may know about each creature near her (the same things a player sees). */
     const p = this.player.pos
     return this.camps.targets.filter((t) => t.alive && Math.hypot(t.x - p.x, t.z - p.z) < range).length
   }
