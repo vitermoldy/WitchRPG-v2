@@ -63,3 +63,4 @@ export class Game {
   private readonly timer = new THREE.Timer()
   private terrain!: Terrain
   private forest!: Forest
+  private atmosphere!: Atmosphere
