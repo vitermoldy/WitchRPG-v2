@@ -91,3 +91,4 @@ export class Game {
     // counted over every pass of a frame (shadows, scene, bloom), reset by hand in tick()
     this.renderer.info.autoReset = false
     this.renderer.outputColorSpace = THREE.SRGBColorSpace
+    const gl = this.renderer.getContext()
