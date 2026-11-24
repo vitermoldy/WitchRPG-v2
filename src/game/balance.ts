@@ -454,6 +454,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 40,
     keepAway: 13,
     attacks: [
+      { name: 'panah', strike: 'line', windup: 0.75, recover: 0.6, range: 26, minRange: 3, shot: { speed: 34, gravity: 3, radius: 0.14 } },
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
