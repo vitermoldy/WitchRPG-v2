@@ -653,6 +653,7 @@ button {
   left: 50%;
   transform: translate(-50%, 8px);
   width: min(90vw, 40rem);
+  padding: 0.8rem 1rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
