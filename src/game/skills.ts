@@ -84,7 +84,7 @@ export const SKILLS: SkillDef[] = [
     name: 'Reality Warp',
     key: 'V',
     unlock: 10,
-    effect: 'Medan 10 m selama 5 detik: musuh terangkat, proyektil musuh dipantulkan, dan cangkang boss terbuka.',
+    effect: 'Medan 10 m selama 5 detik: makhluk terangkat dan proyektil mereka dipantulkan.',
     upgrade: 'Durasi +2 detik.',
     built: true,
   },
