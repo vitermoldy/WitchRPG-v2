@@ -126,6 +126,7 @@ export class Hud {
     this.hurt = Math.min(1, this.hurt + k)
   }
 
+  hit(kill: boolean) {
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
