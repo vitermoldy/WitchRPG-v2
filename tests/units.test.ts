@@ -39,3 +39,4 @@ function world(groundHeight = 0) {
 }
 
 describe('creature attacks', () => {
+  it('lands an Imp ring blow exactly when its windup and leap are over', () => {
