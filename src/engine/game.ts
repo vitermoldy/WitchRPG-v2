@@ -82,6 +82,7 @@ export class Game implements UnitHost {
   camps!: Camps
   altars!: Altars
   ilyra!: IlyraModel
+  ground!: Ground
   state: State = 'loading'
   /** ?debug: run the simulation this many fixed steps per frame. */
   debugSpeed = 1
