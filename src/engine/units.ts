@@ -537,3 +537,4 @@ export class UnitSystem {
   }
 
   private enemyBrain(u: Unit, dt: number) {
+    const host = this.host
