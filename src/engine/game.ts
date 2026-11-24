@@ -49,6 +49,8 @@ export interface AimHit {
   point: THREE.Vector3
   dist: number
   unit: Unit | null
+}
+
 const FRAME_SAMPLES = 900
 
 export class Game {
