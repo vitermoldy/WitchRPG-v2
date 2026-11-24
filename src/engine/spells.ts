@@ -270,3 +270,4 @@ export class Spells {
   private fireBolt() {
     const g = this.g
     this.boltCd = SPELL.bolt.cooldown
+    const from = g.ilyra.hand('L')
