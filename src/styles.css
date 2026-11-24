@@ -1194,6 +1194,7 @@ button {
   padding: 0.5rem 0.8rem 0.6rem;
   border-radius: var(--radius);
   background: var(--plate);
+  text-align: center;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
