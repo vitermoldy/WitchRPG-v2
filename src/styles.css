@@ -688,6 +688,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
+  width: min(28rem, 40vw);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
