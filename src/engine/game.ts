@@ -591,6 +591,7 @@ export class Game implements UnitHost {
     const end = o.clone().addScaledVector(dir, maxDist)
     let best = this.obstacles.sweep(o.x, o.y, o.z, end.x, end.y, end.z, 0) * maxDist
     // the ground: march, then refine
+    let prev = 0
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
