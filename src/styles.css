@@ -1643,6 +1643,7 @@ dialog::backdrop {
 
 @media (max-width: 860px) {
   .ledger-body {
+    grid-template-columns: 1fr;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
