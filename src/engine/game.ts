@@ -40,3 +40,4 @@ export class Game {
   readonly camera = new THREE.PerspectiveCamera(CAMERA.normal.fov, 16 / 9, CAMERA.near, CAMERA.far)
   readonly input: Input
   readonly hud = new Hud()
+  readonly rig = new CameraRig()
