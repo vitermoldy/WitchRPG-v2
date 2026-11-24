@@ -566,3 +566,4 @@ export class UnitSystem {
       }
       this.steer(u, u.pos.x, u.pos.z, 0, dt)
       return
+    }
