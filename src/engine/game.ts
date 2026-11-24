@@ -58,3 +58,4 @@ export class Game {
   onPause: (() => void) | null = null
 
   private readonly debug: boolean
+  private readonly composer: EffectComposer
