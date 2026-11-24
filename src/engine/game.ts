@@ -965,6 +965,7 @@ export class Game implements UnitHost {
   }
 
   /** ?debug: creatures around her, for tests. */
+  debugSpawn(kind: V2Kind, n: number, level = 1, dist = 12) {
     const p = this.player.pos
     let best: { x: number; z: number } | null = null
     let bd = range
