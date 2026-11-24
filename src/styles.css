@@ -703,6 +703,7 @@ button {
   transition: opacity 0.6s;
 }
 
+.feed-item::before {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
