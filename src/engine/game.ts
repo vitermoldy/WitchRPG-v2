@@ -198,3 +198,4 @@ export class Game {
     if (this.state !== 'playing') return
     this.state = 'paused'
     this.input.capture = false
+    this.onPause?.()
