@@ -65,6 +65,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 
 ## Dunia
 
+Tiga zona pertama bisa dimainkan: Hutan Pembuka (Lv 1 sampai 3: Imp, Hellhound), Tebing Berangin di dataran tinggi (Lv 4 sampai 6: Harpy, Centaur), dan Rawa Berkabut (Lv 7 sampai 9: Naga rawa, Minotaur, serta sarang Medusa dan Chimera). Empat altar menyala saat Ilyra mendekat: memulihkan HP dan mana, menjadi titik bangkit, dan menghubungkan perjalanan cepat. Kamp yang ditaklukkan padam dan berdiri lagi dua menit kemudian bila Ilyra sudah jauh.
 
 ## Struktur
 
