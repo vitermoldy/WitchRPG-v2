@@ -312,3 +312,4 @@ const poseCentaur: PoseFn = (p, u, t) => {
     return
   }
   if (u.state === 'strike' && !u.atk.shot) {
+    p.body(0.1, 8)
