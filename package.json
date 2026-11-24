@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "models": "\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" -b --factory-startup -P previz/blender/export_glb.py"
+    "models": "node previz/blender/models.mjs"
   },
   "dependencies": {
     "@fontsource-variable/figtree": "^5.3.0",
