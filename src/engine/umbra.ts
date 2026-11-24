@@ -496,3 +496,4 @@ export class Umbra {
       for (const s of shadows) {
         s.command = 'follow'
         s.focus = null
+      }
