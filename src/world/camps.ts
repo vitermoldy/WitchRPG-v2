@@ -39,3 +39,4 @@ export class Camps {
   constructor(model: THREE.Group, obstacles: Obstacles) {
     this.group.name = 'camps'
     let seed = 11
+    const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647)
