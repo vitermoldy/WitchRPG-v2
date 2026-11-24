@@ -153,3 +153,4 @@ export class Umbra {
   summon() {
     const g = this.g
     const ready = this.ready()
+    if (!g.profile.shadows.length) {
