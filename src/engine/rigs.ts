@@ -601,3 +601,5 @@ class Rig implements Poser {
       part.mesh = fresh.mesh
       part.glow = fresh.glow
     }
+  }
+
