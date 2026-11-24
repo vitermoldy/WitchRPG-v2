@@ -222,3 +222,4 @@ describe('phase 4 creatures', () => {
     expect(pick([0, 4], true)).toBe('sengat ular')
   })
 
+  it('Chimera calls Imps while it fights, never more than four standing', () => {
