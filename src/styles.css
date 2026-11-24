@@ -1284,6 +1284,7 @@ dialog::backdrop {
   overflow: auto;
 }
 
+.ledger-head {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
