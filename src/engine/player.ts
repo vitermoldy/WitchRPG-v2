@@ -51,6 +51,7 @@ export class Player {
   poisonT = 0
   poisonDps = 0
   /** Share of her pace she keeps this frame (block, swings); set by the fight each frame. */
+  moveScale = 1
 
   get speed() {
     return Math.hypot(this.vx, this.vz)
