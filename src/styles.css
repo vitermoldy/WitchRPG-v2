@@ -691,6 +691,7 @@ button {
   width: min(28rem, 40vw);
 }
 
+.feed-item {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
