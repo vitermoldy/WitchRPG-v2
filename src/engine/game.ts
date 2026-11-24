@@ -46,3 +46,4 @@ export class Game {
   readonly obstacles = new Obstacles()
   readonly profile = loadProfile().profile
   state: State = 'loading'
+  /** ?debug: run the simulation this many fixed steps per frame. */
