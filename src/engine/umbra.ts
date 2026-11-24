@@ -10,3 +10,4 @@ export type WheelChoice = 'follow' | 'attack' | 'hold' | 'swap'
 export interface UmbraInput {
   riteHeld: boolean
   ritePressed: boolean
+  toggle: boolean
