@@ -177,3 +177,4 @@ export class Game {
     this.obstacles.pushOut(this.player.pos, MOVE.radius, MOVE.height)
     this.player.pos.y = heightAt(this.player.pos.x, this.player.pos.z)
     this.rig.yaw = yaw
+    this.rig.pitch = (CAMERA.pitch * Math.PI) / 180
