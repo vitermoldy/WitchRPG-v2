@@ -205,5 +205,6 @@ export class Camps {
     if (colors) {
       let i = 0
       for (const camp of this.camps) {
+        this.c.copy(camp.state === 'cleared' ? this.dark : this.lit)
   }
 }
