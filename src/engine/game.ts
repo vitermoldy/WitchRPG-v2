@@ -76,3 +76,4 @@ export class Game {
   private frameCount = 0
   /** Smallest distance between the camera and any trunk, crown, rock or the ground since the last reset. */
   private minClearance = Infinity
+  private readonly v = new THREE.Vector3()
