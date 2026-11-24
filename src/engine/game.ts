@@ -32,3 +32,5 @@ export interface BotInput {
   turn: number
 }
 
+const FRAME_SAMPLES = 900
+
