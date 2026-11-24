@@ -969,6 +969,7 @@ button {
   color: var(--umbra-ink);
 }
 
+.skill.ready-full {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
