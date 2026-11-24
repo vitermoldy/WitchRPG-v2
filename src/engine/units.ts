@@ -184,3 +184,4 @@ export class Unit implements Foe {
   }
 
   get staggered() {
+    return this.state === 'stagger'
