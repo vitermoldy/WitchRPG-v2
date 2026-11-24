@@ -114,3 +114,4 @@ export class Umbra {
     return { count, next: Number.isFinite(next) ? Math.ceil(next) : 0 }
   }
 
+  /** Formation spot for slot `i`: rings behind her, 8 in the first, 4 more per ring. */
