@@ -970,6 +970,7 @@ export class Game implements UnitHost {
     for (let i = 0; i < n; i++) {
       const a = (i / n) * Math.PI * 2
       const u = this.units.spawn(kind, 'enemy', level, { x: p.x + Math.cos(a) * dist, z: p.z + Math.sin(a) * dist })
+      u.aggro = true
     }
     return best
   }
