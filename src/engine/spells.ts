@@ -203,3 +203,4 @@ export class Spells {
       return false
     }
     p.mana -= cost
+    return true
