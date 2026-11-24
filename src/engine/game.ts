@@ -65,3 +65,4 @@ export class Game {
   private forest!: Forest
   private atmosphere!: Atmosphere
   private camps!: Camps
+  private ilyra!: IlyraModel
