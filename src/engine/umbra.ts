@@ -248,3 +248,4 @@ export class Umbra {
     const near: Unit[] = []
 
     // while the army is out, a shadow that has reformed rises again beside her
+    if (this.armyOut) {
