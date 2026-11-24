@@ -31,3 +31,4 @@ async function boot() {
   }
   let game: Game
   try {
+    game = new Game(canvas, debug)
