@@ -268,6 +268,7 @@ export class Game implements UnitHost {
   }
 
   impact(u: Unit, other: Unit | null, speed: number) {
+    this.spells.impact(u, other, speed)
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
