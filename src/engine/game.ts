@@ -101,3 +101,4 @@ export class Game {
       if (!locked && this.state === 'playing' && !this.debug) this.pause()
     }
     this.sensitivity = this.profile.settings.sensitivity
+    this.player.speedMult = derive(this.profile.stats, this.profile.level).speedMult
