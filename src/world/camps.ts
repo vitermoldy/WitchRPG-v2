@@ -136,7 +136,6 @@ export class Camps {
         camp.units.push(u)
       }
     }
-    this.update(0, 0, new THREE.Vector3(1e6, 0, 1e6))
   }
 
   update(dt: number, t: number, player: THREE.Vector3) {
