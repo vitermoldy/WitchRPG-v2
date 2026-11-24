@@ -67,3 +67,4 @@ def flat(m):
     return f
 
 
+def export(key):
