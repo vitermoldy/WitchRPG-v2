@@ -477,6 +477,8 @@ button {
   transform: scale(1);
 }
 
+}
+
 .hint {
   position: absolute;
   bottom: var(--gutter);
