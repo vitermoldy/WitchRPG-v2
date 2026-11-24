@@ -472,3 +472,4 @@ export const BOSS = {
   shellBoltShare: 0.1,
   volleyEvery: 3.6,
   volleyShots: 3,
+  /** Share of the boss's hit that one glob carries; volleys are meant to be dodged, not tanked. */
