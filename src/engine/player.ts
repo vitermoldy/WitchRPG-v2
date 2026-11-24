@@ -140,6 +140,7 @@ export class Player {
       const u = 1 - this.nudgeT / this.nudgeTime
       this.vx = this.nudgeX * (1 - u)
       this.vz = this.nudgeZ * (1 - u)
+      this.nudgeT -= dt
     } else {
       const top = (input.sprint && !aiming ? MOVE.sprint : aiming ? MOVE.jog * 0.6 : MOVE.jog) * this.speedMult
       const tx = wx * top
