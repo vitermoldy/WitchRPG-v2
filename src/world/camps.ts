@@ -38,3 +38,4 @@ export class Camps {
 
   constructor(model: THREE.Group, obstacles: Obstacles) {
     this.group.name = 'camps'
+    let seed = 11
