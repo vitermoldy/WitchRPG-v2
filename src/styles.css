@@ -1502,6 +1502,7 @@ dialog::backdrop {
 
 .node-meta {
   margin: 0;
+  color: var(--ink-3);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
