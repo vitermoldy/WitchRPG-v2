@@ -41,3 +41,4 @@ async function boot() {
   try {
     await game.init((step) => {
       $('loading-step').textContent = step
+    })
