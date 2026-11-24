@@ -347,5 +347,6 @@ export class Hud {
       const label = u.staggered ? 'Limbung' : ''
       if (el.dataset.label !== label) el.dataset.label = label
       n++
+    }
   }
 }
