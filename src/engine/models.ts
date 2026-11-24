@@ -74,6 +74,7 @@ export const idlePose = (): IlyraPose => ({ swing: null, block: 0, parry: 0, exe
 
 /** Arm and body angles of one swing at its windup end (`back`) and after the blow (`through`). */
 const SWINGS = [
+  // sweep from her right to her left
 
 /**
  * Ilyra's model with procedural motion on its named parts: the walk cycle of the previz animatic,
