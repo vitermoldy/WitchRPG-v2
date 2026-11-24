@@ -17,6 +17,7 @@ import { heightAt, inWaterRect, PLAY_HALF, SPOTS, toMap, toWorld, WATER_LEVEL, Z
 import { Terrain } from '../world/terrain'
 import { Sfx } from './audio'
 import { CameraRig, yawTo, type CamPose } from './camera'
+import { resolveDefense } from './combat'
 import { Input } from './input'
 import { LockOn, lockPoint } from './lockon'
 import { IlyraModel, loadModel } from './models'
