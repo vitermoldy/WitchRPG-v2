@@ -77,3 +77,4 @@ def export(key):
         ob.name = name
         for slot in ob.material_slots:
             if slot.material:
+                slot.material = flat(slot.material)
