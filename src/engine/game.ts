@@ -27,3 +27,4 @@ export interface BotInput {
   x: number
   y: number
   sprint: boolean
+  aim: boolean
