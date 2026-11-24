@@ -748,6 +748,7 @@ export class Game implements UnitHost {
       riteHeld: inp.held('KeyR'),
       ritePressed: inp.pressed('KeyR'),
       toggle: inp.pressed('KeyT'),
+      wheelHeld: inp.held('KeyZ'),
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
