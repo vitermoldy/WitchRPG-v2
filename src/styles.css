@@ -843,6 +843,7 @@ button {
 }
 
 .bar-chaos {
+  height: 5px;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
