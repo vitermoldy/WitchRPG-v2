@@ -11,3 +11,4 @@ export interface UmbraInput {
   riteHeld: boolean
   ritePressed: boolean
   toggle: boolean
+  wheelHeld: boolean
