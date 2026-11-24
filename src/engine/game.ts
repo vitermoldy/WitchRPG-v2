@@ -53,3 +53,4 @@ export class Game {
   /** ?debug: when set, the bot drives her instead of the keyboard. */
   bot: BotInput | null = null
   /** Game seconds played (simulation time, includes debugSpeed). */
+  t = 0
