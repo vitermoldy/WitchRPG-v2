@@ -61,3 +61,4 @@ export const LOCKON = {
   /** Mouse travel (px) in one frame that switches to the next target on that side. */
   flick: 38,
   /** Target point sits at 2/3 of the width and 1/3 of the height from the top. */
+  thirdX: 1 / 3,
