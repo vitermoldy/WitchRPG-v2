@@ -1037,6 +1037,7 @@ button {
 }
 
 .army-slot .pip {
+  width: 0.55rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
