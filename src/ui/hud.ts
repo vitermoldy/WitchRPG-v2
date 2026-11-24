@@ -263,5 +263,6 @@ export class Hud {
   private updateBoss() {
     const g = this.g
     const p = g.player.pos
+    let boss = null
   }
 }
