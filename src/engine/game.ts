@@ -635,6 +635,7 @@ export class Game implements UnitHost {
     if (this.state === 'playing') {
       this.frames[this.frameCount % FRAME_SAMPLES] = now - this.lastFrame
       this.frameCount++
+      const ts = performance.now()
       for (let i = 0; i < this.debugSpeed; i++) {
         this.simulate(dt)
         if (i < this.debugSpeed - 1) this.input.endFrame()
