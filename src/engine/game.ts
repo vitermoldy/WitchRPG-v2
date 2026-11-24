@@ -429,6 +429,7 @@ export class Game implements UnitHost {
     const p = this.player
     const d = (this.derived = derive(this.profile.stats, this.profile.level))
     const hpShare = fill ? 1 : p.hp / p.maxHp
+    const manaShare = fill ? 1 : p.mana / p.maxMana
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
