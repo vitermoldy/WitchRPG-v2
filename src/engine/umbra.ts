@@ -355,3 +355,4 @@ export class Umbra {
     this.leashT -= dt
     if (this.leashT <= 0) {
       this.leashT = 1
+      for (const u of this.field()) {
