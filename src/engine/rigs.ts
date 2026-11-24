@@ -29,3 +29,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMate
   const glowing = src.emissive && src.emissive.getHex() !== 0 && src.emissiveIntensity > 0
   if (glowing) {
     m.emissive.set(COLOR.umbraHot)
+    m.emissiveIntensity = 2.4
