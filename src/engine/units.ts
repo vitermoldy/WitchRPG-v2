@@ -177,3 +177,5 @@ export class Unit implements Foe {
 
   get height() {
     return this.spec.height * this.scale
+  }
+
