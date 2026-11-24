@@ -52,6 +52,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | Sihir Chaos (tangan kiri) | |
 | --- | --- |
 | Tahan klik kanan | Bidik |
+| Saat membidik: klik kiri | Hex Bolt; menjatuhkan Harpy dari udara |
 
 ## Struktur
 
