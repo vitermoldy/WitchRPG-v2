@@ -563,3 +563,4 @@ class Rig implements Poser {
       if (!mat) {
         mat = team === 'shadow' ? shadowMaterial(src) : src.clone()
         patchGlow(mat)
+        mats.set(src, mat)
