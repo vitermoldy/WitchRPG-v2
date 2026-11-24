@@ -1527,6 +1527,7 @@ dialog::backdrop {
   color: var(--ink);
 }
 
+.room-list {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
