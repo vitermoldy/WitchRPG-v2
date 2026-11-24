@@ -753,6 +753,7 @@ export class Game implements UnitHost {
       dx: inp.dx,
       dy: inp.dy,
     })
+    this.prof('umbra', t2)
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
