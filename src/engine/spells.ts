@@ -211,3 +211,5 @@ export class Spells {
     const before = this.chaos
     this.chaos = Math.min(CHAOS.max, this.chaos + amount)
     if (before < CHAOS.max && this.chaos >= CHAOS.max) this.g.hud.message('Meter Chaos penuh. Tekan G untuk Crimson Overload.', 'chaos')
+  }
+
