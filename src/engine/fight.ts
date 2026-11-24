@@ -305,3 +305,4 @@ export class Fight {
     this.swingYaw = null
   }
 
+  parried() {
