@@ -280,3 +280,4 @@ export class Game {
     p.update(dt, move, this.rig.yaw, face, aiming, this.ground)
     this.place(dt, false, aiming)
 
+    this.cullIn -= dt
