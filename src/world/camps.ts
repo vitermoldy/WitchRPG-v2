@@ -28,3 +28,4 @@ export interface Imp extends Target {
 
 export class Camps {
   readonly group = new THREE.Group()
+  readonly targets: Imp[] = []
