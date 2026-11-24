@@ -850,6 +850,7 @@ export class Game implements UnitHost {
       c.fov = pose.fov
       c.updateProjectionMatrix()
       this.glow?.setViewport(this.renderer.domElement.height, c.fov)
+      this.smoke?.setViewport(this.renderer.domElement.height, c.fov)
     }
     const clear = Math.min(this.obstacles.clearance(c.position.x, c.position.y, c.position.z), c.position.y - heightAt(c.position.x, c.position.z))
     if (this.state === 'playing') this.minClearance = Math.min(this.minClearance, clear)
