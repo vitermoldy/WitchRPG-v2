@@ -39,3 +39,4 @@ describe('the forest valley', () => {
   })
 
   it('raises Tebing Berangin as a plateau above the forest floor', () => {
+    const t = ZONES.find((z) => z.key === 'tebing')!
