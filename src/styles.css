@@ -922,6 +922,7 @@ button {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--plate);
+  font-size: 0.74rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
