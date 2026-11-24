@@ -473,6 +473,7 @@ button {
 }
 
 .hitmark.on {
+  border-color: var(--ink);
 }
 
 .hint {
