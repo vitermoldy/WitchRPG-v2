@@ -866,3 +866,4 @@ export class UnitSystem {
     u.vel.multiplyScalar(keep)
     u.vel.y = 0
     u.flight = 0
+    u.hurled = false
