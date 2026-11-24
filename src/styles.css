@@ -753,6 +753,7 @@ button {
   background: var(--plate);
   color: var(--ink);
   font-size: 0.95rem;
+  text-align: center;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
