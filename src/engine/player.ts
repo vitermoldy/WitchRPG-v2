@@ -101,3 +101,4 @@ export class Player {
       this.vx = this.dodgeX * v
       this.vz = this.dodgeZ * v
       this.dodgeT += dt
+      if (this.dodgeT >= T) {
