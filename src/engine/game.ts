@@ -263,6 +263,7 @@ export class Game implements UnitHost {
   }
 
   summoned(h: Unit) {
+    this.pools.open(h.pos, 1 + h.radius * 1.5, 1)
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
