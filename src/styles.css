@@ -842,6 +842,7 @@ button {
   background: linear-gradient(90deg, #6a3ad8, var(--umbra));
 }
 
+.bar-chaos {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
