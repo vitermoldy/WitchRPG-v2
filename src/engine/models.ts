@@ -100,3 +100,4 @@ export class IlyraModel {
       this.rot('head', 20 * tuck)
       return
     }
+    this.pivot.rotation.x = 0
