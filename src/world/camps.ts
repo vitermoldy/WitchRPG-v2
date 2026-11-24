@@ -67,6 +67,7 @@ export class Camps {
   readonly camps: Camp[]
   readonly group = new THREE.Group()
   private readonly g: Game
+  private readonly shards: THREE.InstancedMesh
 
   constructor(model: THREE.Group, obstacles: Obstacles) {
     this.group.name = 'camps'
