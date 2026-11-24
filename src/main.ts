@@ -63,6 +63,8 @@ async function boot() {
   $('btn-enter').addEventListener('click', enter)
 
   const pr = game.profile
+  $('profile-line').textContent = pr.level > 1 || pr.shadows.length ? `Ilyra Lv ${pr.level}, ${pr.shadows.length} bayangan di Ruang Bayangan` : ''
+
   })
 
   game.onPause = () => {
