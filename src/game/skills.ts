@@ -34,3 +34,4 @@ export const SKILLS: SkillDef[] = [
     name: 'Hex Bolt',
     key: 'LMB',
     unlock: 1,
+    effect: 'Proyektil merah lurus, 12 damage, mengisi meter Chaos.',
