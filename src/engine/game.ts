@@ -798,6 +798,7 @@ export class Game implements UnitHost {
     this.rigs.update(this.units.units, this.t, dt, this.camera.position, (u) => this.umbra.glowOf(u))
     this.prof('rigs', t1)
 
+    // her pose: the fight, the spells and the rite
     this.hud.zone(ZONES[this.atmosphere.zone])
     this.hud.aim(this.rig.aim > 0.5)
     if (target) {
