@@ -1569,6 +1569,8 @@ dialog::backdrop {
   padding: 0.5rem 0.6rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
