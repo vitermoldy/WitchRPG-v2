@@ -552,3 +552,4 @@ export class UnitSystem {
       if (u.state !== 'move') {
         host.clearTelegraph(u)
         u.set('move')
+      }
