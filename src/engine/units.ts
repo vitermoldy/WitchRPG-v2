@@ -334,3 +334,4 @@ export class UnitSystem {
     this.host.died(u)
   }
 
+  private rebuildGrid() {
