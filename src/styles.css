@@ -602,6 +602,8 @@ button {
 
 .parry-flash.on {
   animation: parry 0.35s ease-out;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
