@@ -208,3 +208,4 @@ const poseHound: PoseFn = (p, u, t) => {
     p.rot('leg_HR', 15)
     return
   }
+  // trot: diagonal pairs move together
