@@ -124,7 +124,7 @@ export const RITE = {
   powerPerUmb: 0.02,
   /** How many shadows stand on the field at once. A setting: more costs frame rate. */
   /** Shadows nearest the camera drawn with their own animated model; the rest are drawn as one crowd. */
-  detail: { default: 40, min: 10, max: 120 },
+  // v2: 20 by default (v1: 40); its GLB creatures cost about ten times v1's procedural ones per animated shadow
   shadowXpShare: 0.3,
   minChance: 0.1,
   maxChance: 0.9,
