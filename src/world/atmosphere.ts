@@ -13,3 +13,4 @@ void main() {
   gl_Position.z = gl_Position.w;
 }`
 
+const SKY_FRAG = /* glsl */ `
