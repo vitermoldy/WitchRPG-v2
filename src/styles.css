@@ -142,3 +142,4 @@ button {
 
 .screen-center {
   display: flex;
+  flex-direction: column;
