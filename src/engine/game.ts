@@ -727,8 +727,7 @@ export class Game implements UnitHost {
     }, aiming)
 
     const target = this.lockon.current
-    const face = target ? yawTo(p.pos.x, p.pos.z, target.x, target.z) : aiming ? this.rig.yaw : null
-    p.update(dt, move, this.rig.yaw, face, aiming, this.ground)
+    const face = this.fight.faceYaw ?? (target ? yawTo(p.pos.x, p.pos.z, target.x, target.z) : aiming || this.fight.blocking ? this.rig.yaw : null)
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
