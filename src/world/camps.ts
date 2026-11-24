@@ -188,6 +188,7 @@ export class Camps {
             camp.roused = true
             for (const u of alive) u.aggro = true
             g.sfx.growl()
+            if (!this.toldShield && alive.some((u) => u.spec.shield)) {
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
