@@ -126,3 +126,4 @@ export class Spells {
   barrierT = 0
   barrierAbsorb = 0
   private barrierHit = 0
+  private holdT = 0
