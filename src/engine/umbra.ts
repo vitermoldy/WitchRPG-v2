@@ -86,3 +86,4 @@ export class Umbra {
     this.armyOut = false
   }
 
+  get riteOpen() {
