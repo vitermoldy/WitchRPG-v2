@@ -430,3 +430,4 @@ button {
   position: absolute;
   bottom: var(--gutter);
   left: 50%;
+  display: flex;
