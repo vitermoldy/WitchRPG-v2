@@ -1018,6 +1018,7 @@ button {
   font-weight: 500;
 }
 
+.army-row.dim,
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
