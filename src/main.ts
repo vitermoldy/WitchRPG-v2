@@ -87,6 +87,7 @@ async function boot() {
     game.sfx.setVolume(v)
   })
   range('detail', pr.settings.detail, (v) => String(v), (v) => {
+    pr.settings.detail = v
   })
 
   game.onPause = () => {
