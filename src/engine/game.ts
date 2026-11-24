@@ -357,3 +357,4 @@ export class Game {
       chunks: this.terrain.built,
       trees: this.forest.trees.filter((t) => t.kind !== 'rock' && t.kind !== 'rock_big').length,
       rocks: this.forest.trees.filter((t) => t.kind === 'rock' || t.kind === 'rock_big').length,
+      obstacles: this.obstacles.shapes.length,
