@@ -4,3 +4,4 @@ import { bakeByMaterial } from '../engine/models'
 import type { Obstacles } from '../engine/obstacles'
 import { heightMap, SPOTS, toWorld } from './map'
 
+/**
