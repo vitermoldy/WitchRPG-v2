@@ -166,3 +166,4 @@ export interface UnitSpec {
   hp: number
   damage: number
   speed: number
+  radius: number
