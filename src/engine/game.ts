@@ -381,3 +381,4 @@ export class Game {
     return this.lockon.switchSide(this.camps.targets, this.player.pos, side)
   }
 
+  /** Imps within this distance of her (for the bot to know when a lock-on can find something). */
