@@ -130,3 +130,4 @@ export function water(): THREE.Mesh {
   m.name = 'water'
   m.receiveShadow = true
   return m
+}
