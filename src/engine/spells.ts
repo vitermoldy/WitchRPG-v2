@@ -214,3 +214,4 @@ export class Spells {
   }
 
   update(dt: number, canAct: boolean, inp: SpellInput) {
+    const g = this.g
