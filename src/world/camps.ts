@@ -84,6 +84,7 @@ export class Camps {
     })
     const stoneGeo = new THREE.DodecahedronGeometry(0.45, 0)
     const stones = new THREE.InstancedMesh(stoneGeo, new THREE.MeshStandardMaterial({ color: 0x3b3633, roughness: 0.95 }), this.camps.length * STONES)
+    const shardGeo = new THREE.OctahedronGeometry(0.16, 0)
       }
     }
     for (const b of bakeByMaterial(model)) {
