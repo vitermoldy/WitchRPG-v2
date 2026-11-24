@@ -491,3 +491,4 @@ export class Fight {
     g.sfx.growl()
   }
 
+  private updateExecution(dt: number) {
