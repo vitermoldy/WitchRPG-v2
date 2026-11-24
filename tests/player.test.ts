@@ -67,3 +67,4 @@ describe('Ilyra on foot', () => {
     while (p.dodging) {
       p.update(1 / 120, idle, 0, null, false, flat)
       t += 1 / 120
+    }
