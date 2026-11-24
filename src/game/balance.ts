@@ -305,3 +305,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // Tier V: lobs a heavy charge onto a warning circle. Hex Barrier eats it, Reality Warp sends it back.
   bombard: {
+    name: 'Bombard',
