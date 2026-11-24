@@ -902,6 +902,7 @@ export class Game implements UnitHost {
       mana: Math.round(p.mana),
       chaos: Math.round(this.spells.chaos),
       level: this.profile.level,
+      xp: this.profile.xp,
       locked: !!this.lockon.current,
       width: this.renderer.domElement.width,
       height: this.renderer.domElement.height,
