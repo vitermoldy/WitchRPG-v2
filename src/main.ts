@@ -75,6 +75,7 @@ async function boot() {
       const v = Number(input.value)
       out.textContent = fmt(v)
       apply(v)
+      saveProfile(pr)
   })
 
   game.onPause = () => {
