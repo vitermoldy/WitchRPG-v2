@@ -1559,6 +1559,8 @@ dialog::backdrop {
   margin: 0;
   padding: 0 0.8rem 0.8rem;
   list-style: none;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
