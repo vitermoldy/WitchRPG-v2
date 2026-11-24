@@ -384,3 +384,4 @@ export class Spells {
     }
     for (const u of this.grabbed) {
       g.telegraphs.clear(u)
+      u.token = false
