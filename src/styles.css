@@ -219,9 +219,7 @@ button {
 /* Title: the name, one line of story, what this build plays, one way in. Controls to the side. */
 .screen-start {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
-  gap: clamp(24px, 5vw, 72px);
-  align-items: center;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.25fr);
   padding: clamp(24px, 6vw, 88px);
 }
 
