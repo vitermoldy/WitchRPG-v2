@@ -236,3 +236,4 @@ export class Spells {
     }
     this.backlashT = Math.max(0, this.backlashT - dt)
 
+    if (canAct) {
