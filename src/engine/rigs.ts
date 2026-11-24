@@ -36,3 +36,4 @@ function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMate
   }
   m.roughness = 0.55
   m.metalness = 0
+  return m
