@@ -140,3 +140,4 @@ export class Obstacles {
       }
       if (d < best) best = d
     })
+    return best
