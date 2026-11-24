@@ -42,3 +42,4 @@ export class Player {
   dodges = 0
 
   get speed() {
+    return Math.hypot(this.vx, this.vz)
