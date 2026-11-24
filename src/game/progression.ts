@@ -39,3 +39,4 @@ export interface Settings {
   detail: number
 }
 
+export interface Profile {
