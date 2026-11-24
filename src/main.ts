@@ -128,6 +128,7 @@ async function boot() {
     game.input.unlock()
     menu.open()
   }
+  /** Back to the fight: lock the mouse again, or ask for a click on the pause screen if the browser refuses. */
   $('btn-resume').addEventListener('click', async () => {
     const locked = await game.input.lock()
     if (!locked && !debug) {
