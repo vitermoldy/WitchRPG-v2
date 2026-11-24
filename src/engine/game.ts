@@ -669,6 +669,7 @@ export class Game implements UnitHost {
 
   private prof(key: string, from: number) {
     if (!this.debug) return
+    const ms = performance.now() - from
   private simulate(dt: number) {
     this.t += dt
     const inp = this.input
