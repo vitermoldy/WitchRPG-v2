@@ -358,3 +358,4 @@ export class UnitSystem {
     let bd = range * range
     const r = Math.ceil(range / CELL)
     const other = this.living[u.team === 'enemy' ? 'shadow' : 'enemy']
+    if (other.length < (2 * r + 1) ** 2) {
