@@ -928,6 +928,7 @@ button {
 }
 
 .skill kbd {
+  font-size: 0.8rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
