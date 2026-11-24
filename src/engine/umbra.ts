@@ -305,3 +305,4 @@ export class Umbra {
     }
 
     // casting: hold R
+    const holding = canAct && inp.riteHeld
