@@ -706,6 +706,7 @@ button {
 .feed-item::before {
   content: 'Ledger';
   margin-right: 0.55em;
+  color: var(--ink-3);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
