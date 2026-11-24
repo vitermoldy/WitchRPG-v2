@@ -763,3 +763,4 @@ export const COMBAT = {
     window: 0.18,
     /** Stun added to the attacker by a parry. */
     stun: 55,
+    /** Damage multiplier of her next swing within `riposte` seconds after a parry. */
