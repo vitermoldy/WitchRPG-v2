@@ -640,6 +640,7 @@ export class Game implements UnitHost {
         this.simulate(dt)
         if (i < this.debugSpeed - 1) this.input.endFrame()
       }
+      this.prof('sim', ts)
     } else if (this.state === 'title') {
       // a slow drift around her while the title is up
       this.rig.yaw += dt * 0.05
