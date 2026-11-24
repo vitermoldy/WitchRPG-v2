@@ -8,6 +8,7 @@ and animate the model by rotating parts, the way v1's models.ts did. Materials a
 colour (the part's top colour) plus emission, which glTF carries without baking.
 
 With --ratio R the game model itself is decimated to about R (for block-outs over the triangle budget).
+With --lod R it writes <name>_lod.glb instead: every part decimated to about R of its triangles, for
 import os
 import sys
 
