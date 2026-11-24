@@ -26,3 +26,4 @@ const LEASH = 45
 function ringRadius(count: number) {
   let ring = 0
   let left = count
+  while (left > 8 + ring * 4) {
