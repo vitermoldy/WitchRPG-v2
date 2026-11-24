@@ -530,3 +530,4 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
  * cost as many draws as one Imp has primitives.
  */
 class Rig implements Poser {
+  readonly parts: Part[] = []
