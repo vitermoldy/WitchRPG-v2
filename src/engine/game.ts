@@ -250,6 +250,8 @@ export class Game implements UnitHost {
       p.poisonT = EFFECTS.poisonTime
       p.poisonDps = u.damage * EFFECTS.poisonShare
     }
+  }
+
   /** Builds the valley, loads the models and warms the shaders. */
   async init(progress: (step: string) => void) {
     progress('Membentuk lembah')
