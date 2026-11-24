@@ -174,3 +174,4 @@ export interface UnitSpec {
   recover: number
   cooldown: number
   lungeSpeed?: number
+  lungeTime?: number
