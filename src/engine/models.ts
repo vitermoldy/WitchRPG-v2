@@ -313,6 +313,7 @@ export class IlyraModel {
       const tremble = Math.sin(this.t * 40) * 3 * act.rite
       armRX = -55 - 20 * act.rite + tremble
       armRY = 15
+      foreR = -30
     // While aiming the glowing staff head would sit right on the aim point (previz variant D):
     // lower it to point forward and down by her right side, and dim the sigil.
     this.rot('staff', 115 * aim, 0, 12 * aim)
