@@ -363,3 +363,4 @@ export class Spells {
         const a = f.angleTo(to)
         if (a < bestA) {
           bestA = a
+          first = u
