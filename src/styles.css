@@ -587,6 +587,7 @@ button {
   }
 }
 
+/* A parry: one bright ring that opens around the middle of the view and is gone. */
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
