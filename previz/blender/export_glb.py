@@ -70,3 +70,4 @@ def flat(m):
 def export(key):
     coll = bpy.data.collections.new(f"export_{key}")
     scene.collection.children.link(coll)
+    r = K.build(key, coll, pose=POSE.get(key), lights=False) if key == "ilyra" else K.build(key, coll, pose=POSE.get(key))
