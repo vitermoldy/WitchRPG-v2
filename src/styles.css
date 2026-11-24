@@ -1633,6 +1633,8 @@ dialog::backdrop {
 .travel-list .btn {
   width: 100%;
   justify-content: flex-start;
+}
+
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
