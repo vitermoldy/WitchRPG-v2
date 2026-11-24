@@ -333,3 +333,4 @@ export class Umbra {
       this.wheelOpen = true
       this.wheelX = this.wheelY = 0
       this.wheelChoice = null
+    }
