@@ -87,3 +87,4 @@ export class Projectiles {
       s.prev.copy(s.pos)
       if (!s.reflected) s.vel.y -= s.gravity * dt
       s.pos.addScaledVector(s.vel, dt)
+      s.life -= dt
