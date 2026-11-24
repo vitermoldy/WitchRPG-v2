@@ -119,3 +119,4 @@ export class Atmosphere {
   }
 }
 
+/** Dark, glossy water over the swamp and Danau Hitam. */
