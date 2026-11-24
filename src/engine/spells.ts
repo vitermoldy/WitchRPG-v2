@@ -163,3 +163,4 @@ export class Spells {
   }
 
   reset() {
+    for (const b of this.bolts) this.killBolt(b)
