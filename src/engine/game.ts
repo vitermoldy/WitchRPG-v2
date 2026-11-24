@@ -678,15 +678,7 @@ export class Game implements UnitHost {
     this.botThink?.(this, dt)
     const inp = this.input
     const b = this.bot
-    const aiming = b ? b.aim : inp.held('Mouse2')
-    const move: MoveInput = b
-      ? { x: b.x, y: b.y, sprint: b.sprint, dodge: this.botDodge }
-      : {
-          x: (inp.held('KeyD') ? 1 : 0) - (inp.held('KeyA') ? 1 : 0),
-          y: (inp.held('KeyW') ? 1 : 0) - (inp.held('KeyS') ? 1 : 0),
-          sprint: inp.held('ShiftLeft') || inp.held('ShiftRight'),
-          dodge: inp.pressed('Space'),
-        }
+    const p = this.player
     this.botDodge = false
     if (b) this.rig.look(-b.turn * dt / (CAMERA.sensitivity * this.sensitivity), 0, CAMERA.sensitivity * this.sensitivity)
     else this.rig.look(inp.dx, inp.dy, CAMERA.sensitivity * this.sensitivity)
