@@ -64,3 +64,4 @@ export class Game {
   private terrain!: Terrain
   private forest!: Forest
   private atmosphere!: Atmosphere
+  private camps!: Camps
