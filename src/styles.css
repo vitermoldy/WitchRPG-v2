@@ -1069,6 +1069,7 @@ button {
   position: absolute;
   display: grid;
   place-items: center;
+  width: 8rem;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
