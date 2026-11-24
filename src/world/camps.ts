@@ -194,6 +194,7 @@ export class Camps {
             }
           }
         } else if (!p.alive || d > CAMP.leash) {
+          camp.roused = false
       }
       const bob = Math.sin(t * 3.1 + imp.phase) * 0.05
       this.q.setFromAxisAngle(this.up, imp.yaw)
