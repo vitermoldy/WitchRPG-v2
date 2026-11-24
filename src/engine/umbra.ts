@@ -323,3 +323,4 @@ export class Umbra {
         g.sfx.riteCharge(this.progress)
         this.chargeTick = 0.12
       }
+      if (this.progress >= 1) this.complete([...this.casting])
