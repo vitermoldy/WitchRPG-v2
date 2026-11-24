@@ -215,3 +215,4 @@ export class Umbra {
     const u = g.units.spawn(rec.kind, 'shadow', rec.level, at, true)
     u.record = rec
     u.slot = slot
+    u.yaw = g.player.facing + Math.PI
