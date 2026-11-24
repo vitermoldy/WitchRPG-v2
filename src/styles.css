@@ -1575,6 +1575,7 @@ dialog::backdrop {
   margin: 0;
 }
 
+.room-name {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
