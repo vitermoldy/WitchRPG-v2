@@ -33,3 +33,4 @@ export interface SpellInput {
   overload: boolean
   burst: boolean
   snare: boolean
+  barrier: boolean
