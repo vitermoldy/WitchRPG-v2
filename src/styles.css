@@ -1553,6 +1553,7 @@ dialog::backdrop {
 }
 
 .room-members {
+  display: grid;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
