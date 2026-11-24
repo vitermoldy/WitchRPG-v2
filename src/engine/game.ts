@@ -450,6 +450,7 @@ export class Game implements UnitHost {
       this.hud.banner(`Lv ${this.profile.level}`, `${res.levelsGained * 3} poin stat dan ${res.levelsGained} poin skill menunggu di Ledger`)
       for (const id of res.unlocked) {
         const def = skillById(id)
+        this.hud.message(`${def.name} terbuka (${def.key}): ${def.effect}`, 'level')
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
