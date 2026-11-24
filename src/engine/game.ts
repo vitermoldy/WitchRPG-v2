@@ -132,6 +132,7 @@ export class Game implements UnitHost {
   private saveIn = -1
   private readonly pose = idlePose()
   private readonly ray = new THREE.Ray()
+  private readonly sphere = new THREE.Sphere()
 
   constructor(canvas: HTMLCanvasElement, debug: boolean) {
     this.debug = debug
