@@ -411,3 +411,4 @@ export class Umbra {
     this.progress = 0
   }
 
+  cancel() {
