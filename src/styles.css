@@ -803,6 +803,7 @@ button {
 }
 
 .vital {
+  display: grid;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
