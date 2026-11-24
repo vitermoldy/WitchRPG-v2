@@ -321,3 +321,4 @@ export class Spells {
           hitUnit = u
         }
       }
+      const ground = g.ground.height(b.pos.x, b.pos.z)
