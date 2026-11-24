@@ -529,6 +529,7 @@ export class Game implements UnitHost {
     p.petrified = 0
     p.poisonT = 0
     this.applyDerived(true)
+    // she rises at the last altar she stood at
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
