@@ -872,6 +872,7 @@ button {
   color: #ffbe73;
 }
 
+.level-row {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
