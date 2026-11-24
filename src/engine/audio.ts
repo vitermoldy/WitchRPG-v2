@@ -401,3 +401,4 @@ export class Sfx {
     wind.start()
     f.connect(g).connect(this.master!)
   }
+}
