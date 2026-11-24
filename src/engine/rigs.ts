@@ -642,3 +642,4 @@ class Rig implements Poser {
   }
 
   end() {
+    for (const part of this.parts) {
