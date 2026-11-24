@@ -939,6 +939,7 @@ export class Game implements UnitHost {
       .map((u) => ({
         id: u.id,
         kind: u.kind,
+        x: u.pos.x,
   }
 
   /** The nearest living Imp (world position), so the bot can look at it before locking on. */
