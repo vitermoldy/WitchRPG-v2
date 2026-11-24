@@ -66,3 +66,4 @@ describe('over-the-shoulder camera', () => {
     const blocked = rig.frac
     const empty = new Obstacles()
     rig.update(1 / 60, pivot, false, null, empty, flat)
+    expect(rig.frac).toBeGreaterThan(blocked)
