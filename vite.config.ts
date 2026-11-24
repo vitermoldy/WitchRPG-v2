@@ -9,3 +9,4 @@ const api = { '/api': { target: `http://localhost:${process.env.PORT ?? 8913}` }
 
 export default defineConfig({
   root,
+  // Relative asset paths, so the built game runs from any folder or static host.
