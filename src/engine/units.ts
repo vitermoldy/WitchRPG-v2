@@ -125,3 +125,4 @@ export class Unit implements Foe {
   ashAt = 0
   // shadows
   record: ShadowRecord | null = null
+  command: Command = 'follow'
