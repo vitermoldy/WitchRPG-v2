@@ -762,3 +762,4 @@ export const COMBAT = {
     /** Pressing block this close before a blockable hit lands parries it (seconds). */
     window: 0.18,
     /** Stun added to the attacker by a parry. */
+    stun: 55,
