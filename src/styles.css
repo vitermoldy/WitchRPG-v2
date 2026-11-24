@@ -1523,6 +1523,7 @@ dialog::backdrop {
   color: var(--ink-3);
 }
 
+.node-up.bought {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
