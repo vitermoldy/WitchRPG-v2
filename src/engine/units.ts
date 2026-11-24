@@ -68,3 +68,4 @@ export class Unit implements Foe {
   damage: number
   speed: number
   readonly radius: number
+  readonly mass: number
