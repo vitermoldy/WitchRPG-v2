@@ -128,3 +128,4 @@ export class Obstacles {
   clearance(x: number, y: number, z: number, reach = 12): number {
     let best = reach
     this.near(x, z, reach, (s) => {
+      let d: number
