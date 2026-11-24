@@ -684,3 +684,4 @@ export class Rigs {
   private readonly crowd = new Map<UnitKind, CrowdBatch>()
   /** Shadows drawn in full detail; the rest join the crowd. */
   detail = 40
+  private sortIn = 0
