@@ -891,6 +891,7 @@ button {
   background: rgba(239, 230, 223, 0.12);
 }
 
+.xp i {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
