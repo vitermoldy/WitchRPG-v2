@@ -348,3 +348,4 @@ export class Spells {
     if (!this.overloaded && g.player.mana < 1) {
       g.hud.flashMana()
       return
+    }
