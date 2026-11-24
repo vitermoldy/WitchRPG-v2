@@ -25,3 +25,4 @@ interface Field {
   mats: THREE.ShaderMaterial[]
 }
 
+export interface SpellInput {
