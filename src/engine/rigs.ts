@@ -788,3 +788,4 @@ export class Rigs {
         continue
       }
       this.rig(u.kind, u.team)?.add(u, t, glowOf(u), this.sink(u))
+    }
