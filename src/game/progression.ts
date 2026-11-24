@@ -97,3 +97,4 @@ export const bossUnlocked = (p: Profile) => p.level >= (TIERS[3].boss?.unlock ??
  * Jenderal needs Kebangkitan Jenderal (Lv 8); Marsekal needs Kebangkitan Marsekal (Lv 9), one per boss.
  */
 export function riteBlock(p: Profile, kind: UnitKind): string | null {
+  const rank = UNITS[kind].rank
