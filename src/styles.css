@@ -472,6 +472,7 @@ button {
   transition: transform 0.08s, border-color 0.08s;
 }
 
+.hitmark.on {
 }
 
 .hint {
