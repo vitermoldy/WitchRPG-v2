@@ -571,3 +571,4 @@ class Rig implements Poser {
 
   private makePart(src: THREE.Mesh, mat: THREE.MeshStandardMaterial): Part {
     const geo = new THREE.BufferGeometry()
+    const g = src.geometry
