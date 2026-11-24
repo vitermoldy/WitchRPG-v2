@@ -191,3 +191,4 @@ export class Game {
     this.state = 'playing'
     this.input.capture = true
     this.hud.show(true)
+    this.lastFrame = performance.now()
