@@ -124,6 +124,8 @@ export class Hud {
 
   hurtFlash(k: number) {
     this.hurt = Math.min(1, this.hurt + k)
+  }
+
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
