@@ -120,3 +120,4 @@ export const RITE = {
   reform: 45,
   summonCooldown: 2.5,
   /** Each UMB point above 5 makes every shadow 2% tougher and stronger. */
+  powerPerUmb: 0.02,
