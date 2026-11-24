@@ -7,3 +7,4 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 import { CAMERA, MOVE } from '../game/balance'
 import { derive } from '../game/progression'
 import { loadProfile } from '../game/save'
+import { Hud } from '../ui/hud'
