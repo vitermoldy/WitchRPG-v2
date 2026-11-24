@@ -31,3 +31,4 @@ export class Camps {
   readonly targets: Imp[] = []
   private readonly meshes: THREE.InstancedMesh[] = []
   private readonly m = new THREE.Matrix4()
+  private readonly q = new THREE.Quaternion()
