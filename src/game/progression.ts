@@ -37,3 +37,5 @@ export interface Settings {
   shake: boolean
   /** Shadows drawn in full detail; every shadow still fights, the far ones are drawn as a crowd. */
   detail: number
+}
+
