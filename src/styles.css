@@ -544,6 +544,7 @@ button {
   animation: veil 0.9s ease-in-out infinite alternate;
 }
 
+@keyframes veil {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
