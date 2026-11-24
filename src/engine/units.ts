@@ -175,3 +175,4 @@ export class Unit implements Foe {
     return this.alive && this.state !== 'finishing' && this.state !== 'diving'
   }
 
+  get height() {
