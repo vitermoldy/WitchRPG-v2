@@ -1277,6 +1277,7 @@ dialog::backdrop {
 .ledger {
   width: min(70rem, calc(100vw - 32px));
   max-height: calc(100vh - 32px);
+  padding: 0;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
