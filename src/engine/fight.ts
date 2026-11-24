@@ -318,3 +318,4 @@ export class Fight {
     this.catchT = 0
   }
 
+  update(dt: number, inp: FightInput, aiming: boolean) {
