@@ -44,3 +44,4 @@ export class Game {
   readonly player = new Player()
   readonly lockon = new LockOn()
   readonly obstacles = new Obstacles()
+  readonly profile = loadProfile().profile
