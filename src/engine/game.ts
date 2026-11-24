@@ -556,6 +556,7 @@ export class Game implements UnitHost {
       u.command = 'follow'
       u.focus = null
       u.set('rising')
+      this.pools.open(spot, 0.9 + u.radius * 1.6, 1.2)
   private tick() {
     // Timer.reset() measures with performance.now() while update() gets the frame timestamp; the next
     // delta can come out negative (v1's black-screen bug). Never let time run backwards.
