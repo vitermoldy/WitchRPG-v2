@@ -1294,6 +1294,7 @@ dialog::backdrop {
 
 .ledger-title {
   margin: 0;
+  font-family: var(--font-display);
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
