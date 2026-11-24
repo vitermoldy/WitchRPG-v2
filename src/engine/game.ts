@@ -68,3 +68,4 @@ export class Game {
   private ilyra!: IlyraModel
   private ground!: Ground
   private pivotY = 0
+  private cullIn = 0
