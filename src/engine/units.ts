@@ -53,3 +53,5 @@ export function attacksOf(spec: UnitSpec): AttackSpec[] {
     legacy.set(spec, list)
   }
   return list
+}
+
