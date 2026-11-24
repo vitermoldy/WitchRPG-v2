@@ -436,6 +436,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     fly: { height: 6 },
     strike: 'line',
     stun: 25,
+  },
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
