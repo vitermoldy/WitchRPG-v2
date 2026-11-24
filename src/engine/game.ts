@@ -762,6 +762,7 @@ export class Game implements UnitHost {
     this.altars.update(dt)
 
     // vitals
+    if (alive && p.poisonT > 0) {
     this.place(dt, false, aiming)
 
     this.cullIn -= dt
