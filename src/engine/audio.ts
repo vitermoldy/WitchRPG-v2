@@ -399,3 +399,4 @@ export class Sfx {
     wg.gain.value = 0.5
     wind.connect(wf).connect(wg).connect(g)
     wind.start()
+    f.connect(g).connect(this.master!)
