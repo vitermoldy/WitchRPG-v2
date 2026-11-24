@@ -86,6 +86,7 @@ async function boot() {
     pr.settings.volume = v
     game.sfx.setVolume(v)
   })
+  })
 
   game.onPause = () => {
     $('lock-note').hidden = true
