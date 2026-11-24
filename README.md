@@ -50,6 +50,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | H | Lempar tongkat ke titik bidik atau target lock-on; tekan lagi untuk memanggilnya, mengenai makhluk di jalur pulang |
 
 | Sihir Chaos (tangan kiri) | |
+| --- | --- |
 
 ## Struktur
 
