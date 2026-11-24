@@ -34,6 +34,7 @@ export class Hud {
   private readonly bigBanner = $('banner')
   private readonly prompt = $('prompt')
   private readonly bars = $('hpbars')
+  private readonly wheel = $('wheel')
   private bannerTime = 0
   private hintTime = 0
   private zoneKey = ''
