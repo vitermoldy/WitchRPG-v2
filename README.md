@@ -44,6 +44,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 
 | Tempur | |
 | --- | --- |
+| Klik kiri | Tiga pukulan tongkat berantai; tahan untuk pukulan berat |
 
 ## Struktur
 
