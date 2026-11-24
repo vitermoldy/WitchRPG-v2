@@ -264,3 +264,5 @@ export function shadowName(id: number): string {
   let name = ''
   for (let i = 0; i < parts; i++) name += SYLLABLES[next() % SYLLABLES.length]
   return name.charAt(0).toUpperCase() + name.slice(1)
+}
+
