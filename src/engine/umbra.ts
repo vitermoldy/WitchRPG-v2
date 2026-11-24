@@ -203,3 +203,4 @@ export class Umbra {
       u.set('sinking')
       u.vel.set(0, 0, 0)
     })
+    const feet = this.feet()
