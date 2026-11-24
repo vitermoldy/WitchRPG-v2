@@ -45,6 +45,7 @@ export interface BotInput {
   turn: number
 }
 
+export interface AimHit {
 const FRAME_SAMPLES = 900
 
 export class Game {
