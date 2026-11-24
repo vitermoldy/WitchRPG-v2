@@ -147,3 +147,4 @@ export class Player {
     this.stride += this.speed * dt * 2.4
   }
 
+  /** Moves along one axis unless that would climb a cliff or wade into deep water. */
