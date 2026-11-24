@@ -324,5 +324,6 @@ export class Hud {
     const h = window.innerHeight
     const p = g.player.pos
     let n = 0
+    for (const u of g.units.units) {
   }
 }
