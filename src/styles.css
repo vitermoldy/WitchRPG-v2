@@ -261,6 +261,7 @@ button {
 
 .profile-line {
   margin: 0 0 1.2rem;
+  color: var(--umbra-ink);
 .touch-note {
   display: none;
   margin: 1rem 0 0;
