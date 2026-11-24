@@ -124,3 +124,4 @@ export class Unit implements Foe {
   ash = false
   ashAt = 0
   // shadows
+  record: ShadowRecord | null = null
