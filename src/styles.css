@@ -864,6 +864,7 @@ button {
   }
 }
 
+#mana-row.short .bar {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
