@@ -622,3 +622,4 @@ export class UnitSystem {
         if (atk.strike === 'ring' && atk.ahead === undefined) {
           // the circle follows her a little while it winds up: stepping away early still works
           u.aimAt.lerp(tmp.set(tgt.pos.x, tgt.pos.y, tgt.pos.z), Math.min(1, dt * 1.5))
+        }
