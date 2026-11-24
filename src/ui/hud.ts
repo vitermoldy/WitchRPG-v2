@@ -59,3 +59,4 @@ export class Hud {
       this.hint.classList.toggle('show', this.hintTime > 0)
     }
   }
+}
