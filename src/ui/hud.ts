@@ -111,6 +111,7 @@ export class Hud {
     window.setTimeout(() => p.remove(), 5900)
   }
 
+  banner(title: string, sub: string) {
   update(dt: number) {
     if (this.bannerTime > 0) {
       this.bannerTime -= dt
