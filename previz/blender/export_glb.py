@@ -79,3 +79,4 @@ def export(key):
             if slot.material:
                 slot.material = flat(slot.material)
     for ob in scene.objects:
+        ob.select_set(False)
