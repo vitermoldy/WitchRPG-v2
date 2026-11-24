@@ -436,7 +436,7 @@ button {
   fill: var(--chaos);
 }
 
-.aim-dot {
+/* Aim point: a dot only while aiming; the hit mark closes around it when a blow or bolt lands. */
   position: absolute;
   top: 50%;
   left: 50%;
