@@ -625,3 +625,4 @@ class Rig implements Poser {
     this.body(0)
     this.pose(this, u, t)
     this.holder.updateMatrixWorld(true)
+    this.p.set(u.pos.x, u.pos.y - sink, u.pos.z)
