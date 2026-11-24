@@ -574,6 +574,7 @@ button {
   opacity: 0;
 }
 
+.fade.on {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
