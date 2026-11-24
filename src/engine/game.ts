@@ -302,3 +302,4 @@ export class Game {
   /** Camera, terrain detail, fog and shadows for the current state. */
   private place(dt: number, snap: boolean, aiming = false) {
     const p = this.player
+    // the pivot follows her height softly so small bumps in the ground do not shake the view
