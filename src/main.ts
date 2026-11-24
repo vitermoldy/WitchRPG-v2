@@ -77,6 +77,7 @@ async function boot() {
       apply(v)
       saveProfile(pr)
     })
+  }
   })
 
   game.onPause = () => {
