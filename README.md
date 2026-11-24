@@ -38,7 +38,7 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | Mouse | Putar kamera |
 | Klik tengah | Lock-on ke makhluk terdekat di depan; klik lagi untuk lepas |
 | Sentak mouse ke samping | Pindah lock-on ke makhluk di sisi itu |
-| Esc | Jeda dan sensitivitas mouse |
+| Tab | Ledger: bagi poin stat dan skill, lihat dan lepas bayangan. Game menunggu selama Ledger terbuka |
 
 ## Struktur
 
