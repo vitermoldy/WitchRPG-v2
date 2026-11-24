@@ -241,3 +241,4 @@ export class Umbra {
     this.summonCd = Math.max(0, this.summonCd - dt)
     const open = this.riteOpen
     const p = g.player
+    const cam = g.camera.position
