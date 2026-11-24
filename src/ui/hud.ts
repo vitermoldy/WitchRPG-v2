@@ -63,6 +63,7 @@ export class Hud {
     this.cache.set(k, value)
     const el = $(id)
     if (key === 'text') el.textContent = value
+    else if (key === 'transform') el.style.transform = value
   }
 
   zone(z: Zone) {
