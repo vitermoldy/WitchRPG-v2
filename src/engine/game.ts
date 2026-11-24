@@ -952,6 +952,7 @@ export class Game implements UnitHost {
         aimZ: u.aimAt.z,
         dirX: u.lungeDir.x,
         dirZ: u.lungeDir.z,
+        hp: u.hp,
   }
 
   /** The nearest living Imp (world position), so the bot can look at it before locking on. */
