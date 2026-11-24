@@ -63,6 +63,8 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 | T | Panggil atau kembalikan seluruh pasukan |
 | Tahan Z | Roda perintah: gerakkan mouse ke Ikuti, Serang, Tahan, atau Tukar Tempat (Lv 4), lalu lepas Z. Perintah Fokus (Lv 6) membuat semua bayangan menyerang satu target |
 
+## Dunia
+
 
 ## Struktur
 
