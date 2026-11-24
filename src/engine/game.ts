@@ -402,3 +402,4 @@ export class Game {
     return best
   }
 
+  private debugText() {
