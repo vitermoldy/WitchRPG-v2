@@ -557,3 +557,4 @@ class Rig implements Poser {
       if (o.name) this.named.set(o.name, o)
       this.rest.set(o, o.rotation.clone())
       const mesh = o as THREE.Mesh
+      if (!mesh.isMesh) return
