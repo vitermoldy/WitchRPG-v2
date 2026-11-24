@@ -408,3 +408,4 @@ export class Fight {
   private startSwing(s: SwingState, inp: FightInput) {
     const g = this.g
     const p = g.player
+    this.stats.swings++
