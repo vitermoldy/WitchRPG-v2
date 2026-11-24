@@ -135,3 +135,4 @@ export class Spells {
   private readonly ray = new THREE.Ray()
   private readonly sphere = new THREE.Sphere()
 
+  constructor(g: Game) {
