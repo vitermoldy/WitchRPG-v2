@@ -236,3 +236,4 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     shot: { speed: 17, gravity: 9, radius: 0.3, keepAway: 11 },
   },
   warden: {
+    name: 'Warden',
