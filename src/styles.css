@@ -1259,6 +1259,7 @@ dialog::backdrop {
 }
 
 .btn-umbra:hover {
+  background: #4a2390;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
