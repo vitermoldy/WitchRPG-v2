@@ -858,6 +858,7 @@ button {
   color: var(--chaos-ink);
 }
 
+@keyframes chaos-full {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
