@@ -445,3 +445,4 @@ export class Spells {
   private drop(throwIt: boolean) {
     const g = this.g
     if (!this.grabbed.length) return
+    const aimAt = throwIt ? g.aim(80).point : null
