@@ -999,6 +999,7 @@ button {
   color: var(--umbra-ink);
 }
 
+.army-slots {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
