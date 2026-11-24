@@ -138,3 +138,4 @@ export class Unit implements Foe {
   home: THREE.Vector3 | null = null
   aggro = true
   /** Thrown by Telekinesis: hurts what it hits until it lands. */
+  hurled = false
