@@ -1212,6 +1212,7 @@ button {
 }
 
 .boss-hp {
+  height: 8px;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
