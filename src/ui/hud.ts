@@ -69,6 +69,7 @@ export class Hud {
 
   private html(el: HTMLElement, key: string, value: string) {
     if (this.cache.get(key) === value) return
+    this.cache.set(key, value)
   }
 
   zone(z: Zone) {
