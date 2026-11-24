@@ -1363,6 +1363,7 @@ dialog::backdrop {
   font-weight: 400;
 }
 
+.ledger-stats {
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
