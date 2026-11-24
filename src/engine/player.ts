@@ -91,3 +91,5 @@ export class Player {
       this.dodgeZ = dz / l
       this.dodgeT = 0
       this.dodges++
+    }
+
