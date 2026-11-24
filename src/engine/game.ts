@@ -236,3 +236,4 @@ export class Game {
     }
     this.lastFrame = now
     this.hud.update(dt)
+    this.renderer.info.reset()
