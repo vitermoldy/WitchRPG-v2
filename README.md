@@ -48,3 +48,4 @@ Kalau game terasa berat di laptop dengan dua GPU, atur Chrome ke "High performan
 
 ```
 src/game/     logika murni: angka tuning (balance.ts), progresi, skill, simpanan (dari v1)
+src/engine/   kamera (camera.ts), gerak (player.ts), rintangan (obstacles.ts), lock-on, model, input, game loop
