@@ -240,3 +240,4 @@ describe('phase 4 creatures', () => {
       if (m.state === 'windup' && m.atk.effect === 'petrify') gaze = true
     })
     expect(gaze).toBe(true)
+  })
