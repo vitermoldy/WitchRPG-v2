@@ -265,6 +265,7 @@ button {
 }
 
 .profile-line:empty {
+  display: none;
 .touch-note {
   display: none;
   margin: 1rem 0 0;
