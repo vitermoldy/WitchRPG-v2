@@ -1142,6 +1142,7 @@ button {
 
 .hpbar i {
   display: block;
+  transform-origin: left;
   .screen-start {
     grid-template-columns: 1fr;
     align-content: start;
