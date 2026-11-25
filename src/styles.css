@@ -1666,6 +1666,7 @@ dialog::backdrop {
     width: min(17rem, 30vw);
   }
   .army {
+    width: min(15rem, 26vw);
 @media (max-width: 860px) {
   .ledger-body {
     grid-template-columns: 1fr;
