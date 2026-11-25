@@ -6,7 +6,7 @@ import type { HeightFn } from './camera'
 import type { Obstacles } from './obstacles'
 
 export type Team = 'enemy' | 'shadow'
-export type UnitState = 'rising' | 'move' | 'windup' | 'strike' | 'recover' | 'stagger' | 'held' | 'thrown' | 'finishing' | 'diving' | 'dead' | 'sinking'
+export type UnitState = 'rising' | 'move' | 'windup' | 'strike' | 'recover' | 'stagger' | 'held' | 'thrown' | 'finishing' | 'diving' | 'ashes' | 'dead' | 'sinking'
 export type Command = 'follow' | 'attack' | 'hold'
 /** What a blow is, for the Minotaur's front shield: thrown things go through it, blows and bolts do not. */
 export type DamageKind = 'melee' | 'bolt' | 'blast' | 'staff' | 'impact' | 'shadow'
