@@ -509,6 +509,7 @@ export class UnitSystem {
           this.host.fx(u, 'reborn')
         }
         continue
+      }
       if (u.lifted > 0) {
         u.lifted = Math.max(0, u.lifted - dt)
         u.token = false
