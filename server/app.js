@@ -126,3 +126,4 @@ export function createApi(getPool, database) {
     const [al] = await db.query('SELECT altar, last FROM witch_altars WHERE client_id = ?', [client])
     const altars = al.length ? al.map((a) => a.altar) : ['pembuka']
     return {
+      version: 1,
