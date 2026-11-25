@@ -802,6 +802,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     anchored: true,
     boss: true,
     attacks: [
+      { name: 'ekor', strike: 'ring', windup: 0.8, recover: 0.9, range: 6, ring: 2.8, behind: true },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
