@@ -59,6 +59,7 @@ def tone_of(m):
         return None
     vary = 0.0
     for n in nodes:
+        links = n.inputs["Value"].links if n.bl_idname == "ShaderNodeMapRange" else ()
 def emission_of(m):
     if not m or not m.node_tree:
         return None
