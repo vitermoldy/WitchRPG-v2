@@ -283,6 +283,7 @@ export class Game implements UnitHost {
     this.shots.fire(u, atk)
   }
 
+  fx(u: Unit, what: 'blink' | 'ashes' | 'reborn', from?: THREE.Vector3) {
   summoned(h: Unit) {
     this.pools.open(h.pos, 1 + h.radius * 1.5, 1)
     this.glow.emit({ pos: h.center(), count: 18, color: COLOR.rift, intensity: 2.2, life: 0.6, size: 0.18, speed: 2.5 })
