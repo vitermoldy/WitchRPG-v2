@@ -159,3 +159,4 @@ describe('the seal on zones IV and V', () => {
   })
 })
 
+describe('creature shots', () => {
