@@ -530,6 +530,7 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
     const amp = Math.min(1.4, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed))
     const throwing = !!u.atk.shot
     if (u.state === 'windup') {
+      const k = ease(u.t / (u.atk.windup * u.tempo))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
