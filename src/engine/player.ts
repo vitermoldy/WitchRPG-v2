@@ -195,6 +195,7 @@ export class Player {
     this.stride += this.speed * dt * 2.4
   }
 
+  /** Toward a held yaw, else toward the way she is going. */
     let want: number | null = face
     if (want === null && this.speed > 0.3) want = Math.atan2(-this.vx, -this.vz)
     if (want !== null && !this.dodging) {
