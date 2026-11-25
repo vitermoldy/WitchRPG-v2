@@ -37,6 +37,7 @@ export const ALTARS: { key: string; name: string; c: [number, number] }[] = [
   { key: 'rawa', name: 'Altar Rawa Berkabut', c: [-184, -10] },
   { key: 'danau', name: 'Altar Danau Hitam', c: [-290, 200] },
   { key: 'kuil', name: 'Altar Reruntuhan Kuil', c: [40, 236] },
+  { key: 'bara', name: 'Altar Lembah Bara', c: [268, 286] },
 ]
 export const TEMPLE: [number, number] = [40, 318]
 /** Where the previz shots stood; the start point is the hero clearing of render 01. */
