@@ -150,6 +150,7 @@ describe('the open world (phase 7)', () => {
     const uni = w.sys.spawn('unicorn', 'enemy', 1, { x: 0, z: 4 })
     uni.home = new THREE.Vector3(0, 0, 4)
     expect(uni.targetable).toBe(false)
+    w.step(3)
 describe('the seal on zones IV and V', () => {
   const seal = new Seal(false)
   const kuil = toWorld(40, 330)
