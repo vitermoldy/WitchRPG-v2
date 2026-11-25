@@ -1761,6 +1761,7 @@ dialog::backdrop {
   border-color: var(--ink-3);
 }
 
+.gate-field input[aria-invalid='true'] {
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
