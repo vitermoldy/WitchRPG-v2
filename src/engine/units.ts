@@ -506,6 +506,7 @@ export class UnitSystem {
           u.hp = u.maxHp * r.hp
           u.downed = 0
           u.set('rising')
+          this.host.fx(u, 'reborn')
       if (u.lifted > 0) {
         u.lifted = Math.max(0, u.lifted - dt)
         u.token = false
