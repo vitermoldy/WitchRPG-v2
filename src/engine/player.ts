@@ -264,6 +264,7 @@ export class Player {
     const nz = this.pos.z + dz
     if (g.blocked(nx, nz, this.pos.x, this.pos.z, air)) return
     if (air) {
+      this.pos.x = nx
     const h0 = g.height(this.pos.x, this.pos.z)
     const h1 = g.height(nx, nz)
     const run = Math.hypot(dx, dz)
