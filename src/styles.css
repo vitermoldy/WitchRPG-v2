@@ -1675,6 +1675,7 @@ dialog::backdrop {
     width: 3.9rem;
     font-size: 0.68rem;
   }
+  .bossbar {
 @media (max-width: 860px) {
   .ledger-body {
     grid-template-columns: 1fr;
