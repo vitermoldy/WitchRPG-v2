@@ -1718,6 +1718,7 @@ dialog::backdrop {
   }
   .feed-item:nth-last-child(n + 3) {
     display: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
