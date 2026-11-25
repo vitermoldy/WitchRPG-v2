@@ -218,6 +218,8 @@ export class Game implements UnitHost {
 
   blocked(x: number, z: number, fx?: number, fz?: number) {
     return this.baseBlocked(x, z) || this.seal.blocks(x, z, fx, fz) || this.lair.blocks(x, z, fx, fz, false)
+  }
+
   /** A creature's blow on her lands now: dodge, parry, block or hit. */
   strikePlayer(u: Unit, atk: AttackSpec = u.atk) {
     const p = this.player
