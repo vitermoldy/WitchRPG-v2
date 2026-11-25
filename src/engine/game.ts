@@ -379,6 +379,7 @@ export class Game implements UnitHost {
         if (this.seal.blocks(x, z, fx, fz)) {
           this.sealRefusedAt = this.t
           return true
+        }
       },
     }
     this.glow = new Particles(5000, 'glow')
