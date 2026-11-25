@@ -72,6 +72,7 @@ def bake_tones(ob):
     if ob.type != "MESH":
         return False
     tones = [tone_of(s.material) for s in ob.material_slots]
+    if not any(tones):
 def emission_of(m):
     if not m or not m.node_tree:
         return None
