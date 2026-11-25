@@ -788,6 +788,7 @@ class Rig implements Poser {
   constructor(model: THREE.Group, kind: UnitKind, team: Team, group: THREE.Group, cap: number) {
     this.group = group
     this.team = team
+    this.passive = !!UNITS[kind]?.passive
     this.cap = cap
     this.pose = POSES[kind] ?? (() => {})
     const scene = model.clone(true)
