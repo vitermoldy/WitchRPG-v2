@@ -189,3 +189,4 @@ describe('creature shots', () => {
     for (let k = 0; k < 3; k++) shots.fire(naga, glob)
     expect(() => {
       for (let i = 0; i < 240; i++) shots.update(1 / 120)
+    }).not.toThrow()
