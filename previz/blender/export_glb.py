@@ -90,6 +90,7 @@ def bake_tones(ob):
             f = min(1.0, max(0.0, (nz + 0.45) / 0.8))
             co = me.vertices[me.loops[li].vertex_index].co
             fac = 0.5 + 0.5 * noise.noise(co * 4.0)
+            v = (1.0 - vary) + fac * vary * 1.5
 def emission_of(m):
     if not m or not m.node_tree:
         return None
