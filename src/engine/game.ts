@@ -622,6 +622,7 @@ export class Game implements UnitHost {
           this.hud.message('Hydra kebal. Pasang Reality Warp (V) di atasnya: di dalam medan jantungnya terbuka.', 'chaos')
         }
       }
+      return false
   private fall() {
     const p = this.player
     p.hp = 0
