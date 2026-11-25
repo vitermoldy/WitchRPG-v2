@@ -534,6 +534,7 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
       if (throwing) {
         // one arm back and up, the other forward: a throw or a cast
         p.rot('upperarm_R', -150 * k, 0, -20 * k)
+        p.rot('forearm_R', -40 * k)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
