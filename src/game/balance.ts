@@ -704,6 +704,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // v2 fauna (PROMPT: not enemies). A Pegasus drifts over the meadows; a Unicorn guards each altar.
   pegasus: {
+    name: 'Pegasus',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
