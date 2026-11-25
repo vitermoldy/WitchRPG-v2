@@ -374,6 +374,7 @@ export class Spells {
     if (!first) {
       // no creature: the boulder closest to the aim line
       const prop = g.props.pick(g.camera.position, g.camera.getWorldDirection(new THREE.Vector3()), SPELL.grip.range + 6, SPELL.grip.aimCone * 3)
+      if (!prop) return
     this.grabbed = [first]
     if (this.upgraded('grip')) {
       let second: Unit | null = null
