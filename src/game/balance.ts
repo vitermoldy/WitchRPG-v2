@@ -664,6 +664,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // v2, Tebing Berangin (PROMPT: Griffin liar): eagle head and wings on a lion's body; circles high, dives along a line.
   griffin: {
+    name: 'Griffin',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
