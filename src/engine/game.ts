@@ -674,6 +674,8 @@ export class Game implements UnitHost {
   }
 
   private immuneAt = -9
+  private landMsgAt = -99
+
   private immuneMsgAt = -99
 
   private fall() {
