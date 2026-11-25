@@ -456,4 +456,6 @@ export class Sfx {
     if (roll(0.06 * kuil)) this.chime(t)
     if (roll(3 * bara)) this.noise(t, 0.03, 'highpass', 2600, 0.035)
   }
+
+  }
 }
