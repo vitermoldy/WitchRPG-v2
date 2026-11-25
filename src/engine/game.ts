@@ -632,6 +632,8 @@ export class Game implements UnitHost {
       this.hud.hit(died)
     }
     return died
+  }
+
   private fall() {
     const p = this.player
     p.hp = 0
