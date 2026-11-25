@@ -580,6 +580,7 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
 
 /** Phoenix: rides on fire, sways and tilts as it circles, dives head first. */
 const posePhoenix: PoseFn = (p, u, t) => {
+  if (common(p, u, t, ['leg_L', 'leg_R', 'tail'])) return
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
