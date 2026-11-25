@@ -996,7 +996,7 @@ export class Rigs {
         counts.set(u.kind, (counts.get(u.kind) ?? 0) + 1)
         continue
       }
-      this.rig(u.kind, u.team)?.add(u, t, glowOf(u), this.sink(u))
+      const glow = u.state === 'ashes' ? this.ember.setRGB(1.6, 0.5, 0.1).multiplyScalar(0.6 + 0.4 * Math.sin(t * 6 + u.id)) : glowOf(u)
     }
     for (const r of this.rigs.values()) r.end()
 
