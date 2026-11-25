@@ -183,6 +183,7 @@ export class Spells {
     return this.g.derived.damageMult * (this.overloaded ? CHAOS.overloadDamage : 1)
   }
 
+  /** A boulder held by Telekinesis (when no creature was in the aim). */
   get gripping() {
     return this.grabbed.length > 0
   }
