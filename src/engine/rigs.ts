@@ -58,6 +58,7 @@ export interface Poser {
   rot(name: string, x: number, y?: number, z?: number): void
   /** Whole body: lift (m), pitch forward and roll to its left (degrees). */
   body(lift: number, pitch?: number, roll?: number): void
+  /** Leaves a part, and everything hanging from it, out of this unit's drawing. */
 }
 
 type PoseFn = (p: Poser, u: Unit, t: number) => void
