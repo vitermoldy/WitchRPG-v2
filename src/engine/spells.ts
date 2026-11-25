@@ -478,6 +478,7 @@ export class Spells {
     if (!this.grabbed.length && !this.heldProp) return
     const aimAt = throwIt ? g.aim(80).point : null
     if (this.heldProp) {
+      const prop = this.heldProp
     for (const u of this.grabbed) {
       if (!u.alive) continue
       const speed = u.mass >= 300 ? SPELL.grip.heavyThrowSpeed : u.mass > 200 ? SPELL.grip.throwSpeed * 0.6 : SPELL.grip.throwSpeed
