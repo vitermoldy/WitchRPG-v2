@@ -11,6 +11,7 @@ export interface MoveInput {
   /** B pressed: take to the air, or land. */
   fly?: boolean
   /** While flying: 1 climbs (Space), -1 sinks (C). */
+  rise?: number
 }
 
 export interface Ground {
