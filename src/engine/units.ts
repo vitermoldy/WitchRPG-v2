@@ -23,8 +23,7 @@ export interface UnitHost {
   readonly height: HeightFn
   /** Her feet, her size, and whether she can be targeted. */
   readonly foe: Foe
-  /** Ground no creature may stand on: deep water, past the map edge. */
-  blocked(x: number, z: number): boolean
+  /** Ground no creature may step to from (fx, fz): deep water, past the map edge, a seal. */
   /** A blow on her lands; the host resolves block, parry and dodge. */
   strikePlayer(u: Unit, atk?: AttackSpec): void
   /** A unit struck a unit of the other side. */
