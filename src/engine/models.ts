@@ -120,6 +120,7 @@ export class IlyraModel {
   /** What she sees of herself in first person: forearms, hands and the staff. */
   private static readonly SEEN = new Set(['forearm_L', 'forearm_R', 'hand_L', 'hand_R', 'staff'])
 
+  /**
   /** World position of a palm (L: Chaos, R: Umbra). */
   hand(side: 'L' | 'R', out = new THREE.Vector3()): THREE.Vector3 {
     const h = this.parts['hand_' + side]
