@@ -724,6 +724,7 @@ export const HYDRA = {
   armyShare: 0.15,
   /** Mass of a boulder on the islands, as a creature's: thrown at full speed it hits for about 74 with v1's impact formula, before her Hex and the 150% of phase 2. */
   rockMass: 120,
+  /** Each new phase gives her back a share of max HP and some mana (v1). */
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
 export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
