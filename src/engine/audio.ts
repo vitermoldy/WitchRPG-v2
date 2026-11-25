@@ -372,6 +372,7 @@ export class Sfx {
   /** A Phoenix falling to ashes: embers dying down. */
   ashes() {
     if (!this.ok()) return
+    const t = this.ctx!.currentTime
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
