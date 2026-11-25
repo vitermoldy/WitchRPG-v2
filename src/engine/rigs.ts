@@ -724,7 +724,7 @@ class Rig implements Poser {
       const src = mesh.material as THREE.MeshStandardMaterial
       let mat = mats.get(src)
       if (!mat) {
-        mat = team === 'shadow' ? shadowMaterial(src) : src.clone()
+        mat = team === 'shadow' ? shadowMaterial(src, mesh.geometry) : src.clone()
         patchGlow(mat)
         mats.set(src, mat)
       }
