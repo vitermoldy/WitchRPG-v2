@@ -133,6 +133,7 @@ export class IlyraModel {
     }
     walk(this.root)
     for (const side of ['L', 'R']) {
+      this.parts['hand_' + side]?.traverse((o) => {
   /** World position of a palm (L: Chaos, R: Umbra). */
   hand(side: 'L' | 'R', out = new THREE.Vector3()): THREE.Vector3 {
     const h = this.parts['hand_' + side]
