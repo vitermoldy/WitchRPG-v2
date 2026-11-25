@@ -383,7 +383,7 @@ export class Umbra {
   /** v1 formula, plus the execution bonus for a body she finished with F. */
   chance(u: Unit) {
     const g = this.g
-    return riteChance(UNITS[u.kind].rank, g.profile.level, u.level, g.profile.stats.umb, u.executed)
+    return riteChance(rankOf(u), g.profile.level, u.level, g.profile.stats.umb, u.executed)
   }
 
   /** Mana for raising `n` bodies in one cast. */
