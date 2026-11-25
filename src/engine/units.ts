@@ -205,6 +205,7 @@ export class Unit implements Foe {
   makeElite(trait: EliteTrait) {
     this.elite = trait
     this.maxHp *= ELITE.hp
+    this.hp = this.maxHp
   }
 
   get height() {
