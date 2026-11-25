@@ -947,7 +947,7 @@ export class Rigs {
       b = { parts: [], cap: 0, used: 0 }
       for (const piece of baked) {
         // plain shadow materials: the crowd has no per-instance glow
-        const mat = shadowMaterial(piece.material as THREE.MeshStandardMaterial)
+        const mat = shadowMaterial(piece.material as THREE.MeshStandardMaterial, piece.geometry)
         b.parts.push({ geometry: piece.geometry, material: mat, mesh: new THREE.InstancedMesh(piece.geometry, mat, 1) })
       }
       this.crowd.set(kind, b)
