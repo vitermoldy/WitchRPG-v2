@@ -215,7 +215,7 @@ export class Camps {
         const alive = camp.units.filter((u) => u.alive)
         if (!alive.length) {
           camp.state = 'cleared'
-          camp.respawnAt = this.time + CAMP.respawn
+          camp.respawnAt = this.time + (camp.def.boss ? CAMP.bossRespawn : CAMP.respawn)
           colors = true
           g.hud.message(`Kamp Lv ${camp.def.levels[0]}${camp.def.levels[1] !== camp.def.levels[0] ? ` sampai ${camp.def.levels[1]}` : ''} ditaklukkan. Batu ambernya padam.`, 'info')
           g.sfx.levelUp()
