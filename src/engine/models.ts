@@ -130,6 +130,7 @@ export class IlyraModel {
       if (IlyraModel.SEEN.has(o.name)) return
       o.layers.set(on ? IlyraModel.HIDDEN_LAYER : 0)
       for (const c of o.children) walk(c)
+    }
   /** World position of a palm (L: Chaos, R: Umbra). */
   hand(side: 'L' | 'R', out = new THREE.Vector3()): THREE.Vector3 {
     const h = this.parts['hand_' + side]
