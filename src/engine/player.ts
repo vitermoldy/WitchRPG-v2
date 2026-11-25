@@ -267,6 +267,7 @@ export class Player {
       this.pos.x = nx
       this.pos.z = nz
       return
+    }
     const h0 = g.height(this.pos.x, this.pos.z)
     const h1 = g.height(nx, nz)
     const run = Math.hypot(dx, dz)
