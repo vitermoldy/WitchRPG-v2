@@ -343,6 +343,7 @@ export class Game implements UnitHost {
     if (u === this.lair.body) this.lair.bossDied()
     this.counts.kills++
     this.reward(u)
+    if (u.elite === 'meledak') this.blastLater(u.pos.clone(), ELITE.burst.radius, u.damage * ELITE.burst.damage, ELITE.burst.delay)
     this.smoke.emit({ pos: u.pos, count: 6, color: 0x2a2024, life: 1, size: 0.6, sizeEnd: 1.2, speed: 0.8, alpha: 0.5 })
   }
 
