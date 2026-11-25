@@ -958,6 +958,7 @@ export const HYDRA = {
   /** The lair opens only to a witch of this level: phase 3 can only be won inside Reality Warp. */
   lairLevel: 10,
   /** Seconds after it falls before it stands in the lake again (owner: every 45 seconds, like every boss). */
+  respawn: 45,
   /** It rises into the lake when she comes within `wake` of the lair, and sinks away again past `sleep` (m). */
   wake: 150,
   sleep: 220,
