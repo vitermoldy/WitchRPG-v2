@@ -683,6 +683,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 45,
   },
   // v2, Tebing Berangin: the Griffin's quicker cousin with a horse's hindquarters; lower and faster dives.
+  hippogriff: {
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
