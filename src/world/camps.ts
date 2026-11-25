@@ -221,6 +221,7 @@ export class Camps {
           if (boss) {
             g.hud.banner(boss.name, 'tumbang. Tubuhnya bisa dibangkitkan dengan Kebangkitan Marsekal, satu kali')
             g.profile.bossKills += 1
+            g.saveSoon()
           g.sfx.levelUp()
           g.counts.campsCleared++
           return
