@@ -225,6 +225,7 @@ export class Game implements UnitHost {
   /** Past the edge of the playable map. */
   private offMap(x: number, z: number) {
     const [mx, my] = toMap(x, z)
+    return Math.abs(mx) > PLAY_HALF || Math.abs(my) > PLAY_HALF
   blocked(x: number, z: number, fx?: number, fz?: number) {
     return this.baseBlocked(x, z) || this.seal.blocks(x, z, fx, fz) || this.lair.blocks(x, z, fx, fz, false)
   }
