@@ -100,3 +100,4 @@ export function cleanProfile(p, now = Date.now()) {
   return { level, xp, statPoints, skillPoints, nextShadowId, bossKills, stats, upgrades, shadows, world: { altars, last }, settings, updatedAt: new Date(updated) }
 }
 
+/** The pool appears once MySQL answers; until then the API says so instead of hanging. */
