@@ -101,8 +101,7 @@ export class CameraRig {
     const a = CAMERA.aim
     const f = CAMERA.first
     const p = {
-      dist: lerp(n.dist, a.dist, this.aim),
-      shoulder: lerp(n.shoulder, a.shoulder, this.aim),
+      dist: lerp(lerp(n.dist, a.dist, this.aim), -f.ahead, this.fp),
       height: lerp(n.height, a.height, this.aim),
       fov: lerp(n.fov, a.fov, this.aim),
     }
