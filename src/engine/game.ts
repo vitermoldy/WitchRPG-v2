@@ -740,6 +740,7 @@ export class Game implements UnitHost {
     for (const k of Object.keys(own)) if (!(k in p)) delete own[k]
     Object.assign(this.profile, p)
     saveProfile(this.profile, false)
+    this.sensitivity = p.settings.sensitivity
   }
 
   // ------------------------------------------------------------ aiming from the shoulder camera
