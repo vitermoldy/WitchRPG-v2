@@ -42,6 +42,7 @@ describe('Ilyra in the air (B)', () => {
     run(p, B, 1 / 120, lake)
     run(p, { ...idle, rise: 1 }, 1, lake)
     run(p, { ...idle, y: 1 }, 1, lake)
+    expect(p.pos.z).toBeLessThan(-5)
 describe('Ilyra on foot', () => {
   it('moves the way the camera looks', () => {
     const p = new Player()
