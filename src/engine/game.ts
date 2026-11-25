@@ -1129,6 +1129,7 @@ export class Game implements UnitHost {
     const p = this.player.pos
     const u = this.units.spawn(kind, 'enemy', level, { x: p.x, z: p.z - dist })
     u.makeElite(trait ?? ELITE.traits[Math.floor(Math.random() * ELITE.traits.length)])
+    u.aggro = true
   /** ?debug: adds shadows to the Shadow Room (for the army measurements). */
   debugShadows(n: number, kind: V2Kind = 'imp', level = 1) {
     for (let i = 0; i < n; i++) addShadow(this.profile, V2_KINDS.includes(kind) ? kind : 'imp', level)
