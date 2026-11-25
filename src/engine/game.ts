@@ -221,6 +221,8 @@ export class Game implements UnitHost {
   }
 
   /** Game time a step of hers was refused by the seal, for the HUD. */
+  sealRefusedAt = -99
+
   /** A creature's blow on her lands now: dodge, parry, block or hit. */
   strikePlayer(u: Unit, atk: AttackSpec = u.atk) {
     const p = this.player
