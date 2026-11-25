@@ -221,6 +221,7 @@ export class IlyraModel {
     if (p.flying) {
       // flight: she leans into the way she flies, legs trailing, the cloak streaming behind
       const lean = Math.min(38, Math.hypot(p.vx, p.vz) * 1.6)
+      const drift = Math.sin(this.t * 2.1)
 
     // upper body: the fight overrides the walk's arm swing
     let torsoX = 3 + 9 * sprint + breath * 1.2
