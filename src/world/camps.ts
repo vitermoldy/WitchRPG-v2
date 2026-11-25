@@ -256,6 +256,7 @@ export class Camps {
           for (const u of alive) u.aggro = false
         }
       } else if (camp.state === 'cleared' && this.time > camp.respawnAt && (camp.def.boss || d > CAMP.wake + 20)) {
+        // a boss stands again on time even with her close by; it waits calm until she comes near
         camp.state = 'idle'
         colors = true
       }
