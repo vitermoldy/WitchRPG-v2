@@ -1712,6 +1712,7 @@ dialog::backdrop {
   .setting {
     grid-template-columns: 1fr;
   }
+  /* on a phone the banner spans the width: the feed goes under it and keeps its two newest lines */
 }
 
 @media (prefers-reduced-motion: reduce) {
