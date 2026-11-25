@@ -380,6 +380,7 @@ export class Game implements UnitHost {
           this.sealRefusedAt = this.t
           return true
         }
+        return this.lair.blocks(x, z, fx, fz, true)
       },
     }
     this.glow = new Particles(5000, 'glow')
