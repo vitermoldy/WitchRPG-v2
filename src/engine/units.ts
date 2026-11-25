@@ -201,6 +201,8 @@ export class Unit implements Foe {
     this.radius = this.spec.radius * s
   }
 
+  }
+
   get height() {
     return this.spec.height * this.scale
   }
