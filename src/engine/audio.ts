@@ -436,5 +436,6 @@ export class Sfx {
       o.start()
     }
     df.connect(drone).connect(this.master!)
+    this.amb = { wind: wind.g, windF: wind.f, drone, insects: insects.g }
   }
 }
