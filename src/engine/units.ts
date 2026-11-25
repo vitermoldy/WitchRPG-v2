@@ -535,6 +535,7 @@ export class UnitSystem {
   }
 
   /** Succubus and Incubus: gone in a puff, back a dozen metres away from her. */
+  private blink(u: Unit, from: Foe) {
   /** A diving Naga comes up a few metres away, rising out of the ground. */
   private surface(u: Unit) {
     for (let tries = 0; tries < 6; tries++) {
