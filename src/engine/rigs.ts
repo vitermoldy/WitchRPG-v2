@@ -830,6 +830,7 @@ class Rig implements Poser {
   private steerNecks(u: Unit): boolean {
     let steering = false
     u.parts!.forEach((h, k) => {
+      if (!h || !h.alive || (h.state !== 'strike' && h.state !== 'recover' && h.state !== 'stagger')) return
   }
 
   end() {
