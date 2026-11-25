@@ -32,6 +32,8 @@ function meanColor(geo: THREE.BufferGeometry | undefined): THREE.Color | null {
   const c = new THREE.Color(0, 0, 0)
   for (let i = 0; i < a.count; i++) c.add(new THREE.Color(a.getX(i), a.getY(i), a.getZ(i)))
   return c.multiplyScalar(1 / a.count)
+}
+
   const m = src.clone()
   const c = src.color
   const lum = c.r * 0.3 + c.g * 0.59 + c.b * 0.11
