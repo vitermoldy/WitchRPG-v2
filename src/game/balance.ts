@@ -1222,6 +1222,7 @@ export const COMBAT = {
  */
 /**
  * `pack`: every ordinary pack comes out this much larger than its list (rounded up); the owner asked for
+ * more creatures. `bossRespawn`: a boss stands again this long after it falls (s), wherever she is; the
 
 /** v2 open world: falling, and getting up again. */
 export const REVIVE = {
