@@ -658,6 +658,8 @@ const poseHydra: PoseFn = (p, u, t) => {
     }
     if (mode === 'limp' && h && !h.alive) p.hide('head' + i)
   }
+}
+
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
