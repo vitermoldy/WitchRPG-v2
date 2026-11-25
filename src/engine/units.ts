@@ -543,6 +543,7 @@ export class UnitSystem {
     const dz = u.pos.z - p.pos.z
     const d = Math.hypot(dx, dz) || 1
     if (p.alive && d < 9) {
+      this.steer(u, u.pos.x + (dx / d) * 6, u.pos.z + (dz / d) * 6, u.speed, dt, 0.5)
   /** Succubus and Incubus: gone in a puff, back a dozen metres away from her. */
   private blink(u: Unit, from: Foe) {
     const spec = u.spec.blink!
