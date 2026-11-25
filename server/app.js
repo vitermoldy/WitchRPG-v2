@@ -130,3 +130,4 @@ export function createApi(getPool, database) {
       level: w.level,
       xp: w.xp,
       statPoints: w.stat_points,
+      skillPoints: w.skill_points,
