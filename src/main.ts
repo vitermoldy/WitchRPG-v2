@@ -107,7 +107,7 @@ async function boot() {
   })
   shake.addEventListener('change', () => {
     pr.settings.shake = shake.checked
-    saveProfile(pr)
+    game.saveNow()
   })
 
   game.onPause = () => {
