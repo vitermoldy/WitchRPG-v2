@@ -546,6 +546,7 @@ export class UnitSystem {
       if (this.host.blocked(x, z)) continue
       u.pos.x = x
       u.pos.z = z
+      break
   /** A diving Naga comes up a few metres away, rising out of the ground. */
   private surface(u: Unit) {
     for (let tries = 0; tries < 6; tries++) {
