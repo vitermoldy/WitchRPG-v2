@@ -65,7 +65,7 @@ export class Sfx {
     this.env(g, t, attack, peak, dur)
     src.connect(f).connect(g).connect(this.master!)
     src.start(t, Math.random())
-    src.stop(t + dur + 0.05)
+    src.stop(t + attack + dur + 0.05)
   }
 
   private tone(t: number, type: OscillatorType, f0: number, f1: number, dur: number, peak: number, attack = 0.005) {
