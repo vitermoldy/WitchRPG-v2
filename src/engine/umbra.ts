@@ -285,7 +285,7 @@ export class Umbra {
       if (glowing) {
         if (Math.random() < dt * 6) g.glow.emit({ pos: u.pos, count: 1, color: COLOR.umbra, intensity: 2.2, life: 1.2, size: 0.12, vel: { x: 0, y: 0.9, z: 0 }, jitter: 0.5 })
         const dist = Math.hypot(u.pos.x - p.pos.x, u.pos.z - p.pos.z)
-        if (dist < RITE.massRadius && !riteBlock(g.profile, u.kind)) near.push(u)
+        if (dist < RITE.massRadius && !riteBlock(g.profile, u.kind, rankOf(u))) near.push(u)
         if (dist < RITE.range) {
           const dir = new THREE.Vector3(u.pos.x, u.pos.y + 0.3, u.pos.z).sub(cam).normalize()
           const ang = fwd.angleTo(dir)
