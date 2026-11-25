@@ -439,5 +439,6 @@ export class Sfx {
     this.amb = { wind: wind.g, windF: wind.f, drone, insects: insects.g }
   }
 
+  /** Each frame, with the zone weights in ZONES order (pembuka, tebing, rawa, kuil, bara). */
   }
 }
