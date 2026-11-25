@@ -103,6 +103,7 @@ async function boot() {
   const shake = $('set-shake') as HTMLInputElement
   shake.checked = pr.settings.shake
   refreshers.push(() => {
+    shake.checked = pr.settings.shake
   shake.addEventListener('change', () => {
     pr.settings.shake = shake.checked
     saveProfile(pr)
