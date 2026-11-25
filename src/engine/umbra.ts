@@ -220,6 +220,7 @@ export class Umbra {
     u.slot = slot
     u.yaw = g.player.facing + Math.PI
     u.focusBonus = hasUpgrade(g.profile, 'focus') ? RITE.focusBonus : 0
+    // the shadow Hydra walks with the army at a size that fits among the soldiers
     // UMB makes every soldier stronger
     const power = g.derived.shadowPower
     u.maxHp *= power
