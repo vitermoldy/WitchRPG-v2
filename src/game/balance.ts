@@ -829,6 +829,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'bola dunia', strike: 'ring', windup: 1.6, recover: 1.4, range: 8, ring: 5, ahead: 3, damage: 1.5, cooldown: 6 },
       { name: 'lempar batu', strike: 'ring', windup: 1.2, recover: 1, range: 30, minRange: 9, ring: 3, shot: { speed: 13, gravity: 14, radius: 0.7 }, cooldown: 4 },
     ],
+  },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
