@@ -140,6 +140,7 @@ export class IlyraModel {
           m.emissiveIntensity = on ? m.userData.glow * 0.2 : m.userData.glow
         }
         const l = o as THREE.PointLight
+        if (l.isPointLight) {
   /** World position of a palm (L: Chaos, R: Umbra). */
   hand(side: 'L' | 'R', out = new THREE.Vector3()): THREE.Vector3 {
     const h = this.parts['hand_' + side]
