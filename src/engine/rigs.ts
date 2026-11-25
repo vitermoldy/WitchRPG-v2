@@ -614,6 +614,7 @@ const posePhoenix: PoseFn = (p, u, t) => {
  */
 const poseHydra: PoseFn = (p, u, t) => {
   if (u.state === 'dead') {
+    const k = ease(u.deadT / 1.2)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
