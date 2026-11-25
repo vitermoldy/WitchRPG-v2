@@ -515,3 +515,4 @@ export class Lair {
   info() {
     const b = this.body
     return {
+      state: this.state,
