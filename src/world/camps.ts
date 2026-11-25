@@ -162,6 +162,7 @@ export class Camps {
     for (let k = 0; k < (camp.def.elites ?? 0) && plain.length; k++) {
       const u = plain.splice(Math.floor(Math.random() * plain.length), 1)[0]
       u.makeElite(ELITE.traits[Math.floor(Math.random() * ELITE.traits.length)])
+    }
   }
 
   /** Puts every awake pack back to sleep (she fell); cleared camps stay cleared. */
