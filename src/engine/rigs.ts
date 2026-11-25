@@ -805,6 +805,7 @@ class Rig implements Poser {
       }
       part.glow.setXYZ(i, gr, gg, gb)
     }
+    // the Hydra's heads: where they were drawn is where they can be struck
   }
 
   end() {
