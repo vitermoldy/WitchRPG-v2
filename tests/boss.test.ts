@@ -168,3 +168,4 @@ describe('creature shots', () => {
     const noop = () => {}
     let falls = 0
     const g = {
+      height: () => 0,
