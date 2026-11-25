@@ -186,3 +186,5 @@ export function createApi(getPool, database) {
     } finally {
       conn.release()
     }
+  })
+
