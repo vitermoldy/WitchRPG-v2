@@ -136,7 +136,7 @@ async function boot() {
     travel: (key) => game.travel(key),
     openLedger: () => ledger.open(),
   })
-  if (debug) Object.assign(window as unknown as Record<string, unknown>, { __ledger: ledger, __travel: travel })
+  const map = new WorldMap(game)
 
   /** A menu opens: the game waits and the mouse is freed for the buttons. */
   const openMenu = (menu: { open(): void }) => {
