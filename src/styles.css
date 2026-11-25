@@ -1723,6 +1723,7 @@ dialog::backdrop {
   .hint {
     bottom: calc(var(--gutter) + 12rem);
     max-width: calc(100% - 2 * var(--gutter));
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
