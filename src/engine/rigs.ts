@@ -44,6 +44,7 @@ function shadowMaterial(src: THREE.MeshStandardMaterial): THREE.MeshStandardMate
 }
 
 interface Part {
+  /** Names of the mesh and every named node above it, for hiding a part with its children. */
   src: THREE.Mesh
   geo: THREE.BufferGeometry
   mat: THREE.MeshStandardMaterial
