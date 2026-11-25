@@ -693,6 +693,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
 
 /**
  * The Hydra, built on the three-phase plan of v1's Hollow Warden. Phase 1: heads slam under amber
+ * circles and spew Imps; a head knocked off balance can be executed (it is severed). Phase 2 (from
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
 export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
