@@ -632,6 +632,7 @@ const poseHydra: PoseFn = (p, u, t) => {
     let target: { x: number; z: number } | null = null
     if (h) {
       if (!h.alive || h.state === 'finishing') mode = 'limp'
+      else if (h.state === 'windup') mode = 'rear'
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
