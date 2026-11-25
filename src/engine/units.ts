@@ -366,6 +366,7 @@ export class UnitSystem {
       // the first fall leaves ashes that burn for a moment, then it rises again (an execution ends it for good)
       this.host.clearTelegraph(u)
       u.token = false
+      u.hp = 1
     this.host.clearTelegraph(u)
     u.hp = 0
     u.token = false
