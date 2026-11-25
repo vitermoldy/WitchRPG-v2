@@ -603,6 +603,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'cakar', strike: 'ring', windup: 0.6, recover: 0.7, range: 2.8, lungeSpeed: 7, lungeTime: 0.3 },
     ],
   },
+  // v2, Kuil and Bara: the heavier of the pair; lobs green fire onto circles and calls Imps.
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
