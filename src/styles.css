@@ -674,6 +674,7 @@ button {
 @media (min-width: 1181px) {
   .banner {
     width: min(40rem, 100% - 2 * (min(24rem, 40vw) + 2 * var(--gutter)));
+  }
 .banner.show {
   opacity: 1;
   transform: translate(-50%, 0);
