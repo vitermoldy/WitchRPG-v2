@@ -615,6 +615,7 @@ export class Game implements UnitHost {
       // phase 3 outside Reality Warp: nothing gets through
       if (source === 'player' && this.t - this.immuneAt > 0.4) {
         this.immuneAt = this.t
+        this.sfx.clank()
   private fall() {
     const p = this.player
     p.hp = 0
