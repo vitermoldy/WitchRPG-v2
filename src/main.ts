@@ -64,6 +64,7 @@ async function boot() {
 
   const pr = game.profile
   // what the start screen shows from the witch; read again when the server hands over another one
+  const refreshers: (() => void)[] = []
 
   /** One range setting: shows its value, applies it, and keeps it in the save. */
   const range = (id: string, value: number, fmt: (v: number) => string, apply: (v: number) => void) => {
