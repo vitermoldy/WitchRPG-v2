@@ -547,6 +547,7 @@ export class Game implements UnitHost {
     if (this.t - this.refusedMsgAt < 5) return
     if (this.t - this.sealRefusedAt < 0.1) {
       this.refusedMsgAt = this.t
+      this.hud.message('Reruntuhan Kuil dan Lembah Bara tersegel sampai Hydra di Danau Hitam kalah.', 'info')
   /** Damage to her after the barrier. */
   hurtPlayer(dmg: number, from: { x: number; z: number }) {
     const p = this.player
