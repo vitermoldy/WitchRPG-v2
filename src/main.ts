@@ -3,7 +3,7 @@ import '@fontsource-variable/figtree'
 import '@fontsource-variable/martian-mono'
 import './styles.css'
 import { Game } from './engine/game'
-import { saveProfile } from './game/save'
+import { mountAccount } from './ui/account'
 import { Ledger, TravelPanel } from './ui/ledger'
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T
