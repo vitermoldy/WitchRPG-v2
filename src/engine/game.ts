@@ -940,7 +940,7 @@ export class Game implements UnitHost {
     }, aiming)
 
     const target = this.lockon.current
-    const face = this.fight.faceYaw ?? (target ? yawTo(p.pos.x, p.pos.z, target.x, target.z) : aiming || this.fight.blocking ? this.rig.yaw : null)
+    // in first person she faces where the view looks, like v1
     // wading in the Hydra's flood is slow
     const wading = this.lair.depthAt(p.pos.x, p.pos.z, p.pos.y) > 0.3 ? 0.6 : 1
     p.moveScale = alive ? this.fight.moveScale * (this.umbra.casting.length ? 0.4 : 1) * wading : 0
