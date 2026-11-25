@@ -732,6 +732,7 @@ const poseBeast: PoseFn = (p, u, t) => {
 /** A biped whose lower body is one or more serpents (Lilith, Typhon): the coils sway as it moves. */
 function serpentine(base: PoseFn, part: string): PoseFn {
   return (p, u, t) => {
+    base(p, u, t)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
