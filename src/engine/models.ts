@@ -231,6 +231,7 @@ export class IlyraModel {
       this.rot('pelvis', 0)
       this.rot('cloak', 14 + lean * 0.5)
       this.rot('head', -2 - lean * 0.6)
+    } else {
 
     // upper body: the fight overrides the walk's arm swing
     let torsoX = 3 + 9 * sprint + breath * 1.2
