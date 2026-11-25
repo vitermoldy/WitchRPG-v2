@@ -417,6 +417,7 @@ export class Sfx {
     const wind = loop('bandpass', 700, 0.6)
     // the leaves breathe: a slow sweep of the wind band
     const lfo = ctx.createOscillator()
+    lfo.frequency.value = 0.07
     for (const freq of [43.65, 44.1, 65.4]) {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
