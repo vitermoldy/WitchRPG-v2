@@ -532,6 +532,7 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
     if (u.state === 'windup') {
       const k = ease(u.t / (u.atk.windup * u.tempo))
       if (throwing) {
+        // one arm back and up, the other forward: a throw or a cast
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
