@@ -625,6 +625,7 @@ export class Game implements UnitHost {
       return false
     }
     dmg *= share
+    if (u !== body) this.units.hurt(u, 0, from, stun, 0)
   private fall() {
     const p = this.player
     p.hp = 0
