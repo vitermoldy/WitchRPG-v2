@@ -377,6 +377,7 @@ export class Game implements UnitHost {
       blocked: (x, z, fx, fz) => {
         if (this.baseBlocked(x, z)) return true
         if (this.seal.blocks(x, z, fx, fz)) {
+          this.sealRefusedAt = this.t
       },
     }
     this.glow = new Particles(5000, 'glow')
