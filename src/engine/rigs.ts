@@ -37,6 +37,7 @@ function meanColor(geo: THREE.BufferGeometry | undefined): THREE.Color | null {
 function shadowMaterial(src: THREE.MeshStandardMaterial, geo?: THREE.BufferGeometry): THREE.MeshStandardMaterial {
   const m = src.clone()
   // a shadow is one purple body: the creature's two tones only set how light it is
+  m.vertexColors = false
   const lum = c.r * 0.3 + c.g * 0.59 + c.b * 0.11
   m.color.setRGB(0.045 + lum * 0.16, 0.02 + lum * 0.07, 0.085 + lum * 0.28)
   const glowing = src.emissive && src.emissive.getHex() !== 0 && src.emissiveIntensity > 0
