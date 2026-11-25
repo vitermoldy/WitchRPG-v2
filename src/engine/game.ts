@@ -612,6 +612,7 @@ export class Game implements UnitHost {
     const share = this.lair.share(u, kind)
     const body = this.lair.body!
     if (share <= 0) {
+      // phase 3 outside Reality Warp: nothing gets through
   private fall() {
     const p = this.player
     p.hp = 0
