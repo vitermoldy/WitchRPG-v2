@@ -206,6 +206,7 @@ export class Game implements UnitHost {
   /** Ground height, with the Hydra's islands standing out of the flood. */
   height(x: number, z: number) {
     const base = heightAt(x, z)
+    return this.lair ? this.lair.height(x, z, base) : base
   }
 
   blocked(x: number, z: number) {
