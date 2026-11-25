@@ -811,6 +811,7 @@ class Rig implements Poser {
         const node = this.named.get('head' + k)
         if (!h || !node) return
         h.visual.copy(this.hv.setFromMatrixPosition(node.matrixWorld).applyMatrix4(this.unitM))
+      })
   }
 
   end() {
