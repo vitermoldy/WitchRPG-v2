@@ -547,6 +547,7 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
     }
     if (u.state === 'strike' || (u.state === 'recover' && u.t < 0.25 && throwing)) {
       if (throwing) {
+        p.rot('upperarm_R', -40, 0, -10)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
