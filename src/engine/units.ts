@@ -80,6 +80,7 @@ export class Unit implements Foe {
   blinkCd = 0
   /** A Phoenix that has already risen from its ashes once. */
   reborn = false
+  /** Driven from outside (the Hydra's heads): no brain, no walking. */
   readonly pos = new THREE.Vector3()
   readonly vel = new THREE.Vector3()
   /** Facing; 0 looks along +z, the way the models face. */
