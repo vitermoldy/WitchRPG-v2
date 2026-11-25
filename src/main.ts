@@ -76,6 +76,7 @@ async function boot() {
     const input = $(`set-${id}`) as HTMLInputElement
     const out = $(`out-${id}`) as HTMLOutputElement
     const show = () => {
+      input.value = String(value())
     input.addEventListener('input', () => {
       const v = Number(input.value)
       out.textContent = fmt(v)
