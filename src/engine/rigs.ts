@@ -742,6 +742,7 @@ const POSES: Partial<Record<UnitKind, PoseFn>> = {
   hippogriff: poseBeast,
   pegasus: poseBeast,
   unicorn: poseBeast,
+  dragon: poseBeast,
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
   incubus: biped({ heavy: 0.3, reach: 0.8, sway: 6 }),
