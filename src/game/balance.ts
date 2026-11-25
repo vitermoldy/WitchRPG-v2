@@ -684,6 +684,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 60,
     anchored: true,
     part: true,
+    attacks: [
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
