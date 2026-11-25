@@ -210,6 +210,7 @@ export class Unit implements Foe {
     this.setScale(this.scale * ELITE.scale)
     if (trait === 'gesit') {
       this.speed *= ELITE.swift.speed
+      this.tempo = ELITE.swift.tempo
   }
 
   get height() {
