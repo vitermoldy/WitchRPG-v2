@@ -738,6 +738,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // the set-piece of Tier V, Typhon, Samael and Atlas as the last bosses). Each waits in a camp of its own.
   cerberus: {
     name: 'Cerberus',
+    rank: 'marsekal',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
