@@ -728,6 +728,7 @@ export class Game implements UnitHost {
   saveNow() {
     this.saveIn = -1
     saveProfile(this.profile)
+    this.onSaved?.()
   }
 
   // ------------------------------------------------------------ aiming from the shoulder camera
