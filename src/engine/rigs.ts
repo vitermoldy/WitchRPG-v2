@@ -602,6 +602,7 @@ const posePhoenix: PoseFn = (p, u, t) => {
     p.rot('leg_R', 40)
     p.rot('head', 6 * Math.sin(t * 2.4))
     return
+  }
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
