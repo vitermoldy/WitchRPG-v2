@@ -20,3 +20,4 @@ const newCode = () => Array.from({ length: 12 }, () => ALPHABET[randomInt(ALPHAB
 const SKILLS = new Set(['hexBolt', 'grip', 'burst', 'snare', 'barrier', 'warp', 'rite', 'swap', 'focus', 'general', 'marshal'])
 const KINDS = new Set(['imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minotaur', 'medusa', 'chimera', 'cyclops', 'succubus', 'incubus', 'phoenix', 'hydra'])
 const RANKS = new Set(['prajurit', 'ksatria', 'jenderal', 'marsekal'])
+const STATS = ['hex', 'spr', 'vit', 'agi', 'umb']
