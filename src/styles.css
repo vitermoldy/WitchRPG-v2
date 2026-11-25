@@ -1661,6 +1661,7 @@ dialog::backdrop {
 }
 
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
+@media (max-width: 1180px) {
 @media (max-width: 860px) {
   .ledger-body {
     grid-template-columns: 1fr;
