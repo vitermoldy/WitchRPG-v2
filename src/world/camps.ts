@@ -157,6 +157,7 @@ export class Camps {
         camp.units.push(u)
       }
     }
+    // some of the pack come out elite, each with one v1 trait
   }
 
   /** Puts every awake pack back to sleep (she fell); cleared camps stay cleared. */
