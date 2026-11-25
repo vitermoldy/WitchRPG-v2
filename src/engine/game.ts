@@ -607,6 +607,7 @@ export class Game implements UnitHost {
     return died
   }
 
+  /** A blow on the Hydra: its phase decides the share; a head takes the stun and passes the damage to the body. */
   private fall() {
     const p = this.player
     p.hp = 0
