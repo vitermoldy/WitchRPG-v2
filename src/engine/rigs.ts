@@ -527,6 +527,7 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
   return (p, u, t) => {
     if (common(p, u, t, limbs)) return
     const s = Math.sin(u.walk * (1.4 - 0.3 * opts.heavy))
+    const amp = Math.min(1.4, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
