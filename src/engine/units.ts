@@ -770,7 +770,7 @@ export class UnitSystem {
       }
       case 'recover': {
         u.vel.multiplyScalar(Math.max(0, 1 - dt * 6))
-        if (u.t >= atk.recover) {
+        if (u.t >= atk.recover * u.tempo) {
           u.token = false
           u.cd = spec.cooldown * (0.8 + Math.random() * 0.4)
           u.set('move')
