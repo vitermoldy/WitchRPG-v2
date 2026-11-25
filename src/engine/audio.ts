@@ -411,6 +411,7 @@ export class Sfx {
       const g = ctx.createGain()
       g.gain.value = 0.0001
       src.connect(f).connect(g).connect(this.master!)
+      src.start(0, Math.random())
     for (const freq of [43.65, 44.1, 65.4]) {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
