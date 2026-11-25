@@ -789,6 +789,7 @@ class Rig implements Poser {
     this.s.setScalar(u.scale)
     this.unitM.compose(this.p, this.q, this.s)
     this.posed(u, t)
+    // the Hydra: a few steering passes a frame bring each falling head down onto its circle
     const i = this.used++
     const flash = u.flash > 0 ? (u.flash / 0.16) * 1.6 : 0
     const gr = (glow ? glow.r : 0) + flash
