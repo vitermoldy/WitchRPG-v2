@@ -414,6 +414,7 @@ export class Sfx {
       src.start(0, Math.random())
       return { f, g }
     }
+    const wind = loop('bandpass', 700, 0.6)
     for (const freq of [43.65, 44.1, 65.4]) {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
