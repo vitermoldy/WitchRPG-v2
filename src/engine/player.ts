@@ -63,6 +63,7 @@ export class Player {
   moveScale = 1
   /** In the air (B, as in v1). */
   flying = false
+  /** B over deep water this frame: there is nowhere to land. */
   /** A short scripted push (a swing's step, a parry's recoil) that overrides steering while it lasts. */
   private nudgeX = 0
   private nudgeZ = 0
