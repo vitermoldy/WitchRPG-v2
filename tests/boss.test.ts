@@ -136,3 +136,4 @@ describe('phase 5 creatures', () => {
   })
 })
 
+describe('the seal on zones IV and V', () => {
