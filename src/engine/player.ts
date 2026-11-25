@@ -223,6 +223,7 @@ export class Player {
   }
 
   /**
+   * v1's flight: she eases toward the wanted velocity in all three axes, never higher than the ceiling
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
