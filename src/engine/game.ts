@@ -286,6 +286,7 @@ export class Game implements UnitHost {
   fx(u: Unit, what: 'blink' | 'ashes' | 'reborn', from?: THREE.Vector3) {
     if (what === 'blink') {
       for (const at of [from ?? u.pos, u.pos]) {
+        this.smoke.emit({ pos: at, count: 10, color: 0x1a1020, life: 0.8, size: 0.8, sizeEnd: 1.5, speed: 1.4, jitter: 0.4, alpha: 0.75 })
   summoned(h: Unit) {
     this.pools.open(h.pos, 1 + h.radius * 1.5, 1)
     this.glow.emit({ pos: h.center(), count: 18, color: COLOR.rift, intensity: 2.2, life: 0.6, size: 0.18, speed: 2.5 })
