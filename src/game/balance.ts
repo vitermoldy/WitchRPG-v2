@@ -651,6 +651,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
+    rank: 'marsekal',
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
