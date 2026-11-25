@@ -636,6 +636,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     speed: 7,
     radius: 0.9,
     height: 3,
+    mass: 90,
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
