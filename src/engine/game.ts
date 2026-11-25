@@ -212,6 +212,7 @@ export class Game implements UnitHost {
   /** Deep water and the map edge; then the seal on zones IV and V, and the lair's edge. */
   private baseBlocked(x: number, z: number) {
     const [mx, my] = toMap(x, z)
+    if (Math.abs(mx) > PLAY_HALF || Math.abs(my) > PLAY_HALF) return true
   }
 
   /** A creature's blow on her lands now: dodge, parry, block or hit. */
