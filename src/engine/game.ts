@@ -866,6 +866,7 @@ export class Game implements UnitHost {
     const target = this.lockon.current
     const face = this.fight.faceYaw ?? (target ? yawTo(p.pos.x, p.pos.z, target.x, target.z) : aiming || this.fight.blocking ? this.rig.yaw : null)
     // wading in the Hydra's flood is slow
+    const wading = this.lair.depthAt(p.pos.x, p.pos.z, p.pos.y) > 0.3 ? 0.6 : 1
     p.update(sdt, move, this.rig.yaw, face, aiming, this.ground)
     this.foe.pos.set(p.pos.x, p.pos.y, p.pos.z)
     this.foe.alive = alive
