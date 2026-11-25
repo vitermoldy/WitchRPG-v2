@@ -707,6 +707,7 @@ export const HYDRA = {
   crawls: 6,
   /** Nearest and farthest a head comes down from the body (m); the circle stays in that band, and past it the heads spit. */
   slamNear: 10,
+  slamReach: 14,
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
 export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
