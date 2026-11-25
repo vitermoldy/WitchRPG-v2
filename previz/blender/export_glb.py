@@ -47,6 +47,7 @@ for ob in list(bpy.data.objects):
 _flat = {}
 
 
+def tone_of(m):
 def emission_of(m):
     if not m or not m.node_tree:
         return None
