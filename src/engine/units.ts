@@ -550,6 +550,7 @@ export class UnitSystem {
       if (u.cd <= 0) {
         const a = Math.random() * Math.PI * 2
         const r = 2 + Math.random() * 9
+        u.aimAt.set(home.x + Math.cos(a) * r, 0, home.z + Math.sin(a) * r)
   /** Succubus and Incubus: gone in a puff, back a dozen metres away from her. */
   private blink(u: Unit, from: Foe) {
     const spec = u.spec.blink!
