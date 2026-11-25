@@ -441,3 +441,4 @@ export class Lair {
     const r = ringOf(atk)
     g.clearTelegraph(u)
     if (p.alive && Math.hypot(p.pos.x - u.aimAt.x, p.pos.z - u.aimAt.z) < r + MOVE.radius) g.strikePlayer(u, atk)
+    for (const s of g.units.units) {
