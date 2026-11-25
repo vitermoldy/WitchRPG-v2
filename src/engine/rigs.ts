@@ -683,6 +683,7 @@ const poseBeast: PoseFn = (p, u, t) => {
   if (u.state === 'windup') {
     const k = ease(u.t / (u.atk.windup * u.tempo))
     p.body(0.2 * k, -18 * k)
+    p.rot('neck', -25 * k)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
