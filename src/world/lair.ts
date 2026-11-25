@@ -502,3 +502,4 @@ export class Lair {
         }
         this.bodyAttackIn = 3.2
       }
+    } else if (body.state === 'windup') {
