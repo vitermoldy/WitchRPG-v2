@@ -512,3 +512,4 @@ export class Lair {
   }
 
   /** ?debug: what the bot and the tests read. */
+  info() {
