@@ -219,6 +219,7 @@ export class IlyraModel {
       return
     }
     if (p.flying) {
+      // flight: she leans into the way she flies, legs trailing, the cloak streaming behind
 
     // upper body: the fight overrides the walk's arm swing
     let torsoX = 3 + 9 * sprint + breath * 1.2
