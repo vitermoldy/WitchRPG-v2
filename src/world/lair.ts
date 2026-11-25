@@ -338,3 +338,4 @@ export class Lair {
       return
     }
     if (!this.body) this.spawn()
+    const body = this.body!
