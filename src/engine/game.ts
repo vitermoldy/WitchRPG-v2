@@ -894,7 +894,7 @@ export class Game implements UnitHost {
     const steer = b ? { x: b.x, y: b.y } : { x: (inp.held('KeyD') ? 1 : 0) - (inp.held('KeyA') ? 1 : 0), y: (inp.held('KeyW') ? 1 : 0) - (inp.held('KeyS') ? 1 : 0) }
     const air = p.flying
     const move: MoveInput = alive && !stone
-      ? { x: steer.x, y: steer.y, sprint: b ? b.sprint : inp.held('ShiftLeft') || inp.held('ShiftRight'), dodge: (b ? this.botDodge : inp.pressed('Space')) && this.fight.canDodge }
+      ? {
       : { x: 0, y: 0, sprint: false, dodge: false }
     this.botDodge = false
     // the wheel takes the mouse while it is open
