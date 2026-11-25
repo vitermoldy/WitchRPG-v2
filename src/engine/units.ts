@@ -549,6 +549,7 @@ export class UnitSystem {
       break
     }
     this.host.obstacles.pushOut(u.pos, u.radius, u.height)
+    u.groundX = NaN
   /** A diving Naga comes up a few metres away, rising out of the ground. */
   private surface(u: Unit) {
     for (let tries = 0; tries < 6; tries++) {
