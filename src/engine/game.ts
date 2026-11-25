@@ -372,7 +372,7 @@ export class Game implements UnitHost {
     this.atmosphere = new Atmosphere(this.scene)
     this.scene.add(water())
     this.ground = {
-      height: heightAt,
+      height: (x, z) => this.height(x, z),
       obstacles: this.obstacles,
       blocked: (x, z) => {
         const [mx, my] = toMap(x, z)
