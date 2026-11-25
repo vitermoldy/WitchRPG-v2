@@ -86,6 +86,7 @@ export class CameraRig {
   frac = 1
   /** First person wanted (P), and how far the view has blended there (0 behind her shoulder, 1 at her eyes). */
   firstPerson = false
+  fp = 0
   private lastLock: LockView | null = null
 
   /** Mouse look; ignored while a lock-on holds the view. */
