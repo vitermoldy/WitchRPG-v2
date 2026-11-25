@@ -586,6 +586,7 @@ const posePhoenix: PoseFn = (p, u, t) => {
   if (u.state === 'windup') {
     const k = ease(u.t / (u.atk.windup * u.tempo))
     p.body(0.3 * k, -25 * k, 8 * Math.sin(t * 20) * k)
+    p.rot('head', -30 * k)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
