@@ -511,3 +511,4 @@ export class Lair {
     } else if (body.state === 'recover' && body.t >= slam.recover) body.set('move')
   }
 
+  /** ?debug: what the bot and the tests read. */
