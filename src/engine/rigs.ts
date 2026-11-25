@@ -718,6 +718,7 @@ const poseBeast: PoseFn = (p, u, t) => {
   }
   const ph = u.walk * 1.2
   const amp = Math.min(1.4, Math.hypot(u.vel.x, u.vel.z) / Math.max(1, u.speed * 0.6))
+  const a = Math.sin(ph)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
