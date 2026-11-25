@@ -37,6 +37,7 @@ describe('Ilyra in the air (B)', () => {
   })
 
   it('crosses deep water, refuses to land on it, and lands when she sinks onto ground she can stand on', () => {
+    const lake: Ground = { height: () => -6, floor: () => 0.3, obstacles: null, blocked: (_x, _z, _fx, _fz, air) => !air }
 describe('Ilyra on foot', () => {
   it('moves the way the camera looks', () => {
     const p = new Player()
