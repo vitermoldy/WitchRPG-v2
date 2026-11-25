@@ -400,6 +400,7 @@ export class Game implements UnitHost {
       },
       floor: (x, z) => {
         let y = this.height(x, z)
+        const [mx, my] = toMap(x, z)
       },
     }
     this.seal = new Seal(this.profile.bossKills > 0)
