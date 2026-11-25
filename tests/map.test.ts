@@ -60,6 +60,7 @@ describe('the forest valley', () => {
 
   it('gives every boss of the open world a camp of its own behind the seal, above its zone band', () => {
     for (const kind of WORLD_BOSSES) {
+      const camps = CAMP_DEFS.filter((c) => c.boss && c.pack[kind])
   it('stands every camp and altar on ground she can walk: not deep water, not a cliff', () => {
     const spots = [...CAMP_DEFS.map((c) => ({ name: `kamp ${c.c}`, c: c.c })), ...ALTARS.map((a) => ({ name: a.name, c: a.c }))]
     for (const { name, c } of spots) {
