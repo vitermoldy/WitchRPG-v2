@@ -151,6 +151,7 @@ describe('the open world (phase 7)', () => {
     uni.home = new THREE.Vector3(0, 0, 4)
     expect(uni.targetable).toBe(false)
     w.step(3)
+    expect(Math.hypot(uni.pos.x, uni.pos.z)).toBeGreaterThan(8)
 describe('the seal on zones IV and V', () => {
   const seal = new Seal(false)
   const kuil = toWorld(40, 330)
