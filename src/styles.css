@@ -390,6 +390,7 @@ button {
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.7);
 }
 
+/* while a boss bar shows, it takes the zone banner's place: lower down the banner would cover the feed */
 .zone-banner.show {
   opacity: 1;
   transform: translate(-50%, 0);
