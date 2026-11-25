@@ -702,7 +702,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
-  width: min(28rem, 40vw);
+  width: min(24rem, 40vw);
 }
 
 .feed-item {
