@@ -692,6 +692,7 @@ const poseBeast: PoseFn = (p, u, t) => {
     return
   }
   if (u.state === 'strike') {
+    const k = Math.min(1, u.t / (u.atk.lungeTime ?? 0.4))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
