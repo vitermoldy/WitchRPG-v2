@@ -771,6 +771,7 @@ class Rig implements Poser {
   }
 
   private readonly hidden = new Set<string>()
+  private readonly zero = new THREE.Matrix4().makeScale(0, 0, 0)
   begin() {
     this.used = 0
   }
