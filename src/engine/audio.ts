@@ -427,6 +427,7 @@ export class Sfx {
     drone.gain.value = 0.0001
     const df = ctx.createBiquadFilter()
     df.type = 'lowpass'
+    df.frequency.value = 320
     for (const freq of [43.65, 44.1, 65.4]) {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
