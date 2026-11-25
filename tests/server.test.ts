@@ -21,6 +21,7 @@ describe('the server checks a witch before it keeps her', () => {
     const p = newProfile()
     p.level = 12
     const raisable = V2_KINDS.filter((k) => !(FAUNA as readonly string[]).includes(k))
+    for (const kind of raisable) addShadow(p, kind, 5)
     for (const s of SKILLS) p.upgrades[s.id] = true
     p.world = { altars: ALTARS.map((a) => a.key), last: 'bara' }
     const c = cleanProfile(p, NOW)
