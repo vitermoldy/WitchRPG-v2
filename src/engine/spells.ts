@@ -382,6 +382,7 @@ export class Spells {
       g.sfx.gripStart()
       this.tendril.visible = true
       this.tendrilLight = g.lights.acquire(COLOR.chaos, 5, 8)
+      return
     this.grabbed = [first]
     if (this.upgraded('grip')) {
       let second: Unit | null = null
