@@ -463,6 +463,7 @@ export class Game implements UnitHost {
   }
 
   start() {
+    // a witch who has lit other altars enters the forest at the one she last rose at
     this.state = 'playing'
     this.input.capture = true
     this.sfx.start()
