@@ -362,6 +362,7 @@ export class UnitSystem {
 
   kill(u: Unit, executed = false) {
     if (u.state === 'dead') return
+    if (u.spec.rebirth && !u.reborn && !executed && u.team === 'enemy') {
     this.host.clearTelegraph(u)
     u.hp = 0
     u.token = false
