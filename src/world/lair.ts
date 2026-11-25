@@ -399,3 +399,4 @@ export class Lair {
         if (h.t >= atk.windup) {
           if (atk.shot) {
             g.fire(h, atk)
+            h.set('recover')
