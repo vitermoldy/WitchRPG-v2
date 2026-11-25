@@ -936,6 +936,7 @@ export class Game implements UnitHost {
     this.smoke.update(dt)
     this.lights.update(dt)
     this.rings.update(dt)
+    this.warnings.update(dt)
     this.pools.update(dt)
     this.telegraphs.update(sdt)
     const t1 = performance.now()
