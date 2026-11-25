@@ -63,6 +63,7 @@ describe('the forest valley', () => {
       const camps = CAMP_DEFS.filter((c) => c.boss && c.pack[kind])
       expect(camps.length, kind).toBe(1)
       const [camp] = camps
+      expect(Object.keys(camp.pack), kind).toEqual([kind])
   it('stands every camp and altar on ground she can walk: not deep water, not a cliff', () => {
     const spots = [...CAMP_DEFS.map((c) => ({ name: `kamp ${c.c}`, c: c.c })), ...ALTARS.map((a) => ({ name: a.name, c: a.c }))]
     for (const { name, c } of spots) {
