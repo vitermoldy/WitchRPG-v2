@@ -209,8 +209,7 @@ export class Game implements UnitHost {
     return this.lair ? this.lair.height(x, z, base) : base
   }
 
-  blocked(x: number, z: number) {
-    return this.ground.blocked(x, z)
+  /** Deep water and the map edge; then the seal on zones IV and V, and the lair's edge. */
   }
 
   /** A creature's blow on her lands now: dodge, parry, block or hit. */
