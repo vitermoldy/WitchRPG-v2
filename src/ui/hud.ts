@@ -286,7 +286,7 @@ export class Hud {
       }
     }
     this.set('bossbar', 'class', boss ? 'bossbar on' : 'bossbar')
-    // the zone banner steps down while a boss bar holds the top of the screen
+    // the zone banner gives way while a boss bar holds the top of the screen
     this.root.classList.toggle('boss', !!boss)
     if (!boss) return
     const hydra = boss.kind === 'hydra'
