@@ -731,6 +731,7 @@ export const HYDRA = {
   lairLevel: 10,
   /** Seconds after it falls before it stands in the lake again, if she has left the lair. */
   respawn: 600,
+  /** It rises into the lake when she comes within `wake` of the lair, and sinks away again past `sleep` (m). */
   /** Boulders kept on the islands in phase 2. */
   rocks: 6,
 } as const
