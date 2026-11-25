@@ -174,3 +174,4 @@ describe('creature shots', () => {
       glow: { emit: noop },
       smoke: { emit: noop },
       sfx: { bolt: noop },
+      units: { units: [] },
