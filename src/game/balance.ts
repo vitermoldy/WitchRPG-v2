@@ -701,6 +701,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
 export const HYDRA = {
   heads: 5,
   /** Drawn this much larger than its block-out, so its necks reach the shore. */
+  scale: 1.35,
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
 export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
