@@ -500,6 +500,7 @@ export class UnitSystem {
         continue
       }
       if (u.state === 'ashes') {
+        const r = u.spec.rebirth!
       if (u.lifted > 0) {
         u.lifted = Math.max(0, u.lifted - dt)
         u.token = false
