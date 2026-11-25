@@ -539,6 +539,7 @@ export class UnitSystem {
   private faunaBrain(u: Unit, dt: number) {
     const p = this.host.foe
     const home = u.home ?? u.pos
+    const dx = u.pos.x - p.pos.x
   /** Succubus and Incubus: gone in a puff, back a dozen metres away from her. */
   private blink(u: Unit, from: Foe) {
     const spec = u.spec.blink!
