@@ -212,6 +212,7 @@ export class Player {
       this.dodgeT = -1
       this.nudgeT = 0
       this.vy = Math.max(this.vy, 3)
+      return
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
