@@ -187,7 +187,7 @@ export class Spells {
   heldProp: Prop | null = null
 
   get gripping() {
-    return this.grabbed.length > 0
+    return this.grabbed.length > 0 || !!this.heldProp
   }
 
   private unlocked(id: SkillId) {
