@@ -1677,6 +1677,7 @@ dialog::backdrop {
   }
   .bossbar {
     width: min(34rem, 100% - 2 * (17rem + 2 * var(--gutter)));
+  }
 @media (max-width: 860px) {
   .ledger-body {
     grid-template-columns: 1fr;
