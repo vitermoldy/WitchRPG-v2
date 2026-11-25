@@ -890,7 +890,7 @@ export class Rigs {
   private readonly rigs = new Map<string, Rig>()
   private readonly crowd = new Map<UnitKind, CrowdBatch>()
   /** Shadows drawn in full detail; the rest join the crowd. */
-  detail = 40
+  detail = 20
   private sortIn = 0
   private readonly m = new THREE.Matrix4()
   private readonly q = new THREE.Quaternion()
