@@ -243,6 +243,7 @@ export class Player {
     this.moveAxis(this.vx * dt, 0, g, true)
     this.moveAxis(0, this.vz * dt, g, true)
     g.obstacles?.pushOut(this.pos, MOVE.radius, MOVE.height)
+    const floor = (g.floor ?? g.height)(this.pos.x, this.pos.z)
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
