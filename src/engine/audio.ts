@@ -378,6 +378,7 @@ export class Sfx {
   }
 
   /** A step refused by the seal or the lair's edge: a low thrum. */
+  refused() {
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
