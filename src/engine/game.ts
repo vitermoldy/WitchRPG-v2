@@ -631,6 +631,7 @@ export class Game implements UnitHost {
       this.spells.addChaos(chaosFromDamage(dmg, 0))
       this.hud.hit(died)
     }
+    return died
   private fall() {
     const p = this.player
     p.hp = 0
