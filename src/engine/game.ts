@@ -635,6 +635,8 @@ export class Game implements UnitHost {
   }
 
   private immuneAt = -9
+  private immuneMsgAt = -99
+
   private fall() {
     const p = this.player
     p.hp = 0
