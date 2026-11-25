@@ -832,6 +832,7 @@ class Rig implements Poser {
     u.parts!.forEach((h, k) => {
       if (!h || !h.alive || (h.state !== 'strike' && h.state !== 'recover' && h.state !== 'stagger')) return
       const node = this.named.get('head' + k)
+      if (!node) return
   }
 
   end() {
