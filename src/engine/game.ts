@@ -1131,6 +1131,8 @@ export class Game implements UnitHost {
     u.makeElite(trait ?? ELITE.traits[Math.floor(Math.random() * ELITE.traits.length)])
     u.aggro = true
     return u
+  }
+
   /** ?debug: adds shadows to the Shadow Room (for the army measurements). */
   debugShadows(n: number, kind: V2Kind = 'imp', level = 1) {
     for (let i = 0; i < n; i++) addShadow(this.profile, V2_KINDS.includes(kind) ? kind : 'imp', level)
