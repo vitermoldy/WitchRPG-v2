@@ -582,6 +582,7 @@ export class Game implements UnitHost {
     // elite Berlapis: only thrown things go through its plates
     if (u.elite === 'berlapis' && kind !== 'impact' && kind !== 'staff') share *= ELITE.armor
     // an elite Penjaga shields the creatures around it while it stands
+    if (u.team === 'enemy' && !u.elite) {
     if (share < 1) {
       // turned aside by the shield: a spark and a clank, a little stun gets through
       dmg *= share
