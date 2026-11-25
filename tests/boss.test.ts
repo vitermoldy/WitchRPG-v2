@@ -142,6 +142,7 @@ describe('the open world (phase 7)', () => {
       expect(UNITS[kind].boss, kind).toBe(true)
       expect(UNITS[kind].rank, kind).toBe('marsekal')
       expect(UNITS[kind].attacks?.length, kind).toBeGreaterThanOrEqual(3)
+    }
 describe('the seal on zones IV and V', () => {
   const seal = new Seal(false)
   const kuil = toWorld(40, 330)
