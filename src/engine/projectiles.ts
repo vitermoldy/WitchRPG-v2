@@ -142,7 +142,7 @@ export class Projectiles {
       // a glob: it bursts on its circle and hurts whoever stands inside
       if (s.pos.y <= g.height(s.pos.x, s.pos.z) || (s.vel.y < 0 && s.pos.y <= s.aim.y) || s.life <= 0) {
         const r = ringOf(s.atk)
-        if (p.alive && Math.hypot(p.pos.x - s.aim.x, p.pos.z - s.aim.z) < r + 0.4) g.strikePlayer(s.source, s.atk)
+        // a glob bursts on the ground: high in the air she is out of it
         for (const u of g.units.units) {
           if (u.team !== 'shadow' || !u.targetable) continue
           if (Math.hypot(u.pos.x - s.aim.x, u.pos.z - s.aim.z) < r + u.radius) g.strikeUnit(s.source, u, s.atk)
