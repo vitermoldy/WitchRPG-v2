@@ -52,7 +52,7 @@ export class Sfx {
     gain.gain.exponentialRampToValueAtTime(0.0001, t + a + dec)
   }
 
-  private noise(t: number, dur: number, type: BiquadFilterType, freq: number, peak: number, q = 1, freqEnd?: number) {
+  private noise(t: number, dur: number, type: BiquadFilterType, freq: number, peak: number, q = 1, freqEnd?: number, attack = 0.005) {
     const ctx = this.ctx!
     const src = ctx.createBufferSource()
     src.buffer = this.noiseBuf
