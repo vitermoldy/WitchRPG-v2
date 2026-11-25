@@ -522,3 +522,4 @@ export class Lair {
       heads: this.heads.map((h) => (h ? (h.alive ? h.state : 'severed') : 'swallowed')),
       flood: +this.flood.toFixed(2),
       rocks: this.g.props.list.length,
+    }
