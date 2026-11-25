@@ -720,6 +720,7 @@ export const HYDRA = {
   thrownShare: 1.5,
   /** Phase 3: damage inside Reality Warp, and nothing outside it. */
   warpShare: 1.5,
+  /** Share of the army's damage that lands on it, in every phase: the Hydra is her fight. */
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
 export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
