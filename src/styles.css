@@ -1852,6 +1852,7 @@ dialog::backdrop {
 .map-list {
   display: grid;
   gap: 0.3rem;
+  margin: 0.4rem 0 0;
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
