@@ -378,6 +378,7 @@ export class Spells {
       prop.held = true
       prop.thrown = false
       prop.vel.set(0, 0, 0)
+      this.heldProp = prop
     this.grabbed = [first]
     if (this.upgraded('grip')) {
       let second: Unit | null = null
