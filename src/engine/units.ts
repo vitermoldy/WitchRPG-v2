@@ -367,6 +367,7 @@ export class UnitSystem {
       this.host.clearTelegraph(u)
       u.token = false
       u.hp = 1
+      u.set('ashes')
     this.host.clearTelegraph(u)
     u.hp = 0
     u.token = false
