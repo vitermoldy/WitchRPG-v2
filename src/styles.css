@@ -1705,6 +1705,7 @@ dialog::backdrop {
 }
 
 .gate::backdrop {
+  background: rgba(8, 5, 6, 0.62);
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
