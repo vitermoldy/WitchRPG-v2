@@ -561,6 +561,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   cyclops: {
     name: 'Cyclops',
     rank: 'ksatria',
+    eliteRank: 'jenderal',
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
