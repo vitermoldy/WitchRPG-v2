@@ -517,7 +517,7 @@ export class Game implements UnitHost {
   }
 
   private reward(u: Unit) {
-    const res = gainXp(this.profile, xpForUnit(u.kind, u.level), SKILLS.map((s) => s.id))
+    const res = gainXp(this.profile, xpForUnit(u.kind, u.level, !!u.elite), SKILLS.map((s) => s.id))
     if (res.levelsGained) {
       this.counts.levelUps += res.levelsGained
       this.applyDerived()
