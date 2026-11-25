@@ -895,6 +895,7 @@ export class Game implements UnitHost {
     const air = p.flying
     const move: MoveInput = alive && !stone
       ? {
+          x: steer.x,
       : { x: 0, y: 0, sprint: false, dodge: false }
     this.botDodge = false
     // the wheel takes the mouse while it is open
