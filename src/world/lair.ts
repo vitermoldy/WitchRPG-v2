@@ -472,3 +472,4 @@ export class Lair {
     }
   }
 
+  /** Phase 3: the body crawls to the shore, slams under a wide circle and spits volleys. */
