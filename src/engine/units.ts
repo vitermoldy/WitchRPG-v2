@@ -372,6 +372,7 @@ export class UnitSystem {
       u.downed = 999
       this.host.fx(u, 'ashes')
       return
+    }
     this.host.clearTelegraph(u)
     u.hp = 0
     u.token = false
