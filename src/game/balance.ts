@@ -649,6 +649,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     rebirth: { ashes: 3, hp: 0.5, burst: 4.5, delay: 1.6 },
   },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
+  hydra: {
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
