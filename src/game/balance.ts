@@ -620,6 +620,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     stun: 70,
     keepAway: 8,
     blink: { range: 10, every: 7 },
+    summon: { every: 16, count: 2, max: 4 },
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
