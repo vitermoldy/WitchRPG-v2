@@ -820,6 +820,7 @@ class Rig implements Poser {
     this.body(0)
     this.hidden.clear()
     this.pose(this, u, t)
+    this.holder.updateMatrixWorld(true)
   }
 
   end() {
