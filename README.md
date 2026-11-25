@@ -21,6 +21,7 @@ Butuh Node 22 atau lebih baru dan browser dengan WebGL 2.
 ```bash
 npm install
 npm run dev      # http://localhost:5297
+npm run server   # server akun dan simpanan, port 8913 (butuh MySQL dan .env)
 npm test         # tes progresi v1, kamera, gerak, peta, tempur, AI makhluk, simpanan, dan Hydra
 npm run build    # hasil di dist/
 npm run models   # buat ulang model GLB dari block-out Blender (butuh Blender 5.1)
