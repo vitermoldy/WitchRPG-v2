@@ -951,6 +951,7 @@ export class Game implements UnitHost {
       this.hud.message('Tidak bisa mendarat di air dalam. Terbang ke tepi dulu.', 'info')
     }
     this.sfx.wind(p.flying ? Math.min(1, Math.hypot(p.vx, p.vy, p.vz) / MOVE.fly.boost) : 0)
+    // flying: wisps trail from both palms, red from the Chaos hand and violet from the Umbra hand
     this.foe.pos.set(p.pos.x, p.pos.y, p.pos.z)
     this.foe.alive = alive
 
