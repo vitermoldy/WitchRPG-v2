@@ -79,6 +79,7 @@ async function boot() {
       input.value = String(value())
       out.textContent = fmt(value())
     }
+    show()
     input.addEventListener('input', () => {
       const v = Number(input.value)
       out.textContent = fmt(v)
