@@ -704,6 +704,7 @@ export const HYDRA = {
   scale: 1.35,
   /** From the lair's middle into the lake: where the body lies in phases 1 and 2, and where it crawls to in phase 3 (m). */
   lies: 10,
+  crawls: 6,
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
 export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
