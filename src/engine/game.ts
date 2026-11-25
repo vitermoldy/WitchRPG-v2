@@ -435,6 +435,7 @@ export class Game implements UnitHost {
     if (this.profile.settings.firstPerson) {
       this.rig.firstPerson = true
       this.rig.fp = 1
+      this.ilyra.firstPerson(true)
     this.scene.add(this.ilyra.root)
     const models: Partial<Record<UnitKind, THREE.Group>> = {}
     const lods: Partial<Record<UnitKind, THREE.Group>> = {}
