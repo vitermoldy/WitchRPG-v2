@@ -427,6 +427,7 @@ export class Spells {
     const f = g.camera.getWorldDirection(new THREE.Vector3())
     const right = new THREE.Vector3(-f.z, 0, f.x).normalize()
     if (this.heldProp) {
+      const prop = this.heldProp
     this.grabbed = this.grabbed.filter((u) => u.alive && u.state === 'held')
     if (!this.grabbed.length) {
       this.drop(false)
