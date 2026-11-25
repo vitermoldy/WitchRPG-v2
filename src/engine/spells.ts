@@ -486,6 +486,7 @@ export class Spells {
         prop.flight = SPELL.grip.flight
       }
       this.heldProp = null
+    }
     for (const u of this.grabbed) {
       if (!u.alive) continue
       const speed = u.mass >= 300 ? SPELL.grip.heavyThrowSpeed : u.mass > 200 ? SPELL.grip.throwSpeed * 0.6 : SPELL.grip.throwSpeed
