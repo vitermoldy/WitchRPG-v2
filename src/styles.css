@@ -1774,6 +1774,7 @@ dialog::backdrop {
 .gate-error {
   margin: 0;
   color: var(--chaos-ink);
+  font-size: 0.9rem;
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
