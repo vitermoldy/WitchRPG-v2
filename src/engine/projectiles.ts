@@ -83,6 +83,7 @@ export class Projectiles {
     const g = this.g
     const p = g.player
     for (let i = this.shots.length - 1; i >= 0; i--) {
+      // a blow that fells her clears every shot (her fall) while this loop still runs
       const s = this.shots[i]
       s.prev.copy(s.pos)
       if (!s.reflected) s.vel.y -= s.gravity * dt
