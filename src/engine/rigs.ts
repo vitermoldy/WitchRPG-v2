@@ -521,6 +521,7 @@ const poseChimera: PoseFn = (p, u, t) => {
   p.body(0.06 * Math.abs(Math.sin(ph * 2)) * amp, 2 * Math.sin(ph * 2) * amp)
 }
 
+/** A two-legged body with arms: a raise-and-bring-down blow, a walk, a stagger. Cyclops, Succubus, Incubus. */
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
