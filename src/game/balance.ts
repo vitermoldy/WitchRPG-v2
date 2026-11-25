@@ -652,6 +652,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   hydra: {
     name: 'Hydra',
     rank: 'marsekal',
+    hp: 2600,
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
