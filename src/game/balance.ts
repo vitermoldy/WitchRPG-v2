@@ -730,6 +730,7 @@ export const HYDRA = {
   /** The lair opens only to a witch of this level: phase 3 can only be won inside Reality Warp. */
   lairLevel: 10,
   /** Seconds after it falls before it stands in the lake again, if she has left the lair. */
+  respawn: 600,
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
 export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
