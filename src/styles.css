@@ -1669,6 +1669,7 @@ dialog::backdrop {
     width: min(15rem, 26vw);
   }
   .skills {
+    gap: 0.3rem;
 @media (max-width: 860px) {
   .ledger-body {
     grid-template-columns: 1fr;
