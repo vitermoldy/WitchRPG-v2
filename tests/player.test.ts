@@ -51,6 +51,7 @@ describe('Ilyra in the air (B)', () => {
     expect(p.pos.y).toBeCloseTo(0.3, 3)
     expect(p.flying).toBe(true)
     run(p, { ...idle, rise: -1 }, 4)
+    expect(p.flying).toBe(false)
 describe('Ilyra on foot', () => {
   it('moves the way the camera looks', () => {
     const p = new Player()
