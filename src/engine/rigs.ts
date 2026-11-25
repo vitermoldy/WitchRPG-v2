@@ -845,6 +845,7 @@ class Rig implements Poser {
       h.neckYaw = clamp(h.neckYaw + clamp((turn / D) * 0.9, -8, 8), -90, 90)
       steering = true
     })
+    return steering
   }
 
   end() {
