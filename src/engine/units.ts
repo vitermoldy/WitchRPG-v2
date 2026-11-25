@@ -196,6 +196,7 @@ export class Unit implements Foe {
   }
 
   /** Size change (elites, the shadow Hydra): body radius follows. */
+  setScale(s: number) {
   }
 
   get height() {
