@@ -422,6 +422,7 @@ export class Sfx {
     lg.gain.value = 220
     lfo.connect(lg).connect(wind.f.frequency)
     lfo.start()
+    const insects = loop('bandpass', 4600, 6)
     for (const freq of [43.65, 44.1, 65.4]) {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
