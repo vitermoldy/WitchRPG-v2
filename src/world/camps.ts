@@ -116,6 +116,7 @@ export class Camps {
   private time = 0
   /** The camps' own clock (s), for the map: a cleared camp stands again at its respawnAt. */
   get clock() {
+    return this.time
   /** The Minotaur's shield is explained once, the first time a pack with one is roused. */
   private toldShield = false
 
