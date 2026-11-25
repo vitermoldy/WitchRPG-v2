@@ -185,7 +185,7 @@ export class Unit implements Foe {
     return this.state !== 'dead' && this.hp > 0
   }
 
-  /** Under the water or the mud: alive, but nothing can see or reach it. */
+  /** Under the water or the mud, or in ashes: alive, but nothing can see or reach it. */
   get hidden() {
     return this.state === 'diving'
   }
