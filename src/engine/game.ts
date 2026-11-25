@@ -735,6 +735,7 @@ export class Game implements UnitHost {
   onSaved: (() => void) | null = null
 
   /** A witch from the server takes this one's place, on the start screen before she enters the forest. */
+  adoptProfile(p: Profile) {
   }
 
   // ------------------------------------------------------------ aiming from the shoulder camera
