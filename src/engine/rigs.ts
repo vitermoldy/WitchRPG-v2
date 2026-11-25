@@ -656,6 +656,7 @@ const poseHydra: PoseFn = (p, u, t) => {
       else if (mode === 'limp') x = 22
       p.rot(`neck${i}_${s}`, x, s === 0 ? yaw * 0.6 : yaw * 0.07, 0)
     }
+    if (mode === 'limp' && h && !h.alive) p.hide('head' + i)
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
