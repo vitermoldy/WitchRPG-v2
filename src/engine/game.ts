@@ -903,6 +903,7 @@ export class Game implements UnitHost {
     this.lair.update(sdt)
     this.seal.update(dt)
     this.props.update(sdt)
+    this.refusals()
 
     // vitals
     if (alive && p.poisonT > 0) {
