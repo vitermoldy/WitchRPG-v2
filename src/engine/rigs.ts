@@ -608,6 +608,7 @@ const posePhoenix: PoseFn = (p, u, t) => {
 }
 
 /**
+ * Hydra: each neck reads its head. A head winding up rears back; a striking or resting-after-strike head
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
