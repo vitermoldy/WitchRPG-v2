@@ -81,6 +81,7 @@ def bake_tones(ob):
     normals = me.corner_normals
     for poly in me.polygons:
         t = tones[poly.material_index] if poly.material_index < len(tones) else None
+        for li in poly.loop_indices:
 def emission_of(m):
     if not m or not m.node_tree:
         return None
