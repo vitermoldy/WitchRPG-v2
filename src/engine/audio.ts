@@ -469,5 +469,6 @@ export class Sfx {
   }
 
   private chime(t: number) {
+    const f = [392, 440, 523.25][Math.floor(Math.random() * 3)]
   }
 }
