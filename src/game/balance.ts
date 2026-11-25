@@ -699,6 +699,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
  * takes nothing outside Reality Warp; inside the field its heart opens for +50%.
  */
 export const HYDRA = {
+  heads: 5,
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
 export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
