@@ -736,6 +736,7 @@ export class Game implements UnitHost {
 
   /** A witch from the server takes this one's place, on the start screen before she enters the forest. */
   adoptProfile(p: Profile) {
+    const own = this.profile as unknown as Record<string, unknown>
   }
 
   // ------------------------------------------------------------ aiming from the shoulder camera
