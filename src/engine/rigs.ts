@@ -796,6 +796,7 @@ class Rig implements Poser {
     const gr = (glow ? glow.r : 0) + flash
     const gg = (glow ? glow.g : 0) + flash * 0.85
     const gb = (glow ? glow.b : 0) + flash * 0.75
+    const anyHidden = this.hidden.size > 0
     for (const part of this.parts) {
       this.m.multiplyMatrices(this.unitM, part.src.matrixWorld)
       part.mesh.setMatrixAt(i, this.m)
