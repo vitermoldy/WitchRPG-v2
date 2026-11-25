@@ -499,6 +499,7 @@ export class UnitSystem {
         if (u.t >= (u.spec.dive ?? 3)) this.surface(u)
         continue
       }
+      if (u.state === 'ashes') {
       if (u.lifted > 0) {
         u.lifted = Math.max(0, u.lifted - dt)
         u.token = false
