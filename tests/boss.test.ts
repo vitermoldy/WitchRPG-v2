@@ -137,3 +137,4 @@ describe('phase 5 creatures', () => {
 })
 
 describe('the seal on zones IV and V', () => {
+  const seal = new Seal(false)
