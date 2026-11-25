@@ -10,6 +10,7 @@ export interface CampDef {
   c: [number, number]
   pack: Partial<Record<V2Kind, number>>
   levels: [number, number]
+  /** How many of the pack come out elite, each with a random v1 trait. */
 }
 
 /**
