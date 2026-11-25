@@ -422,6 +422,7 @@ export class Spells {
         return
       }
     }
+    // held in front of her, a little left of the aim line, at chest height or above the ground
     this.grabbed = this.grabbed.filter((u) => u.alive && u.state === 'held')
     if (!this.grabbed.length) {
       this.drop(false)
