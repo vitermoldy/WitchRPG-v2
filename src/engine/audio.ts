@@ -425,6 +425,7 @@ export class Sfx {
     const insects = loop('bandpass', 4600, 6)
     const drone = ctx.createGain()
     drone.gain.value = 0.0001
+    const df = ctx.createBiquadFilter()
     for (const freq of [43.65, 44.1, 65.4]) {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
