@@ -442,3 +442,4 @@ export class Lair {
     g.clearTelegraph(u)
     if (p.alive && Math.hypot(p.pos.x - u.aimAt.x, p.pos.z - u.aimAt.z) < r + MOVE.radius) g.strikePlayer(u, atk)
     for (const s of g.units.units) {
+      if (s.team === 'shadow' && s.targetable && Math.hypot(s.pos.x - u.aimAt.x, s.pos.z - u.aimAt.z) < r + s.radius) g.strikeUnit(u, s, atk)
