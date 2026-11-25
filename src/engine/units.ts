@@ -553,6 +553,7 @@ export class UnitSystem {
     u.vel.set(0, 0, 0)
     u.blinkCd = spec.every
     this.host.clearTelegraph(u)
+    u.token = false
   /** A diving Naga comes up a few metres away, rising out of the ground. */
   private surface(u: Unit) {
     for (let tries = 0; tries < 6; tries++) {
