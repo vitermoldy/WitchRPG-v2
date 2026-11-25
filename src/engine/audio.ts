@@ -419,6 +419,7 @@ export class Sfx {
     const lfo = ctx.createOscillator()
     lfo.frequency.value = 0.07
     const lg = ctx.createGain()
+    lg.gain.value = 220
     for (const freq of [43.65, 44.1, 65.4]) {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
