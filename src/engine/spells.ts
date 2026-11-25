@@ -441,10 +441,6 @@ export class Spells {
       this.drop(false)
       return
     }
-    // held in front of her, a little left of the aim line, at chest height or above the ground
-    const p = g.player.pos
-    const f = g.camera.getWorldDirection(new THREE.Vector3())
-    const right = new THREE.Vector3(-f.z, 0, f.x).normalize()
     this.grabbed.forEach((u, i) => {
       const heavy = u.mass > 200
       const dist = 4.6 + (heavy ? 1.5 : 0)
