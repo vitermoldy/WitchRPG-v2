@@ -578,6 +578,7 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
   }
 }
 
+/** Phoenix: rides on fire, sways and tilts as it circles, dives head first. */
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
