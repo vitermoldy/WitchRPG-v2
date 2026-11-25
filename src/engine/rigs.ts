@@ -821,7 +821,7 @@ class Rig implements Poser {
     mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
     mesh.frustumCulled = false
     // shadow soldiers cast no shadow of their own: it suits them, and it keeps the army out of the shadow pass
-    mesh.castShadow = this.team === 'enemy'
+    // fauna casts none either: a few grazing beasts are not worth a shadow pass of their own
     mesh.receiveShadow = this.team === 'enemy'
     mesh.count = 0
     mesh.visible = false
