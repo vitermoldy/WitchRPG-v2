@@ -438,3 +438,4 @@ export class Lair {
   private land(u: Unit, atk: AttackSpec) {
     const g = this.g
     const p = g.player
+    const r = ringOf(atk)
