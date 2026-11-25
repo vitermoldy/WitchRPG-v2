@@ -673,6 +673,7 @@ const poseHydra: PoseFn = (p, u, t) => {
 
 /**
  * Four-legged beasts with a head and a tail (Griffin, Hippogriff, Pegasus, Unicorn, the Dragon): a
+ * gallop on the ground, legs tucked under in the air, the head reared back to wind up and thrust out
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
