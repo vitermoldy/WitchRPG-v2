@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import { describe, expect, it } from 'vitest'
-import { ELITE, HYDRA, SPELL, UNITS } from '../src/game/balance'
+import { ELITE, FAUNA, HYDRA, SPELL, UNITS, WORLD_BOSSES } from '../src/game/balance'
 import { riteBlock, riteChance, addShadow, newProfile, impactDamage } from '../src/game/progression'
 import { Obstacles } from '../src/engine/obstacles'
 import { UnitSystem, type Foe, type UnitHost } from '../src/engine/units'
