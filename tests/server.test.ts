@@ -36,7 +36,7 @@ describe('the server checks a witch before it keeps her', () => {
     expect(cleanProfile({ ...newProfile(), level: 31 }, NOW).error).toBeTruthy()
     expect(cleanProfile({ ...newProfile(), stats: { hex: 0, spr: 5, vit: 5, agi: 5, umb: 5 } }, NOW).error).toBeTruthy()
     const p = newProfile()
-    p.shadows.push({ id: 1, name: 'Palsu', kind: 'dragon' as never, rank: 'marsekal', level: 1, xp: 0 })
+    p.shadows.push({ id: 1, name: 'Palsu', kind: 'unicorn' as never, rank: 'marsekal', level: 1, xp: 0 })
     expect(cleanProfile(p, NOW).error).toBeTruthy()
     const q = newProfile()
     addShadow(q, 'imp', 1)
