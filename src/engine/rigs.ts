@@ -679,6 +679,7 @@ const poseHydra: PoseFn = (p, u, t) => {
 const poseBeast: PoseFn = (p, u, t) => {
   if (common(p, u, t, ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'tail'])) return
   const flying = u.flyer && u.alt > 0.8
+  p.rot('tail', -8 + 8 * Math.sin(t * 2.6), 16 * Math.sin(t * 2 + u.id))
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
