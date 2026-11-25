@@ -361,6 +361,7 @@ export class Sfx {
     this.windNodes.filter.frequency.setTargetAtTime(400 + level * 1600, t, 0.25)
   }
 
+  /** A Succubus or Incubus gone in a puff and back elsewhere. */
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
