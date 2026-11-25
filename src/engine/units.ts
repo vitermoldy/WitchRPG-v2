@@ -75,6 +75,7 @@ export class Unit implements Foe {
   /** Elite trait, or null. */
   elite: EliteTrait | null = null
   /** Multiplier on windup, recovery and cooldown (an elite Gesit is quicker). */
+  tempo = 1
   readonly pos = new THREE.Vector3()
   readonly vel = new THREE.Vector3()
   /** Facing; 0 looks along +z, the way the models face. */
