@@ -374,10 +374,7 @@ export class Game implements UnitHost {
     this.ground = {
       height: (x, z) => this.height(x, z),
       obstacles: this.obstacles,
-      blocked: (x, z) => {
-        const [mx, my] = toMap(x, z)
-        if (Math.abs(mx) > PLAY_HALF || Math.abs(my) > PLAY_HALF) return true
-        return inWaterRect(mx, my) && WATER_LEVEL - heightAt(x, z) > MOVE.maxWade
+      blocked: (x, z, fx, fz) => {
       },
     }
     this.glow = new Particles(5000, 'glow')
