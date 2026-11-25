@@ -540,6 +540,7 @@ export class UnitSystem {
     const p = this.host.foe
     const home = u.home ?? u.pos
     const dx = u.pos.x - p.pos.x
+    const dz = u.pos.z - p.pos.z
   /** Succubus and Incubus: gone in a puff, back a dozen metres away from her. */
   private blink(u: Unit, from: Foe) {
     const spec = u.spec.blink!
