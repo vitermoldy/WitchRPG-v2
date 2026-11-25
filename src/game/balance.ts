@@ -560,6 +560,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // Too heavy to lift or throw. An elite Cyclops raises as a Jenderal.
   cyclops: {
     name: 'Cyclops',
+    rank: 'ksatria',
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
