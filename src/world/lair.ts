@@ -428,3 +428,4 @@ export class Lair {
   private windup(u: Unit, atk: AttackSpec, at: THREE.Vector3) {
     u.atk = atk
     u.aimAt.copy(at)
+    if (u !== this.body && !atk.shot) this.inReach(u.aimAt)
