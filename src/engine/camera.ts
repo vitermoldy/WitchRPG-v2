@@ -99,6 +99,7 @@ export class CameraRig {
   params(): CamParams {
     const n = CAMERA.normal
     const a = CAMERA.aim
+    const f = CAMERA.first
     const p = {
       dist: lerp(n.dist, a.dist, this.aim),
       shoulder: lerp(n.shoulder, a.shoulder, this.aim),
