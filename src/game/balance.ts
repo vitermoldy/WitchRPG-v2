@@ -834,6 +834,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     name: 'Typhon',
     rank: 'marsekal',
     hp: 2000,
+    damage: 30,
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
