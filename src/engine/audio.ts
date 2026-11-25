@@ -404,6 +404,7 @@ export class Sfx {
       const src = ctx.createBufferSource()
       src.buffer = this.noiseBuf
       src.loop = true
+      const f = ctx.createBiquadFilter()
     for (const freq of [43.65, 44.1, 65.4]) {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
