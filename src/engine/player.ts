@@ -257,6 +257,7 @@ export class Player {
     this.turn(face, dt)
   }
 
+  /** Moves along one axis unless that would climb a cliff or wade into deep water (in the air: only walls). */
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
