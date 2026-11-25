@@ -362,6 +362,7 @@ export class Sfx {
   }
 
   /** A Succubus or Incubus gone in a puff and back elsewhere. */
+  blink() {
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
