@@ -39,6 +39,7 @@ describe('over-the-shoulder camera', () => {
     expect(pose.fov).toBeCloseTo(CAMERA.aim.fov, 1)
   })
 
+  it('moves to her eyes with a wider view in first person, and back over her shoulder', () => {
   it('stops in front of a trunk standing between her and the camera', () => {
     const obs = new Obstacles()
     obs.add({ kind: CYL, x: 0.4, y: 0, z: 2, r: 0.3, h: 12, camOnly: false })
