@@ -173,3 +173,4 @@ describe('creature shots', () => {
       spells: { inWarp: () => false },
       glow: { emit: noop },
       smoke: { emit: noop },
+      sfx: { bolt: noop },
