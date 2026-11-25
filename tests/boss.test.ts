@@ -146,6 +146,7 @@ describe('the open world (phase 7)', () => {
   })
 
   it('lets fauna wander and step away from her, never be struck, and never attack', () => {
+    const w = world()
 describe('the seal on zones IV and V', () => {
   const seal = new Seal(false)
   const kuil = toWorld(40, 330)
