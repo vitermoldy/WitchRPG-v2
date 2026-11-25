@@ -1888,6 +1888,8 @@ dialog::backdrop {
 .map-boss.sealed,
 .map-boss.locked {
   border-left-color: #ffbe73;
+}
+
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
