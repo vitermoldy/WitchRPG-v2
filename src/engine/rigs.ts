@@ -9,6 +9,7 @@ const UP = new THREE.Vector3(0, 1, 0)
 const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v))
 /** Steering passes per frame for the Hydra's necks, and how high a head's middle lies above its circle (m). */
 const NECK_PASSES = 3
+const HEAD_LIES = 1
 
 /** Adds a per-instance emissive colour (hit flash, the violet glow of a body that can be raised). */
 function patchGlow(mat: THREE.MeshStandardMaterial) {
