@@ -331,7 +331,7 @@ export class Lair {
     this.curtain.visible = this.curtainMat.uniforms.uFade.value > 0.01
 
     if (this.state === 'won') {
-      if (this.time - this.wonAt > HYDRA.respawn && Math.hypot(p.pos.x - this.center.x, p.pos.z - this.center.z) > 80) {
+      if (this.time - this.wonAt > HYDRA.respawn) {
         this.reset()
         this.state = 'calm'
       }
