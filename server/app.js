@@ -110,3 +110,4 @@ export function createApi(getPool, database) {
   api.get('/health', (_req, res) => res.status(getPool() ? 200 : 503).json({ ok: !!getPool(), database }))
   api.use((req, res, next) => (getPool() ? next() : res.status(503).json({ error: 'Database belum terhubung.' })))
 
+  // v1 uses witch_rpg_session; every app on localhost shares cookies, so the name must differ.
