@@ -424,6 +424,7 @@ export class Sfx {
     lfo.start()
     const insects = loop('bandpass', 4600, 6)
     const drone = ctx.createGain()
+    drone.gain.value = 0.0001
     for (const freq of [43.65, 44.1, 65.4]) {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
