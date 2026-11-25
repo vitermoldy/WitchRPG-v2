@@ -872,6 +872,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     blink: { range: 14, every: 7 },
     attacks: [
       { name: 'pedang', strike: 'ring', windup: 0.7, recover: 0.8, range: 4, ring: 2.6 },
+      { name: 'tebasan maut', strike: 'line', windup: 0.9, recover: 1.3, range: 20, minRange: 5, damage: 1.3, lungeSpeed: 24, lungeTime: 0.7, cooldown: 6 },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
