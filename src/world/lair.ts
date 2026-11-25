@@ -394,3 +394,4 @@ export class Lair {
       if (!h || !h.alive) continue
       const atk = h.atk
       if (h.state === 'windup') {
+        if (her) h.aimAt.lerp(her, Math.min(1, dt * 1.5))
