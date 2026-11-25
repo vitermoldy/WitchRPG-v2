@@ -439,3 +439,4 @@ export class Lair {
     const g = this.g
     const p = g.player
     const r = ringOf(atk)
+    g.clearTelegraph(u)
