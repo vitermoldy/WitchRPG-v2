@@ -216,6 +216,7 @@ export class Game implements UnitHost {
     return inWaterRect(mx, my) && WATER_LEVEL - heightAt(x, z) > MOVE.maxWade
   }
 
+  blocked(x: number, z: number, fx?: number, fz?: number) {
   /** A creature's blow on her lands now: dodge, parry, block or hit. */
   strikePlayer(u: Unit, atk: AttackSpec = u.atk) {
     const p = this.player
