@@ -318,6 +318,7 @@ export class Game implements UnitHost {
       this.glow.emit({ pos: at.clone().setY(b.y + 0.6), count: 90, color: 0xff7a2a, intensity: 3, life: 0.6, size: 0.4, sizeEnd: 0.05, speed: b.radius * 1.5, drag: 3 })
       this.rings.spawn(at, 0xff7a2a, 0.4, b.radius, 0.4)
       this.sfx.burst()
+      this.addTrauma(0.3)
   summoned(h: Unit) {
     this.pools.open(h.pos, 1 + h.radius * 1.5, 1)
     this.glow.emit({ pos: h.center(), count: 18, color: COLOR.rift, intensity: 2.2, life: 0.6, size: 0.18, speed: 2.5 })
