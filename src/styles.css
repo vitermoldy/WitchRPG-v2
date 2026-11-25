@@ -1829,6 +1829,7 @@ dialog::backdrop {
   flex-direction: column;
   gap: 0.8rem;
   min-height: 0;
+  overflow-y: auto;
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
