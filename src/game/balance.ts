@@ -646,6 +646,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     strike: 'line',
     lungeSpeed: 19,
     lungeTime: 0.85,
+    rebirth: { ashes: 3, hp: 0.5, burst: 4.5, delay: 1.6 },
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
