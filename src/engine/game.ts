@@ -540,6 +540,8 @@ export class Game implements UnitHost {
     this.saveNow()
   }
 
+  private refusedMsgAt = -99
+
   /** Damage to her after the barrier. */
   hurtPlayer(dmg: number, from: { x: number; z: number }) {
     const p = this.player
