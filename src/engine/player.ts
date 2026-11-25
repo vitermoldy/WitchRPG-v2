@@ -124,6 +124,7 @@ export class Player {
     if (input.fly) this.toggleFlight(g)
     if (this.flying) {
       this.fly(dt, input, wx, wz, wl, face, g)
+      return
     if (input.dodge && this.dodgeT < 0 && this.dodgeCd <= 0) {
       this.nudgeT = 0
       // roll the way she is steering; with no direction held, step back from where she faces
