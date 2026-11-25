@@ -630,6 +630,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2, Lembah Bara: dives in fire along a line. Falls once into ashes, rises again, and bursts on its second fall.
   phoenix: {
     name: 'Phoenix',
+    rank: 'jenderal',
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
