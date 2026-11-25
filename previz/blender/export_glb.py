@@ -78,6 +78,7 @@ def bake_tones(ob):
     attr = me.color_attributes.new("Col", "FLOAT_COLOR", "CORNER")
     me.color_attributes.active_color = attr
     rot = ob.matrix_world.to_3x3()
+    normals = me.corner_normals
 def emission_of(m):
     if not m or not m.node_tree:
         return None
