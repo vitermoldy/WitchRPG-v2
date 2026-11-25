@@ -71,6 +71,7 @@ def bake_tones(ob):
     noise at scale 4 scaling the value between 1 - vary and 1 + vary / 2."""
     if ob.type != "MESH":
         return False
+    tones = [tone_of(s.material) for s in ob.material_slots]
 def emission_of(m):
     if not m or not m.node_tree:
         return None
