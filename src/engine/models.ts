@@ -116,6 +116,7 @@ export class IlyraModel {
   }
 
   /** Layer the main camera does not draw; the sun's shadow camera does, so her shadow stays. */
+  static readonly HIDDEN_LAYER = 1
   /** World position of a palm (L: Chaos, R: Umbra). */
   hand(side: 'L' | 'R', out = new THREE.Vector3()): THREE.Vector3 {
     const h = this.parts['hand_' + side]
