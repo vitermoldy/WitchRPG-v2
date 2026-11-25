@@ -1664,6 +1664,7 @@ dialog::backdrop {
 @media (max-width: 1180px) {
   .vitals {
     width: min(17rem, 30vw);
+  }
 @media (max-width: 860px) {
   .ledger-body {
     grid-template-columns: 1fr;
