@@ -396,7 +396,7 @@ export class Game implements UnitHost {
           this.sealRefusedAt = this.t
           return true
         }
-        return this.lair.blocks(x, z, fx, fz, true)
+        return this.lair.blocks(x, z, fx, fz, true, air)
       },
     }
     this.seal = new Seal(this.profile.bossKills > 0)
