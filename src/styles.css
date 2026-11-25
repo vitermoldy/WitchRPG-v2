@@ -1688,6 +1688,7 @@ dialog::backdrop {
   .hint {
     bottom: calc(var(--gutter) + 6.8rem);
     max-width: calc(100% - 2 * (min(17rem, 30vw) + 2 * var(--gutter)));
+  }
 @media (max-width: 860px) {
   .ledger-body {
     grid-template-columns: 1fr;
