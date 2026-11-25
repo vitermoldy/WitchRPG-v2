@@ -72,6 +72,7 @@ Kelima zona bisa dimainkan. Hutan Pembuka (Lv 1 sampai 3: Imp, Hellhound), Tebin
 Sarangnya di tepi Danau Hitam, dan hanya terbuka bagi witch Lv 10: fase terakhirnya hanya bisa dimenangkan dengan Reality Warp. Begitu pertarungan mulai, sarang tertutup sampai salah satu tumbang.
 
 1. Kepala menghantam tanah di bawah cincin amber (1,3 dtk) dan memuntahkan Imp. Kepala yang tergeletak setelah menghantam bisa dipukul; yang limbung (parry atau kombo berat) bisa dieksekusi dengan F, dan setiap kepala yang terpenggal memotong 8% HP tubuhnya. Terlalu jauh dari tubuh, kepala menyembur dari jauh.
+2. Air naik dan pulau batu muncul. Kulitnya berlendir: Hex Bolt hanya 10%, benda yang dilempar 150%. Batu selalu ada di pulau: bidik, tahan klik kiri, lalu lepas ke arah Hydra.
 
 ## Struktur
 
