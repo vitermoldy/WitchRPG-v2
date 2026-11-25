@@ -83,6 +83,7 @@ def bake_tones(ob):
         t = tones[poly.material_index] if poly.material_index < len(tones) else None
         for li in poly.loop_indices:
             if not t:
+                attr.data[li].color = (1.0, 1.0, 1.0, 1.0)
 def emission_of(m):
     if not m or not m.node_tree:
         return None
