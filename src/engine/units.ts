@@ -72,6 +72,7 @@ export class Unit implements Foe {
   radius: number
   readonly mass: number
   scale = 1
+  /** Elite trait, or null. */
   readonly pos = new THREE.Vector3()
   readonly vel = new THREE.Vector3()
   /** Facing; 0 looks along +z, the way the models face. */
