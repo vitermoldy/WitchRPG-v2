@@ -234,6 +234,7 @@ export class Player {
     const rise = input.rise ?? 0
     const gx = wx * speed - this.vx
     const gy = rise * F.climb * (boost ? 1.5 : 1) - this.vy
+    const gz = wz * speed - this.vz
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
