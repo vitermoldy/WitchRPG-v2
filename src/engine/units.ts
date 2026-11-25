@@ -651,6 +651,7 @@ export class UnitSystem {
   private enemyBrain(u: Unit, dt: number) {
     if (u.spec.passive) {
       this.faunaBrain(u, dt)
+      return
     const host = this.host
     const p = host.foe
     // a shadow close by draws its attention when it is much nearer than her
