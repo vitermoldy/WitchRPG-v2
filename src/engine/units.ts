@@ -82,6 +82,7 @@ export class Unit implements Foe {
   reborn = false
   /** Driven from outside (the Hydra's heads): no brain, no walking. */
   controlled = false
+  /** The Hydra's heads (null once swallowed), read by its rig to bend the necks. */
   readonly pos = new THREE.Vector3()
   readonly vel = new THREE.Vector3()
   /** Facing; 0 looks along +z, the way the models face. */
