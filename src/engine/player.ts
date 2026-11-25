@@ -249,6 +249,7 @@ export class Player {
       this.pos.y = floor + F.ceiling
       this.vy = Math.min(0, this.vy)
     }
+    if (this.pos.y <= floor) {
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
