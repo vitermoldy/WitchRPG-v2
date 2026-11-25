@@ -1911,6 +1911,7 @@ dialog::backdrop {
   width: 20px;
   height: 20px;
   margin: 0;
+  accent-color: var(--umbra);
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
