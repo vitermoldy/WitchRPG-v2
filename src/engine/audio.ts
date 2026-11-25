@@ -391,6 +391,7 @@ export class Sfx {
     this.tone(t, 'triangle', 660, 640, 0.06, 0.05)
   }
 
+  // ------------------------------------------------------------ the forest around her
   private startAmbience() {
     const ctx = this.ctx!
     const g = ctx.createGain()
