@@ -59,6 +59,7 @@ describe('Ilyra in the air (B)', () => {
     run(p, B, 1 / 120)
     run(p, { ...idle, dodge: true }, 0.2)
     expect(p.dodges).toBe(0)
+  })
 describe('Ilyra on foot', () => {
   it('moves the way the camera looks', () => {
     const p = new Player()
