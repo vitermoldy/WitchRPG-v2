@@ -342,6 +342,7 @@ export class Lair {
     if (this.state === 'calm') {
       if (!this.body && near > HYDRA.wake) return
       if (this.body && near > HYDRA.sleep) {
+        this.reset()
     if (!this.body) this.spawn()
     const body = this.body!
     if (this.state === 'calm') {
