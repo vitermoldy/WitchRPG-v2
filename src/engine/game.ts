@@ -680,6 +680,7 @@ export class Game implements UnitHost {
   toggleView(first = !this.rig.firstPerson) {
     this.rig.firstPerson = first
     this.ilyra.firstPerson(first)
+    this.profile.settings.firstPerson = first
   private immuneMsgAt = -99
 
   private fall() {
