@@ -289,7 +289,7 @@ export class Lair {
    * Steps refused at the lair: into it below Lv 10; out of it while the fight lasts; into flood water
    * deeper than she can wade. `player` marks her own steps, so the HUD can say why.
    */
-  blocks(x: number, z: number, fx: number | undefined, fz: number | undefined, player: boolean): boolean {
+  blocks(x: number, z: number, fx: number | undefined, fz: number | undefined, player: boolean, air = false): boolean {
     const inTo = this.inside(x, z)
     const inFrom = fx === undefined || fz === undefined ? null : this.inside(fx, fz)
     if (this.state === 'calm' && this.g.profile.level < HYDRA.lairLevel && inTo && inFrom !== true) {
