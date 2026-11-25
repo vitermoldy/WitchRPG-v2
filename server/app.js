@@ -188,3 +188,4 @@ export function createApi(getPool, database) {
     }
   })
 
+  api.use((err, _req, res, _next) => {
