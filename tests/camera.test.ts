@@ -49,6 +49,7 @@ describe('over-the-shoulder camera', () => {
     // a little in front of her head (north is -z), no shoulder offset
     expect(pose.pos.z).toBeCloseTo(-CAMERA.first.ahead, 5)
     expect(pose.pos.x).toBeCloseTo(0, 5)
+    expect(pose.fov).toBeCloseTo(CAMERA.first.fov, 5)
   it('stops in front of a trunk standing between her and the camera', () => {
     const obs = new Obstacles()
     obs.add({ kind: CYL, x: 0.4, y: 0, z: 2, r: 0.3, h: 12, camOnly: false })
