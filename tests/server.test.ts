@@ -57,3 +57,4 @@ describe('the server checks a witch before it keeps her', () => {
     expect(c.settings).toEqual({ sensitivity: 2.5, volume: 0, headBob: true, shake: false, detail: 120 })
     expect(c.updatedAt.getTime()).toBe(NOW + 60_000)
   })
+})
