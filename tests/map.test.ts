@@ -68,6 +68,8 @@ describe('the forest valley', () => {
       expect(['kuil', 'bara'], kind).toContain(z.key)
       expect(camp.levels[0], kind).toBeGreaterThanOrEqual(z.levels[1])
     }
+  })
+
   it('stands every camp and altar on ground she can walk: not deep water, not a cliff', () => {
     const spots = [...CAMP_DEFS.map((c) => ({ name: `kamp ${c.c}`, c: c.c })), ...ALTARS.map((a) => ({ name: a.name, c: a.c }))]
     for (const { name, c } of spots) {
