@@ -737,7 +737,7 @@ class Rig implements Poser {
     mesh.count = 0
     mesh.visible = false
     this.group.add(mesh)
-    return { src, geo, mat, mesh, glow }
+    const chain: string[] = []
   }
 
   /** Doubles the room for instances; the shared vertex data stays where it is. */
