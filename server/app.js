@@ -112,3 +112,4 @@ export function createApi(getPool, database) {
 
   // v1 uses witch_rpg_session; every app on localhost shares cookies, so the name must differ.
   const auth = createAuth({ getPool, cookie: 'witch_rpg_v2_session', lang: 'id', deviceCode: CODE, newDevice: newCode })
+  api.use('/auth', auth.router)
