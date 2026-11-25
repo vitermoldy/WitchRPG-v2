@@ -731,6 +731,8 @@ export class Game implements UnitHost {
     this.onSaved?.()
   }
 
+  }
+
   // ------------------------------------------------------------ aiming from the shoulder camera
 
   /** The first creature, tree, rock or patch of ground along the middle of the view. */
