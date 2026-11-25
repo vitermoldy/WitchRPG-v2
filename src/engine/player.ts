@@ -22,6 +22,7 @@ export interface Ground {
    * is flying, so deep water is no wall; the map edge, the seal and the lair still are.
    */
   blocked: (x: number, z: number, fx?: number, fz?: number, air?: boolean) => boolean
+  /** Lowest she can fly at: the ground, or the water over a lake. */
 }
 
 const wrap = (a: number) => Math.atan2(Math.sin(a), Math.cos(a))
