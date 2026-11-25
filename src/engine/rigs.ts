@@ -34,6 +34,7 @@ function meanColor(geo: THREE.BufferGeometry | undefined): THREE.Color | null {
   return c.multiplyScalar(1 / a.count)
 }
 
+function shadowMaterial(src: THREE.MeshStandardMaterial, geo?: THREE.BufferGeometry): THREE.MeshStandardMaterial {
   const m = src.clone()
   const c = src.color
   const lum = c.r * 0.3 + c.g * 0.59 + c.b * 0.11
