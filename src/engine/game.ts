@@ -398,6 +398,7 @@ export class Game implements UnitHost {
         }
         return this.lair.blocks(x, z, fx, fz, true, air)
       },
+      },
     }
     this.seal = new Seal(this.profile.bossKills > 0)
     this.scene.add(this.seal.mesh)
