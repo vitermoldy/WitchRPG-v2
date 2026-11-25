@@ -115,7 +115,7 @@ def flat(m):
     f = bpy.data.materials.new(f"g_{m.name}")
     f.use_nodes = True
     b = f.node_tree.nodes["Principled BSDF"]
-    col = tuple(m.diffuse_color[:3])
+    # a two-tone material: the colour lives in the vertex colours, so the material is white
     b.inputs["Base Color"].default_value = (*col, 1.0)
     b.inputs["Roughness"].default_value = 0.75
     metal = 0.0
