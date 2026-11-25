@@ -580,6 +580,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     ],
   },
   // v2, Kuil and Bara: calls Imps, claws, throws green fire along a line, and blinks away when she closes in.
+  succubus: {
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
