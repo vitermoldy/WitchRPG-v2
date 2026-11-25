@@ -137,6 +137,7 @@ describe('phase 5 creatures', () => {
 })
 
 describe('the open world (phase 7)', () => {
+  it('gives every boss of the open world a boss bar, the Marsekal rank and attacks of its own', () => {
 describe('the seal on zones IV and V', () => {
   const seal = new Seal(false)
   const kuil = toWorld(40, 330)
