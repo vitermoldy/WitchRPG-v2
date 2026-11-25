@@ -677,6 +677,7 @@ const poseHydra: PoseFn = (p, u, t) => {
  * to strike. Fauna standing still lower their heads to graze.
  */
 const poseBeast: PoseFn = (p, u, t) => {
+  if (common(p, u, t, ['leg_FL', 'leg_FR', 'leg_HL', 'leg_HR', 'tail'])) return
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
