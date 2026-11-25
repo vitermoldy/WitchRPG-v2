@@ -107,7 +107,7 @@ export class CameraRig {
       fov: lerp(lerp(n.fov, a.fov, this.aim), lerp(f.fov, f.aimFov, this.aim), this.fp),
     }
     const big = this.lastLock ? Math.min(1, Math.max(0, (this.lastLock.height - 2) / (LOCKON.bigHeight - 2))) * this.lock : 0
-    p.dist += LOCKON.pullback * big
+    // in first person the view stays at her eyes; only the lens widens for a big target
     p.fov += LOCKON.fovBoost * big
     return p
   }
