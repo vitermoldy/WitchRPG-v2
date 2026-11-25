@@ -1685,6 +1685,7 @@ dialog::backdrop {
   .feed-item:nth-last-child(n + 4) {
     display: none;
   }
+  .hint {
 @media (max-width: 860px) {
   .ledger-body {
     grid-template-columns: 1fr;
