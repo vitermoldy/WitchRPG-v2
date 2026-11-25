@@ -223,6 +223,7 @@ export class IlyraModel {
       const lean = Math.min(38, Math.hypot(p.vx, p.vz) * 1.6)
       const drift = Math.sin(this.t * 2.1)
       this.pivot.rotation.x = rad(lean)
+      this.pivot.position.y = 0.9 + 0.05 * Math.sin(this.t * 2)
 
     // upper body: the fight overrides the walk's arm swing
     let torsoX = 3 + 9 * sprint + breath * 1.2
