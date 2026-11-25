@@ -309,6 +309,7 @@ export class Game implements UnitHost {
     const p = this.player
     for (let i = this.blasts.length - 1; i >= 0; i--) {
       const b = this.blasts[i]
+      b.t -= dt
   summoned(h: Unit) {
     this.pools.open(h.pos, 1 + h.radius * 1.5, 1)
     this.glow.emit({ pos: h.center(), count: 18, color: COLOR.rift, intensity: 2.2, life: 0.6, size: 0.18, speed: 2.5 })
