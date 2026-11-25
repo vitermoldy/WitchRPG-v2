@@ -124,6 +124,7 @@ export class IlyraModel {
    * First person: everything but her forearms, hands and staff leaves the view. The palms' lights go
    * dark and their glow dims: a swing brings them right past the eye, where they would light the
    * ground next to the camera and the bloom would flood the screen.
+   */
   /** World position of a palm (L: Chaos, R: Umbra). */
   hand(side: 'L' | 'R', out = new THREE.Vector3()): THREE.Vector3 {
     const h = this.parts['hand_' + side]
