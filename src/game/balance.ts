@@ -605,6 +605,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // v2, Kuil and Bara: the heavier of the pair; lobs green fire onto circles and calls Imps.
   incubus: {
+    name: 'Incubus',
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
