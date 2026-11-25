@@ -184,6 +184,8 @@ export class Spells {
   }
 
   /** A boulder held by Telekinesis (when no creature was in the aim). */
+  heldProp: Prop | null = null
+
   get gripping() {
     return this.grabbed.length > 0
   }
