@@ -20,6 +20,8 @@ const HYDRA_HINT = [
   'Kepala menghantam di lingkaran amber. Kepala yang limbung bisa dieksekusi.',
   'Kulit berlendir: bolt hanya 10%. Angkat batu di pulau dengan Telekinesis dan lempar (150%).',
   'Kebal, kecuali di dalam Reality Warp (V): di sana jantungnya terbuka, +50%.',
+]
+
 /**
  * The fight overlay, kept to the screen edges: her vitals and Chaos on the left, skills in the middle,
  * the army on the right, creature bars over the creatures, prompts under the middle of the view.
