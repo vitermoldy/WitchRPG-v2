@@ -228,6 +228,7 @@ export class Player {
    * on lands her.
    */
   private fly(dt: number, input: MoveInput, wx: number, wz: number, wl: number, face: number | null, g: Ground) {
+    const F = MOVE.fly
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
