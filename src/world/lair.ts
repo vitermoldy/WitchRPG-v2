@@ -401,3 +401,4 @@ export class Lair {
             g.fire(h, atk)
             h.set('recover')
           } else h.set('strike')
+        }
