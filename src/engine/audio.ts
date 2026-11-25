@@ -440,5 +440,6 @@ export class Sfx {
   }
 
   /** Each frame, with the zone weights in ZONES order (pembuka, tebing, rawa, kuil, bara). */
+  ambience(dt: number, w: ArrayLike<number>) {
   }
 }
