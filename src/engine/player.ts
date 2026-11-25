@@ -214,6 +214,7 @@ export class Player {
       this.vy = Math.max(this.vy, 3)
       return
     }
+    // she lands only where she can stand, never into deep water
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
