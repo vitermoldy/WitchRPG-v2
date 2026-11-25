@@ -63,7 +63,7 @@ async function boot() {
   $('btn-enter').addEventListener('click', enter)
 
   const pr = game.profile
-  $('profile-line').textContent = pr.level > 1 || pr.shadows.length ? `Ilyra Lv ${pr.level}, ${pr.shadows.length} bayangan di Ruang Bayangan` : ''
+  // what the start screen shows from the witch; read again when the server hands over another one
 
   /** One range setting: shows its value, applies it, and keeps it in the save. */
   const range = (id: string, value: number, fmt: (v: number) => string, apply: (v: number) => void) => {
