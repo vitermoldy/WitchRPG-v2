@@ -716,6 +716,7 @@ export const HYDRA = {
   impsPerSlam: 2,
   maxImps: 6,
   /** Phase 2 skin: bolts and blasts do this share, thrown things this much. */
+  boltShare: 0.1,
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
 export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
