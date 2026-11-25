@@ -121,6 +121,7 @@ export class IlyraModel {
   private static readonly SEEN = new Set(['forearm_L', 'forearm_R', 'hand_L', 'hand_R', 'staff'])
 
   /**
+   * First person: everything but her forearms, hands and staff leaves the view. The palms' lights go
   /** World position of a palm (L: Chaos, R: Umbra). */
   hand(side: 'L' | 'R', out = new THREE.Vector3()): THREE.Vector3 {
     const h = this.parts['hand_' + side]
