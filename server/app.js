@@ -189,3 +189,4 @@ export function createApi(getPool, database) {
   })
 
   api.use((err, _req, res, _next) => {
+    if (err?.type === 'entity.too.large') return res.status(413).json({ error: 'Kiriman terlalu besar.' })
