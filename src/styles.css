@@ -1721,6 +1721,7 @@ dialog::backdrop {
   }
   /* too narrow to sit between the panels: above them */
   .hint {
+    bottom: calc(var(--gutter) + 12rem);
 }
 
 @media (prefers-reduced-motion: reduce) {
