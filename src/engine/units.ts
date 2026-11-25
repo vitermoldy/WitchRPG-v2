@@ -661,6 +661,7 @@ export class UnitSystem {
     if (spec.blink && u.blinkCd <= 0 && dist < 4 && (u.state === 'move' || u.state === 'recover')) {
       this.blink(u, tgt)
       return
+    }
     const speed = u.speed * u.slow
     switch (u.state) {
       case 'move': {
