@@ -163,6 +163,7 @@ export const RANKS: Record<RankId, { label: string; base: number }> = {
 export type UnitKind =
   | 'husk' | 'hound' | 'spitter' | 'warden' | 'riftlord' | 'hollow' | 'harrier' | 'bombard'
   | 'imp' | 'hellhound' | 'harpy' | 'centaur' | 'naga' | 'minotaur' | 'medusa' | 'chimera'
+  | 'cyclops' | 'succubus' | 'incubus' | 'phoenix' | 'hydra' | 'hydraHead'
 
 /** v2 creatures of the forest; the v1 kinds above stay for the v1 formula tests and later phases. */
 export const V2_KINDS = ['imp', 'hellhound', 'harpy', 'centaur', 'naga', 'minotaur', 'medusa', 'chimera'] as const
