@@ -618,6 +618,7 @@ export class Game implements UnitHost {
         this.sfx.clank()
         this.glow.emit({ pos: u.center(this.v), count: 10, color: 0xfff2e0, intensity: 2.2, life: 0.25, size: 0.1, speed: 4 })
         if (this.t - this.immuneMsgAt > 6) {
+          this.immuneMsgAt = this.t
   private fall() {
     const p = this.player
     p.hp = 0
