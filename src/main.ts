@@ -72,7 +72,7 @@ async function boot() {
   refreshers.push(profileLine)
 
   /** One range setting: shows its value, applies it, and keeps it in the save. */
-  const range = (id: string, value: number, fmt: (v: number) => string, apply: (v: number) => void) => {
+  const range = (id: string, value: () => number, fmt: (v: number) => string, apply: (v: number) => void) => {
     const input = $(`set-${id}`) as HTMLInputElement
     const out = $(`out-${id}`) as HTMLOutputElement
     input.value = String(value)
