@@ -670,6 +670,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   // v2: one head of the Hydra, steered by the boss; it has no model of its own.
   hydraHead: {
     name: 'Kepala Hydra',
+    rank: 'marsekal',
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
