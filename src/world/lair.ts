@@ -468,3 +468,4 @@ export class Lair {
         imp.aggro = true
         body.helpers++
         g.summoned(imp)
+      }
