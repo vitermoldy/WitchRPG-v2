@@ -27,6 +27,7 @@ describe('Ilyra in the air (B)', () => {
     expect(p.pos.y).toBeCloseTo(MOVE.fly.ceiling, 3)
   })
 
+  it('flies 13 m/s, and 26 with Shift', () => {
 describe('Ilyra on foot', () => {
   it('moves the way the camera looks', () => {
     const p = new Player()
