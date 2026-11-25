@@ -55,7 +55,7 @@ describe('the forest valley', () => {
       expect(z.levels[1] - z.levels[0]).toBe(2)
     }
     // every zone of phase 4 has camps
-    for (const key of ['pembuka', 'tebing', 'rawa']) expect(CAMP_DEFS.some((c) => zoneAt(c.c[0], c.c[1]).key === key), key).toBe(true)
+    for (const key of ['pembuka', 'tebing', 'rawa', 'kuil', 'bara']) expect(CAMP_DEFS.some((c) => zoneAt(c.c[0], c.c[1]).key === key), key).toBe(true)
   })
 
   it('stands every camp and altar on ground she can walk: not deep water, not a cliff', () => {
