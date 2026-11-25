@@ -1719,6 +1719,7 @@ dialog::backdrop {
   .feed-item:nth-last-child(n + 3) {
     display: none;
   }
+  /* too narrow to sit between the panels: above them */
 }
 
 @media (prefers-reduced-motion: reduce) {
