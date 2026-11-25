@@ -465,6 +465,7 @@ export class Game implements UnitHost {
   start() {
     // a witch who has lit other altars enters the forest at the one she last rose at
     if (this.profile.world.last !== 'pembuka' && this.profile.world.altars.includes(this.profile.world.last)) {
+      const a = this.altars.byKey(this.profile.world.last)
     this.state = 'playing'
     this.input.capture = true
     this.sfx.start()
