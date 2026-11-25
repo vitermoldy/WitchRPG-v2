@@ -587,6 +587,7 @@ export class Game implements UnitHost {
         if (o.elite === 'penjaga' && o.targetable && o !== u && Math.hypot(o.pos.x - u.pos.x, o.pos.z - u.pos.z) < ELITE.ward.radius) {
           share *= ELITE.ward.share
           break
+        }
     if (share < 1) {
       // turned aside by the shield: a spark and a clank, a little stun gets through
       dmg *= share
