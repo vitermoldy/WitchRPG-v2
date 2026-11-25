@@ -9,6 +9,7 @@ export interface MoveInput {
   sprint: boolean
   dodge: boolean
   /** B pressed: take to the air, or land. */
+  fly?: boolean
 }
 
 export interface Ground {
