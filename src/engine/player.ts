@@ -239,6 +239,7 @@ export class Player {
     const k = len > F.accel * dt ? (F.accel * dt) / len : 1
     this.vx += gx * k
     this.vy += gy * k
+    this.vz += gz * k
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
