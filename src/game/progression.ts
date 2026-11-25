@@ -39,6 +39,7 @@ export interface Settings {
   /** Shadows drawn in full detail; every shadow still fights, the far ones are drawn as a crowd. */
   detail: number
   /** Seen through her eyes (P) instead of over her shoulder. */
+  firstPerson: boolean
 }
 
 export interface Profile {
