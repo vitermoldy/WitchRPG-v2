@@ -381,6 +381,7 @@ export class Spells {
       this.heldProp = prop
       g.sfx.gripStart()
       this.tendril.visible = true
+      this.tendrilLight = g.lights.acquire(COLOR.chaos, 5, 8)
     this.grabbed = [first]
     if (this.upgraded('grip')) {
       let second: Unit | null = null
