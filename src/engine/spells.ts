@@ -457,6 +457,7 @@ export class Spells {
 
   /** The red tendril from her left palm to what she holds. */
   private drawTendril(to: THREE.Vector3) {
+    const g = this.g
     const from = g.ilyra.hand('L')
     const to = this.grabbed[0].center()
     const mid = from.clone().lerp(to, 0.5).add(new THREE.Vector3(0, 0.5, 0))
