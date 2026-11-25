@@ -854,6 +854,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'petir', strike: 'ring', windup: 1, recover: 0.9, range: 32, minRange: 8, ring: 2.4, shot: { speed: 18, gravity: 8, radius: 0.5 }, cooldown: 3 },
     ],
   },
+  samael: {
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
