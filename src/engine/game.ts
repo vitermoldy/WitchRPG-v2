@@ -1124,6 +1124,7 @@ export class Game implements UnitHost {
     return this.lair.info()
   }
 
+  /** ?debug: an elite with a trait (or a random one) near her. */
   /** ?debug: adds shadows to the Shadow Room (for the army measurements). */
   debugShadows(n: number, kind: V2Kind = 'imp', level = 1) {
     for (let i = 0; i < n; i++) addShadow(this.profile, V2_KINDS.includes(kind) ? kind : 'imp', level)
