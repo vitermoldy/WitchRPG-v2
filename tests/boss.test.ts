@@ -140,6 +140,7 @@ describe('the open world (phase 7)', () => {
   it('gives every boss of the open world a boss bar, the Marsekal rank and attacks of its own', () => {
     for (const kind of WORLD_BOSSES) {
       expect(UNITS[kind].boss, kind).toBe(true)
+      expect(UNITS[kind].rank, kind).toBe('marsekal')
 describe('the seal on zones IV and V', () => {
   const seal = new Seal(false)
   const kuil = toWorld(40, 330)
