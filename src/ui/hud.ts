@@ -283,7 +283,7 @@ export class Hud {
     // the zone banner steps down while a boss bar holds the top of the screen
     this.root.classList.toggle('boss', !!boss)
     if (!boss) return
-    this.set('boss-name', 'text', `${boss.spec.name} Lv ${boss.level}${boss.staggered ? ', limbung' : ''}`)
+    const hydra = boss.kind === 'hydra'
     this.set('boss-fill', 'transform', `scaleX(${Math.max(0, boss.hp / boss.maxHp).toFixed(3)})`)
     this.set('boss-hint', 'text', BOSS_HINT[boss.kind] ?? '')
   }
