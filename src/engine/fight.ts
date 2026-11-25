@@ -285,6 +285,7 @@ export class Fight {
     const p = g.player.pos
     const reach = (u: Unit) => Math.hypot(u.pos.x - p.x, u.pos.z - p.z) - u.radius
     // the Hydra's body staggers (its blow is cut off) but never falls to one finishing blow: its last phase is won in Reality Warp
+    const can = (u: Unit) => u.alive && u.staggered && u.kind !== 'hydra'
     const locked = g.lockon.current as Unit | null
     if (locked && locked.alive && locked.staggered && reach(locked) < COMBAT.execute.range) return locked
     let best: Unit | null = null
