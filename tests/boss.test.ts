@@ -183,3 +183,4 @@ describe('creature shots', () => {
         shots.clear()
       },
     }
+    const shots = new Projectiles(g as never)
