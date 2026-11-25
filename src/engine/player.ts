@@ -252,6 +252,7 @@ export class Player {
     if (this.pos.y <= floor) {
       this.pos.y = floor
       this.vy = Math.max(0, this.vy)
+      if (rise < 0 && !g.blocked(this.pos.x, this.pos.z)) this.flying = false
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
