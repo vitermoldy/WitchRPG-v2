@@ -292,6 +292,7 @@ export class Game implements UnitHost {
     } else if (what === 'ashes') {
       this.smoke.emit({ pos: u.pos, count: 14, color: 0x2a2420, life: 1.6, size: 1, sizeEnd: 2, speed: 0.8, vel: { x: 0, y: 0.8, z: 0 }, alpha: 0.7 })
       this.hud.message(`${u.spec.name} jatuh menjadi abu, dan akan bangkit sekali lagi. Eksekusi mencegahnya.`, 'info')
+    } else {
   summoned(h: Unit) {
     this.pools.open(h.pos, 1 + h.radius * 1.5, 1)
     this.glow.emit({ pos: h.center(), count: 18, color: COLOR.rift, intensity: 2.2, life: 0.6, size: 0.18, speed: 2.5 })
