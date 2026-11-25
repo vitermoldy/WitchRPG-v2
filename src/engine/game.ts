@@ -544,6 +544,7 @@ export class Game implements UnitHost {
 
   /** When a step of hers was just refused by the seal or the lair, say why (not too often). */
   private refusals() {
+    if (this.t - this.refusedMsgAt < 5) return
   /** Damage to her after the barrier. */
   hurtPlayer(dmg: number, from: { x: number; z: number }) {
     const p = this.player
