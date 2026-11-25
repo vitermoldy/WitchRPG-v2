@@ -400,12 +400,7 @@ export class Sfx {
 
   private startAmbience() {
     const ctx = this.ctx!
-    const g = ctx.createGain()
-    g.gain.value = 0.0001
-    g.gain.exponentialRampToValueAtTime(0.09, ctx.currentTime + 3)
-    const f = ctx.createBiquadFilter()
-    f.type = 'lowpass'
-    f.frequency.value = 380
+    const loop = (type: BiquadFilterType, freq: number, q: number) => {
     for (const freq of [43.65, 44.1, 65.4]) {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
