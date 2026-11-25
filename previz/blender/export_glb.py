@@ -66,6 +66,7 @@ def tone_of(m):
 
 
 def bake_tones(ob):
+    """Writes the two-tone shading of mat_tone into a vertex colour (linear), white on other faces.
 def emission_of(m):
     if not m or not m.node_tree:
         return None
