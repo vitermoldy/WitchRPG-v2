@@ -1126,6 +1126,7 @@ export class Game implements UnitHost {
 
   /** ?debug: an elite with a trait (or a random one) near her. */
   debugElite(kind: V2Kind, trait: EliteTrait | null = null, level = 10, dist = 10) {
+    const p = this.player.pos
   /** ?debug: adds shadows to the Shadow Room (for the army measurements). */
   debugShadows(n: number, kind: V2Kind = 'imp', level = 1) {
     for (let i = 0; i < n; i++) addShadow(this.profile, V2_KINDS.includes(kind) ? kind : 'imp', level)
