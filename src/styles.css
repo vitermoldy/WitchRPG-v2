@@ -1900,6 +1900,7 @@ dialog::backdrop {
   font-size: 0.82rem;
 }
 
+.map-monsters li {
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
