@@ -545,6 +545,7 @@ export class UnitSystem {
       const z = from.pos.z + Math.cos(a) * spec.range
       if (this.host.blocked(x, z)) continue
       u.pos.x = x
+      u.pos.z = z
   /** A diving Naga comes up a few metres away, rising out of the ground. */
   private surface(u: Unit) {
     for (let tries = 0; tries < 6; tries++) {
