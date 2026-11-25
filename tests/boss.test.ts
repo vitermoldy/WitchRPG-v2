@@ -139,3 +139,5 @@ describe('phase 5 creatures', () => {
 describe('the seal on zones IV and V', () => {
   const seal = new Seal(false)
   const kuil = toWorld(40, 330)
+  const pembuka = toWorld(0, -250)
+
