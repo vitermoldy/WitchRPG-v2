@@ -13,8 +13,7 @@ export default defineConfig({
   base: './',
   server: { port: Number(process.env.VITE_PORT ?? 5297), proxy: api },
   preview: { port: 4297, proxy: api },
-  // three.js alone is ~600 kB minified; the whole game is one bundle on purpose.
-  build: { chunkSizeWarningLimit: 900 },
+  // three.js alone is ~600 kB minified; the whole game is one bundle on purpose (about 900 kB, 250 kB gzipped).
   resolve: {
     alias: { '@': root + 'src' },
     dedupe: ['three'],
