@@ -185,3 +185,4 @@ describe('creature shots', () => {
     }
     const shots = new Projectiles(g as never)
     naga.aimAt.set(0, 0, 0)
+    naga.lungeDir.set(0, 0, -1)
