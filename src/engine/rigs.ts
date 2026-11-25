@@ -637,6 +637,7 @@ const poseHydra: PoseFn = (p, u, t) => {
       target = h.aimAt
     } else if (i === 2 && (u.state === 'windup' || u.state === 'strike' || u.state === 'recover')) {
       mode = u.state === 'windup' ? 'rear' : 'down'
+      target = u.aimAt
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
