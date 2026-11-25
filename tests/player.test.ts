@@ -23,6 +23,7 @@ describe('Ilyra in the air (B)', () => {
     run(p, { ...idle, rise: 1 }, 2)
     expect(p.pos.y).toBeGreaterThan(12)
     expect(p.pos.y).toBeLessThan(17)
+    run(p, { ...idle, rise: 1 }, 8)
 describe('Ilyra on foot', () => {
   it('moves the way the camera looks', () => {
     const p = new Player()
