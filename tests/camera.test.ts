@@ -42,6 +42,7 @@ describe('over-the-shoulder camera', () => {
   it('moves to her eyes with a wider view in first person, and back over her shoulder', () => {
     const rig = new CameraRig()
     rig.pitch = 0
+    rig.firstPerson = true
   it('stops in front of a trunk standing between her and the camera', () => {
     const obs = new Obstacles()
     obs.add({ kind: CYL, x: 0.4, y: 0, z: 2, r: 0.3, h: 12, camOnly: false })
