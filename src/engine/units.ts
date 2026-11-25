@@ -207,6 +207,7 @@ export class Unit implements Foe {
     this.maxHp *= ELITE.hp
     this.hp = this.maxHp
     this.damage *= ELITE.damage
+    this.setScale(this.scale * ELITE.scale)
   }
 
   get height() {
