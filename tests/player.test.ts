@@ -15,6 +15,7 @@ function run(p: Player, input: MoveInput, seconds: number, g = flat, camYaw = 0)
 }
 
 describe('Ilyra in the air (B)', () => {
+  const B: MoveInput = { ...idle, fly: true }
 describe('Ilyra on foot', () => {
   it('moves the way the camera looks', () => {
     const p = new Player()
