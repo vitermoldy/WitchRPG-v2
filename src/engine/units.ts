@@ -69,7 +69,7 @@ export class Unit implements Foe {
   maxHp: number
   damage: number
   speed: number
-  readonly radius: number
+  radius: number
   readonly mass: number
   scale = 1
   readonly pos = new THREE.Vector3()
