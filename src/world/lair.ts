@@ -337,3 +337,4 @@ export class Lair {
       }
       return
     }
+    if (!this.body) this.spawn()
