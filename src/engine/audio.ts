@@ -62,7 +62,7 @@ export class Sfx {
     if (freqEnd) f.frequency.exponentialRampToValueAtTime(freqEnd, t + dur)
     f.Q.value = q
     const g = ctx.createGain()
-    this.env(g, t, 0.005, peak, dur)
+    this.env(g, t, attack, peak, dur)
     src.connect(f).connect(g).connect(this.master!)
     src.start(t, Math.random())
     src.stop(t + dur + 0.05)
