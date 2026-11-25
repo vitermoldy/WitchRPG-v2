@@ -623,6 +623,7 @@ const poseHydra: PoseFn = (p, u, t) => {
   p.rot('tail', 0, 15 * Math.sin(t * 0.9))
   for (let i = 0; i < 5; i++) {
     const h = u.parts ? u.parts[i] : undefined
+    if (h === null) {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
