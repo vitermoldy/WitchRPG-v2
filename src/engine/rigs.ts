@@ -639,6 +639,7 @@ const poseHydra: PoseFn = (p, u, t) => {
       mode = u.state === 'windup' ? 'rear' : 'down'
       target = u.aimAt
     }
+    let yaw = 0
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
