@@ -167,6 +167,7 @@ async function boot() {
   game.input.onKey = (code) => {
     if (game.state !== 'playing' || !game.player.alive) return
     if (code === 'Tab') openMenu(ledger)
+    else if (code === 'KeyM') openMenu(map)
     else if (code === 'KeyF' && game.altars.near() && !game.fight.executable()) openMenu(travel)
   }
   $('btn-resume').addEventListener('click', async () => {
