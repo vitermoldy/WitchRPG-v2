@@ -464,3 +464,4 @@ export class Lair {
         }
         if (!spot) break
         const imp = g.units.spawn('imp', 'enemy', 10, spot, true)
+        imp.owner = body
