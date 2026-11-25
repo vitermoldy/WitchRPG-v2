@@ -1715,6 +1715,7 @@ dialog::backdrop {
   /* on a phone the banner spans the width: the feed goes under it and keeps its two newest lines */
   .feed {
     top: calc(24% + 10rem);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
