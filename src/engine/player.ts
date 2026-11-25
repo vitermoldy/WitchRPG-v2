@@ -231,6 +231,7 @@ export class Player {
     const F = MOVE.fly
     const boost = input.sprint && wl > 0.05
     const speed = (boost ? F.boost : F.speed) * this.speedMult
+    const rise = input.rise ?? 0
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
