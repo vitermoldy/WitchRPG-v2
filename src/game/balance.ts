@@ -711,6 +711,7 @@ export const HYDRA = {
   phase2At: 0.66,
   phase3At: 0.33,
   /** A severed head costs it this share of its HP. */
+  severShare: 0.08,
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
 export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
