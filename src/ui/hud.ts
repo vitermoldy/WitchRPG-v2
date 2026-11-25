@@ -355,7 +355,7 @@ export class Hud {
       ;(el.children[1] as HTMLElement).style.transform = `scaleX(${u.staggered ? 1 : u.stun.share.toFixed(3)})`
       el.classList.toggle('weak', u.vulnerable > 0)
       el.classList.toggle('staggered', u.staggered)
-      const label = u.staggered ? 'Limbung' : ''
+      el.classList.toggle('elite', !!u.elite)
       if (el.dataset.label !== label) el.dataset.label = label
       n++
     }
