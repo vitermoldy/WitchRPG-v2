@@ -51,6 +51,7 @@ describe('over-the-shoulder camera', () => {
     expect(pose.pos.x).toBeCloseTo(0, 5)
     expect(pose.fov).toBeCloseTo(CAMERA.first.fov, 5)
     for (let i = 0; i < 120; i++) pose = rig.update(1 / 60, pivot, true, null, null, flat)
+    expect(pose.fov).toBeCloseTo(CAMERA.first.aimFov, 1)
   it('stops in front of a trunk standing between her and the camera', () => {
     const obs = new Obstacles()
     obs.add({ kind: CYL, x: 0.4, y: 0, z: 2, r: 0.3, h: 12, camOnly: false })
