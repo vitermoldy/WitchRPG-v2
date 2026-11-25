@@ -685,6 +685,7 @@ const poseBeast: PoseFn = (p, u, t) => {
     p.body(0.2 * k, -18 * k)
     p.rot('neck', -25 * k)
     p.rot('head', -20 * k)
+    if (!flying) {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
