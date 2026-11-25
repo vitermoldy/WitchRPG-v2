@@ -558,6 +558,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   // v2, Reruntuhan Kuil and Lembah Bara: a giant that throws boulders onto amber circles and clubs up close.
   // Too heavy to lift or throw. An elite Cyclops raises as a Jenderal.
+  cyclops: {
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
