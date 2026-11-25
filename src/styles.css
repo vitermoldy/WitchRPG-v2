@@ -1749,6 +1749,7 @@ dialog::backdrop {
 .gate-field input {
   min-height: 44px;
   padding: 0.5rem 0.7rem;
+  border: 1px solid var(--line-strong);
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
