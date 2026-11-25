@@ -21,3 +21,4 @@ describe('the server checks a witch before it keeps her', () => {
     const p = newProfile()
     p.level = 12
     for (const kind of V2_KINDS) addShadow(p, kind, 5)
+    for (const s of SKILLS) p.upgrades[s.id] = true
