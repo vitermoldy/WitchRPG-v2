@@ -556,6 +556,7 @@ export class UnitSystem {
       this.steer(u, u.aimAt.x, u.aimAt.z, u.speed * 0.35, dt, 1)
       if (Math.hypot(u.aimAt.x - u.pos.x, u.aimAt.z - u.pos.z) > 1.2) this.face(u, u.aimAt.x, u.aimAt.z, dt, 3)
     }
+    if (u.spec.fly) u.alt += (u.spec.fly.height * (0.7 + 0.3 * Math.sin(u.t * 0.4 + u.id)) - u.alt) * Math.min(1, dt)
   /** Succubus and Incubus: gone in a puff, back a dozen metres away from her. */
   private blink(u: Unit, from: Foe) {
     const spec = u.spec.blink!
