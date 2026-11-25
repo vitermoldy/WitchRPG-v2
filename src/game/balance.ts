@@ -668,6 +668,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     attacks: [{ name: 'hantam tubuh', strike: 'ring', windup: 1.6, recover: 1.2, range: 9, ring: 4.5 }],
   },
   // v2: one head of the Hydra, steered by the boss; it has no model of its own.
+  hydraHead: {
 }
 
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
