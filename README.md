@@ -85,7 +85,7 @@ src/engine/   kamera (camera.ts), gerak (player.ts), rintangan (obstacles.ts), l
               tempur: aturan parry dan stun (combat.ts), Ilyra (fight.ts), sihir (spells.ts), makhluk dan bayangan (units.ts)
               Umbra (umbra.ts), gambar makhluk per bagian dan kerumunan (rigs.ts), telegraf amber (telegraph.ts)
               model Ilyra dan animasinya (models.ts), efek dan suara dari v1 (fx.ts, audio.ts)
-              proyektil makhluk: panah dan semburan (projectiles.ts)
+              proyektil makhluk: panah dan semburan (projectiles.ts), batu yang bisa dilempar (props.ts)
 src/world/    peta, zona, dan altar (map.ts, altars.ts), medan per chunk, hutan, kabut dan langit, kamp makhluk (camps.ts)
 src/ui/       HUD, Ledger dan panel altar (ledger.ts)
 tests/        Vitest: progresi v1, kamera, gerak, peta, tempur, AI makhluk, simpanan
