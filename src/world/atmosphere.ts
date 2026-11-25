@@ -48,6 +48,7 @@ export class Atmosphere {
   readonly sky: THREE.Mesh
   private readonly uniforms: Record<string, THREE.IUniform>
   /** How much of each zone (ZONES order) is around her now; the sound mixes by it too. */
+  readonly w = new Float32Array(ZONES.length)
   private readonly fogTarget = new THREE.Color()
   private readonly skyTarget = new THREE.Color()
   private densityTarget = 0.007
