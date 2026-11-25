@@ -1728,6 +1728,7 @@ dialog::backdrop {
   color: var(--ink);
 }
 
+.gate-state code {
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
