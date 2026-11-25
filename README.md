@@ -69,6 +69,8 @@ Kelima zona bisa dimainkan. Hutan Pembuka (Lv 1 sampai 3: Imp, Hellhound), Tebin
 
 ### Hydra
 
+Sarangnya di tepi Danau Hitam, dan hanya terbuka bagi witch Lv 10: fase terakhirnya hanya bisa dimenangkan dengan Reality Warp. Begitu pertarungan mulai, sarang tertutup sampai salah satu tumbang.
+
 
 ## Struktur
 
