@@ -195,6 +195,8 @@ export class Unit implements Foe {
     return this.alive && this.state !== 'finishing' && !this.hidden
   }
 
+  }
+
   get height() {
     return this.spec.height * this.scale
   }
