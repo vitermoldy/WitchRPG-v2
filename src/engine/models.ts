@@ -218,14 +218,7 @@ export class IlyraModel {
       this.rot('head', 20 * tuck)
       return
     }
-    this.pivot.position.y = 0.9 + 0.02 * Math.abs(s) * amp
-    this.rot('thigh_L', -24 * s * amp)
-    this.rot('thigh_R', 24 * s * amp)
-    this.rot('shin_L', Math.max(0, 30 * Math.sin(p.stride + 1.2)) * amp)
-    this.rot('shin_R', Math.max(0, 30 * Math.sin(p.stride + 1.2 + Math.PI)) * amp)
-    this.rot('pelvis', 0, -3 * s * amp)
-    this.rot('cloak', 5 + 3 * Math.sin(p.stride * 2) * amp + 10 * sprint)
-    this.rot('head', -2 - 6 * sprint, -3 * s * amp)
+    if (p.flying) {
 
     // upper body: the fight overrides the walk's arm swing
     let torsoX = 3 + 9 * sprint + breath * 1.2
