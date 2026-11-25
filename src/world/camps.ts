@@ -217,7 +217,7 @@ export class Camps {
           camp.state = 'cleared'
           camp.respawnAt = this.time + (camp.def.boss ? CAMP.bossRespawn : CAMP.respawn)
           colors = true
-          g.hud.message(`Kamp Lv ${camp.def.levels[0]}${camp.def.levels[1] !== camp.def.levels[0] ? ` sampai ${camp.def.levels[1]}` : ''} ditaklukkan. Batu ambernya padam.`, 'info')
+          const boss = camp.def.boss ? UNITS[Object.keys(camp.def.pack)[0] as V2Kind] : null
           g.sfx.levelUp()
           g.counts.campsCleared++
           return
