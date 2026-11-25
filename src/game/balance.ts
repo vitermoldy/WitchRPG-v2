@@ -755,6 +755,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
     summon: { every: 18, count: 2, max: 4 },
     summonKind: 'hellhound',
     attacks: [
+      { name: 'gigitan tiga kepala', strike: 'ring', windup: 0.8, recover: 0.9, range: 4.5, ring: 2.6 },
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
