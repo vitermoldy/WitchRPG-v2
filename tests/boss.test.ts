@@ -187,3 +187,4 @@ describe('creature shots', () => {
     naga.aimAt.set(0, 0, 0)
     naga.lungeDir.set(0, 0, -1)
     for (let k = 0; k < 3; k++) shots.fire(naga, glob)
+    expect(() => {
