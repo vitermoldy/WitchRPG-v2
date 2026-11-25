@@ -220,6 +220,7 @@ export class Game implements UnitHost {
     return this.baseBlocked(x, z) || this.seal.blocks(x, z, fx, fz) || this.lair.blocks(x, z, fx, fz, false)
   }
 
+  /** Game time a step of hers was refused by the seal, for the HUD. */
   /** A creature's blow on her lands now: dodge, parry, block or hit. */
   strikePlayer(u: Unit, atk: AttackSpec = u.atk) {
     const p = this.player
