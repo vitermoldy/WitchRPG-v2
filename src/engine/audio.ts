@@ -406,6 +406,7 @@ export class Sfx {
       src.loop = true
       const f = ctx.createBiquadFilter()
       f.type = type
+      f.frequency.value = freq
     for (const freq of [43.65, 44.1, 65.4]) {
       const o = ctx.createOscillator()
       o.type = 'sawtooth'
