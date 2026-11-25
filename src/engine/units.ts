@@ -79,6 +79,7 @@ export class Unit implements Foe {
   /** Seconds before it can blink again (Succubus, Incubus). */
   blinkCd = 0
   /** A Phoenix that has already risen from its ashes once. */
+  reborn = false
   readonly pos = new THREE.Vector3()
   readonly vel = new THREE.Vector3()
   /** Facing; 0 looks along +z, the way the models face. */
