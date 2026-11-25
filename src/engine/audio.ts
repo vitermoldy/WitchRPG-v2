@@ -435,23 +435,6 @@ export class Sfx {
       o.connect(df)
       o.start()
     }
-    const wind = ctx.createBufferSource()
-    wind.buffer = this.noiseBuf
-    wind.loop = true
-    const wf = ctx.createBiquadFilter()
-    wf.type = 'bandpass'
-    wf.frequency.value = 500
-    wf.Q.value = 0.6
-    const lfo = ctx.createOscillator()
-    lfo.frequency.value = 0.07
-    const lg = ctx.createGain()
-    lg.gain.value = 260
-    lfo.connect(lg).connect(wf.frequency)
-    lfo.start()
-    const wg = ctx.createGain()
-    wg.gain.value = 0.5
-    wind.connect(wf).connect(wg).connect(g)
-    wind.start()
-    f.connect(g).connect(this.master!)
+    df.connect(drone).connect(this.master!)
   }
 }
