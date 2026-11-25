@@ -1175,6 +1175,7 @@ button {
 }
 
 .hpbar.elite .hp {
+  background: #ffd29a;
 .hpbar.staggered .stun {
   animation: stun-blink 0.4s steps(2) infinite;
 }
