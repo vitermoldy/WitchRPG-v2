@@ -77,6 +77,7 @@ export class Unit implements Foe {
   /** Multiplier on windup, recovery and cooldown (an elite Gesit is quicker). */
   tempo = 1
   /** Seconds before it can blink again (Succubus, Incubus). */
+  blinkCd = 0
   readonly pos = new THREE.Vector3()
   readonly vel = new THREE.Vector3()
   /** Facing; 0 looks along +z, the way the models face. */
