@@ -624,6 +624,7 @@ const poseHydra: PoseFn = (p, u, t) => {
   for (let i = 0; i < 5; i++) {
     const h = u.parts ? u.parts[i] : undefined
     if (h === null) {
+      // swallowed: the whole neck is gone
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
