@@ -742,6 +742,7 @@ export class Game implements UnitHost {
     saveProfile(this.profile, false)
     this.sensitivity = p.settings.sensitivity
     this.rigs.detail = p.settings.detail
+    this.sfx.setVolume(p.settings.volume)
   }
 
   // ------------------------------------------------------------ aiming from the shoulder camera
