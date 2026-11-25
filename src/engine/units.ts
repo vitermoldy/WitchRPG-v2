@@ -192,7 +192,7 @@ export class Unit implements Foe {
 
   /** Can be aimed at, locked on to, and struck. */
   get targetable() {
-    return this.alive && this.state !== 'finishing' && this.state !== 'diving'
+    return this.alive && this.state !== 'finishing' && !this.hidden
   }
 
   get height() {
