@@ -12,6 +12,7 @@ Game ini dibangun per fase menurut [PROMPT.md](./PROMPT.md). Keputusan desain ad
 | 3. Umbra | Umbra Rite, pasukan bayangan | Selesai |
 | 4. Dunia dan progresi | Zona I sampai III, altar, Ledger, Centaur, Naga rawa, Minotaur, Medusa, Chimera | Selesai |
 | 5. Boss | Hydra tiga fase, zona IV dan V, Cyclops, Succubus, Incubus, Phoenix, makhluk elit | Selesai |
+| 6. Poles | Model akhir, suara, akun dan simpanan server | Berikutnya |
 
 ## Menjalankan
 
