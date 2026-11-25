@@ -672,6 +672,7 @@ button {
 
 /* on a wide screen the banner keeps to the middle, clear of the feed on the left */
 @media (min-width: 1181px) {
+  .banner {
 .banner.show {
   opacity: 1;
   transform: translate(-50%, 0);
