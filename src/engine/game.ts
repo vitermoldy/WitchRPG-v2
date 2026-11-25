@@ -900,6 +900,7 @@ export class Game implements UnitHost {
     this.prof('units', t0)
     this.camps.update(dt)
     this.altars.update(dt)
+    this.lair.update(sdt)
 
     // vitals
     if (alive && p.poisonT > 0) {
