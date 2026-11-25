@@ -159,6 +159,7 @@ async function boot() {
     game.resume()
   }
   ledger.onClose = () => void backToFight()
+  map.onClose = () => void backToFight()
   travel.onClose = () => {
     if (travel.next === 'ledger') ledger.open()
     else void backToFight()
