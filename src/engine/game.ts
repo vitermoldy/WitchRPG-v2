@@ -551,6 +551,7 @@ export class Game implements UnitHost {
     } else if (this.t - this.lair.refusedAt < 0.1) {
       this.refusedMsgAt = this.t
       this.hud.message('Sarang Hydra hanya terbuka untuk witch Lv 10: fase terakhirnya hanya bisa dimenangkan di dalam Reality Warp.', 'info')
+    }
   /** Damage to her after the barrier. */
   hurtPlayer(dmg: number, from: { x: number; z: number }) {
     const p = this.player
