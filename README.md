@@ -96,6 +96,7 @@ src/engine/   kamera (camera.ts), gerak (player.ts), rintangan (obstacles.ts), l
               proyektil makhluk: panah dan semburan (projectiles.ts), batu yang bisa dilempar (props.ts)
 src/world/    peta, zona, dan altar (map.ts, altars.ts), medan per chunk, hutan, kabut dan langit, kamp makhluk (camps.ts)
               segel zona IV dan V (seal.ts), sarang dan pertarungan Hydra (lair.ts), partikel dan Rift di langit (ambient.ts)
+src/data/     panggilan ke server akun (api.ts)
 previz/       skrip Blender, render, animatic, papan makhluk, PREVIZ.md
 public/models model GLB hasil ekspor dari previz
 ```
