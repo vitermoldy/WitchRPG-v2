@@ -49,6 +49,7 @@ describe('Ilyra in the air (B)', () => {
     run(p, { ...idle, rise: -1 }, 4, lake)
     // she sinks no lower than the water, and stays in the air
     expect(p.pos.y).toBeCloseTo(0.3, 3)
+    expect(p.flying).toBe(true)
 describe('Ilyra on foot', () => {
   it('moves the way the camera looks', () => {
     const p = new Player()
