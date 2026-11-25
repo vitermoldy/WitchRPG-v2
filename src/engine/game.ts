@@ -430,6 +430,7 @@ export class Game implements UnitHost {
       ...V2_KINDS.map((k) => loadModel(`./models/${k}_lod.glb`)),
     ])
     this.ilyra = new IlyraModel(ilyra)
+    // in first person her body is hidden from the view but still casts its shadow
     this.scene.add(this.ilyra.root)
     const models: Partial<Record<UnitKind, THREE.Group>> = {}
     const lods: Partial<Record<UnitKind, THREE.Group>> = {}
