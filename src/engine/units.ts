@@ -504,6 +504,7 @@ export class UnitSystem {
         if (u.t >= r.ashes) {
           u.reborn = true
           u.hp = u.maxHp * r.hp
+          u.downed = 0
       if (u.lifted > 0) {
         u.lifted = Math.max(0, u.lifted - dt)
         u.token = false
