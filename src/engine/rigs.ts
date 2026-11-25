@@ -566,6 +566,7 @@ function biped(opts: { heavy: number; reach: number; sway: number }): PoseFn {
       p.rot('upperarm_L', 12, 0, 12)
       p.rot('upperarm_R', 12, 0, -12)
       return
+    }
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
