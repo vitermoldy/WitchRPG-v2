@@ -901,6 +901,7 @@ export class Game implements UnitHost {
           dodge: !air && (b ? this.botDodge : inp.pressed('Space')) && this.fight.canDodge,
           fly: this.state === 'playing' && inp.pressed('KeyB') && !this.fight.exec,
           rise: (inp.held('Space') ? 1 : 0) - (inp.held('KeyC') ? 1 : 0) + (b?.rise ?? 0),
+        }
       : { x: 0, y: 0, sprint: false, dodge: false }
     this.botDodge = false
     // the wheel takes the mouse while it is open
