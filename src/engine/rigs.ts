@@ -823,6 +823,8 @@ class Rig implements Poser {
     this.holder.updateMatrixWorld(true)
   }
 
+  }
+
   end() {
     for (const part of this.parts) {
       part.mesh.count = this.used
