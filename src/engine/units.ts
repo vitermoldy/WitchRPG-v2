@@ -201,6 +201,7 @@ export class Unit implements Foe {
     this.radius = this.spec.radius * s
   }
 
+  /** v1 elite: tougher, harder hitting, bigger, and one trait. */
   }
 
   get height() {
