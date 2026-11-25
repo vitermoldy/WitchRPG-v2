@@ -646,6 +646,7 @@ const poseHydra: PoseFn = (p, u, t) => {
     }
     // coming down, the rig steers the turn as well; until then the turn it would start from follows the aim
     if (h && mode === 'down') yaw = h.neckYaw
+    else if (h) h.neckYaw = yaw
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
