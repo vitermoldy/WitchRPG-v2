@@ -713,6 +713,7 @@ export const HYDRA = {
   /** A severed head costs it this share of its HP. */
   severShare: 0.08,
   /** Imps spewed by each slam in phase 1, and the most that stand at once. */
+  impsPerSlam: 2,
 /** Enemy growth per level. Kept below the witch's own growth so higher tiers stay fair. */
 export const GROWTH = { hpPerLevel: 0.15, damagePerLevel: 0.1 } as const
 
