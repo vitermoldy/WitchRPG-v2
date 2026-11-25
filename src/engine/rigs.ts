@@ -661,6 +661,7 @@ const poseHydra: PoseFn = (p, u, t) => {
 }
 
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
+  cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   imp: poseImp,
   hellhound: poseHound,
   harpy: poseHarpy,
