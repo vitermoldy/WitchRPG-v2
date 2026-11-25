@@ -375,6 +375,7 @@ export class Game implements UnitHost {
       height: (x, z) => this.height(x, z),
       obstacles: this.obstacles,
       blocked: (x, z, fx, fz) => {
+        if (this.baseBlocked(x, z)) return true
       },
     }
     this.glow = new Particles(5000, 'glow')
