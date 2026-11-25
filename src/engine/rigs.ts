@@ -738,6 +738,7 @@ class Rig implements Poser {
     mesh.visible = false
     this.group.add(mesh)
     const chain: string[] = []
+    for (let o: THREE.Object3D | null = src; o && o !== this.holder; o = o.parent) if (o.name) chain.push(o.name)
   }
 
   /** Doubles the room for instances; the shared vertex data stays where it is. */
