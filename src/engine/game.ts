@@ -892,6 +892,7 @@ export class Game implements UnitHost {
     const wheel = this.umbra.wheelOpen
     const aiming = alive && !wheel && (b ? b.aim : inp.held('Mouse2')) && !this.fight.exec
     const steer = b ? { x: b.x, y: b.y } : { x: (inp.held('KeyD') ? 1 : 0) - (inp.held('KeyA') ? 1 : 0), y: (inp.held('KeyW') ? 1 : 0) - (inp.held('KeyS') ? 1 : 0) }
+    const air = p.flying
     const move: MoveInput = alive && !stone
       ? { x: steer.x, y: steer.y, sprint: b ? b.sprint : inp.held('ShiftLeft') || inp.held('ShiftRight'), dodge: (b ? this.botDodge : inp.pressed('Space')) && this.fight.canDodge }
       : { x: 0, y: 0, sprint: false, dodge: false }
