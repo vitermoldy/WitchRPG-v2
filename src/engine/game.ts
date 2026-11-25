@@ -985,6 +985,7 @@ export class Game implements UnitHost {
     this.updateBlasts(sdt)
     this.prof('units', t0)
     this.camps.update(dt)
+    this.fauna.update()
     this.altars.update(dt)
     this.lair.update(sdt)
     this.seal.update(dt)
