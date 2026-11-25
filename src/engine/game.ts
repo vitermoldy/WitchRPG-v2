@@ -423,6 +423,7 @@ export class Game implements UnitHost {
     this.altars = new Altars(this)
     this.scene.add(this.altars.group)
     this.props = new Props(this)
+    this.scene.add(this.props.mesh)
     this.spawn(SPOTS.hero[0], SPOTS.hero[1], 0.3, 1)
     progress('Menyiapkan cahaya dan shader')
     await frame()
