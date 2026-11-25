@@ -808,6 +808,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
       { name: 'terkam', strike: 'line', windup: 1, recover: 1.6, range: 24, minRange: 8, damage: 1.4, lungeSpeed: 19, lungeTime: 0.9, cooldown: 8 },
     ],
   },
+  atlas: {
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
