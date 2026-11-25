@@ -125,6 +125,7 @@ export class CameraRig {
     const dy = target.point.y - from.y
     // in first person the target sits in the middle of the view, where the staff and the bolts go
     const third = 1 - this.fp
+    const yaw = yawTo(0, 0, dx, dz) + Math.atan(LOCKON.thirdX * th * third)
     return { yaw, pitch: Math.min(rad(CAMERA.pitchMax), Math.max(rad(CAMERA.pitchMin), pitch)) }
   }
 
