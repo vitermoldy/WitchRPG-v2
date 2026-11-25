@@ -314,6 +314,7 @@ export class Game implements UnitHost {
       this.blasts.splice(i, 1)
       const at = new THREE.Vector3(b.x, b.y, b.z)
       if (p.alive && Math.hypot(p.pos.x - b.x, p.pos.z - b.z) < b.radius + MOVE.radius && !p.invulnerable) this.hurtPlayer(b.damage, at)
+      for (const u of this.units.units) if (u.team === 'shadow' && u.targetable && Math.hypot(u.pos.x - b.x, u.pos.z - b.z) < b.radius + u.radius) this.units.hurt(u, b.damage, at)
   summoned(h: Unit) {
     this.pools.open(h.pos, 1 + h.radius * 1.5, 1)
     this.glow.emit({ pos: h.center(), count: 18, color: COLOR.rift, intensity: 2.2, life: 0.6, size: 0.18, speed: 2.5 })
