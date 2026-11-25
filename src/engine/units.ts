@@ -547,6 +547,7 @@ export class UnitSystem {
       this.face(u, u.pos.x + dx, u.pos.z + dz, dt, 5)
     } else {
       // a new spot near home every few seconds; aimAt holds it, fauna never aims
+      if (u.cd <= 0) {
   /** Succubus and Incubus: gone in a puff, back a dozen metres away from her. */
   private blink(u: Unit, from: Foe) {
     const spec = u.spec.blink!
