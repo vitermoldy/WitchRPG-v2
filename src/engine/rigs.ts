@@ -784,10 +784,6 @@ class Rig implements Poser {
 
   add(u: Unit, t: number, glow: THREE.Color | null, sink: number) {
     if (this.used >= this.cap) this.grow(this.used + 1)
-    for (const [o, r] of this.rest) o.rotation.copy(r)
-    this.body(0)
-    this.pose(this, u, t)
-    this.holder.updateMatrixWorld(true)
     this.p.set(u.pos.x, u.pos.y - sink, u.pos.z)
     this.q.setFromAxisAngle(UP, u.yaw)
     this.s.setScalar(u.scale)
