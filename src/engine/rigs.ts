@@ -734,6 +734,7 @@ function serpentine(base: PoseFn, part: string): PoseFn {
   return (p, u, t) => {
     base(p, u, t)
     if (u.state !== 'dead') p.rot(part, 3 * Math.sin(t * 1.4 + u.id), 10 * Math.sin(t * 1.1 + u.id))
+  }
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   cyclops: biped({ heavy: 1, reach: 1, sway: 2 }),
   succubus: biped({ heavy: 0, reach: 0.6, sway: 8 }),
