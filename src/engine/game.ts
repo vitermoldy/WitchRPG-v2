@@ -390,8 +390,7 @@ export class Game implements UnitHost {
     this.ground = {
       height: (x, z) => this.height(x, z),
       obstacles: this.obstacles,
-      blocked: (x, z, fx, fz) => {
-        if (this.baseBlocked(x, z)) return true
+      blocked: (x, z, fx, fz, air) => {
         if (this.seal.blocks(x, z, fx, fz)) {
           this.sealRefusedAt = this.t
           return true
