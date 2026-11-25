@@ -272,7 +272,7 @@ export function shadowName(id: number): string {
   return name.charAt(0).toUpperCase() + name.slice(1)
 }
 
-export function addShadow(p: Profile, kind: UnitKind, level: number): ShadowRecord | null {
+export function addShadow(p: Profile, kind: UnitKind, level: number, rank: RankId = UNITS[kind].rank): ShadowRecord | null {
   if (p.shadows.length >= RITE.maxShadows) return null
   const id = p.nextShadowId++
   const rec: ShadowRecord = { id, name: shadowName(id), kind, rank: UNITS[kind].rank, level: Math.min(level, p.level), xp: 0 }
