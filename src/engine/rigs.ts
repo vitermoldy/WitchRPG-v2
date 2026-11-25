@@ -630,6 +630,7 @@ const poseHydra: PoseFn = (p, u, t) => {
     }
     let mode: 'rest' | 'rear' | 'down' | 'limp' = 'rest'
     let target: { x: number; z: number } | null = null
+    if (h) {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
