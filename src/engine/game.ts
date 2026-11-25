@@ -383,6 +383,7 @@ export class Game implements UnitHost {
         return this.lair.blocks(x, z, fx, fz, true)
       },
     }
+    this.seal = new Seal(this.profile.bossKills > 0)
     this.glow = new Particles(5000, 'glow')
     this.smoke = new Particles(1400, 'smoke')
     this.scene.add(this.glow.points, this.smoke.points)
