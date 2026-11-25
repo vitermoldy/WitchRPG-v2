@@ -539,6 +539,7 @@ export class UnitSystem {
     const spec = u.spec.blink!
     const start = u.pos.clone()
     const away = Math.atan2(u.pos.x - from.pos.x, u.pos.z - from.pos.z)
+    for (let tries = 0; tries < 8; tries++) {
   /** A diving Naga comes up a few metres away, rising out of the ground. */
   private surface(u: Unit) {
     for (let tries = 0; tries < 6; tries++) {
