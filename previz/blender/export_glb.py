@@ -85,6 +85,7 @@ def bake_tones(ob):
             if not t:
                 attr.data[li].color = (1.0, 1.0, 1.0, 1.0)
                 continue
+            top, bottom, vary = t
 def emission_of(m):
     if not m or not m.node_tree:
         return None
