@@ -392,3 +392,4 @@ export class Lair {
     }
     for (const h of this.heads) {
       if (!h || !h.alive) continue
+      const atk = h.atk
