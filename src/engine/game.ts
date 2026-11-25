@@ -623,6 +623,7 @@ export class Game implements UnitHost {
         }
       }
       return false
+    }
   private fall() {
     const p = this.player
     p.hp = 0
