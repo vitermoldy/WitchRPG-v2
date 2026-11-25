@@ -255,7 +255,7 @@ export class Camps {
           camp.roused = false
           for (const u of alive) u.aggro = false
         }
-      } else if (camp.state === 'cleared' && this.time > camp.respawnAt && d > CAMP.wake + 20) {
+      } else if (camp.state === 'cleared' && this.time > camp.respawnAt && (camp.def.boss || d > CAMP.wake + 20)) {
         camp.state = 'idle'
         colors = true
       }
