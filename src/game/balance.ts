@@ -247,6 +247,7 @@ export interface UnitSpec {
   /** v2: a mini-boss, with the big health bar at the top of the screen. */
   boss?: boolean
   /** v2: blinks this far away (m) when she closes in, at most once per `every` seconds (Succubus, Incubus). */
+  blink?: { range: number; every: number }
 }
 
 export const UNITS: Record<UnitKind, UnitSpec> = {
