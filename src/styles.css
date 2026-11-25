@@ -1931,6 +1931,7 @@ dialog::backdrop {
   border-radius: 50%;
 }
 
+.map-sort {
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
