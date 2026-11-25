@@ -640,6 +640,7 @@ const poseHydra: PoseFn = (p, u, t) => {
       target = u.aimAt
     }
     let yaw = 0
+    if (target && mode !== 'limp') {
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
