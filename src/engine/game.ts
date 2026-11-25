@@ -222,6 +222,7 @@ export class Game implements UnitHost {
     return inWaterRect(mx, my) && WATER_LEVEL - heightAt(x, z) > MOVE.maxWade
   }
 
+  /** Past the edge of the playable map. */
   blocked(x: number, z: number, fx?: number, fz?: number) {
     return this.baseBlocked(x, z) || this.seal.blocks(x, z, fx, fz) || this.lair.blocks(x, z, fx, fz, false)
   }
