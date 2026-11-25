@@ -303,6 +303,8 @@ export class Game implements UnitHost {
   private blastLater(at: THREE.Vector3, radius: number, damage: number, delay: number) {
     this.warnings.show(at, radius, delay)
     this.blasts.push({ x: at.x, y: at.y, z: at.z, radius, damage, t: delay })
+  }
+
   summoned(h: Unit) {
     this.pools.open(h.pos, 1 + h.radius * 1.5, 1)
     this.glow.emit({ pos: h.center(), count: 18, color: COLOR.rift, intensity: 2.2, life: 0.6, size: 0.18, speed: 2.5 })
