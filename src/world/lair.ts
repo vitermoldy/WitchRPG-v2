@@ -292,3 +292,4 @@ export class Lair {
   blocks(x: number, z: number, fx: number | undefined, fz: number | undefined, player: boolean): boolean {
     const inTo = this.inside(x, z)
     const inFrom = fx === undefined || fz === undefined ? null : this.inside(fx, fz)
+    if (this.state === 'calm' && this.g.profile.level < HYDRA.lairLevel && inTo && inFrom !== true) {
