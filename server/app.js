@@ -93,3 +93,4 @@ export function cleanProfile(p, now = Date.now()) {
     shake: st.shake !== false,
     detail: Math.round(num(st.detail, 10, 120, 20)),
   }
+  // A clock a little ahead is fine; a date far in the future would lock every later save out.
