@@ -340,6 +340,7 @@ export class Game implements UnitHost {
       this.lair.partDied(u)
       return
     }
+    if (u === this.lair.body) this.lair.bossDied()
     this.counts.kills++
     this.reward(u)
     this.smoke.emit({ pos: u.pos, count: 6, color: 0x2a2024, life: 1, size: 0.6, sizeEnd: 1.2, speed: 0.8, alpha: 0.5 })
