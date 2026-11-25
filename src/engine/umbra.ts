@@ -6,6 +6,8 @@ import { COLOR } from './palette'
 import type { Unit } from './units'
 
 /** A creature's rank for the Rite: an elite Cyclops counts as a Jenderal. */
+export const rankOf = (u: Unit) => (u.elite && u.spec.eliteRank ? u.spec.eliteRank : u.spec.rank)
+
 export type WheelChoice = 'follow' | 'attack' | 'hold' | 'swap'
 
 export interface UmbraInput {
