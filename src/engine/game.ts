@@ -85,6 +85,7 @@ export class Game implements UnitHost {
   rigs!: Rigs
   camps!: Camps
   altars!: Altars
+  lair!: Lair
   ilyra!: IlyraModel
   ground!: Ground
   state: State = 'loading'
