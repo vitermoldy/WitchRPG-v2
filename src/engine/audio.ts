@@ -373,6 +373,7 @@ export class Sfx {
   ashes() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
+    this.noise(t, 1.2, 'bandpass', 1600, 0.08, 1.2, 380)
   ui() {
     if (!this.ok()) return
     const t = this.ctx!.currentTime
