@@ -62,6 +62,7 @@ export class Player {
   /** Share of her pace she keeps this frame (block, swings); set by the fight each frame. */
   moveScale = 1
   /** In the air (B, as in v1). */
+  flying = false
   /** A short scripted push (a swing's step, a parry's recoil) that overrides steering while it lasts. */
   private nudgeX = 0
   private nudgeZ = 0
