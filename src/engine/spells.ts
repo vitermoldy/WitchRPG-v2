@@ -372,6 +372,7 @@ export class Spells {
       }
     }
     if (!first) {
+      // no creature: the boulder closest to the aim line
     this.grabbed = [first]
     if (this.upgraded('grip')) {
       let second: Unit | null = null
