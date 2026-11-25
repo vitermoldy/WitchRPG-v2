@@ -241,6 +241,7 @@ export class Player {
     this.vy += gy * k
     this.vz += gz * k
     this.moveAxis(this.vx * dt, 0, g, true)
+    this.moveAxis(0, this.vz * dt, g, true)
     if (dx === 0 && dz === 0) return
     const nx = this.pos.x + dx
     const nz = this.pos.z + dz
