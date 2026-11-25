@@ -416,3 +416,4 @@ export class Lair {
   private inReach(at: THREE.Vector3) {
     const b = this.body!
     const dx = at.x - b.pos.x
+    const dz = at.z - b.pos.z
