@@ -618,6 +618,7 @@ const poseHydra: PoseFn = (p, u, t) => {
     p.body(-1.6 * k, 12 * k, 6 * k)
     for (let i = 0; i < 5; i++) for (let s = 0; s < 7; s++) p.rot(`neck${i}_${s}`, 14 * k)
     return
+  }
 const POSES: Partial<Record<UnitKind, PoseFn>> = {
   imp: poseImp,
   hellhound: poseHound,
