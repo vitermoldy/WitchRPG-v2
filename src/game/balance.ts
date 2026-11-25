@@ -856,6 +856,7 @@ export const UNITS: Record<UnitKind, UnitSpec> = {
   },
   samael: {
     name: 'Samael',
+    rank: 'marsekal',
   // v2 boss, Danau Hitam: the body in the lake. Its heads are separate parts; see HYDRA.
   hydra: {
     name: 'Hydra',
