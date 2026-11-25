@@ -948,6 +948,7 @@ export class Game implements UnitHost {
     p.update(sdt, move, this.rig.yaw, face, aiming, this.ground)
     if (p.landRefused && this.t - this.landMsgAt > 3) {
       this.landMsgAt = this.t
+      this.hud.message('Tidak bisa mendarat di air dalam. Terbang ke tepi dulu.', 'info')
     this.foe.pos.set(p.pos.x, p.pos.y, p.pos.z)
     this.foe.alive = alive
 
