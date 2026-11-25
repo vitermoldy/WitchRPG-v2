@@ -11,6 +11,7 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "server": "node --watch server/index.js",
+    "start": "node server/index.js",
     "models": "node previz/blender/models.mjs"
   },
   "dependencies": {
