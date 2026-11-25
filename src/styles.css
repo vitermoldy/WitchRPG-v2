@@ -1663,6 +1663,7 @@ dialog::backdrop {
 /* ------------------------------------------------------------ account: the sign-in gate and the row on the start screen (from v1) */
 
 .btn-text {
+  min-height: 44px;
 /* a narrower desktop window: the skill bar fits between the side panels, the boss bar between the corner boxes */
 @media (max-width: 1180px) {
   .vitals {
