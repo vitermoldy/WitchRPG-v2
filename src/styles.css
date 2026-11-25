@@ -1680,6 +1680,7 @@ dialog::backdrop {
   }
   /* no room beside the banner: the feed starts under it and keeps its three newest lines */
   .feed {
+    top: calc(24% + 9rem);
 @media (max-width: 860px) {
   .ledger-body {
     grid-template-columns: 1fr;
