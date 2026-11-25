@@ -29,6 +29,7 @@ function patchGlow(mat: THREE.MeshStandardMaterial) {
 function meanColor(geo: THREE.BufferGeometry | undefined): THREE.Color | null {
   const a = geo?.getAttribute('color')
   if (!a || a.count === 0) return null
+  const c = new THREE.Color(0, 0, 0)
   const m = src.clone()
   const c = src.color
   const lum = c.r * 0.3 + c.g * 0.59 + c.b * 0.11
